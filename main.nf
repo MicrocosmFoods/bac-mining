@@ -77,7 +77,7 @@ process prodigal_predictions {
 
 process smorfinder {
     tag "${genome_name}_smorfinder"
-    publishDir "${params_outdir}/smorfinder", mode: 'copy'
+    publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
     input:
     tuple path(fasta), val(genome_name)
