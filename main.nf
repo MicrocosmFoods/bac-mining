@@ -23,7 +23,6 @@ mag_files = Channel.fromPath("${params.input_mags}/*.fa")
         def baseName = file.getBaseName()
         return [file, baseName]
     }
-mag_files.view()
 
 workflow {
     // get assembly stats with quast
@@ -31,6 +30,8 @@ workflow {
     
     // get ORFs, proteins, & GBK output with prodigal
     prodigal_predictions(mag_files)
+    // get small ORF predictions with smorfinder
+    smorfinder(mag_files)
 
 }
 
@@ -64,13 +65,36 @@ process prodigal_predictions {
     tuple path(fasta), val(genome_name)
 
     output:
-    path("*.gbk"), emit: gbk_file
-    path("*.faa"), emit: faa_file
-    path("*.fna"), emit: fna_file
+    tuple val(genome_name), path("*.gbk"), emit: gbk_file
+    tuple val(genome_name), path("*.faa"), emit: faa_file
+    tuple val(genome_name), path("*.fna"), emit: fna_file
 
     script:
     """
     prodigal -i ${fasta} -o ${genome_name}.gbk -a ${genome_name}.faa -d ${genome_name}.fna
-
     """
+}
+
+process smorfinder {
+    tag "${genome_name}_smorfinder"
+    publishDir "${params_outdir}/smorfinder", mode: 'copy'
+
+    input:
+    tuple path(fasta), val(genome_name)
+
+    output:
+    tuple val(genome_name), path("*.gff"), emit: gff_file
+    tuple val(genome_name), path("*.faa"), emit: faa_file
+    tuple val(genome_name), path("*.ffn"), emit: ffn_file
+    tuple val(genome_name), path("*.tsv"), emit: tsv_file
+
+    script:
+    """
+    smorf single ${fasta} -o ${genome_name}
+    ln -s ${genome_name}/${genome_name}.gff
+    ln -s ${genome_name}/${genome_name}.faa
+    ln -s ${genome_name}/${genome_name}.ffn
+    ln -s ${genome_name}/${genome_name}.tsv
+    """
+
 }
