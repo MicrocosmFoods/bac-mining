@@ -1,0 +1,11 @@
+channels:
+   - anaconda
+   - conda-forge
+   - bioconda
+   - defaults
+dependencies:
+   - anaconda::python=3.8.16
+   - anaconda::numpy=1.23.5
+   - anaconda::biopython=1.78
+   - anaconda::tensorflow-gpu=2.2.0
+   - bioconda::deepsig=1.2.5

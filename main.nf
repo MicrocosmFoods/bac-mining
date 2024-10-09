@@ -27,11 +27,16 @@ mag_files = Channel.fromPath("${params.input_mags}/*.fa")
 workflow {
     // get assembly stats with quast
     mag_stats = quast_stats(mag_files.map{ it[0] }.collect())
-    
-    // get ORFs, proteins, & GBK output with prodigal
-    prodigal_predictions(mag_files)
     // get small ORF predictions with smorfinder
     smorfinder(mag_files)
+    smorf_proteins = smorfinder.out.faa_file
+    // deepsig predictions
+    deepsig(smorf_proteins)
+    // peptides.py sequence characterization
+    characterize_peptides(smorf_proteins)
+    // DIAMOND seq similarity to Peptipedia peptide sequences of interest
+    // input seqs to make comparisons, diamond db, diamond searches
+    // autopeptideml tool for existing models of interest to compare? or do that outside of this?
 
 }
 
@@ -55,29 +60,11 @@ process quast_stats {
     """
 }
 
-process prodigal_predictions {
-    tag "${genome_name}_prodigal"
-    publishDir "${params.outdir}/prodigal", mode: 'copy'
-
-    conda "envs/prodigal.yml"
-
-    input:
-    tuple path(fasta), val(genome_name)
-
-    output:
-    tuple val(genome_name), path("*.gbk"), emit: gbk_file
-    tuple val(genome_name), path("*.faa"), emit: faa_file
-    tuple val(genome_name), path("*.fna"), emit: fna_file
-
-    script:
-    """
-    prodigal -i ${fasta} -o ${genome_name}.gbk -a ${genome_name}.faa -d ${genome_name}.fna
-    """
-}
-
 process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
+
+    conda: "envs/smorfinder.yml"
 
     input:
     tuple path(fasta), val(genome_name)
@@ -97,4 +84,41 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.tsv
     """
 
+}
+
+process deepsig{
+    tag "${genome_name}_deepsig"
+    publishDir "${params.outdir}/deepsig", mode: 'copy'
+
+    conda "envs/deepsig.yml"
+
+    input: 
+    tuple val(genome_name), path(faa_file)
+
+    output: 
+    path("*.tsv"), emit: deepsig_tsv
+
+    script: 
+    """
+    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp
+    """
+
+}
+
+process characterize_peptides {
+    tag "${genome_name}_characterize_peptides"
+    publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
+
+    conda "envs/peptides.yml"
+
+    input:
+    tuple val(genome_name), path(faa_file)
+
+    output: 
+    path("*.tsv"), emit: peptides_tsv
+
+    script:
+    """
+    python ${baseDir}/bin/characterize_peptides.py ${faa_file} ${genome_name}_peptide_characteristics.tsv
+    """
 }
