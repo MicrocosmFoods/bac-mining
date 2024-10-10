@@ -25,8 +25,6 @@ mag_files = Channel.fromPath("${params.input_mags}/*.fa")
     }
 
 workflow {
-    // get assembly stats with quast
-    mag_stats = quast_stats(mag_files.map{ it[0] }.collect())
     // get small ORF predictions with smorfinder
     smorfinder(mag_files)
     smorf_proteins = smorfinder.out.faa_file
@@ -38,26 +36,6 @@ workflow {
     // input seqs to make comparisons, diamond db, diamond searches
     // autopeptideml tool for existing models of interest to compare? or do that outside of this?
 
-}
-
-process quast_stats {
-    tag "quast_stats"
-    publishDir "${params.outdir}/quast", mode: 'copy', pattern:"*.tsv"
-
-    conda "envs/quast.yml"
-
-    input: 
-    path("*")
-
-    output:
-    path("*.tsv"), emit: quast_tsv
-
-    script:
-    """
-    quast *.fa --output-dir QUAST -t 1
-    ln -s QUAST/report.tsv
-    ln -s QUAST/transposed_report.tsv
-    """
 }
 
 process smorfinder {
