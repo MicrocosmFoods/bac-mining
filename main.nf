@@ -10,9 +10,15 @@ params.outdir=null
 
 log.info """\
 
-MINE FERMENTED FOOD BACTERIAL MAGS FOR BIOACTIVE PEPTIDES AND BGCS
+MINE FERMENTED FOOD BACTERIAL MAGS FOR BIOACTIVE PEPTIDES AND BGCs.
+
+**NOTE**: YOU MUST PRE-DOWNLOAD THE ANTISMASH DB AND PROVIDE THE PATH
+WITH --antismash_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING THE DB
+AUTOMATICALLY.
 =================================================================
 input_mags                      : $params.input_mags
+antismash_db                    : $params.antismash_db
+peptides_fasta                  : $params.peptides_fasta
 outdir                          : $params.outdir
 threads                         : $params.threads
 """
@@ -28,6 +34,14 @@ workflow {
     // get small ORF predictions with smorfinder
     smorfinder(mag_files)
     smorf_proteins = smorfinder.out.faa_file
+    // predict ORFs with pyrdogial
+    pyrodigal(mag_files)
+    predicted_proteins = pyrdogial.out.faa
+
+    // antismash prediction
+    // TO DO: DOWNLOAD ANTISMASH DB ON POD AND MOVE TO A LATCH DATA FOLDER
+
+    // get stats on smORFs and RIPPs from antismash
     // deepsig predictions
     deepsig(smorf_proteins)
     // peptides.py sequence characterization
@@ -62,6 +76,75 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.tsv
     """
 
+}
+
+process pyrodigal {
+    tag "${genome_name}_pyrodigal"
+    
+    conda "envs/pyrodigal.yml"
+
+    input:
+    tuple path(fasta), val(genome_name)
+
+    output:
+    tuple val(genome_name), path("*.fna"), emit: fna
+    tuple val(genome_name), path("*.faa"), emit: faa
+
+    script:
+    """
+    pyrodigal \\
+        -i ${fasta} \\
+        -f "gbk" \\
+        -o "${prefix}.${output_format}" \\
+        -d ${genome_name}.fna \\
+        -a ${genome_name}.faa
+    """
+}
+
+process antismash {
+    tag "${genome_name}_antismash"
+    publishDir "${params.outdir}/antismash", mode: 'copy'
+
+    conda "envs/antismashlite.yml"
+
+    input:
+    tuple val(genome_name), path(faa_file) // faa_file in gbk format
+    path(databases)
+
+    output: 
+    tuple val(genome_name), path("${genome_name}/*.json")                                , emit: json_results
+    tuple val(genome_name), path("${genome_name}/*.log")                                 , emit: log
+    tuple val(genome_name), path("${genome_name}/*region*.gbk")                          , optional: true, emit: gbk_results
+
+    script: 
+    """
+    antismash \\
+        -c $task.cpus \\
+        --output-dir ${genome_name} \\
+        --output-basename ${genome_name} \\
+        --logfile ${genome_name}/${genome_name}.log \\
+        --databases $databases \\
+        ${faa_file}
+    """
+}
+
+process extract_antismash_info {
+    tag "${genome_name}_extract_antismash_info"
+    publishDir "${params.outdir}/antismash_info", mode: 'copy'
+
+    conda "envs/biopython.yml"
+
+    input:
+    tuple val(genome_name), path(gbk_files)
+
+    output:
+    tuple val(genome_name), path("*_antismash_summary.tsv"), emit: antismash_summary_tsv
+    tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv
+
+    script:
+    """
+    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${genome_name} ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv ${genome_name}_antismash_peptides.tsv
+    """
 }
 
 process deepsig{
