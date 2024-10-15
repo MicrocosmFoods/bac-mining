@@ -40,7 +40,7 @@ workflow {
 
     // predict ORFs with pyrdogial
     pyrodigal(mag_files)
-    predicted_proteins = pyrdogial.out.faa
+    predicted_proteins = pyrodigal.out.faa
 
     // antismash predictions and extract info from GBKs
     antismash(predicted_proteins, antismash_db_ch)
