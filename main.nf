@@ -165,8 +165,6 @@ process antismash {
 
     conda "envs/antismashlite.yml"
 
-    cpus = 4
-
     input:
     tuple val(genome_name), path(gbk_file) // orfs in gbk format
     path(databases)
