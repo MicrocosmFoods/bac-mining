@@ -106,7 +106,7 @@ process pyrodigal {
     pyrodigal \\
         -i ${fasta} \\
         -f "gbk" \\
-        -o "${prefix}.${output_format}" \\
+        -o "${genome_name}.gbk" \\
         -d ${genome_name}.fna \\
         -a ${genome_name}.faa
     """
