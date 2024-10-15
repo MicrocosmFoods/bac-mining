@@ -196,12 +196,10 @@ process extract_antismash_info {
 
     output:
     tuple val(genome_name), path("*_antismash_summary.tsv"), emit: antismash_summary_tsv
-    tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv, optional: true
-    tuple val(genome_name), path("*_antismash_peptides.fasta"), emit: antismash_peptides_fasta, optional: true
 
     script:
     """
-    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv ${genome_name}_antismash_peptides.tsv ${genome_name}_antismash_peptides.fasta
+    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv
     """
 }
 
