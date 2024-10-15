@@ -163,8 +163,10 @@ process antismash {
 
     conda "envs/antismashlite.yml"
 
+    cpus = 4
+
     input:
-    tuple val(genome_name), path(faa_file) // faa_file in gbk format
+    tuple val(genome_name), path(gbk_file) // orfs in gbk format
     path(databases)
 
     output: 
@@ -180,7 +182,7 @@ process antismash {
         --output-basename ${genome_name} \\
         --logfile ${genome_name}/${genome_name}.log \\
         --databases $databases \\
-        ${faa_file}
+        ${gbk_file}
     """
 }
 
@@ -195,8 +197,8 @@ process extract_antismash_info {
 
     output:
     tuple val(genome_name), path("*_antismash_summary.tsv"), emit: antismash_summary_tsv
-    tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv
-    tuple val(genome_name), path("*_antismash_peptides.fasta"), emit: antismash_peptides_fasta
+    tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv, optional: true,
+    tuple val(genome_name), path("*_antismash_peptides.fasta"), emit: antismash_peptides_fasta, optional: true,
 
     script:
     """
