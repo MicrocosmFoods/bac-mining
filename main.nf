@@ -129,7 +129,7 @@ process mmseqs_100id_cluster {
 
     script:
     """
-    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 100 --threads ${task.cpus}
+    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 1 --threads ${task.cpus}
     """   
 }
 
