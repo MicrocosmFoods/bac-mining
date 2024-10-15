@@ -49,10 +49,10 @@ workflow {
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
     predicted_orfs = pyrodigal.out.predicted_orfs_gbk
-    predicted_orfs.view()
 
     // antismash predictions and extract info from GBKs
-    antismash(predicted_orfs, antismash_db_ch)
+    test_ch = antismash(predicted_orfs, antismash_db_ch)
+    test_ch.view()
     antismash_gbk_files = antismash.out.gbk_results
     extract_antismash_info(antismash_gbk_files)
 
