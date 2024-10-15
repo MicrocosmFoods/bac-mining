@@ -165,7 +165,8 @@ process antismash {
     conda "envs/antismashlite.yml"
 
     input:
-    tuple val(genome_name), path(gbk_file), path(databases)
+    tuple val(genome_name), path(gbk_file) 
+    path(databases)
 
     output: 
     tuple val(genome_name), path("${genome_name}/*.json") , emit: json_results
