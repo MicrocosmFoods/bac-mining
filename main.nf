@@ -220,7 +220,7 @@ process diamond_blastp {
     conda "envs/diamond.yml"
 
     input:
-    path(combined_predicted_peptides_fasta)
+    tuple val (genome_name), path(peptides_faa)
     path(peptides_diamond_db)
 
     output:
@@ -228,7 +228,7 @@ process diamond_blastp {
 
     script:
     """
-    diamond blastp -d ${peptides_diamond_db} -q ${combined_predicted_peptides_fasta} --header simple \\
+    diamond blastp -d ${peptides_diamond_db} -q ${peptides_faa} -o ${genome_name}_blast_results.tsv --header simple \\
     --outfmt 6 qseqid sseqid full_sseq pident length qlen slen mismatch gapopen qstart qend sstart send evalue bitscore
     """
 }
