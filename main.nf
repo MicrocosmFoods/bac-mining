@@ -43,9 +43,9 @@ workflow {
     predicted_proteins = pyrodigal.out.faa
 
     // antismash predictions and extract info from GBKs
-    antismash(predicted_proteins, antismash_db_ch)
-    antismash_gbk_files = antismash.out.gbk_results
-    extract_antismash_info(antismash_gbk_files)
+    // antismash(predicted_proteins, antismash_db_ch)
+    // antismash_gbk_files = antismash.out.gbk_results
+    // extract_antismash_info(antismash_gbk_files)
 
     // combine RIPP FASTAs with smORF FASTAs for each genome
     // get stats on peptide FASTAs, count for each genome, redundancy metrics
