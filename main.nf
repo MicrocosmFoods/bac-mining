@@ -46,6 +46,9 @@ workflow {
     mmseqs_100id_cluster(combined_smorf_proteins)
     nonredundant_smorfs = mmseqs_100id_cluster.out.nonredundant_seqs_fasta
 
+    // count total and nonredundant smORFs
+    count_smorf_peptides(combined_smorf_proteins, nonredundant_smorfs)
+
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
     predicted_orfs = pyrodigal.out.predicted_orfs_gbk
