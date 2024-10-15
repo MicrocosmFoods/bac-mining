@@ -135,6 +135,26 @@ process mmseqs_100id_cluster {
     """   
 }
 
+process count_smorf_peptides {
+    process "count_smorf_peptides"
+    publishDir "${params.outidr}/smorf_counts", mode: 'copy'
+
+    conda "envs/biopython.yml"
+
+    input:
+    path(combined_smorf_proteins)
+    path(nonredundant_smorf_proteins)
+
+    output:
+    path("*.tsv"), emit: smorf_counts_tsv
+
+    script:
+    
+    """
+    python ${baseDir}/bin/count_smorfs.py ${combined_smorf_proteins} ${nonredundant_smorf_proteins} genome_smorf_counts.tsv
+    """
+}
+
 process pyrodigal {
     tag "${genome_name}_pyrodigal"
     
@@ -164,6 +184,8 @@ process antismash {
     publishDir "${params.outdir}/antismash", mode: 'copy'
 
     conda "envs/antismashlite.yml"
+
+    cpus = 4
 
     input:
     tuple val(genome_name), path(gbk_file), path(databases)
