@@ -67,7 +67,7 @@ process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
-    conda: "envs/smorfinder.yml"
+    conda "envs/smorfinder.yml"
 
     input:
     tuple path(fasta), val(genome_name)
