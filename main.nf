@@ -224,7 +224,7 @@ process deepsig {
 
     script: 
     """
-    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp -t ${task.cpus}
+    deepsig -f ${faa_file} -o nonredundant_smorf_proteins_deepsig.tsv -k gramp -t ${task.cpus}
     """
 
 }
