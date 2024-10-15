@@ -119,7 +119,7 @@ process mmseqs_100id_cluster {
 
     conda "envs/mmseqs2.yml"
 
-    task.cpus = 8
+    cpus = 8
 
     input:
     path(protein_fasta_file)
@@ -129,7 +129,7 @@ process mmseqs_100id_cluster {
 
     script:
     """
-    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 100 --threads ${task.cpus}
+    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 100 --threads ${cpus}
     """   
 }
 
@@ -210,7 +210,7 @@ process deepsig {
     conda "envs/deepsig.yml"
 
     memory '32 GB'
-    task.cpus = 8
+    cpus = 8
 
     input: 
     tuple val(genome_name), path(faa_file)
@@ -220,7 +220,7 @@ process deepsig {
 
     script: 
     """
-    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp -t ${task.cpus}
+    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp -t ${cpus}
     """
 
 }
