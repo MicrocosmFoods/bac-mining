@@ -51,8 +51,7 @@ workflow {
     predicted_orfs = pyrodigal.out.predicted_orfs_gbk
 
     // antismash predictions and extract info from GBKs
-    test_ch = antismash(predicted_orfs, antismash_db_ch)
-    test_ch.view()
+    antismash(predicted_orfs, antismash_db_ch)
     antismash_gbk_files = antismash.out.gbk_results
     extract_antismash_info(antismash_gbk_files)
 
