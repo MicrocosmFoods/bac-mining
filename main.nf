@@ -201,7 +201,7 @@ process extract_antismash_info {
 
     script:
     """
-    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${genome_name} ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv ${genome_name}_antismash_peptides.tsv ${genome_name}_antismash_peptides.fasta
+    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv ${genome_name}_antismash_peptides.tsv ${genome_name}_antismash_peptides.fasta
     """
 }
 
