@@ -126,6 +126,7 @@ process mmseqs_100id_cluster {
     
     output:
     path("*_rep_seq.fasta"), emit: nonredundant_seqs_fasta
+    path("*.tsv"), emit: cluster_summary_tsv
 
     script:
     """
@@ -216,7 +217,7 @@ process deepsig {
     cpus = 8
 
     input: 
-    tuple val(genome_name), path(faa_file)
+    path(faa_file)
 
     output: 
     path("*.tsv"), emit: deepsig_tsv
