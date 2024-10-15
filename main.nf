@@ -51,7 +51,10 @@ workflow {
     predicted_orfs = pyrodigal.out.predicted_orfs_gbk
 
     // antismash predictions and extract info from GBKs
-    antismash(predicted_orfs, antismash_db_ch)
+    antismash_input_ch = predicted_orfs.map { (genome_name, gbk_file) ->
+        antismash(genome_name, gbk_file, antismash_db_ch)
+    }
+    antismash(antismash_input_ch)
     antismash_gbk_files = antismash.out.gbk_results
     extract_antismash_info(antismash_gbk_files)
 
@@ -165,7 +168,7 @@ process antismash {
     conda "envs/antismashlite.yml"
 
     input:
-    tuple val(genome_name), path(gbk_file) // orfs in gbk format
+    tuple val(genome_name), path(gbk_file)
     path(databases)
 
     output: 
