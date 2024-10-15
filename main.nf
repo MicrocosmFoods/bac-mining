@@ -60,7 +60,7 @@ workflow {
     extract_antismash_info(antismash_gbk_files)
 
     // deepsig predictions on combined, non-redundant smorf proteins
-    // deepsig(nonredundant_smorfs)
+    deepsig(nonredundant_smorfs)
 
     // peptides.py sequence characterization on combined, non-redundant smorf proteins
     characterize_peptides(nonredundant_smorfs)
