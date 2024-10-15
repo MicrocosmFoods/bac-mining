@@ -78,10 +78,10 @@ process smorfinder {
     tuple path(fasta), val(genome_name)
 
     output:
-    tuple val(genome_name), path("*.gff"), emit: gff_file
-    tuple val(genome_name), path("*.faa"), emit: faa_file
-    tuple val(genome_name), path("*.ffn"), emit: ffn_file
-    tuple val(genome_name), path("*.tsv"), emit: tsv_file
+    path("*.gff"), emit: gff_file
+    path("*.faa"), emit: faa_file
+    path("*.ffn"), emit: ffn_file
+    path("*.tsv"), emit: tsv_file
 
     script:
     """
@@ -223,7 +223,7 @@ process deepsig {
 
     script: 
     """
-    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp -t ${cpus}
+    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp -t ${task.cpus}
     """
 
 }
