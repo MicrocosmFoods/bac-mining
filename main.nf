@@ -5,18 +5,18 @@
 
 nextflow.enable.dsl=2
 
-params.threads=4
+params.threads=16
 params.outdir=null
 
 log.info """\
 
-MINE FERMENTED FOOD BACTERIAL MAGS FOR BIOACTIVE PEPTIDES AND BGCs.
+MINE FERMENTED FOOD BACTERIAL GENOMES FOR BIOACTIVE PEPTIDES AND BGCs.
 
 NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH DB AND PROVIDE THE PATH
 WITH --antismash_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING THE DB
 AUTOMATICALLY.
 =================================================================
-input_mags                      : $params.input_mags
+input_genomes                   : $params.input_genomes
 antismash_db                    : $params.antismash_db
 peptides_fasta                  : $params.peptides_fasta
 outdir                          : $params.outdir
@@ -24,7 +24,7 @@ threads                         : $params.threads
 """
 
 // define channels and workflow steps
-mag_files = Channel.fromPath("${params.input_mags}/*.fa")
+genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
     .map { file -> 
         def baseName = file.getBaseName()
         return [file, baseName]
@@ -35,31 +35,36 @@ peptides_db_ch = channel.fromPath(params.peptides_fasta, checkIfExists: true)
 
 workflow {
     // get small ORF predictions with smorfinder
-    smorfinder(mag_files)
+    smorfinder(genome_fastas)
     smorf_proteins = smorfinder.out.faa_file
 
+    // combine smorf proteins into a single FASTA
+    combine_smorf_proteins(smorf_proteins.collect())
+    combined_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
+
+    // cluster smorf proteins 100% identity and get representative seqs
+    mmseqs_100id_cluster(combined_smorf_proteins)
+    nonredundant_smorfs = mmseqs_100id_cluster.out.nonredundant_seqs_fasta
+
     // predict ORFs with pyrdogial
-    pyrodigal(mag_files)
+    pyrodigal(genome_fastas)
     predicted_proteins = pyrodigal.out.faa
 
     // antismash predictions and extract info from GBKs
-    // antismash(predicted_proteins, antismash_db_ch)
-    // antismash_gbk_files = antismash.out.gbk_results
-    // extract_antismash_info(antismash_gbk_files)
+    antismash(predicted_proteins, antismash_db_ch)
+    antismash_gbk_files = antismash.out.gbk_results
+    extract_antismash_info(antismash_gbk_files)
 
-    // combine RIPP FASTAs with smORF FASTAs for each genome
-    // get stats on peptide FASTAs, count for each genome, redundancy metrics
+    // deepsig predictions on combined, non-redundant smorf proteins
+    deepsig(nonredundant_smorfs)
 
-    // deepsig predictions
-    deepsig(smorf_proteins)
-
-    // peptides.py sequence characterization
-    characterize_peptides(smorf_proteins)
+    // peptides.py sequence characterization on combined, non-redundant smorf proteins
+    characterize_peptides(nonredundant_smorfs)
 
     // DIAMOND seq similarity to Peptipedia peptide sequences of interest
     make_diamond_db(peptides_db_ch)
     peptides_dmnd_db = make_diamond_db.out.peptides_diamond_db
-    diamond_blastp(smorf_proteins, peptides_dmnd_db)
+    diamond_blastp(nonredundant_smorfs, peptides_dmnd_db)
 
 }
 
@@ -87,6 +92,45 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.tsv
     """
 
+}
+
+process combine_smorf_proteins {
+    tag "combine_smorf_proteins"
+    publishDir "${params.outdir}/combined_smorf_proteins", mode: 'copy'
+
+    conda "envs/biopython.yml"
+
+    input:
+    tuple val(genome_name), path(smorf_proteins)
+
+    output: 
+    path("*.fasta"), emit: combined_smorf_proteins
+
+    script:
+    """
+    python ${baseDir}/bin/combine_fastas.py ${smorf_proteins} combined_smorf_proteins.fasta
+    """
+    
+}
+
+process mmseqs_100id_cluster {
+    tag "mmseqs_100id_cluster"
+    publishDir "${params.outdir}/mmseqs_100id_cluster", mode: 'copy'
+
+    conda "envs/mmseqs2.yml"
+
+    task.cpus = 8
+
+    input:
+    path(protein_fasta_file)
+    
+    output:
+    path("*.fasta"), emit: nonredundant_seqs_fasta
+
+    script:
+    """
+    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 100 --threads ${task.cpus}
+    """   
 }
 
 process pyrodigal {
@@ -166,6 +210,7 @@ process deepsig {
     conda "envs/deepsig.yml"
 
     memory '32 GB'
+    task.cpus = 8
 
     input: 
     tuple val(genome_name), path(faa_file)
@@ -175,7 +220,7 @@ process deepsig {
 
     script: 
     """
-    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp
+    deepsig -f ${faa_file} -o ${genome_name}.tsv -k gramp -t ${task.cpus}
     """
 
 }
