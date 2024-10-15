@@ -140,7 +140,7 @@ process mmseqs_100id_cluster {
 
 process count_smorf_peptides {
     tag "count_smorf_peptides"
-    publishDir "${params.outidr}/smorf_counts", mode: 'copy'
+    publishDir "${params.outdir}/smorf_counts", mode: 'copy'
 
     conda "envs/biopython.yml"
 
