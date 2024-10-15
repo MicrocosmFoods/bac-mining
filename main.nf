@@ -274,7 +274,7 @@ process diamond_blastp {
     path(peptides_diamond_db)
 
     output:
-    path("*.tsv"), emit: blastp_hits_tsv
+    path("*.tsv"), emit: blastp_hits_tsv, optional: true
 
     script:
     """
