@@ -197,8 +197,8 @@ process extract_antismash_info {
 
     output:
     tuple val(genome_name), path("*_antismash_summary.tsv"), emit: antismash_summary_tsv
-    tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv, optional: true,
-    tuple val(genome_name), path("*_antismash_peptides.fasta"), emit: antismash_peptides_fasta, optional: true,
+    tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv, optional: true
+    tuple val(genome_name), path("*_antismash_peptides.fasta"), emit: antismash_peptides_fasta, optional: true
 
     script:
     """
