@@ -101,14 +101,14 @@ process combine_smorf_proteins {
     conda "envs/biopython.yml"
 
     input:
-    tuple val(genome_name), path(smorf_proteins)
+    path(smorf_proteins)
 
     output: 
     path("*.fasta"), emit: combined_smorf_proteins
 
     script:
     """
-    python ${baseDir}/bin/combine_fastas.py ${smorf_proteins} combined_smorf_proteins.fasta
+    python ${baseDir}/bin/combine_fastas.py ${smorf_proteins.join(' ')} combined_smorf_proteins.fasta
     """
     
 }
@@ -235,14 +235,14 @@ process characterize_peptides {
     conda "envs/peptides.yml"
 
     input:
-    tuple val(genome_name), path(faa_file)
+    path(faa_file)
 
     output: 
     path("*.tsv"), emit: peptides_tsv
 
     script:
     """
-    python ${baseDir}/bin/characterize_peptides.py ${faa_file} ${genome_name}_peptide_characteristics.tsv
+    python ${baseDir}/bin/characterize_peptides.py ${faa_file} nonredundant_smorf_proteins_peptide_characteristics.tsv
     """
 }
 
@@ -270,15 +270,15 @@ process diamond_blastp {
     conda "envs/diamond.yml"
 
     input:
-    tuple val (genome_name), path(peptides_faa)
+    path(faa_file)
     path(peptides_diamond_db)
 
     output:
-    path("*.tsv"), emit: blastp_hits_tsv, optional: true
+    path("*.tsv"), emit: blastp_hits_tsv
 
     script:
     """
-    diamond blastp -d ${peptides_diamond_db} -q ${peptides_faa} -o ${genome_name}_blast_results.tsv --header simple \\
+    diamond blastp -d ${peptides_diamond_db} -q ${faa_file} -o nonredundant_smorf_proteins_blast_results.tsv --header simple \\
     --outfmt 6 qseqid sseqid full_sseq pident length qlen slen mismatch gapopen qstart qend sstart send evalue bitscore
     """
 }
