@@ -48,7 +48,7 @@ workflow {
 
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
-    predicted_orfs = pyrodigal.out.predicted_orfs_fna
+    predicted_orfs = pyrodigal.out.predicted_orfs_gbk
 
     // antismash predictions and extract info from GBKs
     antismash(predicted_orfs, antismash_db_ch)
@@ -144,6 +144,7 @@ process pyrodigal {
     output:
     tuple val(genome_name), path("*.fna"), emit: predicted_orfs_fna
     tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
+    tuple val(genome_name), path("*.gbk"), emit: predicted_orfs_gbk
 
     script:
     """
