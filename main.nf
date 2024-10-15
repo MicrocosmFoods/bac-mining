@@ -165,7 +165,7 @@ process deepsig {
 
     conda "envs/deepsig.yml"
 
-    memory '36 GB'
+    memory '20 GB'
 
     input: 
     tuple val(genome_name), path(faa_file)
