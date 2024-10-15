@@ -4,6 +4,8 @@ import argparse
 import os
 import pandas as pd
 from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
 
 class AntismashGBKParser:
     """Parse GBK file from antiSMASH to extract relevant BGC and peptide information."""
@@ -63,6 +65,7 @@ def parse_args():
     parser.add_argument("input_gbk", nargs='+', help="Paths to the input GBK files")
     parser.add_argument("output_bgc_tsv", help="Path to the output TSV file for BGC information")
     parser.add_argument("output_peptide_tsv", help="Path to the output TSV file for lanthipeptide information")
+    parser.add_argument("output_peptide_fasta", help="Path to the output FASTA file for core peptide sequences")
     return parser.parse_args()
 
 def main():
@@ -87,7 +90,7 @@ def main():
     bgc_df = pd.DataFrame([bgc_data])
     bgc_df.to_csv(args.output_bgc_tsv, sep='\t', index=False)
 
-    # If lanthipeptides are found, write them to the second TSV file
+    # If lanthipeptides are found, write them to the second TSV file and FASTA file
     if leader_seqs and core_seqs:
         peptide_data = {
             'genome_name': args.genome_name,
@@ -97,8 +100,19 @@ def main():
         peptide_df = pd.DataFrame([peptide_data])
         peptide_df.to_csv(args.output_peptide_tsv, sep='\t', index=False)
         print(f"Lanthipeptides found and written to {args.output_peptide_tsv}.")
+
+        # Create and write peptide FASTA file
+        fasta_records = []
+        for i, seq in enumerate(core_seqs, 1):
+            record = SeqRecord(Seq(seq), 
+                               id=f"{args.genome_name}_{i}", 
+                               description="")
+            fasta_records.append(record)
+        
+        SeqIO.write(fasta_records, args.output_peptide_fasta, "fasta")
+        print(f"Core peptide sequences written to {args.output_peptide_fasta}.")
     else:
-        print(f"No lanthipeptides found in the input GBK files. No peptide file generated.")
+        print(f"No lanthipeptides found in the input GBK files. No peptide files generated.")
 
 if __name__ == "__main__":
     main()

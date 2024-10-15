@@ -12,7 +12,7 @@ log.info """\
 
 MINE FERMENTED FOOD BACTERIAL MAGS FOR BIOACTIVE PEPTIDES AND BGCs.
 
-**NOTE**: YOU MUST PRE-DOWNLOAD THE ANTISMASH DB AND PROVIDE THE PATH
+NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH DB AND PROVIDE THE PATH
 WITH --antismash_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING THE DB
 AUTOMATICALLY.
 =================================================================
@@ -30,25 +30,36 @@ mag_files = Channel.fromPath("${params.input_mags}/*.fa")
         return [file, baseName]
     }
 
+antismash_db_ch = channel.fromPath(params.antismash_db, checkIfExists: true)
+peptides_db_ch = channel.fromPath(params.peptides_fasta, checkIfExists: true)
+
 workflow {
     // get small ORF predictions with smorfinder
     smorfinder(mag_files)
     smorf_proteins = smorfinder.out.faa_file
+
     // predict ORFs with pyrdogial
     pyrodigal(mag_files)
     predicted_proteins = pyrdogial.out.faa
 
-    // antismash prediction
-    // TO DO: DOWNLOAD ANTISMASH DB ON POD AND MOVE TO A LATCH DATA FOLDER
+    // antismash predictions and extract info from GBKs
+    antismash(predicted_proteins, antismash_db_ch)
+    antismash_gbk_files = antismash.out.gbk_results
+    extract_antismash_info(antismash_gbk_files)
 
-    // get stats on smORFs and RIPPs from antismash
+    // combine RIPP FASTAs with smORF FASTAs for each genome
+    // get stats on peptide FASTAs, count for each genome, redundancy metrics
+
     // deepsig predictions
     deepsig(smorf_proteins)
+
     // peptides.py sequence characterization
     characterize_peptides(smorf_proteins)
+
     // DIAMOND seq similarity to Peptipedia peptide sequences of interest
-    // input seqs to make comparisons, diamond db, diamond searches
-    // autopeptideml tool for existing models of interest to compare? or do that outside of this?
+    make_diamond_db(peptides_db_ch)
+    peptides_dmnd_db = make_diamond_db.out.peptides_diamond_db
+    diamond_blastp(smorf_proteins, peptides_dmnd_db)
 
 }
 
@@ -112,9 +123,9 @@ process antismash {
     path(databases)
 
     output: 
-    tuple val(genome_name), path("${genome_name}/*.json")                                , emit: json_results
-    tuple val(genome_name), path("${genome_name}/*.log")                                 , emit: log
-    tuple val(genome_name), path("${genome_name}/*region*.gbk")                          , optional: true, emit: gbk_results
+    tuple val(genome_name), path("${genome_name}/*.json") , emit: json_results
+    tuple val(genome_name), path("${genome_name}/*.log") , emit: log
+    tuple val(genome_name), path("${genome_name}/*region*.gbk") , optional: true, emit: gbk_results
 
     script: 
     """
@@ -140,14 +151,15 @@ process extract_antismash_info {
     output:
     tuple val(genome_name), path("*_antismash_summary.tsv"), emit: antismash_summary_tsv
     tuple val(genome_name), path("*_antismash_peptides.tsv"), emit: antismash_peptides_tsv
+    tuple val(genome_name), path("*_antismash_peptides.fasta"), emit: antismash_peptides_fasta
 
     script:
     """
-    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${genome_name} ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv ${genome_name}_antismash_peptides.tsv
+    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${genome_name} ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv ${genome_name}_antismash_peptides.tsv ${genome_name}_antismash_peptides.fasta
     """
 }
 
-process deepsig{
+process deepsig {
     tag "${genome_name}_deepsig"
     publishDir "${params.outdir}/deepsig", mode: 'copy'
 
@@ -181,5 +193,42 @@ process characterize_peptides {
     script:
     """
     python ${baseDir}/bin/characterize_peptides.py ${faa_file} ${genome_name}_peptide_characteristics.tsv
+    """
+}
+
+process make_diamond_db {
+    tag "make_diamond_db"
+
+    conda "envs/diamond.yml"
+
+    input:
+    path(peptides_fasta)
+
+    output:
+    path("*.dmnd"), emit: peptides_diamond_db
+
+    script:
+    """
+    diamond makedb --in ${peptides_fasta} -d peptides_db.dmnd
+    """
+}
+
+process diamond_blastp {
+    tag "diamond_blastp"
+    publishDir "${params.outdir}/diamond_blastp", mode: 'copy'
+
+    conda "envs/diamond.yml"
+
+    input:
+    path(combined_predicted_peptides_fasta)
+    path(peptides_diamond_db)
+
+    output:
+    path("*.tsv"), emit: blastp_hits_tsv
+
+    script:
+    """
+    diamond blastp -d ${peptides_diamond_db} -q ${combined_predicted_peptides_fasta} --header simple \\
+    --outfmt 6 qseqid sseqid full_sseq pident length qlen slen mismatch gapopen qstart qend sstart send evalue bitscore
     """
 }
