@@ -208,12 +208,12 @@ process extract_antismash_info {
 }
 
 process deepsig {
-    tag "${genome_name}_deepsig"
+    tag "deepsig_predictions"
     publishDir "${params.outdir}/deepsig", mode: 'copy'
 
     conda "envs/deepsig.yml"
 
-    memory '32 GB'
+    accelerator 1, type: 'nvidia-t4'
     cpus = 8
 
     input: 
@@ -230,7 +230,7 @@ process deepsig {
 }
 
 process characterize_peptides {
-    tag "${genome_name}_characterize_peptides"
+    tag "characterize_peptides"
     publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
 
     conda "envs/peptides.yml"
