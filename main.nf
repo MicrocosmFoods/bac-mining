@@ -125,7 +125,7 @@ process mmseqs_100id_cluster {
     path(protein_fasta_file)
     
     output:
-    path("*.fasta"), emit: nonredundant_seqs_fasta
+    path("*_rep_seq.fasta"), emit: nonredundant_seqs_fasta
 
     script:
     """
