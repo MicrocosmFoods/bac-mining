@@ -12,12 +12,13 @@ log.info """\
 
 MINE FERMENTED FOOD BACTERIAL GENOMES FOR BIOACTIVE PEPTIDES AND BGCs.
 
-NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH DB AND PROVIDE THE PATH
-WITH --antismash_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING THE DB
-AUTOMATICALLY.
+NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH AND PFAM DATABASES AND PROVIDE THE PATH
+WITH --antismash_db AND --pfam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING 
+DATABASES AUTOMATICALLY.
 =================================================================
 input_genomes                   : $params.input_genomes
 antismash_db                    : $params.antismash_db
+pfam_db                         : $params.pfam_db
 peptides_fasta                  : $params.peptides_fasta
 outdir                          : $params.outdir
 threads                         : $params.threads
@@ -30,8 +31,9 @@ genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
         return [file, baseName]
     }
 
-antismash_db_ch = channel.fromPath(params.antismash_db, checkIfExists: true)
-peptides_db_ch = channel.fromPath(params.peptides_fasta, checkIfExists: true)
+antismash_db_ch = channel.fromPath(params.antismash_db)
+peptides_db_ch = channel.fromPath(params.peptides_fasta)
+pfam_db_ch = channel.fromPath(params.pfam_db)
 
 workflow {
     // get small ORF predictions with smorfinder
@@ -59,6 +61,10 @@ workflow {
     antismash_gbk_files = antismash.out.gbk_results
     extract_antismash_info(antismash_gbk_files)
 
+    // bigscape on all antismash gbk_files
+    all_antismash_gbk_files = antismash_gbk_files.collect()
+    run_bigscape(all_antismash_gbk_files, pfam_db_ch)
+
     // deepsig predictions on combined, non-redundant smorf proteins
     deepsig(nonredundant_smorfs)
 
@@ -75,6 +81,9 @@ workflow {
 process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
+
+    memory = '10 GB'
+    cpus = 4
 
     container "elizabethmcd/smorfinder:latest"
     conda "envs/smorfinder.yml"
@@ -103,6 +112,9 @@ process combine_smorf_proteins {
     tag "combine_smorf_proteins"
     publishDir "${params.outdir}/combined_smorf_proteins", mode: 'copy'
 
+    memory = '10 GB'
+    cpus = 1
+    
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
     conda "envs/biopython.yml"
 
@@ -123,10 +135,11 @@ process mmseqs_100id_cluster {
     tag "mmseqs_100id_cluster"
     publishDir "${params.outdir}/mmseqs_100id_cluster", mode: 'copy'
 
+    memory = '10 GB'
+    cpus = 8
+    
     container "quay.io/biocontainers/mmseqs2:15.6f452--pl5321h6a68c12_3"
     conda "envs/mmseqs2.yml"
-
-    cpus = 8
 
     input:
     path(protein_fasta_file)
@@ -145,6 +158,9 @@ process count_smorf_peptides {
     tag "count_smorf_peptides"
     publishDir "${params.outdir}/smorf_counts", mode: 'copy'
 
+    memory = "5 GB"
+    cpus = 1
+    
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
     conda "envs/biopython.yml"
 
@@ -165,6 +181,9 @@ process count_smorf_peptides {
 process pyrodigal {
     tag "${genome_name}_pyrodigal"
     
+    memory = "5 GB"
+    cpus = 1
+
     container "quay.io/biocontainers/pyrodigal:3.5.2--py38h0020b31_0"
     conda "envs/pyrodigal.yml"
 
@@ -191,10 +210,11 @@ process antismash {
     tag "${genome_name}_antismash"
     publishDir "${params.outdir}/antismash", mode: 'copy'
 
+    memory = "20 GB"
+    cpus = 4
+
     container "quay.io/biocontainers/antismash-lite:7.1.0--pyhdfd78af_0"
     conda "envs/antismashlite.yml"
-
-    cpus = 4
 
     input:
     tuple val(genome_name), path(gbk_file), path(databases)
@@ -220,6 +240,9 @@ process extract_antismash_info {
     tag "${genome_name}_extract_antismash_info"
     publishDir "${params.outdir}/antismash_info", mode: 'copy'
 
+    memory = "1 GB"
+    cpus = 1
+
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
     conda "envs/biopython.yml"
 
@@ -235,15 +258,39 @@ process extract_antismash_info {
     """
 }
 
+process run_bigscape {
+    tag "bigscape_all_gbks"
+    publishDir "${params.outdir}/bigscape", mode: 'copy'
+
+    memory = "20 GB"
+    cpus = 6
+    
+    container "quay.io/biocontainers/bigscape:1.1.9--pyhdfd78af_0"
+    conda "envs/bigscape.yml"
+
+    input:
+    path(gbk_files)
+    path(pfam_db)
+
+    output:
+    path("*"), emit: bigscape_results
+
+    script:
+    """
+    biscape -i ${gbk_files} -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus}
+    """
+
+}
+
 process deepsig {
     tag "deepsig_predictions"
     publishDir "${params.outdir}/deepsig", mode: 'copy'
-
-    container "quay.io/biocontainers/deepsig:1.2.5--pyhca03a8a_1"
-    conda "envs/deepsig.yml"
-
+    
     accelerator 1, type: 'nvidia-t4'
     cpus = 8
+    
+    container "quay.io/biocontainers/deepsig:1.2.5--pyhca03a8a_1"
+    conda "envs/deepsig.yml"
 
     input: 
     path(faa_file)
@@ -261,6 +308,9 @@ process deepsig {
 process characterize_peptides {
     tag "characterize_peptides"
     publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
+
+    memory = "5 GB"
+    cpus = 1
 
     container "elizabethmcd/peptides:latest"
     conda "envs/peptides.yml"
@@ -280,6 +330,9 @@ process characterize_peptides {
 process make_diamond_db {
     tag "make_diamond_db"
 
+    memory = "5 GB"
+    cpus = 1
+
     container "quay.io/biocontainers/diamond:2.1.9--h43eeafb_0"
     conda "envs/diamond.yml"
 
@@ -298,6 +351,8 @@ process make_diamond_db {
 process diamond_blastp {
     tag "diamond_blastp"
     publishDir "${params.outdir}/diamond_blastp", mode: 'copy'
+
+    memory = "10 GB"
 
     container "quay.io/biocontainers/diamond:2.1.9--h43eeafb_0"
     conda "envs/diamond.yml"
