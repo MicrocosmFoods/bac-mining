@@ -1,7 +1,3 @@
-version
-latch*
-.latch*
-wf/
 .nextflow/
 work/
 *results*
