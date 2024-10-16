@@ -54,8 +54,8 @@ def initialize() -> str:
 
 
 
-@nextflow_runtime_task(cpu=16, memory=32, storage_gib=100)
-def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: LatchDir, antismash_db: LatchDir, peptides_fasta: typing.Optional[LatchFile]) -> None:
+@nextflow_runtime_task(cpu=16, memory=36, storage_gib=100)
+def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, peptides_fasta: LatchFile) -> None:
     shared_dir = Path("/nf-workdir")
 
     exec_name = _get_execution_name()
@@ -90,7 +90,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: LatchDir, a
         dirs_exist_ok=True,
     )
 
-    profile_list = ['conda']
+    profile_list = ['docker']
     if False:
         profile_list.extend([p.value for p in execution_profiles])
 
@@ -126,7 +126,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: LatchDir, a
             **os.environ,
             "NXF_ANSI_LOG": "false",
             "NXF_HOME": "/root/.nextflow",
-            "NXF_OPTS": "-Xms6144M -Xmx24576M -XX:ActiveProcessorCount=16",
+            "NXF_OPTS": "-Xms6912M -Xmx27648M -XX:ActiveProcessorCount=16",
             "NXF_DISABLE_CHECK_LATEST": "true",
             "NXF_ENABLE_VIRTUAL_THREADS": "false",
         }
@@ -177,7 +177,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: LatchDir, a
 
 
 @workflow(metadata._nextflow_metadata)
-def nf_bacmagmining(input_genomes: LatchDir, outdir: LatchDir, antismash_db: LatchDir, peptides_fasta: typing.Optional[LatchFile]) -> None:
+def nf_bacmagmining(input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, peptides_fasta: LatchFile) -> None:
     """
     bacMAGmining
 

@@ -21,7 +21,7 @@ generated_parameters = {
         description='Input directory of genomes in fasta format ending in .fa',
     ),
     'outdir': NextflowParameter(
-        type=LatchDir,
+        type=typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})],
         default=None,
         section_title=None,
         description='The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.',
@@ -33,7 +33,7 @@ generated_parameters = {
         description='Path to directory of pre-downloaded antismash databases',
     ),
     'peptides_fasta': NextflowParameter(
-        type=typing.Optional[LatchFile],
+        type=LatchFile,
         default=None,
         section_title=None,
         description='Path to FASTA file of peptides to compare hits against',
