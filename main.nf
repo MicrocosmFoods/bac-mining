@@ -103,7 +103,7 @@ process combine_smorf_proteins {
     tag "combine_smorf_proteins"
     publishDir "${params.outdir}/combined_smorf_proteins", mode: 'copy'
 
-    container "quay.io/biocontainers/biopython:1.79"
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
     conda "envs/biopython.yml"
 
     input:
@@ -145,7 +145,7 @@ process count_smorf_peptides {
     tag "count_smorf_peptides"
     publishDir "${params.outdir}/smorf_counts", mode: 'copy'
 
-    container "quay.io/biocontainers/biopython:1.79"
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
     conda "envs/biopython.yml"
 
     input:
@@ -220,7 +220,7 @@ process extract_antismash_info {
     tag "${genome_name}_extract_antismash_info"
     publishDir "${params.outdir}/antismash_info", mode: 'copy'
 
-    container "quay.io/biocontainers/biopython:1.79"
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
     conda "envs/biopython.yml"
 
     input:
