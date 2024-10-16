@@ -220,9 +220,9 @@ process antismash {
     tuple val(genome_name), path(gbk_file), path(databases)
 
     output: 
-    tuple val(genome_name), path("${genome_name}/*.json") , emit: json_results
-    tuple val(genome_name), path("${genome_name}/*.log") , emit: log
-    tuple val(genome_name), path("${genome_name}/*region*.gbk") , optional: true, emit: gbk_results
+    path("${genome_name}/*.json") , emit: json_results
+    path("${genome_name}/*.log") , emit: log
+    path("${genome_name}/*region*.gbk") , optional: true, emit: gbk_results
 
     script: 
     """
