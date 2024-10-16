@@ -62,7 +62,7 @@ workflow {
     extract_antismash_info(antismash_gbk_files)
 
     // bigscape on all antismash gbk_files
-    all_antismash_gbk_files = antismash_gbk_files.collect()
+    all_antismash_gbk_files = antismash_gbk_files.map{ it[1] }.collect()
     run_bigscape(all_antismash_gbk_files, pfam_db_ch)
 
     // deepsig predictions on combined, non-redundant smorf proteins
@@ -220,9 +220,9 @@ process antismash {
     tuple val(genome_name), path(gbk_file), path(databases)
 
     output: 
-    path("${genome_name}/*.json") , emit: json_results
-    path("${genome_name}/*.log") , emit: log
-    path("${genome_name}/*region*.gbk") , optional: true, emit: gbk_results
+    tuple val(genome_name), path("${genome_name}/*.json") , emit: json_results
+    tuple val(genome_name), path("${genome_name}/*.log") , emit: log
+    tuple val(genome_name), path("${genome_name}/*region*.gbk") , optional: true, emit: gbk_results
 
     script: 
     """
