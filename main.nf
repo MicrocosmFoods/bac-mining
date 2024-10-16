@@ -76,6 +76,7 @@ process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
+    container "elizabethmcd/smorfinder:latest"
     conda "envs/smorfinder.yml"
 
     input:
@@ -102,6 +103,7 @@ process combine_smorf_proteins {
     tag "combine_smorf_proteins"
     publishDir "${params.outdir}/combined_smorf_proteins", mode: 'copy'
 
+    container "quay.io/biocontainers/biopython:1.79"
     conda "envs/biopython.yml"
 
     input:
@@ -121,6 +123,7 @@ process mmseqs_100id_cluster {
     tag "mmseqs_100id_cluster"
     publishDir "${params.outdir}/mmseqs_100id_cluster", mode: 'copy'
 
+    container "quay.io/biocontainers/mmseqs2:15.6f452--pl5321h6a68c12_3"
     conda "envs/mmseqs2.yml"
 
     cpus = 8
@@ -142,6 +145,7 @@ process count_smorf_peptides {
     tag "count_smorf_peptides"
     publishDir "${params.outdir}/smorf_counts", mode: 'copy'
 
+    container "quay.io/biocontainers/biopython:1.79"
     conda "envs/biopython.yml"
 
     input:
@@ -161,6 +165,7 @@ process count_smorf_peptides {
 process pyrodigal {
     tag "${genome_name}_pyrodigal"
     
+    container "quay.io/biocontainers/pyrodigal:3.5.2--py38h0020b31_0"
     conda "envs/pyrodigal.yml"
 
     input:
@@ -186,6 +191,7 @@ process antismash {
     tag "${genome_name}_antismash"
     publishDir "${params.outdir}/antismash", mode: 'copy'
 
+    container "quay.io/biocontainers/antismash-lite:7.1.0--pyhdfd78af_0"
     conda "envs/antismashlite.yml"
 
     cpus = 4
@@ -214,6 +220,7 @@ process extract_antismash_info {
     tag "${genome_name}_extract_antismash_info"
     publishDir "${params.outdir}/antismash_info", mode: 'copy'
 
+    container "quay.io/biocontainers/biopython:1.79"
     conda "envs/biopython.yml"
 
     input:
@@ -232,6 +239,7 @@ process deepsig {
     tag "deepsig_predictions"
     publishDir "${params.outdir}/deepsig", mode: 'copy'
 
+    container "quay.io/biocontainers/deepsig:1.2.5--pyhca03a8a_1"
     conda "envs/deepsig.yml"
 
     accelerator 1, type: 'nvidia-t4'
@@ -254,6 +262,7 @@ process characterize_peptides {
     tag "characterize_peptides"
     publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
 
+    container "quay.io/biocontainers/peptides:0.3.4--pyh7e72e81_0"
     conda "envs/peptides.yml"
 
     input:
@@ -271,6 +280,7 @@ process characterize_peptides {
 process make_diamond_db {
     tag "make_diamond_db"
 
+    container "quay.io/biocontainers/diamond:2.1.9--h43eeafb_0"
     conda "envs/diamond.yml"
 
     input:
@@ -289,6 +299,7 @@ process diamond_blastp {
     tag "diamond_blastp"
     publishDir "${params.outdir}/diamond_blastp", mode: 'copy'
 
+    container "quay.io/biocontainers/diamond:2.1.9--h43eeafb_0"
     conda "envs/diamond.yml"
 
     input:
