@@ -277,7 +277,7 @@ process run_bigscape {
 
     script:
     """
-    biscape -i ${gbk_files} -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus}
+    biscape -i ./ -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus}
     """
 
 }
