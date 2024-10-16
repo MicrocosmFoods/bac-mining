@@ -262,7 +262,7 @@ process characterize_peptides {
     tag "characterize_peptides"
     publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
 
-    container "quay.io/biocontainers/peptides:0.3.4--pyh7e72e81_0"
+    container "elizabethmcd/peptides:latest"
     conda "envs/peptides.yml"
 
     input:
