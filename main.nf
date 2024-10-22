@@ -52,7 +52,11 @@ workflow {
 
     // cluster smorf proteins 100% identity and get representative seqs
     mmseqs_100id_cluster(combined_smorf_proteins)
-    nonredundant_smorfs = mmseqs_100id_cluster.out.nonredundant_seqs_fasta
+    nonredundant_smorfs = mmseqs_95id_cluster.out.nonredundant_seqs_fasta
+    mmseqs_clusters = mmseqs_95id_cluster.out.cluster_summary_tsv
+
+    // mmseqs cluster summaries and stats
+    summarize_mmseqs_clusters(mmseqs_clusters, nonredundant_smorfs, genome_metadata)
 
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
@@ -67,7 +71,7 @@ workflow {
     all_antismash_gbk_files = antismash_gbk_files.map{ it[1] }.collect()
     run_bigscape(all_antismash_gbk_files, pfam_db_ch)
     bigscape_annotations_tsv = run_bigscape.out.bigscape_annotations_tsv
-    
+
     // combine bigscape aggregate TSV with metadata
     combine_bigscape_metadata(bigscape_annotations_tsv, genome_metadata, genome_stb)
 
@@ -183,6 +187,33 @@ process mmseqs_95id_cluster {
     """   
 }
 
+process summarize_mmseqs_clusters {
+    tag "summarize_mmseqs_clusters"
+    publishDir "${params.outdir}/main_results/mmseqs_clusters", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    conda "envs/biopython.yml"
+
+    input:
+    path(mmseqs_cluster_file)
+    path(mmseqs_nonredundant_seqs)
+    path(genome_metadata_tsv)
+
+    output:
+    path("mmseqs_summary.tsv"), emit: mmseqs_summary
+    path("mmseqs_metadata.tsv"), emit: mmseqs_metadata
+    path("mmseqs_substrate_counts.tsv"), emit: mmseqs_substrate_counts
+    path("mmseqs_phylo_groups_counts.tsv"), emit: mmseqs_phylo_groups_counts
+
+    script:
+    """
+    python ${baseDir}/bin/process_mmseqs_clusters.py ${mmseqs_cluster_file} ${mmseqs_nonredundant_seqs} ${genome_metadata_tsv} mmseqs_summary.tsv mmseqs_metadata.tsv mmseqs_substrate_counts.tsv mmseqs_phylo_groups_counts.tsv
+    """ 
+}
+
 process pyrodigal {
     tag "${genome_name}_pyrodigal"
     
@@ -262,7 +293,7 @@ process run_bigscape {
 
     script:
     """
-    bigscape -i ./ -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus}
+    bigscape -i ./ -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus} --mibig
     """
 
 }
@@ -283,11 +314,13 @@ process combine_bigscape_metadata {
     path(genome_stb)
 
     output:
-    path("*.tsv"), emit: bgc_metadata_tsv
+    path("bgc_annotation_metadata.tsv"), emit: bgc_metadata_tsv
+    path("bgc_substrate_type_counts.tsv"), emit: bgc_substrates_tsv
+    path("bgc_phylo_groups_counts.tsv"), emit: bgc_phylo_groups_tsv
     
     script:
     """
-    Rscript ${baseDir}/bin/combine-bgc-metadata.R ${genome_metadata} ${bigscape_annotations_tsv} ${genome_stb} bgc_metadata.tsv
+    Rscript ${baseDir}/bin/combine-bgc-metadata.R ${genome_metadata} ${bigscape_annotations_tsv} ${genome_stb} bgc_annotation_metadata.tsv bgc_substrate_type_counts.tsv bgc_phylo_groups_counts.tsv
     """
 }
 
