@@ -17,6 +17,7 @@ WITH --antismash_db AND --pfam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING
 DATABASES AUTOMATICALLY.
 =================================================================
 input_genomes                   : $params.input_genomes
+genome_metadata                 : $params.genome_metadata
 antismash_db                    : $params.antismash_db
 pfam_db                         : $params.pfam_db
 peptides_fasta                  : $params.peptides_fasta
@@ -31,11 +32,16 @@ genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
         return [file, baseName]
     }
 
+genome_metadata = channel.fromPath(params.genome_metadata)
 antismash_db_ch = channel.fromPath(params.antismash_db)
 peptides_db_ch = channel.fromPath(params.peptides_fasta)
 pfam_db_ch = channel.fromPath(params.pfam_db)
 
 workflow {
+    // make genome STB
+    all_genome_fastas_ch = genome_fastas.map{ it[1] }.collect()
+    make_genome_stb(all_genome_fastas_ch)
+    
     // get small ORF predictions with smorfinder
     smorfinder(genome_fastas)
     smorf_proteins = smorfinder.out.faa_file
@@ -48,9 +54,6 @@ workflow {
     mmseqs_100id_cluster(combined_smorf_proteins)
     nonredundant_smorfs = mmseqs_100id_cluster.out.nonredundant_seqs_fasta
 
-    // count total and nonredundant smORFs
-    count_smorf_peptides(combined_smorf_proteins, nonredundant_smorfs)
-
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
     predicted_orfs = pyrodigal.out.predicted_orfs_gbk
@@ -59,11 +62,14 @@ workflow {
     antismash_input_ch = predicted_orfs.combine(antismash_db_ch)
     antismash(antismash_input_ch)
     antismash_gbk_files = antismash.out.gbk_results
-    extract_antismash_info(antismash_gbk_files)
 
     // bigscape on all antismash gbk_files
     all_antismash_gbk_files = antismash_gbk_files.map{ it[1] }.collect()
     run_bigscape(all_antismash_gbk_files, pfam_db_ch)
+    bigscape_annotations_tsv = run_bigscape.out.bigscape_annotations_tsv
+    
+    // combine bigscape aggregate TSV with metadata
+    combine_bigscape_metadata(bigscape_annotations_tsv, genome_metadata, genome_stb)
 
     // deepsig predictions on combined, non-redundant smorf proteins
     deepsig(nonredundant_smorfs)
@@ -78,6 +84,29 @@ workflow {
 
 }
 
+process make_genome_stb {
+    tag "make_genome_stb"
+    publishDir "${params.outdir}/genomestb", mode: 'copy'
+
+    memory = '10 GB'
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    conda "envs/biopython.yml"
+
+    input:
+    path(fasta_files)
+
+    output:
+    path("*.tsv"), emit: stb_tsv
+
+    script:
+    """
+    python ${baseDir}/bin/generate-genome-stb.py ${fasta_files.join(' ')} -o genomes_stb.tsv
+    """
+
+}
+
 process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
@@ -85,7 +114,7 @@ process smorfinder {
     memory = '10 GB'
     cpus = 4
 
-    container "elizabethmcd/smorfinder:latest"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
     conda "envs/smorfinder.yml"
 
     input:
@@ -131,9 +160,9 @@ process combine_smorf_proteins {
     
 }
 
-process mmseqs_100id_cluster {
-    tag "mmseqs_100id_cluster"
-    publishDir "${params.outdir}/mmseqs_100id_cluster", mode: 'copy'
+process mmseqs_95id_cluster {
+    tag "mmseqs_95id_cluster"
+    publishDir "${params.outdir}/mmseqs_95id_cluster", mode: 'copy'
 
     memory = '10 GB'
     cpus = 8
@@ -150,32 +179,8 @@ process mmseqs_100id_cluster {
 
     script:
     """
-    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 1 --threads ${task.cpus}
+    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id .95 --threads ${task.cpus}
     """   
-}
-
-process count_smorf_peptides {
-    tag "count_smorf_peptides"
-    publishDir "${params.outdir}/smorf_counts", mode: 'copy'
-
-    memory = "5 GB"
-    cpus = 1
-    
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
-
-    input:
-    path(combined_smorf_proteins)
-    path(nonredundant_smorf_proteins)
-
-    output:
-    path("*.tsv"), emit: smorf_counts_tsv
-
-    script:
-    
-    """
-    python ${baseDir}/bin/count_smorfs.py ${combined_smorf_proteins} ${nonredundant_smorf_proteins} genome_smorf_counts.tsv
-    """
 }
 
 process pyrodigal {
@@ -237,28 +242,6 @@ process antismash {
     """
 }
 
-process extract_antismash_info {
-    tag "${genome_name}_extract_antismash_info"
-    publishDir "${params.outdir}/antismash_info", mode: 'copy'
-
-    memory = "1 GB"
-    cpus = 1
-
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
-
-    input:
-    tuple val(genome_name), path(gbk_files)
-
-    output:
-    tuple val(genome_name), path("*_antismash_summary.tsv"), emit: antismash_summary_tsv
-
-    script:
-    """
-    python3 ${baseDir}/bin/extract_bgc_info_gbk.py ${gbk_files.join(' ')} ${genome_name}_antismash_summary.tsv
-    """
-}
-
 process run_bigscape {
     tag "bigscape_all_gbks"
     publishDir "${params.outdir}/bigscape", mode: 'copy'
@@ -275,12 +258,37 @@ process run_bigscape {
 
     output:
     path("*"), emit: bigscape_results
+    path("network_files/*/Network_Annotations_Full.tsv"), emit: bigscape_annotations_tsv
 
     script:
     """
     bigscape -i ./ -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus}
     """
 
+}
+
+process combine_bigscape_metadata {
+    tag "combine_bigscape_metadata"
+    publishDir "${params.outdir}/main_results/bgc_info", mode: 'copy'
+
+    memory = '10 GB'
+    cpus = 1
+
+    container "public.ecr.aws/csgenetics/tidyverse:latest"
+    conda "envs/tidyverse.yml"
+
+    input:
+    path(bigscape_annotations_tsv)
+    path(genome_metadata)
+    path(genome_stb)
+
+    output:
+    path("*.tsv"), emit: bgc_metadata_tsv
+    
+    script:
+    """
+    Rscript ${baseDir}/bin/combine-bgc-metadata.R ${genome_metadata} ${bigscape_annotations_tsv} ${genome_stb} bgc_metadata.tsv
+    """
 }
 
 process deepsig {
