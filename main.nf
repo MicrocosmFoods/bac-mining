@@ -77,14 +77,21 @@ workflow {
 
     // deepsig predictions on combined, non-redundant smorf proteins
     deepsig(nonredundant_smorfs)
+    deepsig_results = deepsig.out.deepsig_tsv
 
     // peptides.py sequence characterization on combined, non-redundant smorf proteins
     characterize_peptides(nonredundant_smorfs)
+    peptides_results = characterize_peptides.out.peptides_tsv
 
     // DIAMOND seq similarity to Peptipedia peptide sequences of interest
     make_diamond_db(peptides_db_ch)
     peptides_dmnd_db = make_diamond_db.out.peptides_diamond_db
     diamond_blastp(nonredundant_smorfs, peptides_dmnd_db)
+    blastp_results = diamond_blastp.out.blastp_hits_tsv
+
+    // merge peptide stats from peptides.py, deepsig, and blastp results
+    merge_peptide_stats(peptides_results, deepsig_results, blastp_results, genome_metadata)
+
 
 }
 
@@ -106,7 +113,7 @@ process make_genome_stb {
 
     script:
     """
-    python ${baseDir}/bin/generate-genome-stb.py ${fasta_files.join(' ')} -o genomes_stb.tsv
+    python ${baseDir}/bin/generate_genome_stb.py ${fasta_files.join(' ')} -o genomes_stb.tsv
     """
 
 }
@@ -320,7 +327,7 @@ process combine_bigscape_metadata {
     
     script:
     """
-    Rscript ${baseDir}/bin/combine-bgc-metadata.R ${genome_metadata} ${bigscape_annotations_tsv} ${genome_stb} bgc_annotation_metadata.tsv bgc_substrate_type_counts.tsv bgc_phylo_groups_counts.tsv
+    Rscript ${baseDir}/bin/combine_bgc_metadata.R ${genome_metadata} ${bigscape_annotations_tsv} ${genome_stb} bgc_annotation_metadata.tsv bgc_substrate_type_counts.tsv bgc_phylo_groups_counts.tsv
     """
 }
 
@@ -408,7 +415,36 @@ process diamond_blastp {
 
     script:
     """
-    diamond blastp -d ${peptides_diamond_db} -q ${faa_file} -o nonredundant_smorf_proteins_blast_results.tsv --header simple \\
+    diamond blastp -d ${peptides_diamond_db} \\
+     -q ${faa_file} \\
+     -o nonredundant_smorf_proteins_blast_results.tsv \\
+     --header simple \\
+     --max-target-seqs 1 \\
     --outfmt 6 qseqid sseqid full_sseq pident length qlen slen mismatch gapopen qstart qend sstart send evalue bitscore
+    """
+}
+
+process merge_peptide_stats {
+    tag "merge_peptide_stats"
+    publishDir "${params.outdir}/main_results/peptide_stats", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "public.ecr.aws/csgenetics/tidyverse:latest"
+    conda "envs/tidyverse.yml"
+
+    input:
+    path(peptides_info_tsv)
+    path(deepsig_tsv)
+    path(blastp_hits_tsv)
+    path(genome_metadata)
+
+    output:
+    path("all_peptide_stats.tsv"), emit: all_peptide_stats
+
+    script:
+    """
+    Rscript ${baseDir}/bin/merge_peptide_stats.R ${peptides_info_tsv} ${deepsig_tsv} ${blastp_hits_tsv} ${genome_metadata} all_peptide_stats.tsv
     """
 }
