@@ -25,7 +25,8 @@ outdir                          : $params.outdir
 threads                         : $params.threads
 """
 
-// define channels and workflow steps
+// define channels
+// genome_fastas tuple with genome name and fasta filepath
 genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
     .map { file -> 
         def baseName = file.getBaseName()
@@ -37,6 +38,7 @@ antismash_db_ch = channel.fromPath(params.antismash_db)
 peptides_db_ch = channel.fromPath(params.peptides_fasta)
 pfam_db_ch = channel.fromPath(params.pfam_db)
 
+// workflow steps
 workflow {
     // make genome STB
     all_genome_fastas_ch = genome_fastas.map{ it[1] }.collect()
@@ -50,19 +52,19 @@ workflow {
     combine_smorf_proteins(smorf_proteins.collect())
     combined_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
-    // cluster smorf proteins 100% identity and get representative seqs
+    // cluster smorf proteins 95% identity and get representative seqs
     mmseqs_100id_cluster(combined_smorf_proteins)
     nonredundant_smorfs = mmseqs_95id_cluster.out.nonredundant_seqs_fasta
     mmseqs_clusters = mmseqs_95id_cluster.out.cluster_summary_tsv
 
-    // mmseqs cluster summaries and stats
+    // mmseqs cluster summaries and stats, merging with metadata
     summarize_mmseqs_clusters(mmseqs_clusters, nonredundant_smorfs, genome_metadata)
 
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
     predicted_orfs = pyrodigal.out.predicted_orfs_gbk
 
-    // antismash predictions and extract info from GBKs
+    // antismash predictions
     antismash_input_ch = predicted_orfs.combine(antismash_db_ch)
     antismash(antismash_input_ch)
     antismash_gbk_files = antismash.out.gbk_results
@@ -92,6 +94,7 @@ workflow {
     // merge peptide stats from peptides.py, deepsig, and blastp results
     merge_peptide_stats(peptides_results, deepsig_results, blastp_results, genome_metadata)
 
+    // autopeptideml predictions
 
 }
 
