@@ -41,7 +41,7 @@ pfam_db_ch = channel.fromPath(params.pfam_db)
 // workflow steps
 workflow {
     // make genome STB
-    all_genome_fastas_ch = genome_fastas.map{ it[1] }.collect()
+    all_genome_fastas_ch = genome_fastas.map{ it[0] }.collect()
     make_genome_stb(all_genome_fastas_ch)
     genome_stb_tsv = make_genome_stb.out.stb_tsv
     
