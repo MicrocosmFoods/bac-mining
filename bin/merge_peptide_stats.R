@@ -40,7 +40,7 @@ genome_metadata <- read_tsv(genome_metadata)  %>%
 # merge with metadata
 all_peptide_info_metadata <- left_join(deepsig_info, peptides_info)  %>% 
     left_join(diamond_blast_results)  %>% 
-    mutate(mag_id = str_extract(peptide_id, "^[^_]+"))  %>% 
+    mutate(mag_id = str_extract(peptide_id, "^.*?(?=_id_)"))  %>% 
     left_join(genome_metadata)  %>% 
     select(mag_id, peptide_id, everything())
 

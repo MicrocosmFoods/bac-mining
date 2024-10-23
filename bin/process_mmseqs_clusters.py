@@ -36,11 +36,13 @@ def merge_metadata(cluster_df, metadata_df):
 
 # stats of clusters per substrate type and phylogenetic group
 def calculate_stats(merged_df):
-    substrate_stats = merged_df.groupby('substrate')['cluster_name'].nunique().reset_index()
-    substrate_stats.columns = ['substrate', 'cluster_count']
+    # Count occurrences of each cluster within each substrate
+    substrate_stats = merged_df.groupby(['substrate', 'cluster_name']).size().reset_index(name='count')
+    substrate_stats = substrate_stats.sort_values(['substrate', 'count'], ascending=[True, False])
     
-    group_stats = merged_df.groupby('group')['cluster_name'].nunique().reset_index()
-    group_stats.columns = ['group', 'cluster_count']
+    # Count occurrences of each cluster within each group
+    group_stats = merged_df.groupby(['group', 'cluster_name']).size().reset_index(name='count')
+    group_stats = group_stats.sort_values(['group', 'count'], ascending=[True, False])
     
     return substrate_stats, group_stats
 

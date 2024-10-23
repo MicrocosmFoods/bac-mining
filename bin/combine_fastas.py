@@ -12,6 +12,9 @@ def process_fasta_file(input_file, genome_name):
     new_records = {}
     with open(input_file, "r") as fasta_file:
         for record in SeqIO.parse(fasta_file, "fasta"):
+            # Remove trailing '*' if present
+            if record.seq.endswith('*'):
+                record.seq = record.seq[:-1]
             record.id = f"{genome_name}_id_{record.id}"
             new_records[record.id] = record
     return new_records
