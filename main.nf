@@ -300,7 +300,7 @@ process run_bigscape {
 
     output:
     path("*"), emit: bigscape_results
-    path("network_files/*/Network_Annotations_Full.tsv"), emit: bigscape_annotations_tsv
+    path("bigscape_results/network_files/*/Network_Annotations_Full.tsv"), emit: bigscape_annotations_tsv
 
     script:
     """
