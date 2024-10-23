@@ -19,14 +19,15 @@ output_phylo_group_counts_tsv <- args[6]
 
 # read in files
 genome_metadata <- read_tsv(genome_metadata_file)
-bgc_metadata <- read_tsv(bgc_metadata_file)
+bgc_info <- read_tsv(bgc_metadata_file)
 stb_tsv <- read_tsv(stb_tsv)
 
-colnames(bgc_metadata) <- c("bgc_id", "scaffold_id", "description", "product", "bgc_class", "organism", "taxonomy")
+colnames(bgc_info) <- c("bgc_id", "scaffold_id", "description", "product", "bgc_class", "organism", "taxonomy")
 
 # join bgc metadata with STB genome info for corresponding scaffolds to genome ID
 # then join with genome metadata
-bgc_metadata <- left_join(bgc_metadata, stb_tsv, by = "scaffold_id")  %>% 
+bgc_metadata <- left_join(bgc_info, stb_tsv, by = "scaffold_id")  %>% 
+    filter(!str_starts(bgc_id), "BGC")  %>% 
     select(mag_id, bgc_id, product, bgc_class)  %>% 
     left_join(genome_metadata)  %>% 
     select(mag_id, bgc_id, product, bgc_class, substrate, species, group)
