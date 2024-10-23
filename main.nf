@@ -43,6 +43,7 @@ workflow {
     // make genome STB
     all_genome_fastas_ch = genome_fastas.map{ it[1] }.collect()
     make_genome_stb(all_genome_fastas_ch)
+    genome_stb_tsv = make_genome_stb.out.stb_tsv
     
     // get small ORF predictions with smorfinder
     smorfinder(genome_fastas)
@@ -75,7 +76,7 @@ workflow {
     bigscape_annotations_tsv = run_bigscape.out.bigscape_annotations_tsv
 
     // combine bigscape aggregate TSV with metadata
-    combine_bigscape_metadata(bigscape_annotations_tsv, genome_metadata, genome_stb)
+    combine_bigscape_metadata(bigscape_annotations_tsv, genome_metadata, genome_stb_tsv)
 
     // deepsig predictions on combined, non-redundant smorf proteins
     deepsig(nonredundant_smorfs)
