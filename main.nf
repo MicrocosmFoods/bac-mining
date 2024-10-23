@@ -53,7 +53,7 @@ workflow {
     combined_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
     // cluster smorf proteins 95% identity and get representative seqs
-    mmseqs_100id_cluster(combined_smorf_proteins)
+    mmseqs_95id_cluster(combined_smorf_proteins)
     nonredundant_smorfs = mmseqs_95id_cluster.out.nonredundant_seqs_fasta
     mmseqs_clusters = mmseqs_95id_cluster.out.cluster_summary_tsv
 
