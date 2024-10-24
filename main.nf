@@ -395,9 +395,10 @@ process make_diamond_db {
     output:
     path("*.dmnd"), emit: peptides_diamond_db
 
+    // ignore warnings about DNA only because of short peptides
     script:
     """
-    diamond makedb --in ${peptides_fasta} -d peptides_db.dmnd
+    diamond makedb --in ${peptides_fasta} -d peptides_db.dmnd --ignore-warnings 
     """
 }
 
