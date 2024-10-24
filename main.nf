@@ -95,6 +95,7 @@ workflow {
     // merge peptide stats from peptides.py, deepsig, and blastp results
     merge_peptide_stats(peptides_results, deepsig_results, blastp_results, genome_metadata)
 
+    // autopeptideml predictions
 
 }
 
