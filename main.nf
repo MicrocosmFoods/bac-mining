@@ -126,9 +126,9 @@ process smorfinder {
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
     memory = '15 GB'
-    cpus = 1
+    cpus = 4
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
+    container "elizabethmcd/smorfinder:latest"
     conda "envs/smorfinder.yml"
 
     input:
