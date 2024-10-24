@@ -128,7 +128,7 @@ process smorfinder {
     memory = '15 GB'
     cpus = 4
 
-    container "elizabethmcd/smorfinder:latest"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.1"
     conda "envs/smorfinder.yml"
 
     input:
@@ -287,8 +287,8 @@ process run_bigscape {
     tag "bigscape_all_gbks"
     publishDir "${params.outdir}/bigscape", mode: 'copy'
 
-    memory = "20 GB"
-    cpus = 6
+    memory = "36 GB"
+    cpus = 10
     
     container "quay.io/biocontainers/bigscape:1.1.9--pyhdfd78af_0"
     conda "envs/bigscape.yml"
