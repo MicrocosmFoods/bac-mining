@@ -125,8 +125,10 @@ process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
+    errorStrategy 'ignore' // rare indexing issues that are unpredictable with certain input genomes
+
     memory = '15 GB'
-    cpus = 4
+    cpus = 1
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.1"
     conda "envs/smorfinder.yml"
@@ -361,7 +363,7 @@ process characterize_peptides {
     tag "characterize_peptides"
     publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
 
-    memory = "5 GB"
+    memory = "10 GB"
     cpus = 1
 
     container "elizabethmcd/peptides"
