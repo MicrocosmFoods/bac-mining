@@ -95,7 +95,6 @@ workflow {
     // merge peptide stats from peptides.py, deepsig, and blastp results
     merge_peptide_stats(peptides_results, deepsig_results, blastp_results, genome_metadata)
 
-    // autopeptideml predictions
 
 }
 
@@ -126,8 +125,8 @@ process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
-    memory = '10 GB'
-    cpus = 4
+    memory = '15 GB'
+    cpus = 1
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
     conda "envs/smorfinder.yml"

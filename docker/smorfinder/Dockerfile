@@ -1,5 +1,5 @@
-# python 3.7 full image
-FROM python:3.7
+# python 3.7.12 full image
+FROM python:3.7.12
 
 # Set the working directory in the container
 WORKDIR /app
