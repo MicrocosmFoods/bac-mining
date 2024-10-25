@@ -27,7 +27,7 @@ colnames(stb_tsv) <- c("mag_id", "scaffold_id")
 # join bgc metadata with STB genome info for corresponding scaffolds to genome ID
 # then join with genome metadata
 bgc_metadata <- left_join(bgc_info, stb_tsv, by = "scaffold_id")  %>% 
-    filter(!str_starts(bgc_id), "BGC")  %>% 
+    filter(!str_starts(bgc_id, "BGC"))  %>% 
     select(mag_id, bgc_id, product, bgc_class)  %>% 
     left_join(genome_metadata)  %>% 
     select(mag_id, bgc_id, product, bgc_class, substrate, species, group)
