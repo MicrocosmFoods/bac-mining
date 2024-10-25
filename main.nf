@@ -126,12 +126,10 @@ process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
-    errorStrategy 'ignore' // rare indexing issues that are unpredictable with certain input genomes
-
-    memory = '15 GB'
+    memory = '10 GB'
     cpus = 1
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.1"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.2"
     conda "envs/smorfinder.yml"
 
     input:
@@ -282,6 +280,8 @@ process antismash {
         --logfile ${genome_name}/${genome_name}.log \\
         --databases $databases \\
         --genefinding-tool none \\
+        --full-hmmer \\
+        --border-predict \\
         ${gbk_file}
     """
 }
