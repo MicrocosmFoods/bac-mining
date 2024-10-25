@@ -23,7 +23,7 @@ bgc_info <- read_tsv(bgc_metadata_file)
 stb_tsv <- read_tsv(stb_tsv)
 
 colnames(bgc_info) <- c("bgc_id", "scaffold_id", "description", "product", "bgc_class", "organism", "taxonomy")
-
+colnames(stb_tsv) <- c("mag_id", "scaffold_id")
 # join bgc metadata with STB genome info for corresponding scaffolds to genome ID
 # then join with genome metadata
 bgc_metadata <- left_join(bgc_info, stb_tsv, by = "scaffold_id")  %>% 
