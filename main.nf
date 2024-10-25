@@ -280,8 +280,7 @@ process antismash {
         --logfile ${genome_name}/${genome_name}.log \\
         --databases $databases \\
         --genefinding-tool none \\
-        --full-hmmer \\
-        --border-predict \\
+        --fullhmmer \\
         ${gbk_file}
     """
 }
