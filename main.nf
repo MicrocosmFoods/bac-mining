@@ -126,6 +126,9 @@ process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
+    errorStrategy 'ignore'
+    // rarely some genomes will fail for no discernible reason, skip over these
+
     memory = '10 GB'
     cpus = 1
 
@@ -280,7 +283,6 @@ process antismash {
         --logfile ${genome_name}/${genome_name}.log \\
         --databases $databases \\
         --genefinding-tool none \\
-        --fullhmmer \\
         ${gbk_file}
     """
 }
