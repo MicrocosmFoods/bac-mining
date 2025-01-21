@@ -64,7 +64,7 @@ workflow {
     encrypted_peptides_results = predict_encrypted_peptides.out.encrypted_peptides_results
 
     // predict cleavage peptides
-    
+
 
     // cluster peptides at % identity
     mmseqs_95id_cluster(combined_smorf_proteins)
@@ -95,7 +95,6 @@ process make_genome_stb {
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
 
     input:
     path(fasta_files)
@@ -121,7 +120,6 @@ process smorfinder {
     cpus = 1
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.2"
-    conda "envs/smorfinder.yml"
 
     input:
     tuple path(fasta), val(genome_name)
@@ -151,7 +149,6 @@ process combine_smorf_proteins {
     cpus = 1
     
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
 
     input:
     path(smorf_proteins)
@@ -173,7 +170,6 @@ process pyrodigal {
     cpus = 1
 
     container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
-    conda "envs/pyrodigal.yml"
 
     input:
     tuple path(fasta), val(genome_name)
@@ -202,7 +198,6 @@ process predict_encrypted_peptides {
     cpus = 1
 
     container "public.ecr.aws/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
 
     input:
     path(predicted_orfs_proteins)
@@ -224,7 +219,6 @@ process mmseqs_95id_cluster {
     cpus = 8
     
     container "public.ecr.aws/biocontainers/mmseqs2:15.6f452--pl5321h6a68c12_2"
-    conda "envs/mmseqs2.yml"
 
     input:
     path(protein_fasta_file)
@@ -247,7 +241,6 @@ process summarize_mmseqs_clusters {
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
 
     input:
     path(mmseqs_cluster_file)
@@ -274,7 +267,6 @@ process antismash {
     cpus = 6
 
     container "public.ecr.aws/biocontainers/antismash-lite:7.1.0--pyhdfd78af_0"
-    conda "envs/antismashlite.yml"
 
     input:
     tuple val(genome_name), path(gbk_file), path(databases)
@@ -305,7 +297,6 @@ process extract_gbks {
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-    conda "envs/biopython.yml"
 
     input: 
     path(gbk_files)
