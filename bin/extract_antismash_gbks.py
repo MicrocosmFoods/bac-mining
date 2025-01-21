@@ -23,14 +23,12 @@ class AntismashGBKParser:
             scaffold_name = record.id
             bgc_type = self.get_bgc_type(record)
             bgc_length = len(record.seq)
-            bgc_completeness = self.get_bgc_completeness(record)
             leader_seqs, core_seqs = self.ex_lanthipeptide(record)
             bgc_data_list.append({
                 'scaffold_name': scaffold_name,
                 'bgc_file': os.path.basename(self.gbk_file),
                 'bgc_type': bgc_type,
                 'bgc_length': bgc_length,
-                'bgc_completeness': bgc_completeness,
             })
             if leader_seqs and core_seqs:
                 peptide_data_list.append({
@@ -54,15 +52,6 @@ class AntismashGBKParser:
                 bgc_type_list += feature.qualifiers.get('product', [])
         return '+'.join(set(bgc_type_list))
 
-    def get_bgc_completeness(self, record):
-        """Return the completeness of the BGC."""
-        for feature in record.features:
-            if feature.type == 'region':
-                contig_edge = feature.qualifiers.get("contig_edge", ["complete"])[0]
-                if contig_edge != "complete":
-                    return "incomplete"
-        return "complete"
-
     def ex_lanthipeptide(self, record):
         """Extract leader and core sequences of lanthipeptides (RiPPs)."""
         leader_seq, core_seq = [], []
@@ -78,6 +67,7 @@ def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Parse antiSMASH GBK files to summarize BGCs and extract lanthipeptides.")
     parser.add_argument("input_gbk", nargs='+', help="Paths to the input GBK files")
+    parser.add_argument("mag_scaffold_tsv", help="Path to the TSV file containing mag_id and scaffold_id mapping")
     parser.add_argument("output_bgc_tsv", help="Path to the output TSV file for BGC information")
     parser.add_argument("output_peptide_tsv", help="Path to the output TSV file for lanthipeptide information")
     parser.add_argument("output_peptide_fasta", help="Path to the output FASTA file for lanthipeptide sequences")
@@ -85,6 +75,9 @@ def parse_args():
 
 def main():
     args = parse_args()
+
+    # Read the mag_scaffold mapping file
+    mag_scaffold_df = pd.read_csv(args.mag_scaffold_tsv, sep='\t')
 
     all_bgc_data = []
     all_peptide_data = []
@@ -98,12 +91,28 @@ def main():
 
     # Write BGC data to TSV
     bgc_df = pd.DataFrame(all_bgc_data)
+    
+    # Merge with mag_scaffold mapping
+    bgc_df = pd.merge(bgc_df, mag_scaffold_df, 
+                     left_on='scaffold_name', 
+                     right_on='scaffold_id', 
+                     how='left')
+    
+    # Reorder columns to have mag_id first
+    bgc_df = bgc_df[['mag_id', 'scaffold_name', 'bgc_file', 'bgc_type', 'bgc_length']]
+    
     bgc_df.to_csv(args.output_bgc_tsv, sep='\t', index=False)
     print(f"BGC data written to {args.output_bgc_tsv}")
 
     # Write peptide data to TSV if found
     if all_peptide_data:
         peptide_df = pd.DataFrame(all_peptide_data)
+        # Merge with mag_scaffold mapping
+        peptide_df = pd.merge(peptide_df, mag_scaffold_df,
+                            left_on='scaffold_name',
+                            right_on='scaffold_id',
+                            how='left')
+        peptide_df = peptide_df[['mag_id', 'scaffold_name', 'bgc_file', 'leader_seq', 'core_seq']]
         peptide_df.to_csv(args.output_peptide_tsv, sep='\t', index=False)
         print(f"Lanthipeptides found and written to {args.output_peptide_tsv}.")
 

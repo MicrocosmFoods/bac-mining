@@ -63,7 +63,12 @@ workflow {
     predict_encrypted_peptides(predicted_orfs_proteins)
     encrypted_peptides_results = predict_encrypted_peptides.out.encrypted_peptides_results
 
-    // predict cleavage peptides
+    // predict cleavage peptides with deeppeptide
+    predict_cleavage_peptides(predicted_orfs_proteins)
+    cleavage_peptides_outdir = predict_cleavage_peptides.out.cleavage_peptides_outdir
+
+    // extract deeppeptide sequences from json
+    extract_cleavage_peptides_json(cleavage_peptides_outdir)
 
 
     // cluster peptides at % identity
@@ -80,8 +85,8 @@ workflow {
     antismash_gbk_files = antismash.out.gbk_results
     all_antismash_gbk_files = antismash_gbk_files.map{ it[1] }.collect()
 
-    // extract antismash gbks
-    extract_gbks(all_antismash_gbk_files)
+    // extract antismash gbks into summary tsv, ripp peptides
+    extract_gbks(all_antismash_gbk_files, genome_stb_tsv)
 
     // run kofamscan annotations
 
@@ -191,7 +196,7 @@ process pyrodigal {
 }
 
 process predict_encrypted_peptides {
-    tag "predict_encrypted_peptides"
+    tag "${genome_name}_predict_encrypted_peptides"
     publishDir "${params.outdir}/encrypted_peptides", mode: 'copy'
 
     memory = "10 GB"
@@ -200,15 +205,46 @@ process predict_encrypted_peptides {
     container "public.ecr.aws/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    path(predicted_orfs_proteins)
+    tuple val(genome_name), path(predicted_orfs_proteins)
 
     output:
     path("*.csv"), emit: encrypted_peptides_results
 
     script:
     """
-    python ${baseDir}/bin/encrypted_peptides.py ${predicted_orfs_proteins} -o encrypted_peptides_results.csv
+    python ${baseDir}/bin/encrypted_peptides.py ${predicted_orfs_proteins} -o ${genome_name}_encrypted_peptides_results.csv
     """
+}
+
+process predict_cleavage_peptides {
+    tag "${genome_name}_predict_cleavage_peptides"
+    publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
+
+    accelerator 1, type: 'nvidia-t4'
+    cpus = 8
+
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.1"
+
+    input:
+    tuple val(genome_name), path(predicted_orfs_proteins)
+
+    output:
+    path("*"), emit: cleavage_peptides_outdir
+
+    script:
+    """
+    python3 predict.py --fastafile ${predicted_orfs_proteins} --output_dir ${genome_name} --output_fmt json
+    """
+}
+
+process extract_cleavage_peptides_json {
+    tag "${genome_name}_extract_cleavage_peptides_json"
+    publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+
 }
 
 process mmseqs_95id_cluster {
@@ -299,7 +335,7 @@ process extract_gbks {
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input: 
-    path(gbk_files)
+    path(gbk_files), path(mag_scaffold_tsv)
 
     output:
     path("antismash_summary.tsv"), emit: bgc_summary_tsv
@@ -308,7 +344,26 @@ process extract_gbks {
 
     script:
     """
-    python ${baseDir}/bin/extract_antismash_gbks.py ${gbk_files.join(' ')} antismash_summary.tsv antismash_peptides.tsv antismash_peptides.fasta
+    python ${baseDir}/bin/extract_antismash_gbks.py ${gbk_files.join(' ')} ${mag_scaffold_tsv} antismash_summary.tsv antismash_peptides.tsv antismash_peptides.fasta
     """
+
+}
+
+process kofamscan_annotation {
+    tag "${genome_name}_kofamscan_annotation"
+    publishDir "${params.outdir}/kofamscan_annotation", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "public.ecr.aws/biocontainers/kofamscan:1.3.0--pl5321h6a68c12_0"
+
+    input:
+    tuple val(genome_name), path(faa_file)
+
+    output:
+    tuple val(genome_name), path("*.tsv"), emit: kofamscan_annotation
+
+    script:
 
 }
