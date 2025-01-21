@@ -10,17 +10,18 @@ params.outdir=null
 
 log.info """\
 
-MINE FERMENTED FOOD BACTERIAL GENOMES FOR BIOACTIVE PEPTIDES AND BGCs.
+MINE FERMENTED FOOD BACTERIAL GENOMES FOR PEPTIDES AND BGCS, AND PERFORM
+FUNCTIONAL ANNOTATION.
 
-NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH AND PFAM DATABASES AND PROVIDE THE PATH
-WITH --antismash_db AND --pfam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING 
+NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH, PFAM, AND KOFAM DATABASES AND PROVIDE THE PATHS
+WITH --antismash_db, --pfam_db, AND --kofam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING 
 DATABASES AUTOMATICALLY.
 =================================================================
 input_genomes                   : $params.input_genomes
 genome_metadata                 : $params.genome_metadata
 antismash_db                    : $params.antismash_db
 pfam_db                         : $params.pfam_db
-peptides_fasta                  : $params.peptides_fasta
+kofam_db                        : $params.kofam_db
 outdir                          : $params.outdir
 threads                         : $params.threads
 """
@@ -35,7 +36,7 @@ genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
 
 genome_metadata = channel.fromPath(params.genome_metadata)
 antismash_db_ch = channel.fromPath(params.antismash_db)
-peptides_db_ch = channel.fromPath(params.peptides_fasta)
+kofam_db_ch = channel.fromPath(params.kofam_db)
 pfam_db_ch = channel.fromPath(params.pfam_db)
 
 // workflow steps
@@ -53,7 +54,19 @@ workflow {
     combine_smorf_proteins(smorf_proteins.collect())
     combined_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
-    // cluster smorf proteins 95% identity and get representative seqs
+    // predict ORFs with pyrdogial
+    pyrodigal(genome_fastas)
+    predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
+    predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
+
+    // predict encrypted peptides
+    predict_encrypted_peptides(predicted_orfs_proteins)
+    encrypted_peptides_results = predict_encrypted_peptides.out.encrypted_peptides_results
+
+    // predict cleavage peptides
+    
+
+    // cluster peptides at % identity
     mmseqs_95id_cluster(combined_smorf_proteins)
     nonredundant_smorfs = mmseqs_95id_cluster.out.nonredundant_seqs_fasta
     mmseqs_clusters = mmseqs_95id_cluster.out.cluster_summary_tsv
@@ -61,41 +74,16 @@ workflow {
     // mmseqs cluster summaries and stats, merging with metadata
     summarize_mmseqs_clusters(mmseqs_clusters, nonredundant_smorfs, genome_metadata)
 
-    // predict ORFs with pyrdogial
-    pyrodigal(genome_fastas)
-    predicted_orfs = pyrodigal.out.predicted_orfs_gbk
-
     // antismash predictions
     antismash_input_ch = predicted_orfs.combine(antismash_db_ch)
     antismash(antismash_input_ch)
     antismash_gbk_files = antismash.out.gbk_results
-
-    // bigscape on all antismash gbk_files
     all_antismash_gbk_files = antismash_gbk_files.map{ it[1] }.collect()
-    run_bigscape(all_antismash_gbk_files, pfam_db_ch)
-    bigscape_annotations_tsv = run_bigscape.out.bigscape_annotations_tsv
 
-    // combine bigscape aggregate TSV with metadata
-    combine_bigscape_metadata(bigscape_annotations_tsv, genome_metadata, genome_stb_tsv)
+    // extract antismash gbks
+    extract_gbks(all_antismash_gbk_files)
 
-    // deepsig predictions on combined, non-redundant smorf proteins
-    deepsig(nonredundant_smorfs)
-    deepsig_results = deepsig.out.deepsig_tsv
-
-    // peptides.py sequence characterization on combined, non-redundant smorf proteins
-    characterize_peptides(nonredundant_smorfs)
-    peptides_results = characterize_peptides.out.peptides_tsv
-
-    // DIAMOND seq similarity to Peptipedia peptide sequences of interest
-    make_diamond_db(peptides_db_ch)
-    peptides_dmnd_db = make_diamond_db.out.peptides_diamond_db
-    diamond_blastp(nonredundant_smorfs, peptides_dmnd_db)
-    blastp_results = diamond_blastp.out.blastp_hits_tsv
-
-    // merge peptide stats from peptides.py, deepsig, and blastp results
-    merge_peptide_stats(peptides_results, deepsig_results, blastp_results, genome_metadata)
-
-    // autopeptideml predictions
+    // run kofamscan annotations
 
 }
 
@@ -178,6 +166,56 @@ process combine_smorf_proteins {
     
 }
 
+process pyrodigal {
+    tag "${genome_name}_pyrodigal"
+    
+    memory = "5 GB"
+    cpus = 1
+
+    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
+    conda "envs/pyrodigal.yml"
+
+    input:
+    tuple path(fasta), val(genome_name)
+
+    output:
+    tuple val(genome_name), path("*.fna"), emit: predicted_orfs_fna
+    tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
+    tuple val(genome_name), path("*.gbk"), emit: predicted_orfs_gbk
+
+    script:
+    """
+    pyrodigal \\
+        -i ${fasta} \\
+        -f "gbk" \\
+        -o "${genome_name}.gbk" \\
+        -d ${genome_name}.fna \\
+        -a ${genome_name}.faa
+    """
+}
+
+process predict_encrypted_peptides {
+    tag "predict_encrypted_peptides"
+    publishDir "${params.outdir}/encrypted_peptides", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "public.ecr.aws/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    conda "envs/biopython.yml"
+
+    input:
+    path(predicted_orfs_proteins)
+
+    output:
+    path("*.csv"), emit: encrypted_peptides_results
+
+    script:
+    """
+    python ${baseDir}/bin/encrypted_peptides.py ${predicted_orfs_proteins} -o encrypted_peptides_results.csv
+    """
+}
+
 process mmseqs_95id_cluster {
     tag "mmseqs_95id_cluster"
     publishDir "${params.outdir}/mmseqs_95id_cluster", mode: 'copy'
@@ -228,40 +266,12 @@ process summarize_mmseqs_clusters {
     """ 
 }
 
-process pyrodigal {
-    tag "${genome_name}_pyrodigal"
-    
-    memory = "5 GB"
-    cpus = 1
-
-    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
-    conda "envs/pyrodigal.yml"
-
-    input:
-    tuple path(fasta), val(genome_name)
-
-    output:
-    tuple val(genome_name), path("*.fna"), emit: predicted_orfs_fna
-    tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
-    tuple val(genome_name), path("*.gbk"), emit: predicted_orfs_gbk
-
-    script:
-    """
-    pyrodigal \\
-        -i ${fasta} \\
-        -f "gbk" \\
-        -o "${genome_name}.gbk" \\
-        -d ${genome_name}.fna \\
-        -a ${genome_name}.faa
-    """
-}
-
 process antismash {
     tag "${genome_name}_antismash"
     publishDir "${params.outdir}/antismash", mode: 'copy'
 
     memory = "20 GB"
-    cpus = 4
+    cpus = 6
 
     container "public.ecr.aws/biocontainers/antismash-lite:7.1.0--pyhdfd78af_0"
     conda "envs/antismashlite.yml"
@@ -287,172 +297,27 @@ process antismash {
     """
 }
 
-process run_bigscape {
-    tag "bigscape_all_gbks"
-    publishDir "${params.outdir}/bigscape", mode: 'copy'
-
-    memory = "36 GB"
-    cpus = 10
-    
-    container "quay.io/biocontainers/bigscape:1.1.9--pyhdfd78af_0"
-    conda "envs/bigscape.yml"
-
-    input:
-    path(gbk_files)
-    path(pfam_db)
-
-    output:
-    path("*"), emit: bigscape_results
-    path("bigscape_results/network_files/*/Network_Annotations_Full.tsv"), emit: bigscape_annotations_tsv
-
-    script:
-    """
-    bigscape -i ./ -o bigscape_results --pfam_dir ${pfam_db} --cores ${task.cpus} --mibig
-    """
-
-}
-
-process combine_bigscape_metadata {
-    tag "combine_bigscape_metadata"
+process extract_gbks {
+    tag "extract_gbks"
     publishDir "${params.outdir}/main_results/bgc_info", mode: 'copy'
 
-    memory = '10 GB'
+    memory = "10 GB"
     cpus = 1
 
-    container "public.ecr.aws/csgenetics/tidyverse:latest"
-    conda "envs/tidyverse.yml"
-
-    input:
-    path(bigscape_annotations_tsv)
-    path(genome_metadata)
-    path(genome_stb)
-
-    output:
-    path("bgc_annotation_metadata.tsv"), emit: bgc_metadata_tsv
-    path("bgc_substrate_type_counts.tsv"), emit: bgc_substrates_tsv
-    path("bgc_phylo_groups_counts.tsv"), emit: bgc_phylo_groups_tsv
-    
-    script:
-    """
-    Rscript ${baseDir}/bin/combine_bgc_metadata.R ${genome_metadata} ${bigscape_annotations_tsv} ${genome_stb} bgc_annotation_metadata.tsv bgc_substrate_type_counts.tsv bgc_phylo_groups_counts.tsv
-    """
-}
-
-process deepsig {
-    tag "deepsig_predictions"
-    publishDir "${params.outdir}/deepsig", mode: 'copy'
-    
-    accelerator 1, type: 'nvidia-t4'
-    cpus = 8
-    
-    container "public.ecr.aws/biocontainers/deepsig:1.2.5--pyhca03a8a_1"
-    conda "envs/deepsig.yml"
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    conda "envs/biopython.yml"
 
     input: 
-    path(faa_file)
-
-    output: 
-    path("*.tsv"), emit: deepsig_tsv
-
-    script: 
-    """
-    deepsig -f ${faa_file} -o nonredundant_smorf_proteins_deepsig.tsv -k gramp -t ${task.cpus}
-    """
-
-}
-
-process characterize_peptides {
-    tag "characterize_peptides"
-    publishDir "${params.outdir}/peptide_characterization", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "elizabethmcd/peptides"
-    conda "envs/peptides.yml"
-
-    input:
-    path(faa_file)
-
-    output: 
-    path("*.tsv"), emit: peptides_tsv
-
-    script:
-    """
-    python ${baseDir}/bin/characterize_peptides.py ${faa_file} nonredundant_smorf_proteins_peptide_characteristics.tsv
-    """
-}
-
-process make_diamond_db {
-    tag "make_diamond_db"
-
-    memory = "5 GB"
-    cpus = 1
-
-    container "public.ecr.aws/biocontainers/diamond:2.1.7--h43eeafb_1"
-    conda "envs/diamond.yml"
-
-    input:
-    path(peptides_fasta)
+    path(gbk_files)
 
     output:
-    path("*.dmnd"), emit: peptides_diamond_db
-
-    // ignore warnings about DNA only because of short peptides
-    script:
-    """
-    diamond makedb --in ${peptides_fasta} -d peptides_db.dmnd --ignore-warnings 
-    """
-}
-
-process diamond_blastp {
-    tag "diamond_blastp"
-    publishDir "${params.outdir}/diamond_blastp", mode: 'copy'
-
-    memory = "10 GB"
-
-    container "public.ecr.aws/biocontainers/diamond:2.1.7--h43eeafb_1"
-    conda "envs/diamond.yml"
-
-    input:
-    path(faa_file)
-    path(peptides_diamond_db)
-
-    output:
-    path("*.tsv"), emit: blastp_hits_tsv
+    path("antismash_summary.tsv"), emit: bgc_summary_tsv
+    path("antismash_peptides.tsv"), emit: bgc_peptides_tsv, optional: true
+    path("antismash_peptides.fasta"), emit: bgc_peptides_fasta, optional: true
 
     script:
     """
-    diamond blastp -d ${peptides_diamond_db} \\
-     -q ${faa_file} \\
-     -o nonredundant_smorf_proteins_blast_results.tsv \\
-     --header simple \\
-     --max-target-seqs 1 \\
-    --outfmt 6 qseqid sseqid full_sseq pident length qlen slen mismatch gapopen qstart qend sstart send evalue bitscore
+    python ${baseDir}/bin/extract_antismash_gbks.py ${gbk_files.join(' ')} antismash_summary.tsv antismash_peptides.tsv antismash_peptides.fasta
     """
-}
 
-process merge_peptide_stats {
-    tag "merge_peptide_stats"
-    publishDir "${params.outdir}/main_results/peptide_stats", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "public.ecr.aws/csgenetics/tidyverse:latest"
-    conda "envs/tidyverse.yml"
-
-    input:
-    path(peptides_info_tsv)
-    path(deepsig_tsv)
-    path(blastp_hits_tsv)
-    path(genome_metadata)
-
-    output:
-    path("all_peptide_stats.tsv"), emit: all_peptide_stats
-
-    script:
-    """
-    Rscript ${baseDir}/bin/merge_peptide_stats.R ${peptides_info_tsv} ${deepsig_tsv} ${blastp_hits_tsv} ${genome_metadata} all_peptide_stats.tsv
-    """
 }
