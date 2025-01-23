@@ -65,19 +65,11 @@ workflow {
 
     // predict cleavage peptides with deeppeptide
     predict_cleavage_peptides(predicted_orfs_proteins)
-    cleavage_peptides_outdir = predict_cleavage_peptides.out.cleavage_peptides_outdir
+    cleavage_peptides_outdir = predict_cleavage_peptides.out.cleavage_peptides_json
 
     // extract deeppeptide sequences from json
-    extract_cleavage_peptides_json(cleavage_peptides_outdir)
-
-
-    // cluster peptides at % identity
-    mmseqs_95id_cluster(combined_smorf_proteins)
-    nonredundant_smorfs = mmseqs_95id_cluster.out.nonredundant_seqs_fasta
-    mmseqs_clusters = mmseqs_95id_cluster.out.cluster_summary_tsv
-
-    // mmseqs cluster summaries and stats, merging with metadata
-    summarize_mmseqs_clusters(mmseqs_clusters, nonredundant_smorfs, genome_metadata)
+    extract_cleavage_peptides_json(cleavage_peptides_json, predicted_orfs_proteins)
+    cleavage_peptides_fasta = extract_cleavage_peptides_json.out.cleavage_peptides_fasta
 
     // antismash predictions
     antismash_input_ch = predicted_orfs.combine(antismash_db_ch)
@@ -87,8 +79,14 @@ workflow {
 
     // extract antismash gbks into summary tsv, ripp peptides
     extract_gbks(all_antismash_gbk_files, genome_stb_tsv)
+    core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta
 
-    // run kofamscan annotations
+    // cluster peptides per genome across prediction tools at 100% to get rid of redundancies
+
+
+    // run kofamscan annotations on all predicted proteins
+    kofam_scan_annotation(predicted_orfs_proteins, kofam_db_ch)
+
 
 }
 
@@ -229,11 +227,12 @@ process predict_cleavage_peptides {
     tuple val(genome_name), path(predicted_orfs_proteins)
 
     output:
-    path("*"), emit: cleavage_peptides_outdir
+    tuple val(genome_name), path("*.json"), emit: cleavage_peptides_json
 
     script:
     """
     python3 predict.py --fastafile ${predicted_orfs_proteins} --output_dir ${genome_name} --output_fmt json
+    mv ${genome_name}/*.json ./
     """
 }
 
@@ -244,56 +243,28 @@ process extract_cleavage_peptides_json {
     memory = "10 GB"
     cpus = 1
 
-
-}
-
-process mmseqs_95id_cluster {
-    tag "mmseqs_95id_cluster"
-    publishDir "${params.outdir}/mmseqs_95id_cluster", mode: 'copy'
-
-    memory = '10 GB'
-    cpus = 8
-    
-    container "public.ecr.aws/biocontainers/mmseqs2:15.6f452--pl5321h6a68c12_2"
+    container "public.ecr.aws/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    path(protein_fasta_file)
-    
+    tuple val(genome__name), path(deeppeptide_json), path(protein_faa)
+
     output:
-    path("*_rep_seq.fasta"), emit: nonredundant_seqs_fasta
-    path("*.tsv"), emit: cluster_summary_tsv
+    tuple val(genome_name), path("*_parent_proteins.faa"), emit: parent_proteins_faa
+    tuple val(genome_name), path("*_peptides.faa"), emit: cleavage_peptides_fasta
+    tuple val(genome_name), path("*.tsv"), emit: cleavage_peptides_tsv
 
     script:
     """
-    mmseqs easy-cluster ${protein_fasta_file} nonredundant_smorf_proteins tmp --min-seq-id 0.95 --threads ${task.cpus}
-    """   
-}
-
-process summarize_mmseqs_clusters {
-    tag "summarize_mmseqs_clusters"
-    publishDir "${params.outdir}/main_results/mmseqs_clusters", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-
-    input:
-    path(mmseqs_cluster_file)
-    path(mmseqs_nonredundant_seqs)
-    path(genome_metadata_tsv)
-
-    output:
-    path("mmseqs_summary.tsv"), emit: mmseqs_summary
-    path("mmseqs_metadata.tsv"), emit: mmseqs_metadata
-    path("mmseqs_substrate_counts.tsv"), emit: mmseqs_substrate_counts
-    path("mmseqs_phylo_groups_counts.tsv"), emit: mmseqs_phylo_groups_counts
-
-    script:
+        python ${baseDir}/bin/extract_cleavage_peptides_json.py \
+            --json_file ${deeppeptide_json} \
+            --protein_fasta_file ${protein_faa} \
+            --proteins_output_file ${genome_name}_parent_proteins.faa \
+            --protein_peptides_output_file ${genome_name}_peptides.faa \
+            --predictions_output_file ${genome_name}.tsv
     """
-    python ${baseDir}/bin/process_mmseqs_clusters.py ${mmseqs_cluster_file} ${mmseqs_nonredundant_seqs} ${genome_metadata_tsv} mmseqs_summary.tsv mmseqs_metadata.tsv mmseqs_substrate_counts.tsv mmseqs_phylo_groups_counts.tsv
-    """ 
+
 }
+
 
 process antismash {
     tag "${genome_name}_antismash"
@@ -350,20 +321,24 @@ process extract_gbks {
 }
 
 process kofamscan_annotation {
-    tag "${genome_name}_kofamscan_annotation"
-    publishDir "${params.outdir}/kofamscan_annotation", mode: 'copy'
+    tag "${genome_name}_kofam_scan_annotation"
+    publishDir "${params.outdir}/kofam_scan_annotation", mode: 'copy'
 
-    memory = "10 GB"
-    cpus = 1
+    memory = "15 GB"
+    cpus = 6
 
-    container "public.ecr.aws/biocontainers/kofamscan:1.3.0--pl5321h6a68c12_0"
+    container "public.ecr.aws/biocontainers/kofamscan:1.0.0--0"
+    conda "envs/kofamscan.yml"
 
     input:
     tuple val(genome_name), path(faa_file)
+    path(kegg_db_dir)
 
     output:
-    tuple val(genome_name), path("*.tsv"), emit: kofamscan_annotation
+    path("*.tsv"), emit: kofamscan_tsv
 
     script:
-
+    """
+    exec_annotation --format detail-tsv --ko-list ${kegg_db_dir}/ko_list --profile ${kegg_db_dir}/profiles --cpu ${task.cpus} -o peptides_kofamscan_annotation.tsv ${peptides_fasta}
+    """
 }
