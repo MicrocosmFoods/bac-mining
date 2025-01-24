@@ -83,6 +83,7 @@ workflow {
     all_core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta.collect()
 
     // split out each peptide prediction tool into separate fastas by genome
+    split_peptide_fastas_by_genome(all_smorf_proteins, all_encrypted_peptides_fastas, all_cleavage_peptides_fastas, all_core_ripp_peptides, genome_stb_tsv, params.outdir)
 
     // cluster peptides per genome across prediction tools at 100% to get rid of redundancies
 
@@ -322,6 +323,45 @@ process extract_gbks {
     python ${baseDir}/bin/extract_antismash_gbks.py ${gbk_files.join(' ')} ${mag_scaffold_tsv} antismash_summary.tsv antismash_peptides.tsv antismash_peptides.fasta
     """
 
+}
+
+process split_peptide_fastas_by_genome {
+    tag "split_peptide_fastas_by_genome"
+    publishDir "${params.outdir}/split_peptide_fastas_by_genome", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+
+    input:
+    path(smorf_fasta)
+    path(encrypted_fasta_dir)
+    path(cleavage_fasta_dir)
+    path(ripp_fasta)
+    path(genome_stb)
+
+    output:
+    path("*.fasta"), emit: split_peptide_fastas
+
+    script:
+    """
+    python ${baseDir}/bin/split_peptide_fastas_by_genome.py ${smorf_fasta} ${encrypted_fasta_dir} ${cleavage_fasta_dir} ${ripp_fasta} ${genome_stb} ${genome_name}
+    """
+
+}
+
+process mmseqs_100_cluster {
+    tag "mmseqs_100_cluster"
+    publishDir "${params.outdir}/mmseqs_100_cluster", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "public.ecr.aws/biocontainers/mmseqs2:15.0--h5168794_0"
+
+    input:
+    path(split_peptide_fastas)
 }
 
 process kofamscan_annotation {
