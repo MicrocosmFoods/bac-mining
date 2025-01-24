@@ -52,7 +52,7 @@ workflow {
 
     // combine smorf proteins into a single FASTA
     combine_smorf_proteins(smorf_proteins.collect())
-    combined_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
+    all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
     // predict ORFs with pyrdogial
     pyrodigal(genome_fastas)
@@ -61,15 +61,16 @@ workflow {
 
     // predict encrypted peptides
     predict_encrypted_peptides(predicted_orfs_proteins)
-    encrypted_peptides_results = predict_encrypted_peptides.out.encrypted_peptides_results
+    all_encrypted_peptides_fastas = predict_encrypted_peptides.out.encrypted_peptides_results_fasta.collect()
 
     // predict cleavage peptides with deeppeptide
     predict_cleavage_peptides(predicted_orfs_proteins)
-    cleavage_peptides_outdir = predict_cleavage_peptides.out.cleavage_peptides_json
+    cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
 
     // extract deeppeptide sequences from json
-    extract_cleavage_peptides_json(cleavage_peptides_json, predicted_orfs_proteins)
-    cleavage_peptides_fasta = extract_cleavage_peptides_json.out.cleavage_peptides_fasta
+    cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
+    extract_cleavage_peptides_json(cleavage_input_ch)
+    all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
 
     // antismash predictions
     antismash_input_ch = predicted_orfs.combine(antismash_db_ch)
@@ -79,7 +80,9 @@ workflow {
 
     // extract antismash gbks into summary tsv, ripp peptides
     extract_gbks(all_antismash_gbk_files, genome_stb_tsv)
-    core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta
+    all_core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta.collect()
+
+    // split out each peptide prediction tool into separate fastas by genome
 
     // cluster peptides per genome across prediction tools at 100% to get rid of redundancies
 
@@ -206,11 +209,12 @@ process predict_encrypted_peptides {
     tuple val(genome_name), path(predicted_orfs_proteins)
 
     output:
-    path("*.csv"), emit: encrypted_peptides_results
+    path("*.csv"), emit: encrypted_peptides_results_csv
+    path("*.fasta"), emit: encrypted_peptides_results_fasta
 
     script:
     """
-    python ${baseDir}/bin/encrypted_peptides.py ${predicted_orfs_proteins} -o ${genome_name}_encrypted_peptides_results.csv
+    python ${baseDir}/bin/encrypted_peptides.py ${predicted_orfs_proteins} -o ${genome_name}_encrypted_peptides_results.csv -f ${genome_name}_encrypted_peptides_results.fasta
     """
 }
 

@@ -8,7 +8,8 @@
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# This script was modified by EAM for incorporation into the workflow.
+# This script was modified from https://gitlab.com/machine-biology-group-public/amp_scoring/-/blob/main/FindEncryptedPeptides.py?ref_type=heads 
+# by EAM for incorporation into the workflow.
 ###############################################################################
 
 import argparse
@@ -24,6 +25,8 @@ def parse_arguments():
     parser.add_argument('fasta_file', help='Path to input FASTA file')
     parser.add_argument('--output', '-o', default='encrypted_peptides_results.csv',
                       help='Output CSV file name (default: encrypted_peptides_results.csv)')
+    parser.add_argument('--fasta-output', '-f', default='encrypted_peptides_results.fasta',
+                        help='Output FASTA file name (default: encrypted_peptides_results.fasta)')
     parser.add_argument('--processes', '-p', type=int, default=20,
                       help='Number of CPU processes to use (default: 20)')
     parser.add_argument('--candidates', '-c', type=int, default=1000,
@@ -110,6 +113,8 @@ def procPtn(inputDat):
 
 def main():
     args = parse_arguments()
+
+    genome_name = os.path.splittext(os.path.basename(args.fasta_file))[0]
     
     # Parameters for the function defined in Pane, JTB (2017)
     global ParM, ParN, nTer, cTer, cols
@@ -183,8 +188,17 @@ def main():
     allPepScanDF = pd.concat(DFlist)
     allPepScanDF.to_csv(args.output, index=False)
 
+    # Create and output FASTA file of results
+    with open(args.fasta_output, 'w') as fasta_output:
+        for idx, row in allPepScanDF.iterrows():
+            header = f">{genome_name}_encryptedpeptide_{idx+1} score={row['relativeScore']:.3f} length={row['len']}"
+            sequence = row['sequence']
+            fasta_output.write(f"{header}\n{sequence}\n")
+
     print(f"Total scan time was {time.time() - startTimeScan:.2f} seconds")
     print(f"Total number of peptides: {pep_set_all}")
+    print(f"Results written to CSV: {args.output}")
+    print(f"Results written to FASTA: {args.fasta_output}")
 
 if __name__ == "__main__":
     main()
