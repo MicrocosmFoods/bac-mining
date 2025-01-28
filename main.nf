@@ -46,12 +46,10 @@ workflow {
     make_genome_stb(all_genome_fastas_ch)
     genome_stb_tsv = make_genome_stb.out.stb_tsv
     
-    // get small ORF predictions with smorfinder
+    // get small ORF predictions with smorfinder and combine into a single FASTA
     smorfinder(genome_fastas)
-    smorf_proteins = smorfinder.out.faa_file
-
-    // combine smorf proteins into a single FASTA
-    combine_smorf_proteins(smorf_proteins.collect())
+    smorf_proteins = smorfinder.out.faa_file.collect()
+    combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
     // predict ORFs with pyrdogial
@@ -59,15 +57,15 @@ workflow {
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
 
-    // predict encrypted peptides
+    // predict encrypted peptides and combine into a single FASTA
     predict_encrypted_peptides(predicted_orfs_proteins)
     all_encrypted_peptides_fastas = predict_encrypted_peptides.out.encrypted_peptides_results_fasta.collect()
+    combine_encrypted_peptides(all_encrypted_peptides_fastas)
+    all_encrypted_peptides = combine_encrypted_peptides.out.combined_encrypted_peptides
 
-    // predict cleavage peptides with deeppeptide
+    // predict cleavage peptides with deeppeptide, extract sequences from json, and combine into a single FASTA
     predict_cleavage_peptides(predicted_orfs_proteins)
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
-
-    // extract deeppeptide sequences from json
     cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
     all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
@@ -80,12 +78,19 @@ workflow {
 
     // extract antismash gbks into summary tsv, ripp peptides
     extract_gbks(all_antismash_gbk_files, genome_stb_tsv)
-    all_core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta.collect()
+    all_core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta
 
     // split out each peptide prediction tool into separate fastas by genome
-    split_peptide_fastas_by_genome(all_smorf_proteins, all_encrypted_peptides_fastas, all_cleavage_peptides_fastas, all_core_ripp_peptides, genome_stb_tsv, params.outdir)
+    split_peptide_fastas_by_genome(all_smorf_proteins, all_encrypted_peptides, all_cleavage_peptides, all_core_ripp_peptides, genome_stb_tsv)
+    per_genome_peptides_ch = split_peptide_fastas_by_genome.out.split_peptide_fastas
+        .flatten()
+        .map { file ->
+            def genome_name = file.baseName
+            return tuple(genome_name, file)
+        }
 
     // cluster peptides per genome across prediction tools at 100% to get rid of redundancies
+    mmseqs_100_cluster(per_genome_peptides_ch)
 
 
     // run kofamscan annotations on all predicted proteins
@@ -150,7 +155,7 @@ process smorfinder {
 
 process combine_smorf_proteins {
     tag "combine_smorf_proteins"
-    publishDir "${params.outdir}/combined_smorf_proteins", mode: 'copy'
+    publishDir "${params.outdir}/main_results", mode: 'copy'
 
     memory = '10 GB'
     cpus = 1
@@ -219,6 +224,27 @@ process predict_encrypted_peptides {
     """
 }
 
+process combine_encrypted_peptides {
+    tag "combine_encrypted_peptides"
+    publishDir "${params.outdir}/main_results", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+
+    input:
+    path(encrypted_peptides)
+
+    output:
+    path("*.fasta"), emit: combined_encrypted_peptides
+
+    script:
+    """
+    python ${baseDir}/bin/combine_fastas.py ${encrypted_peptides.join(' ')} combined_encrypted_peptides.fasta
+    """
+}
+
 process predict_cleavage_peptides {
     tag "${genome_name}_predict_cleavage_peptides"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
@@ -267,7 +293,27 @@ process extract_cleavage_peptides_json {
             --protein_peptides_output_file ${genome_name}_peptides.faa \
             --predictions_output_file ${genome_name}.tsv
     """
+}
 
+process combine_cleavage_peptides {
+    tag "combine_cleavage_peptides"
+    publishDir "${params.outdir}/main_results", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+
+    input:
+    path(cleavage_peptides)
+
+    output:
+    path("*.fasta"), emit: combined_cleavage_peptides
+
+    script:
+    """
+    python ${baseDir}/bin/combine_fastas.py ${cleavage_peptides.join(' ')} combined_cleavage_peptides.fasta
+    """
 }
 
 
@@ -336,8 +382,8 @@ process split_peptide_fastas_by_genome {
 
     input:
     path(smorf_fasta)
-    path(encrypted_fasta_dir)
-    path(cleavage_fasta_dir)
+    path(encrypted_fasta)
+    path(cleavage_fasta)
     path(ripp_fasta)
     path(genome_stb)
 
@@ -346,9 +392,14 @@ process split_peptide_fastas_by_genome {
 
     script:
     """
-    python ${baseDir}/bin/split_peptide_fastas_by_genome.py ${smorf_fasta} ${encrypted_fasta_dir} ${cleavage_fasta_dir} ${ripp_fasta} ${genome_stb} ${genome_name}
+    python ${baseDir}/bin/split_peptide_fastas_by_genome.py \\
+    ${smorf_fasta} \\
+    ${encrypted_fasta} \\
+    ${cleavage_fasta} \\
+    ${ripp_fasta} \\
+    ${genome_stb} \\
+    --outdir ./
     """
-
 }
 
 process mmseqs_100_cluster {
@@ -361,7 +412,16 @@ process mmseqs_100_cluster {
     container "public.ecr.aws/biocontainers/mmseqs2:15.0--h5168794_0"
 
     input:
-    path(split_peptide_fastas)
+    tuple val(genome_name), path(split_peptide_fasta)
+
+    output:
+    path("*_rep_seq.fasta"), emit: rep_seqs
+    path("*.tsv"), emit: clusters_tsv
+
+    script:
+    """
+    mmseqs easy-cluster ${split_peptide_fasta} ${genome_name} --min-seq-id 1 -c 0.8 --threads ${task.cpus}
+    """
 }
 
 process kofamscan_annotation {
