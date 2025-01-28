@@ -91,12 +91,14 @@ workflow {
 
     // cluster peptides per genome across prediction tools at 100% to get rid of redundancies
     mmseqs_100_cluster(per_genome_peptides_ch)
+    all_nonredundant_peptides_ch = mmseqs_100_cluster.out.rep_seqs.collect()
 
+    // summarize peptide and BGC counts per genome
+    process_molecule_counts(all_nonredundant_peptides_ch, all_core_ripp_peptides, genome_stb_tsv)
+    peptide_bgc_counts_summary = process_molecule_counts.out.peptide_bgc_counts_summary
 
     // run kofamscan annotations on all predicted proteins
     kofam_scan_annotation(predicted_orfs_proteins, kofam_db_ch)
-
-
 }
 
 process make_genome_stb {
@@ -421,6 +423,34 @@ process mmseqs_100_cluster {
     script:
     """
     mmseqs easy-cluster ${split_peptide_fasta} ${genome_name} --min-seq-id 1 -c 0.8 --threads ${task.cpus}
+    """
+}
+
+process summarize_peptide_counts {
+    tag "summarize_peptide_counts"
+    publishDir "${params.outdir}/main_results", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+
+    input:
+    path("peptides/*")
+    path(bgc_summary_tsv)
+    path(genome_stb_tsv)
+
+    output:
+    path("*.tsv"), emit: peptide_counts_tsv
+
+    script:
+    """
+    mkdir -p peptides
+    python ${baseDir}/bin/process_molecule_counts.py \\
+    --peptide-dir ./peptides \\
+    --bgc-summary ${bgc_summary_tsv} \\
+    --genome-stb ${genome_stb_tsv} \\
+    --output peptide_bgc_counts_summary.tsv
     """
 }
 
