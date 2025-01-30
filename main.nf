@@ -251,7 +251,7 @@ process predict_cleavage_peptides {
     tag "${genome_name}_predict_cleavage_peptides"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
 
-    accelerator 1, type: 'nvidia-t4'
+    memory = "10 GB"
     cpus = 8
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.1"
@@ -264,7 +264,7 @@ process predict_cleavage_peptides {
 
     script:
     """
-    python3 predict.py --fastafile ${predicted_orfs_proteins} --output_dir ${genome_name} --output_fmt json
+    python3 predict.py -ff ${predicted_orfs_proteins} -od ${genome_name} --output_fmt json
     mv ${genome_name}/*.json ./
     """
 }
@@ -293,8 +293,7 @@ process extract_cleavage_peptides_json {
             --protein_fasta_file ${protein_faa} \
             --proteins_output_file ${genome_name}_parent_proteins.faa \
             --protein_peptides_output_file ${genome_name}_peptides.faa \
-            --predictions_output_file ${genome_name}.tsv \
-            --output_dir ./
+            --predictions_output_file ${genome_name}.tsv
     """
 }
 
