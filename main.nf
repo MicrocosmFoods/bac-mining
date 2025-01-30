@@ -293,7 +293,8 @@ process extract_cleavage_peptides_json {
             --protein_fasta_file ${protein_faa} \
             --proteins_output_file ${genome_name}_parent_proteins.faa \
             --protein_peptides_output_file ${genome_name}_peptides.faa \
-            --predictions_output_file ${genome_name}.tsv
+            --predictions_output_file ${genome_name}.tsv \
+            --output_dir ./
     """
 }
 
