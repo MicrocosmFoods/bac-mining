@@ -68,7 +68,7 @@ workflow {
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
     cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
-    all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
+    all_cleavage_peptides = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
 
     // antismash predictions
     antismash_input_ch = predicted_orfs_gbks.combine(antismash_db_ch)
