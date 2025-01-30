@@ -473,6 +473,6 @@ process kofamscan_annotation {
 
     script:
     """
-    exec_annotation --format detail-tsv --ko-list ${kegg_db_dir}/ko_list --profile ${kegg_db_dir}/profiles --cpu ${task.cpus} -o ${genome_name}_kofamscan_annotations.tsv ${faa_file}
+    exec_annotation --format detail --ko-list ${kegg_db_dir}/ko_list --profile ${kegg_db_dir}/profiles --cpu ${task.cpus} -o ${genome_name}_kofamscan_annotations.tsv ${faa_file}
     """
 }
