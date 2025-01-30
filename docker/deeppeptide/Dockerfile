@@ -16,13 +16,11 @@ RUN apt-get update && apt-get install -y \
 # install dependencies
 RUN pip install matplotlib==3.5.1 numpy==1.22.3 tqdm==4.64.0 torch==1.11.0 tabulate==0.8.9 pandas==1.4.2 fair-esm==2.0.0 seaborn==0.11.2
 
-# clone deeppeptide repository and set up predictor
-RUN git clone https://github.com/fteufel/DeepPeptide.git && \
-    cd DeepPeptide/predictor && \
-    chmod +x predict.py
+# clone deeppeptide repository
+RUN git clone https://github.com/fteufel/DeepPeptide.git
 
-# working directory
-RUN cd /app/DeepPeptide/predictor
+# Set working directory to predictor and make script executable
+WORKDIR /app/DeepPeptide/predictor
+RUN chmod +x predict.py
 
-# command path
-ENV PATH="/app/DeepPeptide/predictor:${PATH}"
+CMD ["bash"]

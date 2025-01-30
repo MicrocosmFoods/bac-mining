@@ -254,7 +254,7 @@ process predict_cleavage_peptides {
     memory = "10 GB"
     cpus = 8
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.4"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.5"
 
     input:
     tuple val(genome_name), path(predicted_orfs_proteins)
