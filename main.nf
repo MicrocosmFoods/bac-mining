@@ -359,7 +359,8 @@ process extract_gbks {
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input: 
-    path(gbk_files), path(mag_scaffold_tsv)
+    path(gbk_files)
+    path(genome_stb_tsv)
 
     output:
     path("antismash_summary.tsv"), emit: bgc_summary_tsv
@@ -368,7 +369,7 @@ process extract_gbks {
 
     script:
     """
-    python ${baseDir}/bin/extract_antismash_gbks.py ${gbk_files.join(' ')} ${mag_scaffold_tsv} antismash_summary.tsv antismash_peptides.tsv antismash_peptides.fasta
+    python ${baseDir}/bin/extract_antismash_gbks.py ${gbk_files.join(' ')} ${genome_stb_tsv} antismash_summary.tsv antismash_peptides.tsv antismash_peptides.fasta
     """
 
 }
