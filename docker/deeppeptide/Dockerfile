@@ -19,8 +19,13 @@ RUN pip install matplotlib==3.5.1 numpy==1.22.3 tqdm==4.64.0 torch==1.11.0 tabul
 # clone deeppeptide repository
 RUN git clone https://github.com/fteufel/DeepPeptide.git
 
-# Set working directory to predictor and make script executable
+# Set working directory to predictor and environment
 WORKDIR /app/DeepPeptide/predictor
-RUN chmod +x predict.py
+ENV PYTHONPATH=/app/DeepPeptide/predictor:${PYTHONPATH}
+
+# make script and necessary directories executable
+RUN chmod +x predict.py && \
+    chmod -R u+x checkpoints* && \
+    chmod -R 755 checkpoints*
 
 CMD ["bash"]
