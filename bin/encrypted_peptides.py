@@ -114,7 +114,7 @@ def procPtn(inputDat):
 def main():
     args = parse_arguments()
 
-    genome_name = os.path.splittext(os.path.basename(args.fasta_file))[0]
+    genome_name = os.path.splitext(os.path.basename(args.fasta_file))[0]
     
     # Parameters for the function defined in Pane, JTB (2017)
     global ParM, ParN, nTer, cTer, cols
