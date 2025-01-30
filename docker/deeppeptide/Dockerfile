@@ -21,5 +21,8 @@ RUN git clone https://github.com/fteufel/DeepPeptide.git && \
     cd DeepPeptide/predictor && \
     chmod +x predict.py
 
+# working directory
+WORKDIR /app/DeepPeptide/predictor
+
 # command path
-ENV PATH="app/DeepPeptide/predictor:${PATH}"
+ENV PATH="/app/DeepPeptide/predictor:${PATH}"
