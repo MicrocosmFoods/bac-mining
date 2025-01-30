@@ -200,7 +200,8 @@ process pyrodigal {
         -f "gbk" \\
         -o "${genome_name}.gbk" \\
         -d ${genome_name}.fna \\
-        -a ${genome_name}.faa
+        -a ${genome_name}.faa \\
+        --no-stop-codon
     """
 }
 
