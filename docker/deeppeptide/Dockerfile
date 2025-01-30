@@ -22,7 +22,7 @@ RUN git clone https://github.com/fteufel/DeepPeptide.git && \
     chmod +x predict.py
 
 # working directory
-WORKDIR /app/DeepPeptide/predictor
+RUN cd /app/DeepPeptide/predictor
 
 # command path
 ENV PATH="/app/DeepPeptide/predictor:${PATH}"
