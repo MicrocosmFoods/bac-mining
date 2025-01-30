@@ -29,4 +29,3 @@ WORKDIR /app
 
 # Command to run when starting the container
 ENTRYPOINT ["python", "/app/DeepPeptide/predictor/predict.py"]
-CMD ["--help"]

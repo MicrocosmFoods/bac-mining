@@ -254,7 +254,7 @@ process predict_cleavage_peptides {
     memory = "10 GB"
     cpus = 8
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.1"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.2"
 
     input:
     tuple val(genome_name), path(predicted_orfs_proteins)
@@ -264,7 +264,7 @@ process predict_cleavage_peptides {
 
     script:
     """
-    python3 predict.py -ff ${predicted_orfs_proteins} -od ${genome_name} --output_fmt json
+    python3 predict.py --fastafile ${predicted_orfs_proteins} --output_dir ${genome_name} --output_fmt json
     mv ${genome_name}/*.json ./
     """
 }
