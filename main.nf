@@ -98,7 +98,7 @@ workflow {
     peptide_bgc_counts_summary = summarize_peptide_counts.out.peptide_bgc_counts_summary
 
     // run kofamscan annotations on all predicted proteins
-    kofam_scan_annotation(predicted_orfs_proteins, kofam_db_ch)
+    kofamscan_annotation(predicted_orfs_proteins, kofam_db_ch)
 }
 
 process make_genome_stb {
