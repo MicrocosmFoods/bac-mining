@@ -98,7 +98,8 @@ workflow {
     peptide_bgc_counts_summary = summarize_peptide_counts.out.peptide_bgc_counts_summary
 
     // run kofamscan annotations on all predicted proteins
-    kofamscan_annotation(predicted_orfs_proteins, kofam_db_ch)
+    kofamscan_annotation_ch = predicted_orfs_proteins.combined(kofam_db_ch)
+    kofamscan_annotation(kofamscan_annotation_ch)
 }
 
 process make_genome_stb {
@@ -252,7 +253,7 @@ process predict_cleavage_peptides {
     tag "${genome_name}_predict_cleavage_peptides"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
 
-    memory = "10 GB"
+    accelerator 1, type: 'nvidia-t4'
     cpus = 8
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.5"
@@ -470,8 +471,7 @@ process kofamscan_annotation {
     container "public.ecr.aws/biocontainers/kofamscan:1.0.0--0"
 
     input:
-    tuple val(genome_name), path(faa_file)
-    path(kegg_db_dir)
+    tuple val(genome_name), path(faa_file), path(kegg_db_dir)
 
     output:
     path("*.tsv"), emit: kofamscan_tsv
