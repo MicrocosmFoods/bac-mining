@@ -52,7 +52,7 @@ workflow {
     combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
-    // predict ORFs with pyrdogial
+    // predict ORFs with pyrodigal
     pyrodigal(genome_fastas)
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
@@ -71,7 +71,7 @@ workflow {
     all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
 
     // antismash predictions
-    antismash_input_ch = predicted_orfs.combine(antismash_db_ch)
+    antismash_input_ch = predicted_orfs_gbks.combine(antismash_db_ch)
     antismash(antismash_input_ch)
     antismash_gbk_files = antismash.out.gbk_results
     all_antismash_gbk_files = antismash_gbk_files.map{ it[1] }.collect()
@@ -462,7 +462,6 @@ process kofamscan_annotation {
     cpus = 6
 
     container "public.ecr.aws/biocontainers/kofamscan:1.0.0--0"
-    conda "envs/kofamscan.yml"
 
     input:
     tuple val(genome_name), path(faa_file)
