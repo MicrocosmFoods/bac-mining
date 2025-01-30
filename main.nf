@@ -264,9 +264,12 @@ process predict_cleavage_peptides {
 
     script:
     """
+    cp ${predicted_orfs_proteins} /app/DeepPeptide/predictor
     cd /app/DeepPeptide/predictor
-    python3 predict.py --fastafile ${predicted_orfs_proteins} --output_dir ${genome_name} --output_fmt json
-    mv ${genome_name}/*.json ./
+
+    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json
+    
+    mv ${genome_name}/*.json ../
     """
 }
 
