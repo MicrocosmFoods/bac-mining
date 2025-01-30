@@ -94,7 +94,7 @@ workflow {
     all_nonredundant_peptides_ch = mmseqs_100_cluster.out.rep_seqs.collect()
 
     // summarize peptide and BGC counts per genome
-    process_molecule_counts(all_nonredundant_peptides_ch, all_core_ripp_peptides, genome_stb_tsv)
+    summarize_peptide_counts(all_nonredundant_peptides_ch, all_core_ripp_peptides, genome_stb_tsv)
     peptide_bgc_counts_summary = process_molecule_counts.out.peptide_bgc_counts_summary
 
     // run kofamscan annotations on all predicted proteins
