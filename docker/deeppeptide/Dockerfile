@@ -23,9 +23,3 @@ RUN git clone https://github.com/fteufel/DeepPeptide.git && \
 
 # command path
 ENV PATH="app/DeepPeptide/predictor:${PATH}"
-
-# Set the working directory back to /app
-WORKDIR /app
-
-# Command to run when starting the container
-ENTRYPOINT ["python", "/app/DeepPeptide/predictor/predict.py"]
