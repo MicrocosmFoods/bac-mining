@@ -18,7 +18,6 @@ WITH --antismash_db, --pfam_db, AND --kofam_db. THIS WORKFLOW DOES NOT SUPPORT D
 DATABASES AUTOMATICALLY.
 =================================================================
 input_genomes                   : $params.input_genomes
-genome_metadata                 : $params.genome_metadata
 antismash_db                    : $params.antismash_db
 pfam_db                         : $params.pfam_db
 kofam_db                        : $params.kofam_db
@@ -34,7 +33,6 @@ genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
         return [file, baseName]
     }
 
-genome_metadata = channel.fromPath(params.genome_metadata)
 antismash_db_ch = channel.fromPath(params.antismash_db)
 kofam_db_ch = channel.fromPath(params.kofam_db)
 pfam_db_ch = channel.fromPath(params.pfam_db)
@@ -57,12 +55,6 @@ workflow {
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
 
-    // predict encrypted peptides and combine into a single FASTA
-    predict_encrypted_peptides(predicted_orfs_proteins)
-    all_encrypted_peptides_fastas = predict_encrypted_peptides.out.encrypted_peptides_results_fasta.collect()
-    combine_encrypted_peptides(all_encrypted_peptides_fastas)
-    all_encrypted_peptides = combine_encrypted_peptides.out.combined_encrypted_peptides
-
     // predict cleavage peptides with deeppeptide, extract sequences from json, and combine into a single FASTA
     predict_cleavage_peptides(predicted_orfs_proteins)
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
@@ -81,7 +73,7 @@ workflow {
     all_core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta
 
     // split out each peptide prediction tool into separate fastas by genome
-    split_peptide_fastas_by_genome(all_smorf_proteins, all_encrypted_peptides, all_cleavage_peptides, all_core_ripp_peptides, genome_stb_tsv)
+    split_peptide_fastas_by_genome(all_smorf_proteins, all_cleavage_peptides, all_core_ripp_peptides, genome_stb_tsv)
     per_genome_peptides_ch = split_peptide_fastas_by_genome.out.split_peptide_fastas
         .flatten()
         .map { file ->
@@ -203,49 +195,6 @@ process pyrodigal {
         -d ${genome_name}.fna \\
         -a ${genome_name}.faa \\
         --no-stop-codon
-    """
-}
-
-process predict_encrypted_peptides {
-    tag "${genome_name}_predict_encrypted_peptides"
-    publishDir "${params.outdir}/encrypted_peptides", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-
-    input:
-    tuple val(genome_name), path(predicted_orfs_proteins)
-
-    output:
-    path("*.csv"), emit: encrypted_peptides_results_csv
-    path("*.fasta"), emit: encrypted_peptides_results_fasta
-
-    script:
-    """
-    python ${baseDir}/bin/encrypted_peptides.py ${predicted_orfs_proteins} -o ${genome_name}_encrypted_peptides_results.csv -f ${genome_name}_encrypted_peptides_results.fasta
-    """
-}
-
-process combine_encrypted_peptides {
-    tag "combine_encrypted_peptides"
-    publishDir "${params.outdir}/main_results", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-
-    input:
-    path(encrypted_peptides)
-
-    output:
-    path("*.fasta"), emit: combined_encrypted_peptides
-
-    script:
-    """
-    python ${baseDir}/bin/combine_fastas.py ${encrypted_peptides.join(' ')} combined_encrypted_peptides.fasta
     """
 }
 
@@ -391,7 +340,6 @@ process split_peptide_fastas_by_genome {
 
     input:
     path(smorf_fasta)
-    path(encrypted_fasta)
     path(cleavage_fasta)
     path(ripp_fasta)
     path(genome_stb)
@@ -403,7 +351,6 @@ process split_peptide_fastas_by_genome {
     """
     python ${baseDir}/bin/split_peptide_fastas_by_genome.py \\
     ${smorf_fasta} \\
-    ${encrypted_fasta} \\
     ${cleavage_fasta} \\
     ${ripp_fasta} \\
     ${genome_stb} \\

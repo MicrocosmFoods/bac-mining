@@ -11,8 +11,6 @@ def parse_args():
     
     parser.add_argument("--smorf-fasta", 
                         help="Combined FASTA file containing all smorf predictions")
-    parser.add_argument("--encrypted-fasta", 
-                        help="Combined FASTA file containing all encrypted peptide predictions")
     parser.add_argument("--cleavage-fasta", 
                         help="Combined FASTA file containing all cleavage peptide predictions")
     parser.add_argument("--ripp-fasta", 
@@ -72,7 +70,6 @@ def main():
     # Process each peptide type
     peptide_files = {
         'smorf': args.smorf_fasta,
-        'encrypted': args.encrypted_fasta,
         'cleavage': args.cleavage_fasta,
         'ripp': args.ripp_fasta
     }
