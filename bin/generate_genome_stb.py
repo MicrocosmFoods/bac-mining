@@ -4,6 +4,7 @@ from Bio import SeqIO
 
 def parse_fasta_files(fasta_files, output_file):
     with open(output_file, 'w') as out_tsv:
+        out_tsv.write("mag_id\tscaffold_id\n")
         for fasta_file in fasta_files:
             mag_id = os.path.splitext(os.path.basename(fasta_file))[0]
             with open(fasta_file, 'r') as f:
