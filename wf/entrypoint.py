@@ -55,7 +55,7 @@ def initialize() -> str:
 
 
 @nextflow_runtime_task(cpu=16, memory=36, storage_gib=200)
-def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], genome_metadata: LatchFile, antismash_db: LatchDir, pfam_db: LatchDir, kofam_db: LatchDir) -> None:
+def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, pfam_db: LatchDir, kofam_db: LatchDir) -> None:
     shared_dir = Path("/nf-workdir")
 
     exec_name = _get_execution_name()
@@ -121,10 +121,9 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
         "-resume",
                 *get_flag('input_genomes', input_genomes),
                 *get_flag('outdir', outdir),
-                *get_flag('genome_metadata', genome_metadata),
                 *get_flag("antismash_db", antismash_shared_dir),
                 *get_flag('pfam_db', pfam_db),
-                *get_flag('peptides_fasta', peptides_fasta)
+                *get_flag('kofam_db', kofam_shared_dir)
     ]
 
     print("Launching Nextflow Runtime")
@@ -188,7 +187,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
 
 
 @workflow(metadata._nextflow_metadata)
-def nf_bacmagmining(input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], genome_metadata: LatchFile, antismash_db: LatchDir, pfam_db: LatchDir, kofam_db: LatchDir) -> None:
+def nf_bacmagmining(input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, pfam_db: LatchDir, kofam_db: LatchDir) -> None:
     """
     bacMAGmining
 
@@ -196,5 +195,5 @@ def nf_bacmagmining(input_genomes: LatchDir, outdir: typing_extensions.Annotated
     """
 
     pvc_name: str = initialize()
-    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, outdir=outdir, genome_metadata=genome_metadata, antismash_db=antismash_db, pfam_db=pfam_db, kofam_db=kofam_db)
+    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, outdir=outdir, antismash_db=antismash_db, pfam_db=pfam_db, kofam_db=kofam_db)
 

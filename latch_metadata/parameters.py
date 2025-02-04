@@ -26,12 +26,6 @@ generated_parameters = {
         section_title=None,
         description='The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.',
     ),
-    'genome_metadata': NextflowParameter (
-        type=LatchFile,
-        default=None,
-        section_title=None,
-        description='Path to TSV of metadata for input genomes'
-    ),
     'antismash_db': NextflowParameter(
         type=LatchDir,
         default=None,
