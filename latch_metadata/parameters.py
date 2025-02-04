@@ -44,11 +44,11 @@ generated_parameters = {
         section_title=None,
         description='Path to directory of pre-downloading Pfam-A database (this should be included with antismash db download)',
     ),
-    'peptides_fasta': NextflowParameter(
-        type=LatchFile,
+    'kofam_db': NextflowParameter(
+        type=LatchDir,
         default=None,
         section_title=None,
-        description='Path to FASTA file of peptides to compare hits against',
+        description='Path to directory of Kofam KEGG database.',
     ),
 }
 

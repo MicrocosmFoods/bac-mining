@@ -20,8 +20,7 @@
           "type": "string",
           "format": "directory-path",
           "description": "The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.",
-          "fa_icon": "fas fa-folder-open",
-          "default": "results"
+          "fa_icon": "fas fa-folder-open"
         }
       }
     },
@@ -39,12 +38,12 @@
           "type": "string",
           "description": "Path to directory of pre-downloading Pfam-A database (this should be included with antismash db download)"
         },
-        "peptides_fasta": {
+        "kofam_db": {
           "type": "string",
-          "description": "Path to FASTA file of peptides to compare hits against"
+          "description": "Path to directory of Kofam KEGG HMM database"
         }
       },
-      "required": ["antismash_db", "peptides_fasta", "pfam_db"]
+      "required": ["antismash_db", "pfam_db", "kofam_db"]
     }
   },
   "allOf": [
