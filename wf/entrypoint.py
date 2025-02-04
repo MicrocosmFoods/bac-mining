@@ -107,6 +107,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
     kofam_shared_dir = shared_dir / kofam_db_dir.name
     shutil.move(str(kofam_db_dir), str(kofam_shared_dir))
 
+
     cmd = [
         "/root/nextflow",
         "run",
