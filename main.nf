@@ -412,8 +412,8 @@ process kofamscan_annotation {
     tag "${genome_name}_kofam_scan_annotation"
     publishDir "${params.outdir}/kofam_scan_annotation", mode: 'copy'
 
-    memory = "15 GB"
-    cpus = 6
+    memory = "25 GB"
+    cpus = 12
 
     container "public.ecr.aws/biocontainers/kofamscan:1.0.0--0"
 
