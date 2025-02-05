@@ -2,6 +2,8 @@ import argparse
 import csv
 import json
 from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 
 def read_fasta(fasta_file):
     """Read a FASTA file using BioPython and return a dictionary of sequences."""
@@ -86,7 +88,7 @@ def extract_peptide_sequences(
         )
         writer.writerows(predictions)
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Extract peptide sequences from DeepPeptide JSON.")
     parser.add_argument(
         "--json_file", type=str, required=True, help="The JSON file output by DeepPeptide."
@@ -128,4 +130,18 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(args)
+    with open(args.json_file, "r") as f:
+        data = json.load(f)
+
+    extract_peptide_sequences(data, 
+                              args.protein_fasta_file,
+                              args.proteins_output_file,
+                              args.protein_peptides_output_file,
+                              args.predictions_output_file,
+                              args.nucleotide_fasta_file,
+                              args.nucleotides_output_file,
+                              args.nucleotide_peptides_output_file)
+    
+    
+if __name__ == "__main__":
+    main()
