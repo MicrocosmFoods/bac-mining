@@ -234,7 +234,7 @@ process extract_cleavage_peptides_json {
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    tuple val(genome__name), path(deeppeptide_json), path(protein_faa)
+    tuple val(genome_name), path(deeppeptide_json), path(protein_faa)
 
     output:
     tuple val(genome_name), path("*_parent_proteins.faa"), emit: parent_proteins_faa
