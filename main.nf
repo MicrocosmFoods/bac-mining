@@ -87,7 +87,6 @@ workflow {
 
     // summarize peptide and BGC counts per genome
     summarize_peptide_counts(all_nonredundant_peptides_ch, all_core_ripp_peptides, genome_stb_tsv)
-    peptide_bgc_counts_summary = summarize_peptide_counts.out.peptide_bgc_counts_summary
 
     // run kofamscan annotations on all predicted proteins
     kofamscan_annotation_ch = predicted_orfs_proteins.combine(kofam_db_ch)
