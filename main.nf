@@ -60,8 +60,8 @@ workflow {
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
     cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
-    all_cleavage_peptides_list = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
-    combine_cleavage_peptides(all_cleavage_peptides_list)
+    all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
+    combine_cleavage_peptides(all_cleavage_peptides_fastas)
     all_cleavage_peptides = combine_cleavage_peptides.out.combined_cleavage_peptides
 
     // antismash predictions
@@ -239,9 +239,9 @@ process extract_cleavage_peptides_json {
     tuple val(genome_name), path(deeppeptide_json), path(protein_faa)
 
     output:
-    tuple val(genome_name), path("*_parent_proteins.faa"), emit: parent_proteins_faa
-    tuple val(genome_name), path("*_peptides.faa"), emit: cleavage_peptides_fasta
-    tuple val(genome_name), path("*.tsv"), emit: cleavage_peptides_tsv
+    path("*_parent_proteins.faa"), emit: parent_proteins_faa
+    path("*_peptides.faa"), emit: cleavage_peptides_fasta
+    path("*.tsv"), emit: cleavage_peptides_tsv
 
     script:
     """
