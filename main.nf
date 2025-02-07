@@ -355,7 +355,7 @@ process split_peptide_fastas_by_genome {
     ${smorf_fasta} \\
     ${cleavage_fasta} \\
     ${ripp_fasta} \\
-    ${genome_stb} \\
+    --genome-stb ${genome_stb} \\
     --outdir ./
     """
 }
