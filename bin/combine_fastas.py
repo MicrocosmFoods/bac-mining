@@ -5,8 +5,9 @@ import os
 import argparse
 
 def get_genome_name(filename):
-    return os.path.splitext(os.path.basename(filename))[0]
-
+    base = os.path.basename(filename)
+    base = base.replace('_peptides', '')
+    return os.path.splitext(base)[0]
 
 def process_fasta_file(input_file, genome_name):
     new_records = {}

@@ -47,6 +47,7 @@ workflow {
     // get small ORF predictions with smorfinder and combine into a single FASTA
     smorfinder(genome_fastas)
     smorf_proteins = smorfinder.out.faa_file.collect()
+    smorfinder_tsvs = smorfinder.out.tsv_file.collect()
     combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
@@ -61,6 +62,7 @@ workflow {
     cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
     all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
+    deeppeptide_tsvs = extract_cleavage_peptides_json.out.cleavage_peptides_tsv.collect()
     combine_cleavage_peptides(all_cleavage_peptides_fastas)
     all_cleavage_peptides = combine_cleavage_peptides.out.combined_cleavage_peptides
 
@@ -72,27 +74,19 @@ workflow {
 
     // extract antismash gbks into summary tsv, ripp peptides
     extract_gbks(all_antismash_gbk_files, genome_stb_tsv)
-    all_core_ripp_peptides = extract_gbks.out.bgc_peptides_fasta
-
-    // split out each peptide prediction tool into separate fastas by genome
-    split_peptide_fastas_by_genome(all_smorf_proteins, all_cleavage_peptides, all_core_ripp_peptides, genome_stb_tsv)
-    per_genome_peptides_ch = split_peptide_fastas_by_genome.out.split_peptide_fastas
-        .flatten()
-        .map { file ->
-            def genome_name = file.baseName
-            return tuple(genome_name, file)
-        }
-
-    // cluster peptides per genome across prediction tools at 100% to get rid of redundancies
-    mmseqs_100_cluster(per_genome_peptides_ch)
-    all_nonredundant_peptides_ch = mmseqs_100_cluster.out.rep_seqs.collect()
+    antismash_summary_tsv = extract_gbks.out.bgc_summary_tsv
+    antismash_peptides_tsv = extract_gbks.out.bgc_peptides_tsv
 
     // summarize peptide and BGC counts per genome
-    summarize_peptide_counts(all_nonredundant_peptides_ch, all_core_ripp_peptides, genome_stb_tsv)
+    summarize_molecule_counts(smorfinder_tsvs, deeppeptide_tsvs, antismash_summary_tsv, antismash_peptides_tsv)
 
     // run kofamscan annotations on all predicted proteins
     kofamscan_annotation_ch = predicted_orfs_proteins.combine(kofam_db_ch)
     kofamscan_annotation(kofamscan_annotation_ch)
+    all_kofamscan_tsvs = kofamscan_annotation.out.kofamscan_tsv.collect()
+
+    // combine kofamscan results
+    combine_kofamscan_results(all_kofamscan_tsvs)
 }
 
 process make_genome_stb {
@@ -144,7 +138,7 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.gff
     ln -s ${genome_name}/${genome_name}.faa
     ln -s ${genome_name}/${genome_name}.ffn
-    ln -s ${genome_name}/${genome_name}.tsv
+    ln -s ${genome_name}/${genome_name}_smorfinder.tsv
     """
 
 }
@@ -220,7 +214,7 @@ process predict_cleavage_peptides {
     cp ${predicted_orfs_proteins} /app/DeepPeptide/predictor
     cd /app/DeepPeptide/predictor
 
-    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json
+    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 500
     
     cp ${genome_name}/*.json \$WORKDIR/
     """
@@ -250,7 +244,7 @@ process extract_cleavage_peptides_json {
             --protein_fasta_file ${protein_faa} \
             --proteins_output_file ${genome_name}_parent_proteins.faa \
             --protein_peptides_output_file ${genome_name}_peptides.faa \
-            --predictions_output_file ${genome_name}.tsv
+            --predictions_output_file ${genome_name}_deeppeptide.tsv
     """
 }
 
@@ -330,60 +324,8 @@ process extract_gbks {
     """
 
 }
-
-process split_peptide_fastas_by_genome {
-    tag "split_peptide_fastas_by_genome"
-    publishDir "${params.outdir}/split_peptide_fastas_by_genome", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-
-    input:
-    path(smorf_fasta)
-    path(cleavage_fasta)
-    path(ripp_fasta)
-    path(genome_stb)
-
-    output:
-    path("*.fasta"), emit: split_peptide_fastas
-
-    script:
-    """
-    python ${baseDir}/bin/split_peptide_fastas_by_genome.py \\
-    ${smorf_fasta} \\
-    ${cleavage_fasta} \\
-    ${ripp_fasta} \\
-    --genome-stb ${genome_stb} \\
-    --outdir ./
-    """
-}
-
-process mmseqs_100_cluster {
-    tag "mmseqs_100_cluster"
-    publishDir "${params.outdir}/mmseqs_100_cluster", mode: 'copy'
-
-    memory = "10 GB"
-    cpus = 1
-
-    container "public.ecr.aws/biocontainers/mmseqs2:15.0--h5168794_0"
-
-    input:
-    tuple val(genome_name), path(split_peptide_fasta)
-
-    output:
-    path("*_rep_seq.fasta"), emit: rep_seqs
-    path("*.tsv"), emit: clusters_tsv
-
-    script:
-    """
-    mmseqs easy-cluster ${split_peptide_fasta} ${genome_name} --min-seq-id 1 -c 0.8 --threads ${task.cpus}
-    """
-}
-
-process summarize_peptide_counts {
-    tag "summarize_peptide_counts"
+summarize_molecule_counts {
+    tag "summarize_molecule_counts"
     publishDir "${params.outdir}/main_results", mode: 'copy'
 
     memory = "10 GB"
@@ -392,21 +334,26 @@ process summarize_peptide_counts {
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    path("peptides/*")
-    path(bgc_summary_tsv)
-    path(genome_stb_tsv)
+    path(smorfinder_tsvs)
+    path(deeppeptide_tsvs)
+    path(antismash_summary_tsv)
+    path(antismash_peptides_tsv)
 
     output:
-    path("*.tsv"), emit: peptide_counts_tsv
+    path("all_molecule_counts.tsv"), emit: all_molecule_counts_tsv
+    path("all_smorfinder_results.tsv"), emit: all_smorfinder_results_tsv
+    path("all_deeppeptide_results.tsv"), emit: all_deeppeptide_results_tsv
 
     script:
     """
-    mkdir -p peptides
-    python ${baseDir}/bin/process_molecule_counts.py \\
-    --peptide-dir ./peptides \\
-    --bgc-summary ${bgc_summary_tsv} \\
-    --genome-stb ${genome_stb_tsv} \\
-    --output peptide_bgc_counts_summary.tsv
+    python3 ${baseDir}/bin/process_molecule_counts.py \\
+    --smorfinder-tsvs ${smorfinder_tsvs.join(' ')} \\
+    --deeppeptide-tsvs ${deeppeptide_tsvs.join(' ')} \\
+    --bgc-summary ${antismash_summary_tsv} \\
+    --antismash-peptides ${antismash_peptides_tsv} \\
+    --output-counts all_molecule_counts.tsv \\
+    --output-smorfinder all_smorfinder_results.tsv \\
+    --output-deeppeptide all_deeppeptide_results.tsv
     """
 }
 
@@ -428,5 +375,28 @@ process kofamscan_annotation {
     script:
     """
     exec_annotation --format detail --ko-list ${kegg_db_dir}/ko_list --profile ${kegg_db_dir}/profiles --cpu ${task.cpus} -o ${genome_name}_kofamscan_annotations.tsv ${faa_file}
+    """
+}
+
+process combine_kofamscan_results {
+    tag "combine_kofamscan_results"
+    publishDir "${params.outdir}/main_results", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/polars:0.12.5"
+
+    input:
+    path(kofamscan_tsvs)
+
+    output:
+    path("combined_kofamscan_results.tsv"), emit: combined_kofamscan_results_tsv
+
+    script:
+    """
+    python3 ${baseDir}/bin/combine_kofamscan_results.py \\
+    --input_files ${kofamscan_tsvs.join(' ')} \\
+    --output combined_kofamscan_results.tsv
     """
 }

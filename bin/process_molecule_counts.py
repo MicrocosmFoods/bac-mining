@@ -1,159 +1,145 @@
 #!/usr/bin/env python
 
 import argparse
-from Bio import SeqIO
-from collections import defaultdict
 import pandas as pd
 import os
-import glob
+from collections import defaultdict
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Summarize peptide and BGC counts per genome")
     
-    parser.add_argument("--peptide-dir",
-                        help="Directory containing peptide FASTA files",
+    parser.add_argument("--smorfinder-tsvs",
+                        nargs='+',
+                        help="List of smorfinder TSV files",
+                        required=True)
+    parser.add_argument("--deeppeptide-tsvs",
+                        nargs='+',
+                        help="List of deeppeptide TSV files",
                         required=True)
     parser.add_argument("--bgc-summary",
                         help="TSV file containing BGC summary information",
                         required=True)
-    parser.add_argument("--genome-stb",
-                        help="TSV file mapping scaffolds to genome IDs",
+    parser.add_argument("--antismash-peptides",
+                        help="TSV file containing antismash peptide core sequences",
                         required=True)
-    parser.add_argument("--output",
-                        help="Output TSV file path",
+    parser.add_argument("--output-counts",
+                        help="Output TSV file path for molecule counts",
+                        required=True)
+    parser.add_argument("--output-smorfinder",
+                        help="Output TSV file path for combined smorfinder results",
+                        required=True)
+    parser.add_argument("--output-deeppeptide",
+                        help="Output TSV file path for combined deeppeptide results",
                         required=True)
     
     return parser.parse_args()
 
-def count_peptide_types(fasta_file):
-    """Count different peptide types in a FASTA file."""
-    peptide_counts = defaultdict(int)
+def combine_prediction_tsvs(tsv_files, output_file):
+    """Combine prediction TSVs and add genome names."""
+    all_dfs = []
+    for tsv_file in tsv_files:
+        # Remove both _smorfinder.tsv and _deeppeptide.tsv endings
+        genome_name = os.path.basename(tsv_file)
+        genome_name = genome_name.replace('_smorfinder.tsv', '').replace('_deeppeptide.tsv', '')
+        df = pd.read_csv(tsv_file, sep='\t')
+        df['genome_name'] = genome_name
+        all_dfs.append(df)
     
-    for record in SeqIO.parse(fasta_file, "fasta"):
-        # Parse header which should be in format: genomename_peptidetype_XX
-        parts = record.id.split('_')
-        if len(parts) >= 2:
-            peptide_type = parts[1]  # Get the peptide type
-            peptide_counts[peptide_type] += 1
-    
-    return peptide_counts
+    if all_dfs:
+        combined_df = pd.concat(all_dfs, ignore_index=True)
+        combined_df.to_csv(output_file, sep='\t', index=False)
 
-def get_bgc_counts(bgc_summary_file, genome_stb_file):
-    """Get BGC type counts from summary TSV using genome mapping."""
-    # Read BGC summary and genome mapping files
-    bgc_df = pd.read_csv(bgc_summary_file, sep='\t')
-    genome_stb = pd.read_csv(genome_stb_file, sep='\t')
+def classify_bgc_type(bgc_type):
+    """Classify BGC type into main categories or 'other'."""
+    main_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'bacteriocin', 'terpene'}
     
-    # Merge BGC summary with genome mapping
-    bgc_df = pd.merge(
-        bgc_df,
-        genome_stb[['scaffold_id', 'mag_id']],
-        left_on='scaffold_name',  # column name in BGC summary
-        right_on='scaffold_id',   # column name in genome STB
-        how='left'
-    )
+    # If it contains a '+', it's a hybrid - classify as other
+    if '+' in bgc_type:
+        return 'other'
     
-    # Check for unmatched scaffolds
-    unmatched = bgc_df[bgc_df['mag_id'].isna()]
-    if not unmatched.empty:
-        print("\nWarning: Some scaffolds in BGC summary could not be mapped to genomes:")
-        for scaffold in unmatched['scaffold_name'].unique():
-            print(f"  {scaffold}")
+    # If it's one of our main types, return it
+    if bgc_type.strip() in main_types:
+        return bgc_type.strip()
     
-    # Split BGC types if they contain multiple types (e.g., "NRPS+T1PKS")
-    bgc_df['bgc_type'] = bgc_df['bgc_type'].fillna('')
-    
-    # Create a dictionary to store counts per genome
-    genome_bgc_counts = defaultdict(lambda: defaultdict(int))
-    
-    # Count each BGC type per genome
-    for _, row in bgc_df.iterrows():
-        if pd.notna(row['mag_id']) and row['bgc_type']:  # Skip entries without genome mapping or BGC type
-            bgc_types = row['bgc_type'].split('+')
-            for bgc_type in bgc_types:
-                genome_bgc_counts[row['mag_id']][bgc_type.strip()] += 1
-    
-    return genome_bgc_counts
+    # Everything else is other
+    return 'other'
 
-def main():
+def count_molecules_per_genome():
+    """Count different molecule types per genome from TSV files."""
     args = parse_args()
     
-    # Get all FASTA files in the directory
-    fasta_files = glob.glob(os.path.join(args.peptide_dir, "*.fasta"))
+    # Read BGC summary
+    bgc_df = pd.read_csv(args.bgc_summary, sep='\t')
     
-    # Dictionary to store all counts per genome
-    genome_counts = defaultdict(lambda: defaultdict(int))
+    # Read antismash peptides summary
+    peptides_df = pd.read_csv(args.antismash_peptides, sep='\t')
     
-    # Process each FASTA file
-    for fasta_file in fasta_files:
-        genome_name = os.path.basename(fasta_file).replace('.fasta', '')
-        peptide_counts = count_peptide_types(fasta_file)
+    # Count BGCs per genome with simplified categories
+    bgc_counts = defaultdict(lambda: defaultdict(int))
+    for _, row in bgc_df.iterrows():
+        if pd.notna(row['bgc_type']) and pd.notna(row['mag_id']):
+            bgc_type = classify_bgc_type(row['bgc_type'])
+            bgc_counts[row['mag_id']][bgc_type] += 1
+    
+    # Count antismash peptides per genome
+    peptide_counts = defaultdict(int)
+    for _, row in peptides_df.iterrows():
+        if pd.notna(row['mag_id']):
+            peptide_counts[row['mag_id']] += 1
+    
+    # Process smorfinder results
+    smorf_counts = defaultdict(lambda: defaultdict(int))
+    for tsv_file in args.smorfinder_tsvs:
+        genome_name = os.path.basename(tsv_file).replace('_smorfinder.tsv', '')
+        df = pd.read_csv(tsv_file, sep='\t')
+        smorf_counts[genome_name]['smorf'] = len(df)
+    
+    # Process deeppeptide results
+    deep_counts = defaultdict(lambda: defaultdict(int))
+    for tsv_file in args.deeppeptide_tsvs:
+        genome_name = os.path.basename(tsv_file).replace('_deeppeptide.tsv', '')
+        df = pd.read_csv(tsv_file, sep='\t')
+        for _, row in df.iterrows():
+            deep_counts[genome_name][row['peptide_class']] += 1
+    
+    # Combine all counts
+    all_genomes = set()
+    all_genomes.update(bgc_counts.keys(), smorf_counts.keys(), deep_counts.keys(), peptide_counts.keys())
+    
+    # Get all column types
+    bgc_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'bacteriocin', 'terpene', 'other'}
+    deep_types = set()
+    for genome_counts in deep_counts.values():
+        deep_types.update(genome_counts.keys())
+    
+    # Create final dataframe
+    rows = []
+    for genome in sorted(all_genomes):
+        row = {'genome_name': genome}
         
-        # Store counts for this genome
-        for peptide_type, count in peptide_counts.items():
-            genome_counts[genome_name][peptide_type] = count
-    
-    # Get BGC counts using genome mapping
-    bgc_counts = get_bgc_counts(args.bgc_summary, args.genome_stb)
-    
-    # Combine all counts into a DataFrame
-    all_data = []
-    
-    # Get all possible column names
-    peptide_types = set()
-    bgc_types = set()
-    
-    # Collect all possible types
-    for genome_data in genome_counts.values():
-        peptide_types.update(genome_data.keys())
-    for genome_data in bgc_counts.values():
-        bgc_types.update(genome_data.keys())
-    
-    # Create sorted lists of types
-    peptide_types = sorted(list(peptide_types))
-    bgc_types = sorted(list(bgc_types))
-    
-    # Combine all data
-    all_genomes = sorted(set(list(genome_counts.keys()) + list(bgc_counts.keys())))
-    
-    for genome in all_genomes:
-        row_data = {'genome_name': genome}
-        
-        # Add peptide counts
-        for ptype in peptide_types:
-            row_data[ptype] = genome_counts[genome][ptype]
-            
         # Add BGC counts
-        for btype in bgc_types:
-            row_data[f'bgc_{btype}'] = bgc_counts[genome][btype]
-            
-        all_data.append(row_data)
+        for btype in sorted(bgc_types):
+            row[f'bgc_{btype}'] = bgc_counts[genome][btype]
+        
+        # Add antismash peptide count
+        row['antismash_core_peptides'] = peptide_counts[genome]
+        
+        # Add smorfinder count
+        row['smorf'] = smorf_counts[genome]['smorf']
+        
+        # Add deeppeptide counts
+        for dtype in sorted(deep_types):
+            row[f'deeppeptide_{dtype}'] = deep_counts[genome][dtype]
+        
+        rows.append(row)
     
-    # Create DataFrame and save to TSV
-    df = pd.DataFrame(all_data)
+    # Create and save counts dataframe
+    counts_df = pd.DataFrame(rows)
+    counts_df.to_csv(args.output_counts, sep='\t', index=False)
     
-    # Ensure genome_name is first column
-    cols = ['genome_name'] + [col for col in df.columns if col != 'genome_name']
-    df = df[cols]
-    
-    # Save to TSV
-    df.to_csv(args.output, sep='\t', index=False)
-    
-    # Print summary
-    print(f"\nSummary of counts:")
-    print(f"Total genomes processed: {len(all_genomes)}")
-    print("\nPeptide types found:")
-    for ptype in peptide_types:
-        total = df[ptype].sum()
-        genomes_with_type = (df[ptype] > 0).sum()
-        print(f"  {ptype}: {total} total peptides in {genomes_with_type} genomes")
-    
-    print("\nBGC types found:")
-    for btype in bgc_types:
-        col = f'bgc_{btype}'
-        total = df[col].sum()
-        genomes_with_type = (df[col] > 0).sum()
-        print(f"  {btype}: {total} total BGCs in {genomes_with_type} genomes")
+    # Combine prediction TSVs
+    combine_prediction_tsvs(args.smorfinder_tsvs, args.output_smorfinder)
+    combine_prediction_tsvs(args.deeppeptide_tsvs, args.output_deeppeptide)
 
 if __name__ == "__main__":
-    main()
+    count_molecules_per_genome()
