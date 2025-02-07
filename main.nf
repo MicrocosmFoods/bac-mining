@@ -324,7 +324,8 @@ process extract_gbks {
     """
 
 }
-summarize_molecule_counts {
+
+process summarize_molecule_counts {
     tag "summarize_molecule_counts"
     publishDir "${params.outdir}/main_results", mode: 'copy'
 
