@@ -394,7 +394,7 @@ process combine_kofamscan_results {
 
     script:
     """
-    python3 ${baseDir}/bin/combine_kofamscan_results.py \\
+    python3 ${baseDir}/bin/combine_kofamscan_tsvs.py \\
     --input_files ${kofamscan_tsvs.join(' ')} \\
     --output combined_kofamscan_results.tsv
     """
