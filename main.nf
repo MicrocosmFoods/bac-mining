@@ -13,13 +13,12 @@ log.info """\
 MINE FERMENTED FOOD BACTERIAL GENOMES FOR PEPTIDES AND BGCS, AND PERFORM
 FUNCTIONAL ANNOTATION.
 
-NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH, PFAM, AND KOFAM DATABASES AND PROVIDE THE PATHS
-WITH --antismash_db, --pfam_db, AND --kofam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING 
+NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH AND KOFAM DATABASES AND PROVIDE THE PATHS
+WITH --antismash_db AND --kofam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING 
 DATABASES AUTOMATICALLY.
 =================================================================
 input_genomes                   : $params.input_genomes
 antismash_db                    : $params.antismash_db
-pfam_db                         : $params.pfam_db
 kofam_db                        : $params.kofam_db
 outdir                          : $params.outdir
 threads                         : $params.threads
@@ -35,7 +34,6 @@ genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
 
 antismash_db_ch = channel.fromPath(params.antismash_db)
 kofam_db_ch = channel.fromPath(params.kofam_db)
-pfam_db_ch = channel.fromPath(params.pfam_db)
 
 // workflow steps
 workflow {
