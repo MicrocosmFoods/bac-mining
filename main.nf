@@ -384,7 +384,7 @@ process combine_kofamscan_results {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/polars:0.12.5"
+    container "quay.io/biocontainers/polars:0.18.5"
 
     input:
     path(kofamscan_tsvs)
