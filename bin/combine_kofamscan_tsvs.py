@@ -25,8 +25,8 @@ def parse_kofamscan_file(file_path):
     # Create dataframe
     if significant_hits:
         df = pl.DataFrame(
-            data=significant_hits,
-            columns=['gene_name', 'KO', 'threshold', 'score', 'E-value', 'KO_definition']
+            significant_hits,
+            schema=['gene_name', 'KO', 'threshold', 'score', 'E-value', 'KO_definition']
         )
         # Add genome name
         df = df.with_columns(pl.lit(genome_name).alias('genome_name'))
