@@ -63,7 +63,7 @@ def main():
         cols = ['genome_name'] + [col for col in combined_df.columns if col != 'genome_name']
         combined_df = combined_df.select(cols)
         # Write output
-        combined_df.to_csv(args.output, sep='\t')
+        combined_df.write_csv(args.output, separator='\t')
         
         # Print summary
         print(f"\nProcessed {len(args.input_files)} input files")
