@@ -32,12 +32,6 @@ generated_parameters = {
         section_title='Databases',
         description='Path to directory of pre-downloaded antismash databases',
     ),
-    'pfam_db': NextflowParameter(
-        type=LatchDir,
-        default=None,
-        section_title=None,
-        description='Path to directory of pre-downloading Pfam-A database (this should be included with antismash db download)',
-    ),
     'kofam_db': NextflowParameter(
         type=LatchDir,
         default=None,
