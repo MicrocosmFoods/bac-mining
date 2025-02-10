@@ -136,7 +136,7 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.gff
     ln -s ${genome_name}/${genome_name}.faa
     ln -s ${genome_name}/${genome_name}.ffn
-    ln -s ${genome_name}/${genome_name}_smorfinder.tsv
+    ln -s ${genome_name}/${genome_name}.tsv > ${genome_name}_smorfinder.tsv
     """
 
 }
