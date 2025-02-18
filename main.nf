@@ -198,7 +198,7 @@ process predict_cleavage_peptides {
     accelerator 1, type: 'nvidia-t4'
     cpus = 8
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.5"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
 
     input:
     tuple val(genome_name), path(predicted_orfs_proteins)
@@ -212,7 +212,7 @@ process predict_cleavage_peptides {
     cp ${predicted_orfs_proteins} /app/DeepPeptide/predictor
     cd /app/DeepPeptide/predictor
 
-    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 500
+    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 50
     
     cp ${genome_name}/*.json \$WORKDIR/
     """
