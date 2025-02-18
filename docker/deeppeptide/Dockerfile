@@ -23,6 +23,12 @@ RUN git clone https://github.com/fteufel/DeepPeptide.git
 WORKDIR /app/DeepPeptide/predictor
 ENV PYTHONPATH=/app/DeepPeptide/predictor:${PYTHONPATH}
 
+# create directory for model files and download them
+RUN mkdir -p /root/.cache/torch/hub/checkpoints && \
+    wget -O /root/.cache/torch/hub/checkpoints/esm2_t33_650M_UR50D.pt https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt && \
+    wget -O /root/.cache/torch/hub/checkpoints/esm2_t33_650M_UR50D-contact-regression.pt https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt
+
+
 # make script and necessary directories executable
 RUN chmod +x predict.py && \
     chmod -R u+x checkpoints* && \
