@@ -19,9 +19,6 @@ def parse_args():
     parser.add_argument("--bgc-summary",
                         help="TSV file containing BGC summary information",
                         required=True)
-    parser.add_argument("--antismash-peptides",
-                        help="TSV file containing antismash peptide core sequences",
-                        required=False)
     parser.add_argument("--output-counts",
                         help="Output TSV file path for molecule counts",
                         required=True)
@@ -71,6 +68,13 @@ def count_molecules_per_genome():
     # Read BGC summary
     bgc_df = pd.read_csv(args.bgc_summary, sep='\t')
     
+    # Count BGCs per genome with simplified categories
+    bgc_counts = defaultdict(lambda: defaultdict(int))
+    for _, row in bgc_df.iterrows():
+        if pd.notna(row['bgc_type']) and pd.notna(row['mag_id']):
+            bgc_type = classify_bgc_type(row['bgc_type'])
+            bgc_counts[row['mag_id']][bgc_type] += 1
+    
     # Process smorfinder results
     smorf_counts = defaultdict(lambda: defaultdict(int))
     for tsv_file in args.smorfinder_tsvs:
@@ -85,36 +89,38 @@ def count_molecules_per_genome():
         df = pd.read_csv(tsv_file, sep='\t')
         for _, row in df.iterrows():
             deep_counts[genome_name][row['peptide_class']] += 1
-
-    # Only process antismash peptides if file is provided
-    antismash_counts = defaultdict(int)
-    if args.antismash_peptides and os.path.exists(args.antismash_peptides):
-        peptides_df = pd.read_csv(args.antismash_peptides, sep='\t')
-        for _, row in peptides_df.iterrows():
-            genome_name = row['genome_name']
-            antismash_counts[genome_name] += 1
-
-    # Create summary dataframe
-    summary_data = []
-    for genome in set(list(smorf_counts.keys()) + list(deep_counts.keys()) + list(antismash_counts.keys())):
-        row = {
-            'genome': genome,
-            'total_smorfs': smorf_counts[genome]['smorf'],
-            'total_deeppeptide': sum(deep_counts[genome].values()),
-        }
+    
+    # Combine all counts
+    all_genomes = set()
+    all_genomes.update(bgc_counts.keys(), smorf_counts.keys(), deep_counts.keys())
+    
+    # Get all column types
+    bgc_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'bacteriocin', 'terpene', 'other'}
+    deep_types = set()
+    for genome_counts in deep_counts.values():
+        deep_types.update(genome_counts.keys())
+    
+    # Create final dataframe
+    rows = []
+    for genome in sorted(all_genomes):
+        row = {'genome_name': genome}
         
         # Add BGC counts
-        genome_bgcs = bgc_df[bgc_df['genome_name'] == genome]
-        row['total_bgcs'] = len(genome_bgcs) if not genome_bgcs.empty else 0
+        for btype in sorted(bgc_types):
+            row[f'bgc_{btype}'] = bgc_counts[genome][btype]
         
-        # Only add antismash peptides if we processed them
-        if args.antismash_peptides:
-            row['total_antismash_peptides'] = antismash_counts[genome]
+        # Add smorfinder count
+        row['smorf'] = smorf_counts[genome]['smorf']
         
-        summary_data.append(row)
-
-    summary_df = pd.DataFrame(summary_data)
-    summary_df.to_csv(args.output_counts, sep='\t', index=False)
+        # Add deeppeptide counts
+        for dtype in sorted(deep_types):
+            row[f'deeppeptide_{dtype}'] = deep_counts[genome][dtype]
+        
+        rows.append(row)
+    
+    # Create and save counts dataframe
+    counts_df = pd.DataFrame(rows)
+    counts_df.to_csv(args.output_counts, sep='\t', index=False)
     
     # Combine prediction TSVs
     combine_prediction_tsvs(args.smorfinder_tsvs, args.output_smorfinder)
