@@ -132,7 +132,7 @@ process smorfinder {
     path("*.gff"), emit: gff_file
     path("*.faa"), emit: faa_file
     path("*.ffn"), emit: ffn_file
-    path("*.tsv"), emit: tsv_file
+    path("*_smorfinder.tsv"), emit: tsv_file
 
     script:
     """
@@ -140,7 +140,7 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.gff
     ln -s ${genome_name}/${genome_name}.faa
     ln -s ${genome_name}/${genome_name}.ffn
-    mv ${genome_name}/${genome_name}.tsv ${genome_name}_smorfinder.tsv
+    cp ${genome_name}/${genome_name}.tsv ${genome_name}_smorfinder.tsv
     """
 
 }
