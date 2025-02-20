@@ -80,7 +80,7 @@ workflow {
     antismash_peptides_tsv = extract_gbks.out.bgc_peptides_tsv
 
     // summarize peptide and BGC counts per genome
-    summarize_molecule_counts(smorfinder_tsvs, deeppeptide_tsvs, antismash_summary_tsv, antismash_peptides_tsv)
+    summarize_molecule_counts(smorfinder_tsvs, deeppeptide_tsvs, antismash_summary_tsv)
 
     // run kofamscan annotations on all predicted proteins
     kofamscan_annotation_ch = predicted_orfs_proteins.combine(kofam_db_ch)
@@ -360,7 +360,6 @@ process summarize_molecule_counts {
     path(smorfinder_tsvs)
     path(deeppeptide_tsvs)
     path(antismash_summary_tsv)
-    path(antismash_peptides_tsv)
 
     output:
     path("all_molecule_counts.tsv"), emit: all_molecule_counts_tsv
@@ -373,7 +372,6 @@ process summarize_molecule_counts {
     --smorfinder-tsvs ${smorfinder_tsvs.join(' ')} \\
     --deeppeptide-tsvs ${deeppeptide_tsvs.join(' ')} \\
     --bgc-summary ${antismash_summary_tsv} \\
-    --antismash-peptides ${antismash_peptides_tsv} \\
     --output-counts all_molecule_counts.tsv \\
     --output-smorfinder all_smorfinder_results.tsv \\
     --output-deeppeptide all_deeppeptide_results.tsv
