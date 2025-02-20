@@ -140,7 +140,7 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.gff
     ln -s ${genome_name}/${genome_name}.faa
     ln -s ${genome_name}/${genome_name}.ffn
-    ln -s ${genome_name}/${genome_name}.tsv > ${genome_name}_smorfinder.tsv
+    mv ${genome_name}/${genome_name}.tsv ${genome_name}_smorfinder.tsv
     """
 
 }
@@ -197,7 +197,6 @@ process pyrodigal {
 
 process filter_small_proteins {
     tag "${genome_name}_filter_small_proteins"
-    publishDir "${params.outdir}/main_results", mode: 'copy'
 
     memory = "10 GB"
     cpus = 1
@@ -212,7 +211,7 @@ process filter_small_proteins {
 
     script:
     """
-    python ${baseDir}/bin/filter_proteins.py ${predicted_orfs_proteins} ${genome_name}_filtered_proteins.fasta --max_length 50
+    python ${baseDir}/bin/filter_proteins.py ${predicted_orfs_proteins} ${genome_name}_filtered_proteins.fasta --max_length 100
     """
 }
 
