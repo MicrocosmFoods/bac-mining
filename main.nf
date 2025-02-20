@@ -54,8 +54,12 @@ workflow {
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
 
+    // filter to proteins less than 50 AAs for inputting to deeppeptide
+    filter_small_proteins(predicted_orfs_proteins)
+    filtered_proteins = filter_small_proteins.out.filtered_proteins
+
     // predict cleavage peptides with deeppeptide, extract sequences from json, and combine into a single FASTA
-    predict_cleavage_peptides(predicted_orfs_proteins)
+    predict_cleavage_peptides(filtered_proteins)
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
     cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
@@ -191,12 +195,33 @@ process pyrodigal {
     """
 }
 
+process filter_small_proteins {
+    tag "${genome_name}_filter_small_proteins"
+    publishDir "${params.outdir}/main_results", mode: 'copy'
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+
+    input:
+    tuple val(genome_name), path(predicted_orfs_proteins)
+
+    output:
+    tuple val(genome_name), path("*.fasta"), emit: filtered_proteins
+
+    script:
+    """
+    python ${baseDir}/bin/filter_proteins.py ${predicted_orfs_proteins} ${genome_name}_filtered_proteins.fasta --max_length 50
+    """
+}
+
 process predict_cleavage_peptides {
     tag "${genome_name}_predict_cleavage_peptides"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
 
-    accelerator 1, type: 'nvidia-t4'
-    cpus = 8
+    memory = '50 GB'
+    cpus = 12
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
 
@@ -212,7 +237,7 @@ process predict_cleavage_peptides {
     cp ${predicted_orfs_proteins} /app/DeepPeptide/predictor
     cd /app/DeepPeptide/predictor
 
-    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 50
+    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 200
     
     cp ${genome_name}/*.json \$WORKDIR/
     """
