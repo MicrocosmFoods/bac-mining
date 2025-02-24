@@ -5,8 +5,10 @@
 
 nextflow.enable.dsl=2
 
+def date = new java.util.Date().format('yyyy-MM-dd')
+params.outdir = "${date}-bacmagmining-results"
 params.threads=16
-params.outdir=null
+params.functional_annotation = false
 
 log.info """\
 
@@ -22,6 +24,7 @@ antismash_db                    : $params.antismash_db
 kofam_db                        : $params.kofam_db
 outdir                          : $params.outdir
 threads                         : $params.threads
+functional_annotation           : $params.functional_annotation
 """
 
 // define channels
@@ -82,13 +85,16 @@ workflow {
     // summarize peptide and BGC counts per genome
     summarize_molecule_counts(smorfinder_tsvs, deeppeptide_tsvs, antismash_summary_tsv)
 
-    // run kofamscan annotations on all predicted proteins
-    kofamscan_annotation_ch = predicted_orfs_proteins.combine(kofam_db_ch)
-    kofamscan_annotation(kofamscan_annotation_ch)
-    all_kofamscan_tsvs = kofamscan_annotation.out.kofamscan_tsv.collect()
+    // Only run functional annotation if enabled
+    if (params.functional_annotation) {
+        // run kofamscan annotations on all predicted proteins
+        kofamscan_annotation_ch = predicted_orfs_proteins.combine(kofam_db_ch)
+        kofamscan_annotation(kofamscan_annotation_ch)
+        all_kofamscan_tsvs = kofamscan_annotation.out.kofamscan_tsv.collect()
 
-    // combine kofamscan results
-    combine_kofamscan_results(all_kofamscan_tsvs)
+        // combine kofamscan results
+        combine_kofamscan_results(all_kofamscan_tsvs)
+    }
 }
 
 process make_genome_stb {

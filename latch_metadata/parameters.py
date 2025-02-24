@@ -38,5 +38,11 @@ generated_parameters = {
         section_title=None,
         description='Path to directory of Kofam KEGG database.',
     ),
+    'functional_annotation': NextflowParameter(
+        type=bool,
+        default=False,
+        section_title=None,
+        description='Whether to perform functional annotation with kofamscan. Options True or False, with default set to False.',
+    ),
 }
 
