@@ -10,9 +10,10 @@ from Bio.Seq import Seq
 class AntismashGBKParser:
     """Parse GBK file from antiSMASH to extract relevant BGC and peptide information."""
 
-    def __init__(self, gbk_file):
+    def __init__(self, gbk_file, mag_scaffold_df):
         self.gbk_file = gbk_file
         self.records = list(SeqIO.parse(self.gbk_file, 'genbank'))
+        self.mag_scaffold_df = mag_scaffold_df
         
     def parse_records(self):
         """Parse all records in the GBK file."""
@@ -37,10 +38,20 @@ class AntismashGBKParser:
                     'leader_seq': ';'.join(leader_seqs),
                     'core_seq': ';'.join(core_seqs),
                 })
+                
+                # Look up the genome name from the mapping dataframe
+                genome_name = self.mag_scaffold_df[
+                    self.mag_scaffold_df['scaffold_id'] == scaffold_name
+                ]['mag_id'].iloc[0] if not self.mag_scaffold_df[
+                    self.mag_scaffold_df['scaffold_id'] == scaffold_name
+                ].empty else 'unknown_genome'
+                
                 for i, seq in enumerate(core_seqs, 1):
-                    record = SeqRecord(Seq(seq), 
-                                       id=f"{scaffold_name}_{os.path.basename(self.gbk_file)}_{i}", 
-                                       description="")
+                    record = SeqRecord(
+                        Seq(seq),
+                        id=f"{genome_name}_{scaffold_name}_{i}",
+                        description=""
+                    )
                     fasta_records.append(record)
         return bgc_data_list, peptide_data_list, fasta_records
     
@@ -83,7 +94,7 @@ def main():
     all_peptide_data = []
     all_fasta_records = []
     for gbk_file in args.input_gbk:
-        parser = AntismashGBKParser(gbk_file)
+        parser = AntismashGBKParser(gbk_file, mag_scaffold_df)
         bgc_data, peptide_data, fasta_records = parser.parse_records()
         all_bgc_data.extend(bgc_data)
         all_peptide_data.extend(peptide_data)
