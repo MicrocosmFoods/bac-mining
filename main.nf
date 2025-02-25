@@ -226,7 +226,7 @@ process predict_cleavage_peptides {
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
 
     memory = '25 GB'
-    cpus = 6
+    cpus = 10
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
 

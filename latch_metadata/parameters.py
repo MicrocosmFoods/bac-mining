@@ -43,6 +43,6 @@ generated_parameters = {
         default=False,
         section_title=None,
         description='Whether to perform functional annotation with kofamscan. Options True or False, with default set to False.',
-    ),
+    )
 }
 
