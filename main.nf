@@ -1,7 +1,9 @@
 #! /usr/bin/env nextflow
 
 // Description
-// Mine bacterial MAGs from fermented foods for peptides and BGCs
+// Mine bacterial MAGs from fermented foods for different peptide types, BGCs, and perform functional annotation
+// Note that for steps that process individual genomes, such as smorfinder, deeppeptide, antismash, etc. the error strategy is set to 'ignore'
+// This is because individual genomes will sometimes fail for formatting reasons or not discernible reason, and we don't want these to halt the entire workflow
 
 nextflow.enable.dsl=2
 
@@ -175,6 +177,8 @@ process combine_smorf_proteins {
 
 process pyrodigal {
     tag "${genome_name}_pyrodigal"
+
+    errorStrategy 'ignore'
     
     memory = "5 GB"
     cpus = 1
@@ -224,6 +228,8 @@ process filter_small_proteins {
 process predict_cleavage_peptides {
     tag "${genome_name}_predict_cleavage_peptides"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
+
+    errorStrategy 'ignore'
 
     memory = '35 GB'
     cpus = 12
@@ -301,6 +307,8 @@ process combine_cleavage_peptides {
 process antismash {
     tag "${genome_name}_antismash"
     publishDir "${params.outdir}/antismash", mode: 'copy'
+
+    errorStrategy 'ignore'
 
     memory = "20 GB"
     cpus = 6

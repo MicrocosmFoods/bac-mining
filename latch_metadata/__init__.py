@@ -17,8 +17,7 @@ NextflowMetadata(
     runtime_resources=NextflowRuntimeResources(
         cpus=16,
         memory=50,
-        storage_gib=200,
-        storage_expiration_hours=2
+        storage_gib=200
     ),
     log_dir=LatchDir("latch:///your_log_dir"),
 )
