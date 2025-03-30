@@ -103,7 +103,7 @@ process make_genome_stb {
     tag "make_genome_stb"
     publishDir "${params.outdir}/genomestb", mode: 'copy'
 
-    memory = '10 GB'
+    memory = '2 GB'
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
@@ -128,7 +128,7 @@ process smorfinder {
     errorStrategy 'ignore'
     // rarely some genomes will fail for no discernible reason, skip over these
 
-    memory = '10 GB'
+    memory = '2 GB'
     cpus = 1
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.2"
@@ -157,7 +157,7 @@ process combine_smorf_proteins {
     tag "combine_smorf_proteins"
     publishDir "${params.outdir}/main_results", mode: 'copy'
 
-    memory = '10 GB'
+    memory = '5 GB'
     cpus = 1
     
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
@@ -180,7 +180,7 @@ process pyrodigal {
 
     errorStrategy 'ignore'
     
-    memory = "5 GB"
+    memory = "2 GB"
     cpus = 1
 
     container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
@@ -208,7 +208,7 @@ process pyrodigal {
 process filter_small_proteins {
     tag "${genome_name}_filter_small_proteins"
 
-    memory = "10 GB"
+    memory = "2 GB"
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
@@ -231,7 +231,7 @@ process predict_cleavage_peptides {
 
     errorStrategy 'ignore'
 
-    memory = '35 GB'
+    memory = '10 GB'
     cpus = 12
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
@@ -258,7 +258,7 @@ process extract_cleavage_peptides_json {
     tag "${genome_name}_extract_cleavage_peptides_json"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
 
-    memory = "10 GB"
+    memory = "2 GB"
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
@@ -286,7 +286,7 @@ process combine_cleavage_peptides {
     tag "combine_cleavage_peptides"
     publishDir "${params.outdir}/main_results", mode: 'copy'
 
-    memory = "10 GB"
+    memory = "5 GB"
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
@@ -310,8 +310,8 @@ process antismash {
 
     errorStrategy 'ignore'
 
-    memory = "20 GB"
-    cpus = 6
+    memory = "10 GB"
+    cpus = 4
 
     container "public.ecr.aws/biocontainers/antismash-lite:7.1.0--pyhdfd78af_0"
 
@@ -396,7 +396,7 @@ process kofamscan_annotation {
     tag "${genome_name}_kofam_scan_annotation"
     publishDir "${params.outdir}/kofam_scan_annotation", mode: 'copy'
 
-    memory = "25 GB"
+    memory = "5 GB"
     cpus = 12
 
     container "public.ecr.aws/biocontainers/kofamscan:1.0.0--0"
@@ -417,7 +417,7 @@ process combine_kofamscan_results {
     tag "combine_kofamscan_results"
     publishDir "${params.outdir}/main_results", mode: 'copy'
 
-    memory = "10 GB"
+    memory = "5 GB"
     cpus = 1
 
     container "quay.io/biocontainers/polars:0.18.15"
