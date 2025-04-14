@@ -22,6 +22,7 @@ WITH --antismash_db AND --kofam_db. THIS WORKFLOW DOES NOT SUPPORT DOWNLOADING
 DATABASES AUTOMATICALLY.
 =================================================================
 input_genomes                   : $params.input_genomes
+genome_list                     : $params.genome_list
 antismash_db                    : $params.antismash_db
 kofam_db                        : $params.kofam_db
 outdir                          : $params.outdir
@@ -31,12 +32,22 @@ functional_annotation           : $params.functional_annotation
 
 // define channels
 // genome_fastas tuple with genome name and fasta filepath
-genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
-    .map { file -> 
-        def baseName = file.getBaseName()
-        return [file, baseName]
-    }
-
+// if genome_list is provided, filter the genomes based on the list
+if (params.genome_list) {
+    genome_names = file(params.genome_list).readLines().collect { it.trim() }.toSet()
+    genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
+        .map { file -> 
+            def baseName = file.getBaseName()
+            return [file, baseName]
+        }
+        .filter { file, baseName -> genome_names.contains(baseName)}
+} else {
+    genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
+        .map { file -> 
+            def baseName = file.getBaseName()
+            return [file, baseName]
+        }
+}
 antismash_db_ch = channel.fromPath(params.antismash_db)
 kofam_db_ch = channel.fromPath(params.kofam_db)
 

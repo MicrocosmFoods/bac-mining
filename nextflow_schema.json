@@ -16,6 +16,10 @@
           "type": "string",
           "description": "Input directory of genomes in fasta format ending in .fa"
         },
+        "genome_list": {
+          "type": "string",
+          "description": "List of subset genomes to run the pipeline through that are in the input_genomes directory"
+        },
         "outdir": {
           "type": "string",
           "format": "directory-path",
@@ -34,16 +38,12 @@
           "type": "string",
           "description": "Path to directory of pre-downloaded antismash databases"
         },
-        "pfam_db": {
-          "type": "string",
-          "description": "Path to directory of pre-downloading Pfam-A database (this should be included with antismash db download)"
-        },
         "kofam_db": {
           "type": "string",
           "description": "Path to directory of Kofam KEGG HMM database"
         }
       },
-      "required": ["antismash_db", "pfam_db", "kofam_db"]
+      "required": ["antismash_db", "kofam_db"]
     }
   },
   "allOf": [
@@ -56,6 +56,9 @@
   ],
   "properties": {
     "threads": {
+      "type": "string"
+    },
+    "functional_annotation": {
       "type": "string"
     }
   }
