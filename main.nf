@@ -139,7 +139,7 @@ process smorfinder {
     errorStrategy 'ignore'
     // rarely some genomes will fail for no discernible reason, skip over these
 
-    memory = '6 GB'
+    memory = '10 GB'
     cpus = 1
 
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.2"
@@ -269,7 +269,7 @@ process extract_cleavage_peptides_json {
     tag "${genome_name}_extract_cleavage_peptides_json"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
 
-    memory = "6 GB"
+    memory = "10 GB"
     cpus = 1
 
     container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
@@ -351,7 +351,7 @@ process extract_gbks {
     tag "extract_gbks"
     publishDir "${params.outdir}/main_results/bgc_info", mode: 'copy'
 
-    memory = "15 GB"
+    memory = "20 GB"
     cpus = 1
 
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"

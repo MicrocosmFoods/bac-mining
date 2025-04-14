@@ -15,13 +15,13 @@ from latch.types.directory import LatchDir, LatchOutputDir
 
 generated_parameters = {
     'input_genomes': NextflowParameter(
-        type=str,
+        type=LatchDir,
         default=None,
         section_title='Input/output options',
         description='Input directory of genomes in fasta format ending in .fa',
     ),
     'genome_list': NextflowParameter(
-        type=typing.Optional[str],
+        type=LatchFile,
         default=None,
         section_title=None,
         description='List of subset genomes to run the pipeline through that are in the input_genomes directory',
@@ -33,13 +33,13 @@ generated_parameters = {
         description='The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.',
     ),
     'antismash_db': NextflowParameter(
-        type=str,
+        type=LatchDir,
         default=None,
         section_title='Databases',
         description='Path to directory of pre-downloaded antismash databases',
     ),
     'kofam_db': NextflowParameter(
-        type=str,
+        type=LatchDir,
         default=None,
         section_title=None,
         description='Path to directory of Kofam KEGG HMM database',
