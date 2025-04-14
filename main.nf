@@ -272,7 +272,7 @@ process extract_cleavage_peptides_json {
     memory = "10 GB"
     cpus = 1
 
-    container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
+    container "public.ecr.aws/biocontainers/biopython:v1.73dfsg-1-deb-py3_cv1"
 
     input:
     tuple val(genome_name), path(deeppeptide_json), path(protein_faa)
