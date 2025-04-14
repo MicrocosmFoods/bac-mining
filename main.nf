@@ -222,7 +222,7 @@ process filter_small_proteins {
     memory = "10 GB"
     cpus = 1
 
-    container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
+    container "public.ecr.aws/biocontainers/biopython:v1.73dfsg-1-deb-py3_cv1"
 
     input:
     tuple val(genome_name), path(predicted_orfs_proteins)
@@ -300,7 +300,7 @@ process combine_cleavage_peptides {
     memory = "10 GB"
     cpus = 1
 
-    container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
+    container "public.ecr.aws/biocontainers/biopython:v1.73dfsg-1-deb-py3_cv1"
 
     input:
     path(cleavage_peptides)
