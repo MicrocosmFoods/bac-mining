@@ -55,7 +55,7 @@ def initialize() -> str:
 
 
 @nextflow_runtime_task(cpu=16, memory=50, storage_gib=200)
-def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, genome_list: LatchFile, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, kofam_db: LatchDir) -> None:
+def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, genome_list: LatchFile, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, kofam_db: LatchDir, threads: typing.Optional[str], functional_annotation: typing.Optional[bool]) -> None:
     shared_dir = Path("/nf-workdir")
 
     exec_name = _get_execution_name()
@@ -122,7 +122,9 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, genome_list: LatchF
                 *get_flag('genome_list', genome_list),
                 *get_flag('outdir', outdir),
                 *get_flag('antismash_db', antismash_shared_dir),
-                *get_flag('kofam_db', kofam_shared_dir)
+                *get_flag('kofam_db', kofam_shared_dir),
+                *get_flag('threads', threads),
+                *get_flag('functional_annotation', functional_annotation)
     ]
 
     print("Launching Nextflow Runtime")
@@ -187,7 +189,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, genome_list: LatchF
 
 
 @workflow(metadata._nextflow_metadata)
-def nf_bacmagmining(input_genomes: str, genome_list: typing.Optional[str], outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: str, kofam_db: str) -> None:
+def nf_bacmagmining(input_genomes: LatchDir, genome_list: LatchFile, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, kofam_db: LatchDir, threads: typing.Optional[str], functional_annotation: typing.Optional[bool]) -> None:
     """
     bacMAGmining
 
@@ -195,5 +197,5 @@ def nf_bacmagmining(input_genomes: str, genome_list: typing.Optional[str], outdi
     """
 
     pvc_name: str = initialize()
-    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, genome_list=genome_list, outdir=outdir, antismash_db=antismash_db, kofam_db=kofam_db)
+    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, genome_list=genome_list, outdir=outdir, antismash_db=antismash_db, kofam_db=kofam_db, threads=threads, functional_annotation=functional_annotation)
 

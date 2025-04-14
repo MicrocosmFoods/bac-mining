@@ -44,5 +44,17 @@ generated_parameters = {
         section_title=None,
         description='Path to directory of Kofam KEGG HMM database',
     ),
+    'threads': NextflowParameter(
+        type=typing.Optional[str],
+        default=None,
+        section_title='Other',
+        description=None,
+    ),
+    'functional_annotation': NextflowParameter(
+        type=typing.Optional[bool],
+        default=None,
+        section_title=None,
+        description='Optionally run kofamscan functional annotation, default set to false. To run annotation set to true.',
+    )
 }
 
