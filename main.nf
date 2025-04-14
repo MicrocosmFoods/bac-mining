@@ -211,7 +211,7 @@ process filter_small_proteins {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
 
     input:
     tuple val(genome_name), path(predicted_orfs_proteins)
@@ -261,7 +261,7 @@ process extract_cleavage_peptides_json {
     memory = "6 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
 
     input:
     tuple val(genome_name), path(deeppeptide_json), path(protein_faa)
@@ -289,7 +289,7 @@ process combine_cleavage_peptides {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "public.ecr.aws/biocontainers/biopython:v1.68dfsg-3-deb-py2_cv1"
 
     input:
     path(cleavage_peptides)
