@@ -44,6 +44,21 @@
         }
       },
       "required": ["antismash_db", "kofam_db"]
+    },
+    "other": {
+      "title": "Other",
+      "type": "object",
+      "description": "Other options",
+      "default": "",
+      "properties": {
+        "threads": {
+          "type": "string"
+        },
+        "functional_annotation": {
+          "type": "boolean",
+          "description": "Optionally run kofamscan functional annotation, default set to false. To run annotation set to true."
+        }
+      }
     }
   },
   "allOf": [
@@ -52,14 +67,9 @@
     },
     {
       "$ref": "#/$defs/databases"
-    }
-  ],
-  "properties": {
-    "threads": {
-      "type": "string"
     },
-    "functional_annotation": {
-      "type": "string"
+    {
+      "$ref": "#/$defs/other"
     }
-  }
+  ]
 }

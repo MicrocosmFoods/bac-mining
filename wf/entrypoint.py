@@ -55,7 +55,7 @@ def initialize() -> str:
 
 
 @nextflow_runtime_task(cpu=16, memory=50, storage_gib=200)
-def nextflow_runtime(pvc_name: str, input_genomes: str, genome_list: typing.Optional[str], outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: str, kofam_db: str) -> None:
+def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, genome_list: LatchFile, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, kofam_db: LatchDir) -> None:
     shared_dir = Path("/nf-workdir")
 
     exec_name = _get_execution_name()
