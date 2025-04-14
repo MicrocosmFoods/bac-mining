@@ -40,7 +40,7 @@ def initialize() -> str:
         "http://nf-dispatcher-service.flyte.svc.cluster.local/provision-storage-ofs",
         headers=headers,
         json={
-            "storage_expiration_hours": 0,
+            "storage_expiration_hours": 15,
             "version": 2,
         },
     )
@@ -54,8 +54,8 @@ def initialize() -> str:
 
 
 
-@nextflow_runtime_task(cpu=16, memory=36, storage_gib=200)
-def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, kofam_db: LatchDir, functional_annotation: bool) -> None:
+@nextflow_runtime_task(cpu=16, memory=50, storage_gib=200)
+def nextflow_runtime(pvc_name: str, input_genomes: str, genome_list: typing.Optional[str], outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: str, kofam_db: str) -> None:
     shared_dir = Path("/nf-workdir")
 
     exec_name = _get_execution_name()
@@ -99,15 +99,6 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
 
     profiles = ','.join(profile_list)
 
-    antismash_db_dir = Path(antismash_db.local_path)
-    antismash_shared_dir = shared_dir / antismash_db_dir.name
-    shutil.move(str(antismash_db_dir), str(antismash_shared_dir))
-
-    kofam_db_dir = Path(kofam_db.local_path)
-    kofam_shared_dir = shared_dir / kofam_db_dir.name
-    shutil.move(str(kofam_db_dir), str(kofam_shared_dir))
-
-
     cmd = [
         "/root/nextflow",
         "run",
@@ -120,10 +111,10 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
         "latch.config",
         "-resume",
                 *get_flag('input_genomes', input_genomes),
+                *get_flag('genome_list', genome_list),
                 *get_flag('outdir', outdir),
-                *get_flag("antismash_db", antismash_shared_dir),
-                *get_flag('kofam_db', kofam_shared_dir),
-                *get_flag('functional_annotation', functional_annotation)
+                *get_flag('antismash_db', antismash_db),
+                *get_flag('kofam_db', kofam_db)
     ]
 
     print("Launching Nextflow Runtime")
@@ -136,9 +127,10 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
             **os.environ,
             "NXF_ANSI_LOG": "false",
             "NXF_HOME": "/root/.nextflow",
-            "NXF_OPTS": "-Xms6912M -Xmx27648M -XX:ActiveProcessorCount=16",
+            "NXF_OPTS": "-Xms9600M -Xmx38400M -XX:ActiveProcessorCount=16",
             "NXF_DISABLE_CHECK_LATEST": "true",
             "NXF_ENABLE_VIRTUAL_THREADS": "false",
+            "NXF_ENABLE_FS_SYNC": "true",
         }
 
         if False:
@@ -187,7 +179,7 @@ def nextflow_runtime(pvc_name: str, input_genomes: LatchDir, outdir: typing_exte
 
 
 @workflow(metadata._nextflow_metadata)
-def nf_bacmagmining(input_genomes: LatchDir, outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: LatchDir, kofam_db: LatchDir, functional_annotation: bool) -> None:
+def nf_bacmagmining(input_genomes: str, genome_list: typing.Optional[str], outdir: typing_extensions.Annotated[LatchDir, FlyteAnnotation({'output': True})], antismash_db: str, kofam_db: str) -> None:
     """
     bacMAGmining
 
@@ -195,5 +187,5 @@ def nf_bacmagmining(input_genomes: LatchDir, outdir: typing_extensions.Annotated
     """
 
     pvc_name: str = initialize()
-    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, outdir=outdir, antismash_db=antismash_db, kofam_db=kofam_db, functional_annotation=functional_annotation)
+    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, genome_list=genome_list, outdir=outdir, antismash_db=antismash_db, kofam_db=kofam_db)
 

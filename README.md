@@ -23,7 +23,7 @@ nextflow run main.nf \\
 
 ## Check input genomes
 
-Several steps in this workflow require scaffolds to be unique across all MAGs, or else those steps will fail. To check for duplicate scaffolds across MAGs and fix these by making them unique, a helper script is provided in the `script` directory. You can run it with: 
+Several steps in this workflow require scaffolds to be unique across all MAGs, or else those steps will fail. To check for duplicate scaffolds across MAGs and fix these by making them unique, a helper script is provided in the `scripts` directory. You can run it with: 
 
 ```
 python scripts/check-mag-scaffolds.py \\
@@ -35,3 +35,16 @@ python scripts/check-mag-scaffolds.py \\
 This will check for duplicate scaffolds and rename the offending duplicate scaffold by appending the filename of the genome (everything before .fa, such as the name of the MAG) to the scaffold ID. A list of the identified duplicates will be written to the file specified by `-d`, where the first column is the MAG, the second column is the original scaffold ID, and the third column is the new scaffold ID.
 
 The workflow will also check for duplicate scaffold IDs when generating the genome STB file, and will raise an error if any are found. Importantly, the workflow will not modify the offending MAGs, but it will halt the workflow if any are found.
+
+## Split input genomes into batches
+
+In our experience, sometimes running the workflow on large amounts input genomes (~5,000-10,000+) can cause issues and the workflow will fail after long runtimes. To avoid this, you can split input genomes into batches and run the workflow on each batch separately. This can be done by providing a list of genomes names with the optional `genome_list` parameter which is a subset of genomes that are in the input directory. To make the batch lists, a helper script is provided in the `scripts` directory. You can run it with:
+
+```
+python scripts/prep-batch-genome-lists.py \\
+-i <INPUT_DIRECTORY> \\
+-b <BATCH_SIZE> \\
+-o <OUTPUT_DIRECTORY>
+```
+
+Where `-b` is the maximum bathch size of genomes. In our experience running somewhere between 500-1000 genomes at a time should be fine. 
