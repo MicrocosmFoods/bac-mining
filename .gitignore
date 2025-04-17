@@ -1,7 +1,6 @@
 ssh*
 .nextflow/
 work/
-*results*
 *.log*
 .DS_Store
 mag_raw_fastas/

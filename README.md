@@ -21,6 +21,14 @@ nextflow run main.nf \\
 -profile <docker|conda>
 ```
 
+The Kofamscan database needs to be structured as follows:
+```
+profiles/
+ko_list
+```
+
+Alternatively instead of downloading the entire Kofamscan database, you can download select KEGG HMM accessions (as long as you have checked they are in the ko_list file), and place them in the `profiles/` directory.
+
 ## Check input genomes
 
 Several steps in this workflow require scaffolds to be unique across all MAGs, or else those steps will fail. To check for duplicate scaffolds across MAGs and fix these by making them unique, a helper script is provided in the `scripts` directory. You can run it with: 
@@ -48,3 +56,24 @@ python scripts/prep-batch-genome-lists.py \\
 ```
 
 Where `-b` is the maximum bathch size of genomes. In our experience running somewhere between 500-1000 genomes at a time should be fine. 
+
+## Combine results from multiple runs
+
+If you ran the workflow on multiple batches of genomes and want to combine the results into a single directory and set of results summary files, you can use the helper script `scripts/combine-batch-mining-results.py`. You can run it with: 
+
+```
+python scripts/combine-batch-mining-results.py \\
+<INPUT_DIRECTORIES> \\
+--output-dir <OUTPUT_DIRECTORY>
+```
+
+Where `<INPUT_DIRECTORIES>` is a list of directories containing the results from each batch run. The list of input directories should be separated by spaces, and needs to be the `main_results` folder downloaded from each batch run, where you have renamed each `main_results` folder from the name with some informative name and each ends in `-main-results` so you can track back to which batch those results came from. For example: 
+
+```
+python scripts/combine-batch-mining-results.py \\
+2024-04-17_batch_1-main-results 2024-04-17_batch_2-main-results 2024-04-17_batch_3-main-results \\
+--output-dir combined_results
+```
+
+This will combine the results into a single directory and set of results summary files. Each summary file will have a `batch_name` column that will have the name of the batch that the results came from, which is the name given to the `main_results` folder that is before the `-main-results` suffix.
+
