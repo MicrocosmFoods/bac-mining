@@ -251,7 +251,7 @@ process predict_cleavage_peptides {
     tuple val(genome_name), path(predicted_orfs_proteins)
 
     output:
-    tuple val(genome_name), path("*.json"), emit: cleavage_peptides_json
+    tuple val(genome_name), path("${genome_name}_peptide_predictions.json"), emit: cleavage_peptides_json
 
     script:
     """
@@ -261,13 +261,15 @@ process predict_cleavage_peptides {
 
     python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 200
     
-    cp ${genome_name}/*.json \$WORKDIR/
+    cp ${genome_name}/peptide_predictions.json \$WORKDIR/${genome_name}_peptide_predictions.json
     """
 }
 
 process extract_cleavage_peptides_json {
     tag "${genome_name}_extract_cleavage_peptides_json"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
+
+    errorStrategy 'ignore'
 
     memory = "10 GB"
     cpus = 1
@@ -406,6 +408,8 @@ process summarize_molecule_counts {
 process kofamscan_annotation {
     tag "${genome_name}_kofam_scan_annotation"
     publishDir "${params.outdir}/kofam_scan_annotation", mode: 'copy'
+
+    errorStrategy 'ignore'
 
     memory = "15 GB"
     cpus = 12
