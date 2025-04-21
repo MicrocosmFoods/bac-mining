@@ -42,7 +42,7 @@ def initialize() -> str:
         json={
             "storage_expiration_hours": 15,
             "version": 2,
-            "fs_size_tb": 15,
+            "fs_size_tb": 30,
         },
     )
     resp.raise_for_status()
