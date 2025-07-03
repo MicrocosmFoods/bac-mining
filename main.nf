@@ -57,18 +57,22 @@ workflow {
     all_genome_fastas_ch = genome_fastas.map{ it[0] }.collect()
     make_genome_stb(all_genome_fastas_ch)
     genome_stb_tsv = make_genome_stb.out.stb_tsv
+
+    // predict ORFs with pyrodigal and save output files to predicted_orfs directory
+    pyrodigal(genome_fastas)
+    predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
+    predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
     
-    // get small ORF predictions with smorfinder and combine into a single FASTA
+    // get small ORF predictions by first running modified pyrodigal, then smorfinder
+    pyrodigal_min_gene_modified(genome_fastas)
+    predicted_orfs_gffs = pyrodigal_min_gene_modified.out.predicted_orfs_gff
+    predicted_orfs_ffns = pyrodigal_min_gene_modified.out.predicted_orfs_ffn
+    predicted_orfs_proteins = predicted_orfs_ffns.join(genome_fastas, by: 1) // fix this
     smorfinder(genome_fastas)
     smorf_proteins = smorfinder.out.faa_file.collect()
     smorfinder_tsvs = smorfinder.out.tsv_file.collect()
     combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
-
-    // predict ORFs with pyrodigal
-    pyrodigal(genome_fastas)
-    predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
-    predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
 
     // filter to proteins less than 50 AAs for inputting to deeppeptide
     filter_small_proteins(predicted_orfs_proteins)
@@ -132,6 +136,72 @@ process make_genome_stb {
 
 }
 
+process pyrodigal {
+    tag "${genome_name}_pyrodigal"
+        publishDir "${params.outdir}/predicted_orfs", mode: 'copy'
+
+
+    errorStrategy 'ignore'
+    
+    memory = "6 GB"
+    cpus = 1
+
+    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
+
+    input:
+    tuple path(fasta), val(genome_name)
+
+    output:
+    tuple val(genome_name), path("*.ffn"), emit: predicted_orfs_ffn
+    tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
+    tuple val(genome_name), path("*.gbk"), emit: predicted_orfs_gbk
+
+    script:
+    """
+    pyrodigal \\
+        -i ${fasta} \\
+        -f "gbk" \\
+        -o "${genome_name}.gbk" \\
+        -d ${genome_name}.ffn \\
+        -a ${genome_name}.faa \\
+        --no-stop-codon
+    """
+}
+
+process pyrodigal_min_gene_modified {
+    tag "${genome_name}_pyrodigal_min_gene_modified"
+
+    errorStrategy 'ignore'
+    
+    memory = "6 GB"
+    cpus = 1
+
+    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
+
+    input:
+    tuple path(fasta), val(genome_name)
+
+    output:
+    tuple val(genome_name), path("*.ffn"), emit: predicted_orfs_ffn
+    tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
+    tuple val(genome_name), path("*.gff"), emit: predicted_orfs_gff
+
+    script:
+    """
+    pyrodigal \\
+        -i ${fasta} \\
+        -f "gff" \\
+        -o "${genome_name}.gff" \\
+        -d ${genome_name}.ffn \\
+        -a ${genome_name}.faa \\
+        --no-stop-codon \\
+        --min-gene 15 \\
+        --max-overlap 15 \\
+        -c
+    """
+
+}
+
 process smorfinder {
     tag "${genome_name}_smorfinder"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
@@ -161,7 +231,6 @@ process smorfinder {
     ln -s ${genome_name}/${genome_name}.ffn
     ln -s ${genome_name}/${genome_name}.tsv ${genome_name}_smorfinder.tsv
     """
-
 }
 
 process combine_smorf_proteins {
@@ -184,36 +253,6 @@ process combine_smorf_proteins {
     python ${baseDir}/bin/combine_fastas.py ${smorf_proteins.join(' ')} combined_smorf_proteins.fasta
     """
     
-}
-
-process pyrodigal {
-    tag "${genome_name}_pyrodigal"
-
-    errorStrategy 'ignore'
-    
-    memory = "6 GB"
-    cpus = 1
-
-    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
-
-    input:
-    tuple path(fasta), val(genome_name)
-
-    output:
-    tuple val(genome_name), path("*.fna"), emit: predicted_orfs_fna
-    tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
-    tuple val(genome_name), path("*.gbk"), emit: predicted_orfs_gbk
-
-    script:
-    """
-    pyrodigal \\
-        -i ${fasta} \\
-        -f "gbk" \\
-        -o "${genome_name}.gbk" \\
-        -d ${genome_name}.fna \\
-        -a ${genome_name}.faa \\
-        --no-stop-codon
-    """
 }
 
 process filter_small_proteins {
