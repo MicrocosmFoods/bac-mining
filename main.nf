@@ -11,7 +11,7 @@ def date = new java.util.Date().format('yyyy-MM-dd')
 params.outdir = "${date}-bacmagmining-results"
 params.threads=16
 params.functional_annotation = false
-params.smorfinder_mode = 'pre_called'  // Options: 'single' or 'pre_called'
+params.smorfinder_mode = 'pre_called'
 
 log.info """\
 
@@ -49,6 +49,12 @@ if (params.genome_list) {
             def baseName = file.getBaseName()
             return [baseName, file]
         }
+}
+
+// Validate smorfinder_mode parameter
+if (!['pre_called', 'single'].contains(params.smorfinder_mode)) {
+    log.error "Invalid smorfinder_mode: ${params.smorfinder_mode}. Must be either 'pre_called' or 'single'"
+    System.exit(1)
 }
 
 antismash_db_ch = channel.fromPath(params.antismash_db)
