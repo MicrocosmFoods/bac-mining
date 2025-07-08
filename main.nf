@@ -1,7 +1,7 @@
 #! /usr/bin/env nextflow
 
 // Description
-// Mine bacterial MAGs from fermented foods for different peptide types, BGCs, and perform functional annotation
+// Mine bacterial genomes for different peptide types, BGCs, and perform functional annotation
 // Note that for steps that process individual genomes, such as smorfinder, deeppeptide, antismash, etc. the error strategy is set to 'ignore'
 // This is because individual genomes will sometimes fail for formatting reasons or not discernible reason, and we don't want these to halt the entire workflow
 
@@ -15,7 +15,7 @@ params.smorfinder_mode = 'pre_called'
 
 log.info """\
 
-MINE FERMENTED FOOD BACTERIAL GENOMES FOR PEPTIDES AND BGCS, AND PERFORM
+MINE BACTERIAL GENOMES FOR PEPTIDES AND BGCS, AND PERFORM
 FUNCTIONAL ANNOTATION.
 
 NOTE: YOU MUST PRE-DOWNLOAD THE ANTISMASH AND KOFAM DATABASES AND PROVIDE THE PATHS

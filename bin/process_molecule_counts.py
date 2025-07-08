@@ -104,7 +104,7 @@ def count_molecules_per_genome():
     all_genomes.update(bgc_counts.keys(), smorf_counts.keys(), deep_counts.keys())
     
     # Get all column types
-    bgc_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'bacteriocin', 'terpene', 'other'}
+    bgc_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'terpene', 'other'}
     deep_types = set()
     for genome_counts in deep_counts.values():
         deep_types.update(genome_counts.keys())
