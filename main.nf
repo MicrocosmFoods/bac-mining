@@ -234,7 +234,7 @@ process smorfinder_pre_called {
     memory = '10 GB'
     cpus = 1
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:modf"
 
     input:
     tuple val(genome_name), path(fasta), path(gff), path(ffn), path(faa)
@@ -265,7 +265,7 @@ process smorfinder_single {
     memory = '10 GB'
     cpus = 1
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:modf"
 
     input:
     tuple val(genome_name), path(fasta)
