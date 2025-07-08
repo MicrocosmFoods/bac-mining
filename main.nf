@@ -11,6 +11,7 @@ def date = new java.util.Date().format('yyyy-MM-dd')
 params.outdir = "${date}-bacmagmining-results"
 params.threads=16
 params.functional_annotation = false
+params.smorfinder_mode = 'pre_called'  // Options: 'single' or 'pre_called'
 
 log.info """\
 
@@ -28,6 +29,7 @@ kofam_db                        : $params.kofam_db
 outdir                          : $params.outdir
 threads                         : $params.threads
 functional_annotation           : $params.functional_annotation
+smorfinder_mode                 : $params.smorfinder_mode
 """
 
 // define channels
@@ -48,6 +50,7 @@ if (params.genome_list) {
             return [baseName, file]
         }
 }
+
 antismash_db_ch = channel.fromPath(params.antismash_db)
 kofam_db_ch = channel.fromPath(params.kofam_db)
 
@@ -63,19 +66,27 @@ workflow {
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
     
-    // get small ORF predictions by first running modified pyrodigal, then smorfinder
-    pyrodigal_min_gene_modified(genome_fastas)
-    modf_orfs_gffs = pyrodigal_min_gene_modified.out.predicted_small_orfs_gff
-    modf_orfs_ffns = pyrodigal_min_gene_modified.out.predicted_small_orfs_ffn
-    modf_orfs_faas = pyrodigal_min_gene_modified.out.predicted_small_orfs_faa
-    // call smorfinder of modified ORFs and combine all inputs by genome name (index 0)
-    smorfinder_input = genome_fastas.join(modf_orfs_gffs, by: 0).join(modf_orfs_ffns, by: 0).join(modf_orfs_faas, by: 0)
-    smorfinder(smorfinder_input)
-
+    // run smorfinder based on user preference
+    if (params.smorfinder_mode == 'pre_called') {
+        // get small ORF predictions by first running modified pyrodigal, then smorfinder
+        pyrodigal_min_gene_modified(genome_fastas)
+        modf_orfs_gffs = pyrodigal_min_gene_modified.out.predicted_small_orfs_gff
+        modf_orfs_ffns = pyrodigal_min_gene_modified.out.predicted_small_orfs_ffn
+        modf_orfs_faas = pyrodigal_min_gene_modified.out.predicted_small_orfs_faa
+        
+        // call smorfinder with pre-called genes from pyrodigal
+        smorfinder_input = genome_fastas.join(modf_orfs_gffs, by: 0).join(modf_orfs_ffns, by: 0).join(modf_orfs_faas, by: 0)
+        smorfinder_pre_called(smorfinder_input)
+        smorf_proteins = smorfinder_pre_called.out.smorf_faa.collect()
+        smorfinder_tsvs = smorfinder_pre_called.out.smorf_tsv.collect()
+    } else if (params.smorfinder_mode == 'single') {
+        // call smorfinder directly on genomes (single mode)
+        smorfinder_single(genome_fastas)
+        smorf_proteins = smorfinder_single.out.smorf_faa.collect()
+        smorfinder_tsvs = smorfinder_single.out.smorf_tsv.collect()
+    }
 
     // combine smorfinder results and proteins
-    smorf_proteins = smorfinder.out.smorf_faa.collect()
-    smorfinder_tsvs = smorfinder.out.smorf_tsv.collect()
     combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
@@ -207,8 +218,8 @@ process pyrodigal_min_gene_modified {
 
 }
 
-process smorfinder {
-    tag "${genome_name}_smorfinder"
+process smorfinder_pre_called {
+    tag "${genome_name}_smorfinder_pre_called"
     publishDir "${params.outdir}/smorfinder", mode: 'copy'
 
     errorStrategy 'ignore'
@@ -231,6 +242,37 @@ process smorfinder {
     script:
     """
     smorf pre-called ${fasta} ${faa} ${ffn} ${gff} -o ${genome_name}
+    ln -s ${genome_name}/${genome_name}.gff
+    ln -s ${genome_name}/${genome_name}.faa
+    ln -s ${genome_name}/${genome_name}.ffn
+    ln -s ${genome_name}/${genome_name}.tsv ${genome_name}_smorfinder.tsv
+    """
+}
+
+process smorfinder_single {
+    tag "${genome_name}_smorfinder_single"
+    publishDir "${params.outdir}/smorfinder", mode: 'copy'
+
+    errorStrategy 'ignore'
+    // rarely some genomes will fail for no discernible reason, skip over these
+
+    memory = '10 GB'
+    cpus = 1
+
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
+
+    input:
+    tuple val(genome_name), path(fasta)
+
+    output:
+    path("*.gff"), emit: smorf_gff
+    path("*.faa"), emit: smorf_faa
+    path("*.ffn"), emit: smorf_ffn
+    path("*_smorfinder.tsv"), emit: smorf_tsv
+
+    script:
+    """
+    smorf single ${fasta} -o ${genome_name}
     ln -s ${genome_name}/${genome_name}.gff
     ln -s ${genome_name}/${genome_name}.faa
     ln -s ${genome_name}/${genome_name}.ffn

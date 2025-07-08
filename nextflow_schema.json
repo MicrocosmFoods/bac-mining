@@ -57,6 +57,12 @@
         "functional_annotation": {
           "type": "boolean",
           "description": "Optionally run kofamscan functional annotation, default set to false. To run annotation set to true."
+        },
+        "smorfinder_mode": {
+          "type": "string",
+          "enum": ["single", "pre_called"],
+          "default": "pre_called",
+          "description": "Mode for running smorfinder. 'single' runs smorfinder directly on genomes, 'pre_called' uses pre-called genes from pyrodigal."
         }
       }
     }
