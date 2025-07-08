@@ -55,6 +55,12 @@ generated_parameters = {
         default=None,
         section_title=None,
         description='Optionally run kofamscan functional annotation, default set to false. To run annotation set to true.',
-    )
+    ),
+    'smorfinder_mode': NextflowParameter(
+        type=typing.Optional[str],
+        default='pre_called',
+        section_title=None,
+        description='Mode for running smorfinder. "single" runs smorfinder directly on genomes, "pre_called" uses pre-called genes from pyrodigal.',
+    ),
 }
 
