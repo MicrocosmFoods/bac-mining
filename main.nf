@@ -38,14 +38,14 @@ if (params.genome_list) {
     genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
         .map { file -> 
             def baseName = file.getBaseName()
-            return [file, baseName]
+            return [baseName, file]
         }
         .filter { file, baseName -> genome_names.contains(baseName)}
 } else {
     genome_fastas = Channel.fromPath("${params.input_genomes}/*.fa")
         .map { file -> 
             def baseName = file.getBaseName()
-            return [file, baseName]
+            return [baseName, file]
         }
 }
 antismash_db_ch = channel.fromPath(params.antismash_db)
@@ -54,7 +54,7 @@ kofam_db_ch = channel.fromPath(params.kofam_db)
 // workflow steps
 workflow {
     // make genome STB
-    all_genome_fastas_ch = genome_fastas.map{ it[0] }.collect()
+    all_genome_fastas_ch = genome_fastas.map{ it[1] }.collect()
     make_genome_stb(all_genome_fastas_ch)
     genome_stb_tsv = make_genome_stb.out.stb_tsv
 
@@ -65,12 +65,17 @@ workflow {
     
     // get small ORF predictions by first running modified pyrodigal, then smorfinder
     pyrodigal_min_gene_modified(genome_fastas)
-    predicted_orfs_gffs = pyrodigal_min_gene_modified.out.predicted_orfs_gff
-    predicted_orfs_ffns = pyrodigal_min_gene_modified.out.predicted_orfs_ffn
-    predicted_orfs_proteins = predicted_orfs_ffns.join(genome_fastas, by: 1) // fix this
-    smorfinder(genome_fastas)
-    smorf_proteins = smorfinder.out.faa_file.collect()
-    smorfinder_tsvs = smorfinder.out.tsv_file.collect()
+    modf_orfs_gffs = pyrodigal_min_gene_modified.out.predicted_small_orfs_gff
+    modf_orfs_ffns = pyrodigal_min_gene_modified.out.predicted_small_orfs_ffn
+    modf_orfs_faas = pyrodigal_min_gene_modified.out.predicted_small_orfs_faa
+    // call smorfinder of modified ORFs and combine all inputs by genome name (index 0)
+    smorfinder_input = genome_fastas.join(modf_orfs_gffs, by: 0).join(modf_orfs_ffns, by: 0).join(modf_orfs_faas, by: 0)
+    smorfinder(smorfinder_input)
+
+
+    // combine smorfinder results and proteins
+    smorf_proteins = smorfinder.out.smorf_faa.collect()
+    smorfinder_tsvs = smorfinder.out.smorf_tsv.collect()
     combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
@@ -149,7 +154,7 @@ process pyrodigal {
     container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
 
     input:
-    tuple path(fasta), val(genome_name)
+    tuple val(genome_name), path(fasta)
 
     output:
     tuple val(genome_name), path("*.ffn"), emit: predicted_orfs_ffn
@@ -179,12 +184,12 @@ process pyrodigal_min_gene_modified {
     container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
 
     input:
-    tuple path(fasta), val(genome_name)
+    tuple val(genome_name), path(fasta)
 
     output:
-    tuple val(genome_name), path("*.ffn"), emit: predicted_orfs_ffn
-    tuple val(genome_name), path("*.faa"), emit: predicted_orfs_faa
-    tuple val(genome_name), path("*.gff"), emit: predicted_orfs_gff
+    tuple val(genome_name), path("*.ffn"), emit: predicted_small_orfs_ffn
+    tuple val(genome_name), path("*.faa"), emit: predicted_small_orfs_faa
+    tuple val(genome_name), path("*.gff"), emit: predicted_small_orfs_gff
 
     script:
     """
@@ -212,20 +217,20 @@ process smorfinder {
     memory = '10 GB'
     cpus = 1
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:v0.2"
+    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:latest"
 
     input:
-    tuple path(fasta), val(genome_name)
+    tuple val(genome_name), path(fasta), path(gff), path(ffn), path(faa)
 
     output:
-    path("*.gff"), emit: gff_file
-    path("*.faa"), emit: faa_file
-    path("*.ffn"), emit: ffn_file
-    path("*_smorfinder.tsv"), emit: tsv_file
+    path("*.gff"), emit: smorf_gff
+    path("*.faa"), emit: smorf_faa
+    path("*.ffn"), emit: smorf_ffn
+    path("*_smorfinder.tsv"), emit: smorf_tsv
 
     script:
     """
-    smorf single ${fasta} -o ${genome_name}
+    smorf pre-called ${fasta} ${faa} ${ffn} ${gff} -o ${genome_name}
     ln -s ${genome_name}/${genome_name}.gff
     ln -s ${genome_name}/${genome_name}.faa
     ln -s ${genome_name}/${genome_name}.ffn

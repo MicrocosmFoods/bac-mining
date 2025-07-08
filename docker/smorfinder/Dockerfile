@@ -1,4 +1,5 @@
-# python 3.7.12 full image
+# Use Python 3.7.12
+# confirmed to work correctly with smorfinder
 FROM python:3.7.12
 
 # Set the working directory in the container
@@ -11,16 +12,37 @@ RUN apt-get update && apt-get install -y \
     g++ \
     make \
     libpython3-dev \
+    prodigal \
+    hmmer \
+    wget \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Clone the SmORFinder repository
-RUN git clone https://github.com/elizabethmcd/SmORFinder.git
+# Copy the current directory (for local builds) or clone from GitHub (for CI)
+ARG BUILD_CONTEXT=local
+ARG GITHUB_REPO=https://github.com/elizabethmcd/SmORFinder.git
+
+# For local builds, copy the current directory
+# For CI builds, clone from GitHub
+RUN if [ "$BUILD_CONTEXT" = "local" ]; then \
+        echo "Building from local context"; \
+    else \
+        echo "Building from GitHub repository"; \
+        git clone $GITHUB_REPO; \
+    fi
+
+# Copy local files for local builds
+COPY . /app/
 
 # Install SmORFinder
-RUN pip install ./SmORFinder
+RUN if [ "$BUILD_CONTEXT" = "local" ]; then \
+        pip install -e .; \
+    else \
+        pip install ./SmORFinder; \
+    fi
 
 # Set the PATH to include SmORFinder scripts
-ENV PATH="/app/SmORFinder/scripts:${PATH}"
+ENV PATH="/app/scripts:${PATH}"
 
 # Command to run when starting the container
 CMD ["smorf", "--help"]
