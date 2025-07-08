@@ -240,17 +240,17 @@ process smorfinder_pre_called {
     tuple val(genome_name), path(fasta), path(gff), path(ffn), path(faa)
 
     output:
-    path("*.gff"), emit: smorf_gff
-    path("*.faa"), emit: smorf_faa
-    path("*.ffn"), emit: smorf_ffn
+    path("*_smorfinder.gff"), emit: smorf_gff
+    path("*_smorfinder.faa"), emit: smorf_faa
+    path("*_smorfinder.ffn"), emit: smorf_ffn
     path("*_smorfinder.tsv"), emit: smorf_tsv
 
     script:
     """
     smorf pre-called ${fasta} ${faa} ${ffn} ${gff} -o ${genome_name}
-    ln -s ${genome_name}/${genome_name}.gff
-    ln -s ${genome_name}/${genome_name}.faa
-    ln -s ${genome_name}/${genome_name}.ffn
+    ln -s ${genome_name}/${genome_name}.gff ${genome_name}_smorfinder.gff
+    ln -s ${genome_name}/${genome_name}.faa ${genome_name}_smorfinder.faa
+    ln -s ${genome_name}/${genome_name}.ffn ${genome_name}_smorfinder.ffn
     ln -s ${genome_name}/${genome_name}.tsv ${genome_name}_smorfinder.tsv
     """
 }
