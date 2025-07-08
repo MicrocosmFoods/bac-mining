@@ -69,11 +69,20 @@ def count_molecules_per_genome():
     bgc_df = pd.read_csv(args.bgc_summary, sep='\t')
     
     # Count BGCs per genome with simplified categories
+    # Group by mag_id and bgc_file to count unique BGCs, not genes
     bgc_counts = defaultdict(lambda: defaultdict(int))
+    unique_bgcs = set()
+    
     for _, row in bgc_df.iterrows():
-        if pd.notna(row['bgc_type']) and pd.notna(row['mag_id']):
-            bgc_type = classify_bgc_type(row['bgc_type'])
-            bgc_counts[row['mag_id']][bgc_type] += 1
+        if pd.notna(row['bgc_type']) and pd.notna(row['mag_id']) and pd.notna(row['bgc_file']):
+            # Create unique BGC identifier
+            bgc_id = f"{row['mag_id']}_{row['bgc_file']}"
+            
+            # Only count each unique BGC once
+            if bgc_id not in unique_bgcs:
+                unique_bgcs.add(bgc_id)
+                bgc_type = classify_bgc_type(row['bgc_type'])
+                bgc_counts[row['mag_id']][bgc_type] += 1
     
     # Process smorfinder results
     smorf_counts = defaultdict(lambda: defaultdict(int))
