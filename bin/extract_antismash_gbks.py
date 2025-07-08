@@ -25,12 +25,20 @@ class AntismashGBKParser:
             bgc_type = self.get_bgc_type(record)
             bgc_length = len(record.seq)
             leader_seqs, core_seqs = self.ex_lanthipeptide(record)
-            bgc_data_list.append({
-                'scaffold_name': scaffold_name,
-                'bgc_file': os.path.basename(self.gbk_file),
-                'bgc_type': bgc_type,
-                'bgc_length': bgc_length,
-            })
+            
+            # Extract gene-level information
+            gene_data = self.extract_gene_info(record)
+            for gene_info in gene_data:
+                bgc_data_list.append({
+                    'scaffold_name': scaffold_name,
+                    'bgc_file': os.path.basename(self.gbk_file),
+                    'bgc_type': bgc_type,
+                    'bgc_length': bgc_length,
+                    'gene_name': gene_info['gene_name'],
+                    'gene_length': gene_info['gene_length'],
+                    'gene_function': gene_info['gene_function']
+                })
+            
             if leader_seqs and core_seqs:
                 peptide_data_list.append({
                     'scaffold_name': scaffold_name,
@@ -74,6 +82,29 @@ class AntismashGBKParser:
                     core_seq += qualifiers.get("core_sequence")
         return leader_seq, core_seq
 
+    def extract_gene_info(self, record):
+        """Extract gene-level information from GenBank record."""
+        gene_data = []
+        for feature in record.features:
+            if feature.type == 'CDS':
+                # Get gene name from locus_tag
+                gene_name = feature.qualifiers.get('locus_tag', ['unknown'])[0]
+                
+                # Calculate gene length from location range
+                start = feature.location.start.position
+                end = feature.location.end.position
+                gene_length = end - start
+                
+                # Get gene function from gene_functions qualifier
+                gene_function = feature.qualifiers.get('gene_functions', ['unknown'])[0]
+                
+                gene_data.append({
+                    'gene_name': gene_name,
+                    'gene_length': gene_length,
+                    'gene_function': gene_function
+                })
+        return gene_data
+
 def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Parse antiSMASH GBK files to summarize BGCs and extract lanthipeptides.")
@@ -110,7 +141,7 @@ def main():
                      how='left')
     
     # Reorder columns to have mag_id first
-    bgc_df = bgc_df[['mag_id', 'scaffold_name', 'bgc_file', 'bgc_type', 'bgc_length']]
+    bgc_df = bgc_df[['mag_id', 'scaffold_name', 'bgc_file', 'bgc_type', 'bgc_length', 'gene_name', 'gene_length', 'gene_function']]
     
     bgc_df.to_csv(args.output_bgc_tsv, sep='\t', index=False)
     print(f"BGC data written to {args.output_bgc_tsv}")

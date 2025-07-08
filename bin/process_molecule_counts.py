@@ -48,7 +48,7 @@ def combine_prediction_tsvs(tsv_files, output_file):
 
 def classify_bgc_type(bgc_type):
     """Classify BGC type into main categories or 'other'."""
-    main_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'bacteriocin', 'terpene'}
+    main_types = {'NRPS', 'T1PKS', 'T3PKS', 'RiPP-like', 'betalactone', 'terpene'}
     
     # If it contains a '+', it's a hybrid - classify as other
     if '+' in bgc_type:
