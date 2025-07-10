@@ -74,16 +74,14 @@ workflow {
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
     
+    // convert .ffn to .gff for smorfinder
+    convert_ffn_to_gff(predicted_orfs_ffn)
+    predicted_orfs_gff = convert_ffn_to_gff.out.predicted_orfs_gff
+    
     // run smorfinder based on user preference
     if (params.smorfinder_mode == 'pre_called') {
-        // get small ORF predictions by first running modified pyrodigal, then smorfinder
-        pyrodigal_min_gene_modified(genome_fastas)
-        modf_orfs_gffs = pyrodigal_min_gene_modified.out.predicted_small_orfs_gff
-        modf_orfs_ffns = pyrodigal_min_gene_modified.out.predicted_small_orfs_ffn
-        modf_orfs_faas = pyrodigal_min_gene_modified.out.predicted_small_orfs_faa
-        
-        // call smorfinder with pre-called genes from pyrodigal
-        smorfinder_input = genome_fastas.join(modf_orfs_gffs, by: 0).join(modf_orfs_ffns, by: 0).join(modf_orfs_faas, by: 0)
+        // call smorfinder with pre-called genes from main pyrodigal run
+        smorfinder_input = genome_fastas.join(predicted_orfs_gff, by: 0).join(predicted_orfs_ffn, by: 0).join(predicted_orfs_faa, by: 0)
         smorfinder_pre_called(smorfinder_input)
         smorf_proteins = smorfinder_pre_called.out.smorf_faa.collect()
         smorfinder_tsvs = smorfinder_pre_called.out.smorf_tsv.collect()
@@ -218,38 +216,26 @@ process pyrodigal {
     """
 }
 
-process pyrodigal_min_gene_modified {
-    tag "${genome_name}_pyrodigal_min_gene_modified"
+process convert_ffn_to_gff {
+    tag "${genome_name}_convert_ffn_to_gff"
 
     errorStrategy 'ignore'
     
-    memory = "6 GB"
+    memory = "2 GB"
     cpus = 1
 
-    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    tuple val(genome_name), path(fasta)
+    tuple val(genome_name), path(ffn_file)
 
     output:
-    tuple val(genome_name), path("*.ffn"), emit: predicted_small_orfs_ffn
-    tuple val(genome_name), path("*.faa"), emit: predicted_small_orfs_faa
-    tuple val(genome_name), path("*.gff"), emit: predicted_small_orfs_gff
+    tuple val(genome_name), path("*.gff"), emit: predicted_orfs_gff
 
     script:
     """
-    pyrodigal \\
-        -i ${fasta} \\
-        -f "gff" \\
-        -o "${genome_name}.gff" \\
-        -d ${genome_name}.ffn \\
-        -a ${genome_name}.faa \\
-        --no-stop-codon \\
-        --min-gene 15 \\
-        --max-overlap 15 \\
-        -c
+    python ${baseDir}/bin/ffn_to_gff.py --ffn ${ffn_file} --output ${genome_name}.gff
     """
-
 }
 
 process smorfinder_pre_called {
