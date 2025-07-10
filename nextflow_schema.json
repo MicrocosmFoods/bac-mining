@@ -63,6 +63,11 @@
           "enum": ["single", "pre_called"],
           "default": "pre_called",
           "description": "Mode for running smorfinder. 'single' runs smorfinder directly on genomes, 'pre_called' uses pre-called genes from pyrodigal."
+        },
+        "create_genome_summaries": {
+          "type": "boolean",
+          "default": false,
+          "description": "Create comprehensive genome summaries combining all annotation information for each locus tag."
         }
       }
     }
