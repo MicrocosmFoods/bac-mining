@@ -141,22 +141,22 @@ workflow {
         // Prepare inputs for genome summaries
         genome_summary_input = predicted_orfs_ffn
         
+        // Add deeppeptide results
+        genome_summary_input = genome_summary_input.join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
+        
+        // Add antismash results
+        genome_summary_input = genome_summary_input.join(extract_gbks.out.bgc_summary_tsv, by: 0)
+        
+        // Add kofamscan results if available
+        if (params.functional_annotation) {
+            genome_summary_input = genome_summary_input.join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
+        }
+        
         // Add smorfinder results only if using pre_called mode
         if (params.smorfinder_mode == 'pre_called') {
             genome_summary_input = genome_summary_input.join(smorfinder_pre_called.out.smorf_tsv, by: 0)
             create_genome_summaries_with_smorf(genome_summary_input)
         } else {
-            // Add deeppeptide results
-            genome_summary_input = genome_summary_input.join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-            
-            // Add antismash results
-            genome_summary_input = genome_summary_input.join(extract_gbks.out.bgc_summary_tsv, by: 0)
-            
-            // Add kofamscan results if available
-            if (params.functional_annotation) {
-                genome_summary_input = genome_summary_input.join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
-            }
-            
             // Create genome summaries without smorfinder
             create_genome_summaries_no_smorf(genome_summary_input)
         }
