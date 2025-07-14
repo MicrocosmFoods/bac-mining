@@ -187,7 +187,7 @@ process make_genome_stb {
 
 process pyrodigal {
     tag "${genome_name}_pyrodigal"
-        publishDir "${params.outdir}/predicted_orfs", mode: 'copy'
+    publishDir "${params.outdir}/predicted_orfs", mode: 'copy'
 
 
     errorStrategy 'ignore'
@@ -219,6 +219,8 @@ process pyrodigal {
 
 process convert_gbk_to_gff {
     tag "${genome_name}_convert_gbk_to_gff"
+    publishDir "${params.outdir}/predicted_orfs", mode: 'copy'
+
 
     errorStrategy 'ignore'
     
