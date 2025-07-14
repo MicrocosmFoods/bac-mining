@@ -72,7 +72,7 @@ workflow {
     // predict ORFs with pyrodigal and save output files to predicted_orfs directory
     pyrodigal(genome_fastas)
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
-    predicted_orfs_proteins = pyrodigal.out.predicted_orfs_faa
+    predicted_orfs_faa = pyrodigal.out.predicted_orfs_faa
     predicted_orfs_ffn = pyrodigal.out.predicted_orfs_ffn
     
     // convert .ffn to .gff for smorfinder
