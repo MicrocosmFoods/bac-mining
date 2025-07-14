@@ -11,7 +11,7 @@ def date = new java.util.Date().format('yyyy-MM-dd')
 params.outdir = "${date}-bacmagmining-results"
 params.threads=16
 params.functional_annotation = false
-params.smorfinder_mode = 'pre_called'
+params.smorfinder_mode = 'single'
 
 log.info """\
 
@@ -133,9 +133,6 @@ workflow {
         // combine kofamscan results
         combine_kofamscan_results(all_kofamscan_tsvs)
     }
-
-
-
 }
 
 process make_genome_stb {
