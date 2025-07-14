@@ -162,11 +162,8 @@ workflow {
     // Debug: always view the channel to see what's in it
     genome_summary_input.view()
     
-    // Create comprehensive genome summaries if enabled and using pre_called mode
-    if (params.create_genome_summaries == true && params.smorfinder_mode == 'pre_called') {
-        // Create genome summaries
-        create_genome_summaries(genome_summary_input)
-    }
+    // Create comprehensive genome summaries (always run for debugging)
+    create_genome_summaries(genome_summary_input)
 }
 
 process make_genome_stb {
