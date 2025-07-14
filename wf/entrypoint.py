@@ -199,5 +199,5 @@ def nf_bacmagmining(input_genomes: LatchDir, genome_list: LatchFile, outdir: typ
     """
 
     pvc_name: str = initialize()
-    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, genome_list=genome_list, outdir=outdir, antismash_db=antismash_db, kofam_db=kofam_db, threads=threads, functional_annotation=functional_annotation)
+    nextflow_runtime(pvc_name=pvc_name, input_genomes=input_genomes, genome_list=genome_list, outdir=outdir, antismash_db=antismash_db, kofam_db=kofam_db, threads=threads, functional_annotation=functional_annotation, smorfinder_mode=smorfinder_mode)
 
