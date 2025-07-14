@@ -75,9 +75,9 @@ workflow {
     predicted_orfs_faa = pyrodigal.out.predicted_orfs_faa
     predicted_orfs_ffn = pyrodigal.out.predicted_orfs_ffn
     
-    // convert .ffn to .gff for smorfinder input
-    convert_ffn_to_gff(predicted_orfs_ffn)
-    predicted_orfs_gff = convert_ffn_to_gff.out.predicted_orfs_gff
+    // convert .gbk to .gff for smorfinder input
+    convert_gbk_to_gff(predicted_orfs_gbks)
+    predicted_orfs_gff = convert_gbk_to_gff.out.predicted_orfs_gff
     
     // run smorfinder based on user preference
     if (params.smorfinder_mode == 'pre_called') {
@@ -217,8 +217,8 @@ process pyrodigal {
     """
 }
 
-process convert_ffn_to_gff {
-    tag "${genome_name}_convert_ffn_to_gff"
+process convert_gbk_to_gff {
+    tag "${genome_name}_convert_gbk_to_gff"
 
     errorStrategy 'ignore'
     
@@ -228,14 +228,14 @@ process convert_ffn_to_gff {
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    tuple val(genome_name), path(ffn_file)
+    tuple val(genome_name), path(gbk_file)
 
     output:
     tuple val(genome_name), path("*.gff"), emit: predicted_orfs_gff
 
     script:
     """
-    python ${baseDir}/bin/ffn_to_gff.py --ffn ${ffn_file} --output ${genome_name}.gff
+    python ${baseDir}/bin/gbk_to_gff.py --gbk ${gbk_file} --output ${genome_name}.gff
     """
 }
 
