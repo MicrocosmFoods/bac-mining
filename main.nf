@@ -137,7 +137,7 @@ workflow {
     }
 
     // Create comprehensive genome summaries if enabled and using pre_called mode
-    if (params.create_genome_summaries && params.smorfinder_mode == 'pre_called') {
+    if (params.create_genome_summaries == true && params.smorfinder_mode == 'pre_called') {
         // Prepare inputs for genome summaries
         genome_summary_input = predicted_orfs_ffn
         
@@ -154,6 +154,7 @@ workflow {
         
         // Add smorfinder results
         genome_summary_input = genome_summary_input.join(smorfinder_pre_called.out.smorf_tsv, by: 0)
+        View(genome_summary_input)
         
         // Create genome summaries
         create_genome_summaries(genome_summary_input)
