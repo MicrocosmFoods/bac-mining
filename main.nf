@@ -154,7 +154,7 @@ workflow {
         
         // Add smorfinder results
         genome_summary_input = genome_summary_input.join(smorfinder_pre_called.out.smorf_tsv, by: 0)
-        View(genome_summary_input)
+        genome_summary_input.view()
         
         // Create genome summaries
         create_genome_summaries(genome_summary_input)
