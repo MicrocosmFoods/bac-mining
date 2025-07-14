@@ -134,16 +134,7 @@ workflow {
         combine_kofamscan_results(all_kofamscan_tsvs)
     }
 
-    // Prepare inputs for genome summaries (always create the channel)
-    genome_summary_input = predicted_orfs_ffn
-        .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-        .join(extract_gbks.out.bgc_summary_tsv, by: 0)
-        .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
-        .join(smorfinder_pre_called.out.smorf_tsv, by: 0)
 
-    // Create comprehensive genome summaries
-    genome_summary_input.view()
-    create_genome_summaries(genome_summary_input)
 
 }
 
@@ -544,29 +535,3 @@ process combine_kofamscan_results {
     """
 }
 
-process create_genome_summaries {
-    tag "${genome_name}_create_genome_summaries"
-    publishDir "${params.outdir}/main_results/genome_summaries", mode: 'copy'
-
-    memory = "15 GB"
-    cpus = 1
-
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
-
-    input:
-    tuple val(genome_name), path(ffn_file), path(deeppeptide_tsv), path(antismash_tsv), path(kofamscan_tsv), path(smorfinder_tsv)
-
-    output:
-    path("*_final_summary.tsv"), emit: genome_summary_tsv
-
-    script:
-    """
-    python ${baseDir}/bin/combine_genome_annotations.py \\
-        --ffn ${ffn_file} \\
-        --deeppeptide-tsv ${deeppeptide_tsv} \\
-        --antismash-tsv ${antismash_tsv} \\
-        --kofamscan-tsv ${kofamscan_tsv} \\
-        --smorfinder-tsv ${smorfinder_tsv} \\
-        --output ${genome_name}_final_summary.tsv
-    """
-}
