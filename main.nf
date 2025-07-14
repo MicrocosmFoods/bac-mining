@@ -12,7 +12,6 @@ params.outdir = "${date}-bacmagmining-results"
 params.threads=16
 params.functional_annotation = false
 params.smorfinder_mode = 'pre_called'
-params.create_genome_summaries = false  // Create comprehensive genome summaries
 
 log.info """\
 
@@ -31,7 +30,6 @@ outdir                          : $params.outdir
 threads                         : $params.threads
 functional_annotation           : $params.functional_annotation
 smorfinder_mode                 : $params.smorfinder_mode
-create_genome_summaries         : $params.create_genome_summaries
 """
 
 // define channels
