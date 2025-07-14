@@ -136,8 +136,8 @@ workflow {
         combine_kofamscan_results(all_kofamscan_tsvs)
     }
 
-    // Create comprehensive genome summaries if enabled
-    if (params.create_genome_summaries) {
+    // Create comprehensive genome summaries if enabled and using pre_called mode
+    if (params.create_genome_summaries && params.smorfinder_mode == 'pre_called') {
         // Prepare inputs for genome summaries
         genome_summary_input = predicted_orfs_ffn
         
@@ -152,13 +152,11 @@ workflow {
             genome_summary_input = genome_summary_input.join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
         }
         
-        // Add smorfinder results only if using pre_called mode
-        if (params.smorfinder_mode == 'pre_called') {
-            genome_summary_input = genome_summary_input.join(smorfinder_pre_called.out.smorf_tsv, by: 0)
-            create_genome_summaries_with_smorf(genome_summary_input)
-        } else {
-            create_genome_summaries_no_smorf(genome_summary_input)
-        }
+        // Add smorfinder results
+        genome_summary_input = genome_summary_input.join(smorfinder_pre_called.out.smorf_tsv, by: 0)
+        
+        // Create genome summaries
+        create_genome_summaries(genome_summary_input)
     }
 }
 
