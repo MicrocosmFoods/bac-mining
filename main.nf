@@ -136,26 +136,34 @@ workflow {
         combine_kofamscan_results(all_kofamscan_tsvs)
     }
 
+    // Prepare inputs for genome summaries (always create the channel)
+    if (params.functional_annotation && params.smorfinder_mode == 'pre_called') {
+        genome_summary_input = predicted_orfs_ffn
+            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
+            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
+            .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
+            .join(smorfinder_pre_called.out.smorf_tsv, by: 0)
+    } else if (params.functional_annotation) {
+        genome_summary_input = predicted_orfs_ffn
+            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
+            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
+            .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
+    } else if (params.smorfinder_mode == 'pre_called') {
+        genome_summary_input = predicted_orfs_ffn
+            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
+            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
+            .join(smorfinder_pre_called.out.smorf_tsv, by: 0)
+    } else {
+        genome_summary_input = predicted_orfs_ffn
+            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
+            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
+    }
+    
+    // Debug: always view the channel to see what's in it
+    genome_summary_input.view()
+    
     // Create comprehensive genome summaries if enabled and using pre_called mode
     if (params.create_genome_summaries == true && params.smorfinder_mode == 'pre_called') {
-        // Prepare inputs for genome summaries
-        genome_summary_input = predicted_orfs_ffn
-        
-        // Add deeppeptide results
-        genome_summary_input = genome_summary_input.join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-        
-        // Add antismash results
-        genome_summary_input = genome_summary_input.join(extract_gbks.out.bgc_summary_tsv, by: 0)
-        
-        // Add kofamscan results if available
-        if (params.functional_annotation) {
-            genome_summary_input = genome_summary_input.join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
-        }
-        
-        // Add smorfinder results
-        genome_summary_input = genome_summary_input.join(smorfinder_pre_called.out.smorf_tsv, by: 0)
-        genome_summary_input.view()
-        
         // Create genome summaries
         create_genome_summaries(genome_summary_input)
     }
