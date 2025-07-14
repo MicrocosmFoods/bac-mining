@@ -137,33 +137,16 @@ workflow {
     }
 
     // Prepare inputs for genome summaries (always create the channel)
-    if (params.functional_annotation && params.smorfinder_mode == 'pre_called') {
-        genome_summary_input = predicted_orfs_ffn
-            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
-            .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
-            .join(smorfinder_pre_called.out.smorf_tsv, by: 0)
-    } else if (params.functional_annotation) {
-        genome_summary_input = predicted_orfs_ffn
-            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
-            .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
-    } else if (params.smorfinder_mode == 'pre_called') {
-        genome_summary_input = predicted_orfs_ffn
-            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
-            .join(smorfinder_pre_called.out.smorf_tsv, by: 0)
-    } else {
-        genome_summary_input = predicted_orfs_ffn
-            .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
-            .join(extract_gbks.out.bgc_summary_tsv, by: 0)
-    }
-    
-    // Debug: always view the channel to see what's in it
+    genome_summary_input = predicted_orfs_ffn
+        .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
+        .join(extract_gbks.out.bgc_summary_tsv, by: 0)
+        .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
+        .join(ssmorfinder_pre_called.out.smorf_tsv, by: 0)
+
+    // Create comprehensive genome summaries
     genome_summary_input.view()
-    
-    // Create comprehensive genome summaries (always run for debugging)
     create_genome_summaries(genome_summary_input)
+
 }
 
 process make_genome_stb {
