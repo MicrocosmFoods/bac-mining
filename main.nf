@@ -69,13 +69,13 @@ workflow {
     make_genome_stb(all_genome_fastas_ch)
     genome_stb_tsv = make_genome_stb.out.stb_tsv
 
-    // predict ORFs with pyrodigal and save output files to predicted_orfs directory
+    // predict ORFs with pyrodigal and save output files
     pyrodigal(genome_fastas)
     predicted_orfs_gbks = pyrodigal.out.predicted_orfs_gbk
     predicted_orfs_faa = pyrodigal.out.predicted_orfs_faa
     predicted_orfs_ffn = pyrodigal.out.predicted_orfs_ffn
     
-    // convert .ffn to .gff for smorfinder
+    // convert .ffn to .gff for smorfinder input
     convert_ffn_to_gff(predicted_orfs_ffn)
     predicted_orfs_gff = convert_ffn_to_gff.out.predicted_orfs_gff
     
@@ -98,13 +98,13 @@ workflow {
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
     // filter to proteins less than 50 AAs for inputting to deeppeptide
-    filter_small_proteins(predicted_orfs_proteins)
+    filter_small_proteins(predicted_orfs_faa)
     filtered_proteins = filter_small_proteins.out.filtered_proteins
 
     // predict cleavage peptides with deeppeptide, extract sequences from json, and combine into a single FASTA
     predict_cleavage_peptides(filtered_proteins)
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
-    cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_proteins, by: 0)
+    cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_faa, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
     all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
     deeppeptide_tsvs = extract_cleavage_peptides_json.out.cleavage_peptides_tsv.collect()
@@ -128,7 +128,7 @@ workflow {
     // Only run functional annotation if enabled
     if (params.functional_annotation) {
         // run kofamscan annotations on all predicted proteins
-        kofamscan_annotation_ch = predicted_orfs_proteins.combine(kofam_db_ch)
+        kofamscan_annotation_ch = predicted_orfs_faa.combine(kofam_db_ch)
         kofamscan_annotation(kofamscan_annotation_ch)
         all_kofamscan_tsvs = kofamscan_annotation.out.kofamscan_tsv.collect()
 
@@ -332,14 +332,14 @@ process filter_small_proteins {
     container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
 
     input:
-    tuple val(genome_name), path(predicted_orfs_proteins)
+    tuple val(genome_name), path(predicted_orfs_faa)
 
     output:
     tuple val(genome_name), path("*.fasta"), emit: filtered_proteins
 
     script:
     """
-    python ${baseDir}/bin/filter_proteins.py ${predicted_orfs_proteins} ${genome_name}_filtered_proteins.fasta --max_length 100
+    python ${baseDir}/bin/filter_proteins.py ${predicted_orfs_faa} ${genome_name}_filtered_proteins.fasta --max_length 100
     """
 }
 
@@ -355,7 +355,7 @@ process predict_cleavage_peptides {
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
 
     input:
-    tuple val(genome_name), path(predicted_orfs_proteins)
+    tuple val(genome_name), path(predicted_orfs_faa)
 
     output:
     tuple val(genome_name), path("${genome_name}_peptide_predictions.json"), emit: cleavage_peptides_json
@@ -363,10 +363,10 @@ process predict_cleavage_peptides {
     script:
     """
     WORKDIR=\$PWD
-    cp ${predicted_orfs_proteins} /app/DeepPeptide/predictor
+    cp ${predicted_orfs_faa} /app/DeepPeptide/predictor
     cd /app/DeepPeptide/predictor
 
-    python3 predict.py --fastafile ${predicted_orfs_proteins.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 200
+    python3 predict.py --fastafile ${predicted_orfs_faa.getName()} --output_dir ${genome_name} --output_fmt json --batch_size 200
     
     cp ${genome_name}/peptide_predictions.json \$WORKDIR/${genome_name}_peptide_predictions.json
     """
