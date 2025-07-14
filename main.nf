@@ -550,8 +550,6 @@ process create_genome_summaries {
     tag "${genome_name}_create_genome_summaries"
     publishDir "${params.outdir}/main_results/genome_summaries", mode: 'copy'
 
-    errorStrategy 'ignore'
-
     memory = "15 GB"
     cpus = 1
 
