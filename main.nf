@@ -141,7 +141,7 @@ workflow {
         .join(extract_cleavage_peptides_json.out.cleavage_peptides_tsv, by: 0)
         .join(extract_gbks.out.bgc_summary_tsv, by: 0)
         .join(kofamscan_annotation.out.kofamscan_tsv, by: 0)
-        .join(ssmorfinder_pre_called.out.smorf_tsv, by: 0)
+        .join(smorfinder_pre_called.out.smorf_tsv, by: 0)
 
     // Create comprehensive genome summaries
     genome_summary_input.view()
