@@ -95,6 +95,90 @@ def parse_ffn_file(ffn_file):
     return genes
 
 
+def parse_ffn_file_with_coordinates(ffn_file):
+    """Parse .ffn file to extract gene information with coordinates from header."""
+    genes = {}
+    
+    with open(ffn_file, 'r') as f:
+        current_gene = None
+        current_sequence = ""
+        current_start = None
+        current_end = None
+        
+        for line in f:
+            line = line.strip()
+            if line.startswith('>'):
+                # Save previous gene if exists
+                if current_gene:
+                    genes[current_gene] = {
+                        'sequence': current_sequence,
+                        'length': len(current_sequence),
+                        'start': current_start,
+                        'end': current_end
+                    }
+                
+                # Parse header line
+                header = line[1:]  # Remove '>'
+                parts = header.split()
+                current_gene = parts[0]  # First part is the locus tag (clean, no whitespace)
+                current_sequence = ""
+                current_start = None
+                current_end = None
+                
+                # Try to extract coordinates from header description
+                if len(parts) > 1:
+                    description = ' '.join(parts[1:])
+                    # Look for [location=start..end] pattern
+                    if '[location=' in description:
+                        location_part = description.split('[location=')[1].split(']')[0]
+                        if '..' in location_part:
+                            try:
+                                start_str, end_str = location_part.split('..')
+                                current_start = int(start_str)
+                                current_end = int(end_str)
+                            except ValueError:
+                                pass
+            else:
+                current_sequence += line
+        
+        # Don't forget the last gene
+        if current_gene:
+            genes[current_gene] = {
+                'sequence': current_sequence,
+                'length': len(current_sequence),
+                'start': current_start,
+                'end': current_end
+            }
+    
+    return genes
+
+
+def get_genome_column_name(df, file_type):
+    """Determine the correct column name for genome identifier in a DataFrame."""
+    possible_names = ['genome', 'genome_name', 'mag_id', 'sample', 'strain']
+    
+    for col_name in possible_names:
+        if col_name in df.columns:
+            return col_name
+    
+    # If none found, print available columns and return None
+    print(f"Warning: Could not find genome column in {file_type} file. Available columns: {list(df.columns)}")
+    return None
+
+
+def get_locus_column_name(df, file_type):
+    """Determine the correct column name for locus tag in a DataFrame."""
+    possible_names = ['locus_tag', 'gene_name', 'gene_id', 'orf_id', 'id']
+    
+    for col_name in possible_names:
+        if col_name in df.columns:
+            return col_name
+    
+    # If none found, print available columns and return None
+    print(f"Warning: Could not find locus tag column in {file_type} file. Available columns: {list(df.columns)}")
+    return None
+
+
 def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_list=None):
     """Create genome summaries by combining all available results with .ffn gene information."""
     
@@ -122,6 +206,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         if not smorf_df.empty:
             results['smorfinder'] = smorf_df
             print(f"Loaded {len(smorf_df)} smorfinder entries")
+            print(f"  Columns: {list(smorf_df.columns)}")
     
     # Load deeppeptide results if available
     if 'deeppeptide' in result_files:
@@ -130,6 +215,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         if not deepp_df.empty:
             results['deeppeptide'] = deepp_df
             print(f"Loaded {len(deepp_df)} deeppeptide entries")
+            print(f"  Columns: {list(deepp_df.columns)}")
     
     # Load antismash results if available
     if 'antismash' in result_files:
@@ -138,6 +224,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         if not antismash_df.empty:
             results['antismash'] = antismash_df
             print(f"Loaded {len(antismash_df)} antismash entries")
+            print(f"  Columns: {list(antismash_df.columns)}")
     
     # Load kofamscan results if available
     if 'kofamscan' in result_files:
@@ -146,6 +233,10 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         if not kofam_df.empty:
             results['kofamscan'] = kofam_df
             print(f"Loaded {len(kofam_df)} kofamscan entries")
+            print(f"  Columns: {list(kofam_df.columns)}")
+            # Show first few rows to understand the data structure
+            print(f"  First few rows:")
+            print(kofam_df.head(3).to_string())
     
     # Get list of genomes to process
     if genome_list:
@@ -159,8 +250,9 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
             # Extract genome names from any available result file
             genomes = set()
             for name, df in results.items():
-                if 'genome' in df.columns:
-                    genomes.update(df['genome'].unique())
+                genome_col = get_genome_column_name(df, name)
+                if genome_col:
+                    genomes.update(df[genome_col].unique())
             genomes = sorted(list(genomes))
     
     print(f"Processing {len(genomes)} genomes...")
@@ -175,7 +267,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         genes = {}
         if genome in ffn_files:
             print(f"  Parsing .ffn file for {genome}...")
-            genes = parse_ffn_file(ffn_files[genome])
+            genes = parse_ffn_file_with_coordinates(ffn_files[genome])
             print(f"  Found {len(genes)} genes in .ffn file")
         
         # Initialize summary data for this genome
@@ -192,8 +284,8 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                 'deeppeptide_peptide': '',
                 'deeppeptide_peptide_name': '',
                 'antismash_bgc_type': '',
-                'kofamscan_annotation': '',
-                'annotations_found': 0
+                'ko_number': '',
+                'kofamscan_annotation': ''
             })
         
         # Add annotations from result files
@@ -201,113 +293,185 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         
         # Add smorfinder results
         if 'smorfinder' in results:
-            smorf_genome = results['smorfinder'][results['smorfinder']['genome'] == genome]
-            for _, row in smorf_genome.iterrows():
-                locus_tag = row.get('locus_tag', '')
-                # Find matching gene in summary data
-                for entry in summary_data:
-                    if entry['locus_tag'] == locus_tag:
-                        entry['smorfinder_peptide'] = 'smorfinder'
-                        entry['smorfinder_peptide_name'] = row.get('peptide_name', '')
-                        entry['annotations_found'] += 1
-                        annotations_added += 1
-                        break
-                else:
-                    # Gene not in .ffn file, add new entry
-                    summary_data.append({
-                        'genome': genome,
-                        'locus_tag': locus_tag,
-                        'gene_length': '',
-                        'smorfinder_peptide': 'smorfinder',
-                        'smorfinder_peptide_name': row.get('peptide_name', ''),
-                        'deeppeptide_peptide': '',
-                        'deeppeptide_peptide_name': '',
-                        'antismash_bgc_type': '',
-                        'kofamscan_annotation': '',
-                        'annotations_found': 1
-                    })
+            smorf_df = results['smorfinder']
+            genome_col = get_genome_column_name(smorf_df, 'smorfinder')
+            
+            if genome_col:
+                smorf_genome = smorf_df[smorf_df[genome_col] == genome]
+                for _, row in smorf_genome.iterrows():
+                    locus_tag = row.get('seqid', '')  # Use seqid as locus tag
+                    smorf_start = row.get('start', None)
+                    smorf_end = row.get('end', None)
+                    
+                    # Try to match by locus tag first
+                    matched = False
+                    for entry in summary_data:
+                        if entry['locus_tag'] == locus_tag:
+                            entry['smorfinder_peptide'] = 'smorfinder'
+                            entry['smorfinder_peptide_name'] = row.get('smorfam', '')  # Use smorfam as peptide name
+                            annotations_added += 1
+                            matched = True
+                            break
+                    
+                    # If no locus tag match, try coordinate matching (if coordinates are available)
+                    if not matched and smorf_start and smorf_end:
+                        for entry in summary_data:
+                            if (hasattr(entry, 'gene_start') and hasattr(entry, 'gene_end') and
+                                entry['gene_start'] and entry['gene_end'] and
+                                entry['gene_start'] == smorf_start and entry['gene_end'] == smorf_end):
+                                entry['smorfinder_peptide'] = 'smorfinder'
+                                entry['smorfinder_peptide_name'] = row.get('smorfam', '')
+                                annotations_added += 1
+                                matched = True
+                                break
+                    
+                    if not matched:
+                        # Gene not in .ffn file, add new entry
+                        summary_data.append({
+                            'genome': genome,
+                            'locus_tag': locus_tag if locus_tag else f"smorf_{smorf_start}_{smorf_end}",
+                            'gene_length': '',
+                            'smorfinder_peptide': 'smorfinder',
+                            'smorfinder_peptide_name': row.get('smorfam', ''),
+                            'deeppeptide_peptide': '',
+                            'deeppeptide_peptide_name': '',
+                            'antismash_bgc_type': '',
+                            'ko_number': '',
+                            'kofamscan_annotation': ''
+                        })
         
         # Add deeppeptide results
         if 'deeppeptide' in results:
-            deepp_genome = results['deeppeptide'][results['deeppeptide']['genome'] == genome]
-            for _, row in deepp_genome.iterrows():
-                locus_tag = row.get('locus_tag', '')
-                # Find matching gene in summary data
-                for entry in summary_data:
-                    if entry['locus_tag'] == locus_tag:
-                        entry['deeppeptide_peptide'] = 'deeppeptide'
-                        entry['deeppeptide_peptide_name'] = row.get('peptide_name', '')
-                        entry['annotations_found'] += 1
-                        annotations_added += 1
-                        break
-                else:
-                    # Gene not in .ffn file, add new entry
-                    summary_data.append({
-                        'genome': genome,
-                        'locus_tag': locus_tag,
-                        'gene_length': '',
-                        'smorfinder_peptide': '',
-                        'smorfinder_peptide_name': '',
-                        'deeppeptide_peptide': 'deeppeptide',
-                        'deeppeptide_peptide_name': row.get('peptide_name', ''),
-                        'antismash_bgc_type': '',
-                        'kofamscan_annotation': '',
-                        'annotations_found': 1
-                    })
+            deepp_df = results['deeppeptide']
+            genome_col = get_genome_column_name(deepp_df, 'deeppeptide')
+            
+            if genome_col:
+                deepp_genome = deepp_df[deepp_df[genome_col] == genome]
+                for _, row in deepp_genome.iterrows():
+                    peptide_id = row.get('peptide_id', '')
+                    
+                    # Extract gene name from peptide_id (everything before _start)
+                    if peptide_id and '_start' in peptide_id:
+                        locus_tag = peptide_id.split('_start')[0]
+                    else:
+                        locus_tag = peptide_id
+                    
+                    # Try to match by locus tag
+                    matched = False
+                    for entry in summary_data:
+                        if entry['locus_tag'] == locus_tag:
+                            entry['deeppeptide_peptide'] = 'deeppeptide'
+                            entry['deeppeptide_peptide_name'] = row.get('peptide_class', '')  # Use peptide_class as name
+                            annotations_added += 1
+                            matched = True
+                            break
+                    
+                    if not matched:
+                        # Gene not in .ffn file, add new entry
+                        summary_data.append({
+                            'genome': genome,
+                            'locus_tag': locus_tag,
+                            'gene_length': '',
+                            'smorfinder_peptide': '',
+                            'smorfinder_peptide_name': '',
+                            'deeppeptide_peptide': 'deeppeptide',
+                            'deeppeptide_peptide_name': row.get('peptide_class', ''),
+                            'antismash_bgc_type': '',
+                            'ko_number': '',
+                            'kofamscan_annotation': ''
+                        })
         
         # Add antismash results
         if 'antismash' in results:
-            antismash_genome = results['antismash'][results['antismash']['genome'] == genome]
-            for _, row in antismash_genome.iterrows():
-                locus_tag = row.get('locus_tag', '')
-                # Find matching gene in summary data
-                for entry in summary_data:
-                    if entry['locus_tag'] == locus_tag:
-                        entry['antismash_bgc_type'] = row.get('bgc_type', '')
-                        entry['annotations_found'] += 1
-                        annotations_added += 1
-                        break
-                else:
-                    # Gene not in .ffn file, add new entry
-                    summary_data.append({
-                        'genome': genome,
-                        'locus_tag': locus_tag,
-                        'gene_length': '',
-                        'smorfinder_peptide': '',
-                        'smorfinder_peptide_name': '',
-                        'deeppeptide_peptide': '',
-                        'deeppeptide_peptide_name': '',
-                        'antismash_bgc_type': row.get('bgc_type', ''),
-                        'kofamscan_annotation': '',
-                        'annotations_found': 1
-                    })
+            antismash_df = results['antismash']
+            genome_col = get_genome_column_name(antismash_df, 'antismash')
+            locus_col = get_locus_column_name(antismash_df, 'antismash')
+            
+            if genome_col:
+                antismash_genome = antismash_df[antismash_df[genome_col] == genome]
+                for _, row in antismash_genome.iterrows():
+                    locus_tag = row.get(locus_col, '') if locus_col else ''
+                    
+                    if locus_tag:
+                        # Try to match by locus tag first
+                        matched = False
+                        for entry in summary_data:
+                            if entry['locus_tag'] == locus_tag:
+                                entry['antismash_bgc_type'] = row.get('bgc_type', '')
+                                annotations_added += 1
+                                matched = True
+                                break
+                        
+                        if not matched:
+                            # Gene not in .ffn file, add new entry
+                            summary_data.append({
+                                'genome': genome,
+                                'locus_tag': locus_tag,
+                                'gene_length': '',
+                                'smorfinder_peptide': '',
+                                'smorfinder_peptide_name': '',
+                                'deeppeptide_peptide': '',
+                                'deeppeptide_peptide_name': '',
+                                'antismash_bgc_type': row.get('bgc_type', ''),
+                                'ko_number': '',
+                                'kofamscan_annotation': ''
+                            })
         
         # Add kofamscan results
         if 'kofamscan' in results:
-            kofam_genome = results['kofamscan'][results['kofamscan']['genome'] == genome]
-            for _, row in kofam_genome.iterrows():
-                locus_tag = row.get('locus_tag', '')
-                # Find matching gene in summary data
-                for entry in summary_data:
-                    if entry['locus_tag'] == locus_tag:
-                        entry['kofamscan_annotation'] = row.get('annotation', '')
-                        entry['annotations_found'] += 1
-                        annotations_added += 1
-                        break
-                else:
-                    # Gene not in .ffn file, add new entry
-                    summary_data.append({
-                        'genome': genome,
-                        'locus_tag': locus_tag,
-                        'gene_length': '',
-                        'smorfinder_peptide': '',
-                        'smorfinder_peptide_name': '',
-                        'deeppeptide_peptide': '',
-                        'deeppeptide_peptide_name': '',
-                        'antismash_bgc_type': '',
-                        'kofamscan_annotation': row.get('annotation', ''),
-                        'annotations_found': 1
-                    })
+            kofam_df = results['kofamscan']
+            genome_col = get_genome_column_name(kofam_df, 'kofamscan')
+            
+            if genome_col:
+                kofam_genome = kofam_df[kofam_df[genome_col] == genome]
+                
+                # Group kofamscan results by gene_name to find best scoring annotation per gene
+                gene_annotations = {}
+                for _, row in kofam_genome.iterrows():
+                    locus_tag = row.get('gene_name', '')  # Use gene_name as locus tag
+                    
+                    if locus_tag:
+                        ko_number = row.get('KO', '')  # KO number
+                        definition = row.get('KO_definition', '')  # Annotation description
+                        score = row.get('score', 0)  # Score for ranking
+                        threshold = row.get('threshold', 0)  # Threshold score
+                        
+                        # Calculate confidence score (higher is better)
+                        confidence_score = score - threshold if score and threshold else 0
+                        
+                        # Keep the annotation with highest confidence score
+                        if locus_tag not in gene_annotations or confidence_score > gene_annotations[locus_tag]['confidence']:
+                            gene_annotations[locus_tag] = {
+                                'ko_number': ko_number,
+                                'definition': definition,
+                                'confidence': confidence_score
+                            }
+                
+                # Now add the best annotations to summary data
+                for locus_tag, annotation in gene_annotations.items():
+                    matched = False
+                    for entry in summary_data:
+                        if entry['locus_tag'] == locus_tag:
+                            entry['ko_number'] = annotation['ko_number']
+                            entry['kofamscan_annotation'] = annotation['definition']
+                            annotations_added += 1
+                            matched = True
+                            break
+                    
+                    if not matched:
+                        # Gene not in .ffn file, add new entry
+                        summary_data.append({
+                            'genome': genome,
+                            'locus_tag': locus_tag,
+                            'gene_length': '',
+                            'smorfinder_peptide': '',
+                            'smorfinder_peptide_name': '',
+                            'deeppeptide_peptide': '',
+                            'deeppeptide_peptide_name': '',
+                            'antismash_bgc_type': '',
+                            'ko_number': annotation['ko_number'],
+                            'kofamscan_annotation': annotation['definition']
+                        })
         
         # Create summary DataFrame for this genome
         if summary_data:

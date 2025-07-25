@@ -149,6 +149,7 @@ process make_genome_stb {
 
     output:
     path("*.tsv"), emit: stb_tsv
+    path("*.txt"), emit: stb_log, optional: true
 
     script:
     """
