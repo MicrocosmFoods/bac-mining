@@ -1,0 +1,2652 @@
+genome	locus_tag	gene_length	smorfinder_peptide	smorfinder_peptide_name	deeppeptide_peptide	deeppeptide_peptide_name	antismash_bgc_type	ko_number	kofamscan_annotation
+MAG_606	MAG_606_0_1	4572							
+MAG_606	MAG_606_0_2	2115							
+MAG_606	MAG_606_0_3	840							
+MAG_606	MAG_606_10_1	405							
+MAG_606	MAG_606_10_2	288							
+MAG_606	MAG_606_10_3	579							
+MAG_606	MAG_606_10_4	882							
+MAG_606	MAG_606_10_5	774							
+MAG_606	MAG_606_11_1	114							
+MAG_606	MAG_606_11_2	528							
+MAG_606	MAG_606_11_3	450							
+MAG_606	MAG_606_12_1	333						K07483	transposase
+MAG_606	MAG_606_12_2	729						K07497	putative transposase
+MAG_606	MAG_606_12_3	333						K07177	Lon-like protease
+MAG_606	MAG_606_13_1	270							
+MAG_606	MAG_606_13_2	276							
+MAG_606	MAG_606_13_3	351							
+MAG_606	MAG_606_13_4	183							
+MAG_606	MAG_606_13_5	276							
+MAG_606	MAG_606_13_6	375							
+MAG_606	MAG_606_13_7	342							
+MAG_606	MAG_606_14_1	1533							
+MAG_606	MAG_606_14_10	741						K09147	uncharacterized protein
+MAG_606	MAG_606_14_11	522							
+MAG_606	MAG_606_14_12	906							
+MAG_606	MAG_606_14_13	1527						K18218	tetracycline resistance efflux pump
+MAG_606	MAG_606_14_14	1830							
+MAG_606	MAG_606_14_15	1224						K03699	magnesium and cobalt exporter, CNNM family
+MAG_606	MAG_606_14_16	678						K15620	golgi phosphoprotein 3
+MAG_606	MAG_606_14_17	576							
+MAG_606	MAG_606_14_18	462							
+MAG_606	MAG_606_14_19	768							
+MAG_606	MAG_606_14_2	1629							
+MAG_606	MAG_606_14_20	849						K07001	NTE family protein
+MAG_606	MAG_606_14_21	216							
+MAG_606	MAG_606_14_22	1380						K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]
+MAG_606	MAG_606_14_23	909							
+MAG_606	MAG_606_14_24	1185						K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]
+MAG_606	MAG_606_14_25	1575						K01610	phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49]
+MAG_606	MAG_606_14_26	459							
+MAG_606	MAG_606_14_27	234						K08998	uncharacterized protein
+MAG_606	MAG_606_14_28	1371						K01911	o-succinylbenzoate---CoA ligase [EC:6.2.1.26]
+MAG_606	MAG_606_14_29	819						K01661	naphthoate synthase [EC:4.1.3.36]
+MAG_606	MAG_606_14_3	1596						K03307	solute:Na+ symporter, SSS family
+MAG_606	MAG_606_14_30	795							
+MAG_606	MAG_606_14_31	1668						K02551	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase [EC:2.2.1.9]
+MAG_606	MAG_606_14_32	1395							
+MAG_606	MAG_606_14_33	918						K02548	1,4-dihydroxy-2-naphthoate polyprenyltransferase [EC:2.5.1.74]
+MAG_606	MAG_606_14_34	588							
+MAG_606	MAG_606_14_35	468							
+MAG_606	MAG_606_14_36	411							
+MAG_606	MAG_606_14_37	1185						K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+MAG_606	MAG_606_14_38	2259						K07516	3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]
+MAG_606	MAG_606_14_39	1206							
+MAG_606	MAG_606_14_4	627							
+MAG_606	MAG_606_14_40	1515							
+MAG_606	MAG_606_14_41	1566						K01026	propionate CoA-transferase [EC:2.8.3.1]
+MAG_606	MAG_606_14_42	1527							
+MAG_606	MAG_606_14_43	732						K21744	MerR family transcriptional regulator, thiopeptide resistance regulator
+MAG_606	MAG_606_14_44	561						K01174	micrococcal nuclease [EC:3.1.31.1]
+MAG_606	MAG_606_14_45	330							
+MAG_606	MAG_606_14_46	864						K07104	catechol 2,3-dioxygenase [EC:1.13.11.2]
+MAG_606	MAG_606_14_47	444							
+MAG_606	MAG_606_14_48	201						K03704	cold shock protein
+MAG_606	MAG_606_14_49	717						K15519	deoxyadenosine/deoxycytidine kinase [EC:2.7.1.76 2.7.1.74]
+MAG_606	MAG_606_14_5	240							
+MAG_606	MAG_606_14_50	1044							
+MAG_606	MAG_606_14_51	720						K07090	uncharacterized protein
+MAG_606	MAG_606_14_52	249						K09779	uncharacterized protein
+MAG_606	MAG_606_14_53	480							
+MAG_606	MAG_606_14_54	276							
+MAG_606	MAG_606_14_55	594						K02250	competence protein ComK
+MAG_606	MAG_606_14_56	198							
+MAG_606	MAG_606_14_57	1014						K03800	lipoate---protein ligase [EC:6.3.1.20]
+MAG_606	MAG_606_14_58	1374						K00231	protoporphyrinogen/coproporphyrinogen III oxidase [EC:1.3.3.4 1.3.3.15]
+MAG_606	MAG_606_14_59	918						K01772	protoporphyrin/coproporphyrin ferrochelatase [EC:4.98.1.1 4.99.1.9]
+MAG_606	MAG_606_14_6	1236						K06016	beta-ureidopropionase / N-carbamoyl-L-amino-acid hydrolase [EC:3.5.1.6 3.5.1.87]
+MAG_606	MAG_606_14_60	1026						K01599	uroporphyrinogen decarboxylase [EC:4.1.1.37]
+MAG_606	MAG_606_14_61	540							
+MAG_606	MAG_606_14_62	1203						K25157	ABC-2 type transport system permease protein
+MAG_606	MAG_606_14_63	741						K25158	ABC-2 type transport system ATP-binding protein
+MAG_606	MAG_606_14_64	432						K02503	histidine triad (HIT) family protein [EC:3.9.1.-]
+MAG_606	MAG_606_14_65	390							
+MAG_606	MAG_606_14_66	1128							
+MAG_606	MAG_606_14_7	1026							
+MAG_606	MAG_606_14_8	918							
+MAG_606	MAG_606_14_9	1053						K00004	(R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.4 1.1.1.- 1.1.1.303]
+MAG_606	MAG_606_15_1	570							
+MAG_606	MAG_606_15_2	1758							
+MAG_606	MAG_606_15_3	537							
+MAG_606	MAG_606_15_4	258							
+MAG_606	MAG_606_15_5	522						K00287	dihydrofolate reductase [EC:1.5.1.3]
+MAG_606	MAG_606_15_6	618							
+MAG_606	MAG_606_15_7	318						K00560	thymidylate synthase [EC:2.1.1.45]
+MAG_606	MAG_606_17_1	195							
+MAG_606	MAG_606_17_2	723							
+MAG_606	MAG_606_17_3	255							
+MAG_606	MAG_606_17_4	216							
+MAG_606	MAG_606_17_5	297			deeppeptide	Propeptide			
+MAG_606	MAG_606_17_6	288							
+MAG_606	MAG_606_17_7	198							
+MAG_606	MAG_606_17_8	114	smorfinder	smorfam04403					
+MAG_606	MAG_606_18_1	195							
+MAG_606	MAG_606_18_2	723							
+MAG_606	MAG_606_18_3	255							
+MAG_606	MAG_606_18_4	324							
+MAG_606	MAG_606_18_5	198							
+MAG_606	MAG_606_18_6	114	smorfinder	smorfam04349					
+MAG_606	MAG_606_19_1	3678							
+MAG_606	MAG_606_1_1	120			deeppeptide	Peptide			
+MAG_606	MAG_606_1_10	516							
+MAG_606	MAG_606_1_11	270							
+MAG_606	MAG_606_1_12	285							
+MAG_606	MAG_606_1_13	363							
+MAG_606	MAG_606_1_14	324							
+MAG_606	MAG_606_1_15	234							
+MAG_606	MAG_606_1_16	270			deeppeptide	Peptide			
+MAG_606	MAG_606_1_17	300							
+MAG_606	MAG_606_1_18	186							
+MAG_606	MAG_606_1_19	330							
+MAG_606	MAG_606_1_2	897							
+MAG_606	MAG_606_1_20	1674							
+MAG_606	MAG_606_1_21	840						K27771	Herelleviridae head maturation protease
+MAG_606	MAG_606_1_22	912							
+MAG_606	MAG_606_1_23	1413							
+MAG_606	MAG_606_1_24	249							
+MAG_606	MAG_606_1_25	315							
+MAG_606	MAG_606_1_3	1095							
+MAG_606	MAG_606_1_4	894							
+MAG_606	MAG_606_1_5	300							
+MAG_606	MAG_606_1_6	906							
+MAG_606	MAG_606_1_7	363							
+MAG_606	MAG_606_1_8	420							
+MAG_606	MAG_606_1_9	291			deeppeptide	Propeptide			
+MAG_606	MAG_606_20_1	1032							
+MAG_606	MAG_606_20_2	306							
+MAG_606	MAG_606_20_3	1746							
+MAG_606	MAG_606_20_4	450							
+MAG_606	MAG_606_20_5	795							
+MAG_606	MAG_606_20_6	219							
+MAG_606	MAG_606_20_7	117			deeppeptide	Peptide			
+MAG_606	MAG_606_21_1	1029							
+MAG_606	MAG_606_21_2	582							
+MAG_606	MAG_606_21_3	306							
+MAG_606	MAG_606_21_4	1737							
+MAG_606	MAG_606_21_5	453							
+MAG_606	MAG_606_21_6	459							
+MAG_606	MAG_606_21_7	219							
+MAG_606	MAG_606_21_8	327							
+MAG_606	MAG_606_22_1	282							
+MAG_606	MAG_606_22_10	1905							
+MAG_606	MAG_606_22_2	768							
+MAG_606	MAG_606_22_3	519							
+MAG_606	MAG_606_22_4	741							
+MAG_606	MAG_606_22_5	1047							
+MAG_606	MAG_606_22_6	1629							
+MAG_606	MAG_606_22_7	1326							
+MAG_606	MAG_606_22_8	249							
+MAG_606	MAG_606_22_9	267							
+MAG_606	MAG_606_23_1	750							
+MAG_606	MAG_606_23_2	825						K27771	Herelleviridae head maturation protease
+MAG_606	MAG_606_23_3	918							
+MAG_606	MAG_606_23_4	1413							
+MAG_606	MAG_606_23_5	111	smorfinder		deeppeptide	Peptide			
+MAG_606	MAG_606_24_1	699							
+MAG_606	MAG_606_24_2	795							
+MAG_606	MAG_606_24_3	636							
+MAG_606	MAG_606_24_4	864							
+MAG_606	MAG_606_24_5	240							
+MAG_606	MAG_606_24_6	600							
+MAG_606	MAG_606_25_1	1095						K01854	UDP-galactopyranose mutase [EC:5.4.99.9]
+MAG_606	MAG_606_25_2	6171							
+MAG_606	MAG_606_26_1	681						K02358	elongation factor Tu
+MAG_606	MAG_606_26_2	786							
+MAG_606	MAG_606_27_1	207						K07213	copper chaperone
+MAG_606	MAG_606_27_10	741							
+MAG_606	MAG_606_27_100	1131							
+MAG_606	MAG_606_27_101	783							
+MAG_606	MAG_606_27_102	1353							
+MAG_606	MAG_606_27_103	456							
+MAG_606	MAG_606_27_104	1410						K01744	aspartate ammonia-lyase [EC:4.3.1.1]
+MAG_606	MAG_606_27_105	1089							
+MAG_606	MAG_606_27_106	1971						K01303	acylaminoacyl-peptidase [EC:3.4.19.1]
+MAG_606	MAG_606_27_107	954							
+MAG_606	MAG_606_27_108	867							
+MAG_606	MAG_606_27_109	1647						K01887	arginyl-tRNA synthetase [EC:6.1.1.19]
+MAG_606	MAG_606_27_11	336							
+MAG_606	MAG_606_27_110	399							
+MAG_606	MAG_606_27_111	1086						K00005	glycerol dehydrogenase [EC:1.1.1.6]
+MAG_606	MAG_606_27_112	522							
+MAG_606	MAG_606_27_113	1302						K06885	uncharacterized protein
+MAG_606	MAG_606_27_114	1185							
+MAG_606	MAG_606_27_115	816						K16869	octanoyl-[GcvH]:protein N-octanoyltransferase [EC:2.3.1.204]
+MAG_606	MAG_606_27_116	990							
+MAG_606	MAG_606_27_117	750						K00435	hydrogen peroxide-dependent heme synthase [EC:1.3.98.5]
+MAG_606	MAG_606_27_118	981							
+MAG_606	MAG_606_27_119	120							
+MAG_606	MAG_606_27_12	1284						K11690	C4-dicarboxylate transporter, DctM subunit
+MAG_606	MAG_606_27_120	276							
+MAG_606	MAG_606_27_121	411							
+MAG_606	MAG_606_27_122	198							
+MAG_606	MAG_606_27_123	981							
+MAG_606	MAG_606_27_124	765						K07149	uncharacterized protein
+MAG_606	MAG_606_27_125	873						K21755	LysR family transcriptional regulator, salicylic acid-responsive activator of bsdBCD
+MAG_606	MAG_606_27_126	669							
+MAG_606	MAG_606_27_127	879							
+MAG_606	MAG_606_27_128	372							
+MAG_606	MAG_606_27_129	366							
+MAG_606	MAG_606_27_13	462						K21394	TRAP-type transport system small permease protein
+MAG_606	MAG_606_27_130	267							
+MAG_606	MAG_606_27_131	243							
+MAG_606	MAG_606_27_132	666						K03648	uracil-DNA glycosylase [EC:3.2.2.27]
+MAG_606	MAG_606_27_133	834							
+MAG_606	MAG_606_27_134	369							
+MAG_606	MAG_606_27_135	675						K22135	N-acetylglucosamine malate deacetylase 2 [EC:3.5.1.-]
+MAG_606	MAG_606_27_136	879						K09007	GTP cyclohydrolase IB [EC:3.5.4.16]
+MAG_606	MAG_606_27_137	492						K11991	tRNA(adenine34) deaminase [EC:3.5.4.33]
+MAG_606	MAG_606_27_138	702							
+MAG_606	MAG_606_27_139	957						K15789	threonine 3-dehydrogenase [EC:1.1.1.103]
+MAG_606	MAG_606_27_14	1002						K21395	TRAP-type transport system periplasmic protein
+MAG_606	MAG_606_27_140	1191						K00639	glycine C-acetyltransferase [EC:2.3.1.29]
+MAG_606	MAG_606_27_141	1188							
+MAG_606	MAG_606_27_142	1188						K01436	amidohydrolase [EC:3.5.1.-]
+MAG_606	MAG_606_27_143	1179						K01436	amidohydrolase [EC:3.5.1.-]
+MAG_606	MAG_606_27_144	1185						K02358	elongation factor Tu
+MAG_606	MAG_606_27_145	2082						K02355	elongation factor G
+MAG_606	MAG_606_27_146	471						K02992	small subunit ribosomal protein S7
+MAG_606	MAG_606_27_147	420						K02950	small subunit ribosomal protein S12
+MAG_606	MAG_606_27_148	3621						K03046	DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+MAG_606	MAG_606_27_149	3543						K03043	DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]
+MAG_606	MAG_606_27_15	1152							
+MAG_606	MAG_606_27_150	588						K00564	16S rRNA (guanine1207-N2)-methyltransferase [EC:2.1.1.172]
+MAG_606	MAG_606_27_151	366						K02935	large subunit ribosomal protein L7/L12
+MAG_606	MAG_606_27_152	507						K02864	large subunit ribosomal protein L10
+MAG_606	MAG_606_27_153	699						K02863	large subunit ribosomal protein L1
+MAG_606	MAG_606_27_154	426						K02867	large subunit ribosomal protein L11
+MAG_606	MAG_606_27_155	540						K02601	transcription termination/antitermination protein NusG
+MAG_606	MAG_606_27_156	177						K03073	preprotein translocase subunit SecE
+MAG_606	MAG_606_27_157	651							
+MAG_606	MAG_606_27_158	525						K06962	uncharacterized protein
+MAG_606	MAG_606_27_159	744						K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]
+MAG_606	MAG_606_27_16	1197						K15736	(S)-2-hydroxyglutarate dehydrogenase [EC:1.1.5.13]
+MAG_606	MAG_606_27_160	402						K11145	mini-ribonuclease III [EC:3.1.26.-]
+MAG_606	MAG_606_27_161	1395						K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]
+MAG_606	MAG_606_27_162	657						K00640	serine O-acetyltransferase [EC:2.3.1.30]
+MAG_606	MAG_606_27_163	1452						K01885	glutamyl-tRNA synthetase [EC:6.1.1.17]
+MAG_606	MAG_606_27_164	486						K01770	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [EC:4.6.1.12]
+MAG_606	MAG_606_27_165	672						K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [EC:2.7.7.60]
+MAG_606	MAG_606_27_166	1059							
+MAG_606	MAG_606_27_167	1380						K04485	DNA repair protein RadA/Sms
+MAG_606	MAG_606_27_168	1479						K01657	anthranilate synthase component I [EC:4.1.3.27]
+MAG_606	MAG_606_27_169	2448						K03696	ATP-dependent Clp protease ATP-binding subunit ClpC
+MAG_606	MAG_606_27_17	1275						K11473	glycolate dehydrogenase iron-sulfur subunit [EC:1.1.99.14]
+MAG_606	MAG_606_27_170	1023						K19405	protein arginine kinase [EC:2.7.14.1]
+MAG_606	MAG_606_27_171	513						K19411	protein arginine kinase activator
+MAG_606	MAG_606_27_172	468						K03708	transcriptional regulator of stress and heat shock response
+MAG_606	MAG_606_27_173	1212						K11535	nucleoside transport protein
+MAG_606	MAG_606_27_174	810						K07238	zinc transporter, ZIP family
+MAG_606	MAG_606_27_175	1323						K23393	lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]
+MAG_606	MAG_606_27_176	978							
+MAG_606	MAG_606_27_177	1488						K04567	lysyl-tRNA synthetase, class II [EC:6.1.1.6]
+MAG_606	MAG_606_27_178	477						K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]
+MAG_606	MAG_606_27_179	375						K01633	7,8-dihydroneopterin aldolase/epimerase/oxygenase [EC:4.1.2.25 5.1.99.8 1.13.11.81]
+MAG_606	MAG_606_27_18	1407						K00104	glycolate dehydrogenase FAD-linked subunit [EC:1.1.99.14]
+MAG_606	MAG_606_27_180	795						K00796	dihydropteroate synthase [EC:2.5.1.15]
+MAG_606	MAG_606_27_181	936						K01738	cysteine synthase [EC:2.5.1.47]
+MAG_606	MAG_606_27_182	873						K04083	molecular chaperone Hsp33
+MAG_606	MAG_606_27_183	2091						K03798	cell division protease FtsH [EC:3.4.24.-]
+MAG_606	MAG_606_27_184	543						K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]
+MAG_606	MAG_606_27_185	1260						K04075	tRNA(Ile)-lysidine synthase [EC:6.3.4.19]
+MAG_606	MAG_606_27_186	381						K07571	S1 RNA binding domain protein
+MAG_606	MAG_606_27_187	390						K13052	cell division protein DivIC
+MAG_606	MAG_606_27_188	273							
+MAG_606	MAG_606_27_189	1179						K02499	tetrapyrrole methylase family protein / MazG family protein
+MAG_606	MAG_606_27_19	702						K05799	GntR family transcriptional regulator, transcriptional repressor for pyruvate dehydrogenase complex
+MAG_606	MAG_606_27_190	3471						K03723	transcription-repair coupling factor (superfamily II helicase) [EC:5.6.2.4]
+MAG_606	MAG_606_27_191	573						K01056	peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]
+MAG_606	MAG_606_27_192	636						K02897	large subunit ribosomal protein L25
+MAG_606	MAG_606_27_193	978						K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]
+MAG_606	MAG_606_27_194	1356						K04042	bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]
+MAG_606	MAG_606_27_195	444						K06412	stage V sporulation protein G
+MAG_606	MAG_606_27_196	375						K09022	2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+MAG_606	MAG_606_27_197	831						K09685	HTH-type transcriptional regulator, purine operon repressor
+MAG_606	MAG_606_27_198	846						K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]
+MAG_606	MAG_606_27_199	711						K01992	ABC-2 type transport system permease protein
+MAG_606	MAG_606_27_2	2385						K17686	P-type Cu+ transporter [EC:7.2.2.8]
+MAG_606	MAG_606_27_20	1953							
+MAG_606	MAG_606_27_200	846						K01990	ABC-2 type transport system ATP-binding protein
+MAG_606	MAG_606_27_201	702							
+MAG_606	MAG_606_27_202	906							
+MAG_606	MAG_606_27_203	564							
+MAG_606	MAG_606_27_204	564						K00299	FMN reductase [EC:1.5.1.38]
+MAG_606	MAG_606_27_205	1092							
+MAG_606	MAG_606_27_206	267							
+MAG_606	MAG_606_27_207	885						K02528	16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]
+MAG_606	MAG_606_27_208	555						K05985	ribonuclease M5 [EC:3.1.26.8]
+MAG_606	MAG_606_27_209	765						K03424	TatD DNase family protein [EC:3.1.21.-]
+MAG_606	MAG_606_27_21	1020						K07080	uncharacterized protein
+MAG_606	MAG_606_27_210	1971						K01874	methionyl-tRNA synthetase [EC:6.1.1.10]
+MAG_606	MAG_606_27_211	279						K06284	AbrB family transcriptional regulator, transcriptional pleiotropic regulator of transition state genes
+MAG_606	MAG_606_27_212	813						K07056	16S rRNA (cytidine1402-2'-O)-methyltransferase [EC:2.1.1.198]
+MAG_606	MAG_606_27_213	258						K07461	putative endonuclease
+MAG_606	MAG_606_27_214	741						K15460	tRNA1Val (adenine37-N6)-methyltransferase [EC:2.1.1.223]
+MAG_606	MAG_606_27_215	312							
+MAG_606	MAG_606_27_216	810							
+MAG_606	MAG_606_27_217	837							
+MAG_606	MAG_606_27_218	330							
+MAG_606	MAG_606_27_219	630						K00943	dTMP kinase [EC:2.7.4.9]
+MAG_606	MAG_606_27_22	1338						K20109	Pro-Pro endopeptidase [EC:3.4.24.89]
+MAG_606	MAG_606_27_220	1245							
+MAG_606	MAG_606_27_23	273						K09780	uncharacterized protein
+MAG_606	MAG_606_27_24	534							
+MAG_606	MAG_606_27_25	1179						K05823	N-acetyldiaminopimelate deacetylase [EC:3.5.1.47]
+MAG_606	MAG_606_27_26	921						K24180	malate permease and related proteins
+MAG_606	MAG_606_27_27	1155						K05847	osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]
+MAG_606	MAG_606_27_28	636						K05846	osmoprotectant transport system permease protein
+MAG_606	MAG_606_27_29	930						K05845	osmoprotectant transport system substrate-binding protein
+MAG_606	MAG_606_27_3	300			deeppeptide	Propeptide		K21600	CsoR family transcriptional regulator, copper-sensing transcriptional repressor
+MAG_606	MAG_606_27_30	690						K05846	osmoprotectant transport system permease protein
+MAG_606	MAG_606_27_31	711							
+MAG_606	MAG_606_27_32	858							
+MAG_606	MAG_606_27_33	435						K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]
+MAG_606	MAG_606_27_34	981							
+MAG_606	MAG_606_27_35	819							
+MAG_606	MAG_606_27_36	183			deeppeptide	Propeptide			
+MAG_606	MAG_606_27_37	180							
+MAG_606	MAG_606_27_38	168							
+MAG_606	MAG_606_27_39	681						K03707	thiaminase (transcriptional activator TenA) [EC:3.5.99.2]
+MAG_606	MAG_606_27_4	1170							
+MAG_606	MAG_606_27_40	327							
+MAG_606	MAG_606_27_41	522							
+MAG_606	MAG_606_27_42	774						K17836	beta-lactamase class A [EC:3.5.2.6]
+MAG_606	MAG_606_27_43	732							
+MAG_606	MAG_606_27_44	774						K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+MAG_606	MAG_606_27_45	900						K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]
+MAG_606	MAG_606_27_46	1176						K05782	benzoate membrane transport protein
+MAG_606	MAG_606_27_47	1176							
+MAG_606	MAG_606_27_48	1323							
+MAG_606	MAG_606_27_49	1356						K01466	allantoinase [EC:3.5.2.5]
+MAG_606	MAG_606_27_5	1527						K12942	aminobenzoyl-glutamate transport protein
+MAG_606	MAG_606_27_50	1320						K11690	C4-dicarboxylate transporter, DctM subunit
+MAG_606	MAG_606_27_51	528							
+MAG_606	MAG_606_27_52	1092						K21395	TRAP-type transport system periplasmic protein
+MAG_606	MAG_606_27_53	735							
+MAG_606	MAG_606_27_54	1200							
+MAG_606	MAG_606_27_55	1041						K01620	threonine aldolase [EC:4.1.2.48]
+MAG_606	MAG_606_27_56	753						K03710	GntR family transcriptional regulator
+MAG_606	MAG_606_27_57	1761						K06151	gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3]
+MAG_606	MAG_606_27_58	831						K06152	gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3]
+MAG_606	MAG_606_27_59	666							
+MAG_606	MAG_606_27_6	1104							
+MAG_606	MAG_606_27_60	1515						K07793	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_27_61	456						K07794	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_27_62	984						K07795	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_27_63	969						K19689	aminopeptidase [EC:3.4.11.-]
+MAG_606	MAG_606_27_64	762							
+MAG_606	MAG_606_27_65	936							
+MAG_606	MAG_606_27_66	1278						K15509	sulfopropanediol 3-dehydrogenase [EC:1.1.1.308]
+MAG_606	MAG_606_27_67	1158							
+MAG_606	MAG_606_27_68	1494							
+MAG_606	MAG_606_27_69	114							
+MAG_606	MAG_606_27_7	1080						K00826	branched-chain amino acid aminotransferase [EC:2.6.1.42]
+MAG_606	MAG_606_27_70	426							
+MAG_606	MAG_606_27_71	1437							
+MAG_606	MAG_606_27_72	984							
+MAG_606	MAG_606_27_73	2880							
+MAG_606	MAG_606_27_74	1170							
+MAG_606	MAG_606_27_75	834							
+MAG_606	MAG_606_27_76	684							
+MAG_606	MAG_606_27_77	1131							
+MAG_606	MAG_606_27_78	1176							
+MAG_606	MAG_606_27_79	1401							
+MAG_606	MAG_606_27_8	1329						K00375	GntR family transcriptional regulator / MocR family aminotransferase
+MAG_606	MAG_606_27_80	1173							
+MAG_606	MAG_606_27_81	1548							
+MAG_606	MAG_606_27_82	1389						K01466	allantoinase [EC:3.5.2.5]
+MAG_606	MAG_606_27_83	936						K17828	dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14]
+MAG_606	MAG_606_27_84	786						K02823	dihydroorotate dehydrogenase electron transfer subunit
+MAG_606	MAG_606_27_85	1263						K02083	allantoate deiminase [EC:3.5.3.9]
+MAG_606	MAG_606_27_86	1272						K11690	C4-dicarboxylate transporter, DctM subunit
+MAG_606	MAG_606_27_87	468						K21394	TRAP-type transport system small permease protein
+MAG_606	MAG_606_27_88	1056						K21395	TRAP-type transport system periplasmic protein
+MAG_606	MAG_606_27_89	1608						K09684	PucR family transcriptional regulator, purine catabolism regulatory protein
+MAG_606	MAG_606_27_9	855						K06215	pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6]
+MAG_606	MAG_606_27_90	177							
+MAG_606	MAG_606_27_91	453							
+MAG_606	MAG_606_27_92	381							
+MAG_606	MAG_606_27_93	1077						K01992	ABC-2 type transport system permease protein
+MAG_606	MAG_606_27_94	723							
+MAG_606	MAG_606_27_95	1329						K08172	MFS transporter, MHS family, shikimate and dehydroshikimate transport protein
+MAG_606	MAG_606_27_96	942							
+MAG_606	MAG_606_27_97	279							
+MAG_606	MAG_606_27_98	1023							
+MAG_606	MAG_606_27_99	840							
+MAG_606	MAG_606_28_1	549							
+MAG_606	MAG_606_28_2	186			deeppeptide	Propeptide			
+MAG_606	MAG_606_28_3	525							
+MAG_606	MAG_606_28_4	267							
+MAG_606	MAG_606_28_5	291							
+MAG_606	MAG_606_28_6	183							
+MAG_606	MAG_606_28_7	291							
+MAG_606	MAG_606_28_8	414							
+MAG_606	MAG_606_28_9	996						K13275	major intracellular serine protease [EC:3.4.21.-]
+MAG_606	MAG_606_29_1	159							
+MAG_606	MAG_606_29_2	330							
+MAG_606	MAG_606_29_3	891							
+MAG_606	MAG_606_2_1	1056							
+MAG_606	MAG_606_2_2	942							
+MAG_606	MAG_606_30_1	1776						K27862	class II lanthipeptide synthase [EC:3.13.2.4]
+MAG_606	MAG_606_30_2	765						K07090	uncharacterized protein
+MAG_606	MAG_606_30_3	219							
+MAG_606	MAG_606_31_1	297			deeppeptide	Propeptide			
+MAG_606	MAG_606_31_2	198							
+MAG_606	MAG_606_31_3	1086						K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+MAG_606	MAG_606_31_4	318							
+MAG_606	MAG_606_31_5	762							
+MAG_606	MAG_606_31_6	885							
+MAG_606	MAG_606_31_7	408							
+MAG_606	MAG_606_32_1	2838							
+MAG_606	MAG_606_32_2	597							
+MAG_606	MAG_606_32_3	426							
+MAG_606	MAG_606_32_4	501							
+MAG_606	MAG_606_32_5	324							
+MAG_606	MAG_606_32_6	648						K26828	Bacillus phage L-alanyl-D-glutamate peptidase
+MAG_606	MAG_606_32_7	426							
+MAG_606	MAG_606_32_8	1533							
+MAG_606	MAG_606_33_1	597						K06187	recombination protein RecR
+MAG_606	MAG_606_33_10	435							
+MAG_606	MAG_606_33_100	381							
+MAG_606	MAG_606_33_101	549							
+MAG_606	MAG_606_33_102	132			deeppeptide	Peptide			
+MAG_606	MAG_606_33_103	753							
+MAG_606	MAG_606_33_104	588							
+MAG_606	MAG_606_33_105	897						K04750	PhnB protein
+MAG_606	MAG_606_33_106	357							
+MAG_606	MAG_606_33_107	240						K02963	small subunit ribosomal protein S18
+MAG_606	MAG_606_33_108	786							
+MAG_606	MAG_606_33_109	327						K10947	PadR family transcriptional regulator
+MAG_606	MAG_606_33_11	417							
+MAG_606	MAG_606_33_110	690						K02018	molybdate transport system permease protein
+MAG_606	MAG_606_33_111	789						K02020	molybdate transport system substrate-binding protein
+MAG_606	MAG_606_33_112	897						K02020	molybdate transport system substrate-binding protein
+MAG_606	MAG_606_33_113	513						K03111	single-strand DNA-binding protein
+MAG_606	MAG_606_33_114	303						K02990	small subunit ribosomal protein S6
+MAG_606	MAG_606_33_115	1101						K06942	ribosome-binding ATPase
+MAG_606	MAG_606_33_116	186							
+MAG_606	MAG_606_33_117	924						K22044	moderate conductance mechanosensitive channel
+MAG_606	MAG_606_33_118	774						K03497	ParB family transcriptional regulator, chromosome partitioning protein
+MAG_606	MAG_606_33_119	813						K03497	ParB family transcriptional regulator, chromosome partitioning protein
+MAG_606	MAG_606_33_12	1293						K01753	D-serine dehydratase [EC:4.3.1.18]
+MAG_606	MAG_606_33_120	714						K03501	16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]
+MAG_606	MAG_606_33_121	1884						K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme
+MAG_606	MAG_606_33_122	1377						K03650	tRNA modification GTPase [EC:3.6.-.-]
+MAG_606	MAG_606_33_123	843						K06346	spoIIIJ-associated protein
+MAG_606	MAG_606_33_124	339						K03536	ribonuclease P protein component [EC:3.1.26.5]
+MAG_606	MAG_606_33_125	138	smorfinder	smorfam03709				K02914	large subunit ribosomal protein L34
+MAG_606	MAG_606_33_126	1341						K02313	chromosomal replication initiator protein
+MAG_606	MAG_606_33_127	1134						K02338	DNA polymerase III subunit beta [EC:2.7.7.7]
+MAG_606	MAG_606_33_128	219						K14761	ribosome-associated protein
+MAG_606	MAG_606_33_129	1104						K03629	DNA replication and repair protein RecF
+MAG_606	MAG_606_33_13	792							
+MAG_606	MAG_606_33_130	1920						K02470	DNA gyrase subunit B [EC:5.6.2.2]
+MAG_606	MAG_606_33_131	2580						K02469	DNA gyrase subunit A [EC:5.6.2.2]
+MAG_606	MAG_606_33_132	207						K07727	putative transcriptional regulator
+MAG_606	MAG_606_33_133	468							
+MAG_606	MAG_606_33_134	444						K09683	hut operon positive regulatory protein
+MAG_606	MAG_606_33_135	1491						K01745	histidine ammonia-lyase [EC:4.3.1.3]
+MAG_606	MAG_606_33_136	1317							
+MAG_606	MAG_606_33_137	1659						K01712	urocanate hydratase [EC:4.2.1.49]
+MAG_606	MAG_606_33_138	1233						K01468	imidazolonepropionase [EC:3.5.2.7]
+MAG_606	MAG_606_33_139	1278						K01875	seryl-tRNA synthetase [EC:6.1.1.11]
+MAG_606	MAG_606_33_14	1197							
+MAG_606	MAG_606_33_140	921							
+MAG_606	MAG_606_33_141	1977						K22927	cyclic-di-AMP phosphodiesterase [EC:3.1.4.59]
+MAG_606	MAG_606_33_142	447						K02939	large subunit ribosomal protein L9
+MAG_606	MAG_606_33_143	1389						K02314	replicative DNA helicase [EC:5.6.2.3]
+MAG_606	MAG_606_33_144	1293						K01939	adenylosuccinate synthase [EC:6.3.4.4]
+MAG_606	MAG_606_33_145	702						K07668	two-component system, OmpR family, response regulator VicR
+MAG_606	MAG_606_33_146	1851						K07652	two-component system, OmpR family, sensor histidine kinase VicK [EC:2.7.13.3]
+MAG_606	MAG_606_33_147	1317							
+MAG_606	MAG_606_33_148	738							
+MAG_606	MAG_606_33_149	783							
+MAG_606	MAG_606_33_15	1416							
+MAG_606	MAG_606_33_150	480						K00783	23S rRNA (pseudouridine1915-N3)-methyltransferase [EC:2.1.1.177]
+MAG_606	MAG_606_33_151	990							
+MAG_606	MAG_606_33_152	1806						K08602	oligoendopeptidase F [EC:3.4.24.-]
+MAG_606	MAG_606_33_153	135							
+MAG_606	MAG_606_33_154	2130						K09809	CDP-glycerol glycerophosphotransferase [EC:2.7.8.12]
+MAG_606	MAG_606_33_155	1566						K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]
+MAG_606	MAG_606_33_156	792							
+MAG_606	MAG_606_33_157	348						K10947	PadR family transcriptional regulator
+MAG_606	MAG_606_33_158	834						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+MAG_606	MAG_606_33_159	747						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+MAG_606	MAG_606_33_16	762							
+MAG_606	MAG_606_33_160	1119						K10112	multiple sugar transport system ATP-binding protein [EC:7.5.2.-]
+MAG_606	MAG_606_33_161	891						K02026	multiple sugar transport system permease protein
+MAG_606	MAG_606_33_162	912						K02025	multiple sugar transport system permease protein
+MAG_606	MAG_606_33_163	1338						K05813	sn-glycerol 3-phosphate transport system substrate-binding protein
+MAG_606	MAG_606_33_164	804							
+MAG_606	MAG_606_33_165	567						K02443	glycerol uptake operon antiterminator
+MAG_606	MAG_606_33_166	567							
+MAG_606	MAG_606_33_167	339							
+MAG_606	MAG_606_33_168	1002							
+MAG_606	MAG_606_33_169	354							
+MAG_606	MAG_606_33_17	522						K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]
+MAG_606	MAG_606_33_170	636							
+MAG_606	MAG_606_33_171	789						K19575	MerR family transcriptional regulator, activator of bmr gene
+MAG_606	MAG_606_33_172	759							
+MAG_606	MAG_606_33_173	564							
+MAG_606	MAG_606_33_174	747						K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]
+MAG_606	MAG_606_33_175	846						K19976	manganese transport system permease protein
+MAG_606	MAG_606_33_176	948							
+MAG_606	MAG_606_33_177	1176						K03588	cell division protein FtsW
+MAG_606	MAG_606_33_178	630							
+MAG_606	MAG_606_33_179	648						K06950	uncharacterized protein
+MAG_606	MAG_606_33_18	519						K22441	diamine N-acetyltransferase [EC:2.3.1.57]
+MAG_606	MAG_606_33_180	894							
+MAG_606	MAG_606_33_181	384							
+MAG_606	MAG_606_33_182	1071							
+MAG_606	MAG_606_33_183	177							
+MAG_606	MAG_606_33_184	957							
+MAG_606	MAG_606_33_185	1191						K01751	diaminopropionate ammonia-lyase [EC:4.3.1.15]
+MAG_606	MAG_606_33_186	702							
+MAG_606	MAG_606_33_187	717							
+MAG_606	MAG_606_33_188	822							
+MAG_606	MAG_606_33_189	1467							
+MAG_606	MAG_606_33_19	1206						K03449	MFS transporter, CP family, cyanate transporter
+MAG_606	MAG_606_33_190	732						K02477	two-component system, LytTR family, response regulator
+MAG_606	MAG_606_33_191	1740						K07704	two-component system, LytTR family, sensor histidine kinase LytS [EC:2.7.13.3]
+MAG_606	MAG_606_33_192	1275						K11102	proton glutamate symport protein
+MAG_606	MAG_606_33_193	1614						K05020	glycine betaine transporter
+MAG_606	MAG_606_33_194	1206						K03449	MFS transporter, CP family, cyanate transporter
+MAG_606	MAG_606_33_195	1653						K01421	putative membrane protein
+MAG_606	MAG_606_33_196	591							
+MAG_606	MAG_606_33_197	423							
+MAG_606	MAG_606_33_198	1107						K10112	multiple sugar transport system ATP-binding protein [EC:7.5.2.-]
+MAG_606	MAG_606_33_199	843						K02026	multiple sugar transport system permease protein
+MAG_606	MAG_606_33_2	324						K09747	nucleoid-associated protein EbfC
+MAG_606	MAG_606_33_20	225							
+MAG_606	MAG_606_33_200	885						K02025	multiple sugar transport system permease protein
+MAG_606	MAG_606_33_201	1338						K02027	multiple sugar transport system substrate-binding protein
+MAG_606	MAG_606_33_202	423							
+MAG_606	MAG_606_33_203	1482						K00116	malate dehydrogenase (quinone) [EC:1.1.5.4]
+MAG_606	MAG_606_33_204	1668						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_33_205	1185						K17218	sulfide:quinone oxidoreductase [EC:1.8.5.4]
+MAG_606	MAG_606_33_206	1134							
+MAG_606	MAG_606_33_207	291							
+MAG_606	MAG_606_33_208	819						K02073	D-methionine transport system substrate-binding protein
+MAG_606	MAG_606_33_209	651						K02072	D-methionine transport system permease protein
+MAG_606	MAG_606_33_21	972							
+MAG_606	MAG_606_33_210	1029						K02071	D-methionine transport system ATP-binding protein
+MAG_606	MAG_606_33_211	588						K01823	isopentenyl-diphosphate Delta-isomerase [EC:5.3.3.2]
+MAG_606	MAG_606_33_212	735						K07150	uncharacterized protein
+MAG_606	MAG_606_33_213	1623							
+MAG_606	MAG_606_33_214	1125							
+MAG_606	MAG_606_33_215	2268						K03701	excinuclease ABC subunit A
+MAG_606	MAG_606_33_216	390							
+MAG_606	MAG_606_33_217	1545							
+MAG_606	MAG_606_33_218	1221							
+MAG_606	MAG_606_33_219	1125							
+MAG_606	MAG_606_33_22	477							
+MAG_606	MAG_606_33_220	657							
+MAG_606	MAG_606_33_221	495						K00287	dihydrofolate reductase [EC:1.5.1.3]
+MAG_606	MAG_606_33_222	591							
+MAG_606	MAG_606_33_223	3237							
+MAG_606	MAG_606_33_224	477						K00432	glutathione peroxidase [EC:1.11.1.9]
+MAG_606	MAG_606_33_225	633							
+MAG_606	MAG_606_33_226	735						K00038	3alpha(or 20beta)-hydroxysteroid dehydrogenase [EC:1.1.1.53]
+MAG_606	MAG_606_33_227	753							
+MAG_606	MAG_606_33_228	699							
+MAG_606	MAG_606_33_229	888						K03298	drug/metabolite transporter, DME family
+MAG_606	MAG_606_33_23	540							
+MAG_606	MAG_606_33_230	564							
+MAG_606	MAG_606_33_231	549							
+MAG_606	MAG_606_33_232	960							
+MAG_606	MAG_606_33_233	1080							
+MAG_606	MAG_606_33_234	849							
+MAG_606	MAG_606_33_235	792						K16785	energy-coupling factor transport system permease protein
+MAG_606	MAG_606_33_236	1407						K01552	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+MAG_606	MAG_606_33_237	582						K16925	energy-coupling factor transport system permease protein
+MAG_606	MAG_606_33_238	411						K01737	6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
+MAG_606	MAG_606_33_239	1203						K03312	glutamate:Na+ symporter, ESS family
+MAG_606	MAG_606_33_24	600						K07693	two-component system, NarL family, response regulator DesR
+MAG_606	MAG_606_33_240	264							
+MAG_606	MAG_606_33_241	387							
+MAG_606	MAG_606_33_242	1494						K00873	pyruvate kinase [EC:2.7.1.40]
+MAG_606	MAG_606_33_243	408							
+MAG_606	MAG_606_33_244	264						K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]
+MAG_606	MAG_606_33_245	417							
+MAG_606	MAG_606_33_246	738							
+MAG_606	MAG_606_33_247	1335						K01915	glutamine synthetase [EC:6.3.1.2]
+MAG_606	MAG_606_33_248	729						K16216	benzil reductase ((S)-benzoin forming) [EC:1.1.1.320]
+MAG_606	MAG_606_33_249	1440						K23753	AMP-polyphosphate phosphotransferase [EC:2.7.4.33]
+MAG_606	MAG_606_33_25	1122						K07778	two-component system, NarL family, sensor histidine kinase DesK [EC:2.7.13.3]
+MAG_606	MAG_606_33_250	1197						K20451	methylitaconate Delta-isomerase [EC:5.3.3.6]
+MAG_606	MAG_606_33_251	444							
+MAG_606	MAG_606_33_252	1485						K07793	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_33_253	1206						K07795	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_33_254	867							
+MAG_606	MAG_606_33_255	1503						K13796	tricarballylate dehydrogenase
+MAG_606	MAG_606_33_256	1044						K11752	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
+MAG_606	MAG_606_33_257	615						K00793	riboflavin synthase [EC:2.5.1.9]
+MAG_606	MAG_606_33_258	1170						K14652	3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]
+MAG_606	MAG_606_33_259	468						K00794	6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]
+MAG_606	MAG_606_33_26	1029						K10255	acyl-lipid omega-6 desaturase (Delta-12 desaturase) [EC:1.14.19.23 1.14.19.45]
+MAG_606	MAG_606_33_260	906						K03417	methylisocitrate lyase [EC:4.1.3.30]
+MAG_606	MAG_606_33_261	1497						K07793	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_33_262	459						K07794	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_33_263	972						K07795	putative tricarboxylic transport membrane protein
+MAG_606	MAG_606_33_264	678							
+MAG_606	MAG_606_33_265	1569							
+MAG_606	MAG_606_33_266	477							
+MAG_606	MAG_606_33_267	852						K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]
+MAG_606	MAG_606_33_268	1002							
+MAG_606	MAG_606_33_269	1128							
+MAG_606	MAG_606_33_27	771						K06989	aspartate dehydrogenase [EC:1.4.1.21]
+MAG_606	MAG_606_33_270	618							
+MAG_606	MAG_606_33_271	627							
+MAG_606	MAG_606_33_272	630							
+MAG_606	MAG_606_33_273	606							
+MAG_606	MAG_606_33_274	3018							
+MAG_606	MAG_606_33_275	342							
+MAG_606	MAG_606_33_276	1452						K03321	sulfate permease, SulP family
+MAG_606	MAG_606_33_277	405							
+MAG_606	MAG_606_33_278	1521						K00138	aldehyde dehydrogenase [EC:1.2.1.-]
+MAG_606	MAG_606_33_279	336						K09959	uncharacterized protein
+MAG_606	MAG_606_33_28	1221							
+MAG_606	MAG_606_33_280	1341						K26937	MATE family, multidrug efflux pump
+MAG_606	MAG_606_33_281	315						K03892	ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor
+MAG_606	MAG_606_33_282	1290						K03893	arsenical pump membrane protein
+MAG_606	MAG_606_33_283	402						K03741	arsenate reductase (thioredoxin) [EC:1.20.4.4]
+MAG_606	MAG_606_33_284	1272						K02083	allantoate deiminase [EC:3.5.3.9]
+MAG_606	MAG_606_33_285	1050							
+MAG_606	MAG_606_33_286	1107						K02549	o-succinylbenzoate synthase [EC:4.2.1.113]
+MAG_606	MAG_606_33_287	810							
+MAG_606	MAG_606_33_288	441						K15973	MarR family transcriptional regulator, 2-MHQ and catechol-resistance regulon repressor
+MAG_606	MAG_606_33_289	960						K15975	glyoxalase family protein
+MAG_606	MAG_606_33_29	942						K01480	agmatinase [EC:3.5.3.11]
+MAG_606	MAG_606_33_290	894						K15975	glyoxalase family protein
+MAG_606	MAG_606_33_291	615							
+MAG_606	MAG_606_33_292	594						K06999	phospholipase/carboxylesterase
+MAG_606	MAG_606_33_293	705						K07010	putative glutamine amidotransferase
+MAG_606	MAG_606_33_294	708						K07010	putative glutamine amidotransferase
+MAG_606	MAG_606_33_295	1671						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_33_296	681						K19302	undecaprenyl-diphosphatase [EC:3.6.1.27]
+MAG_606	MAG_606_33_297	633							
+MAG_606	MAG_606_33_298	1353						K06213	magnesium transporter
+MAG_606	MAG_606_33_299	1032						K01297	muramoyltetrapeptide carboxypeptidase [EC:3.4.17.13]
+MAG_606	MAG_606_33_3	1641						K02343	DNA polymerase III subunit gamma/tau [EC:2.7.7.7]
+MAG_606	MAG_606_33_30	840							
+MAG_606	MAG_606_33_300	759							
+MAG_606	MAG_606_33_301	573						K00857	thymidine kinase [EC:2.7.1.21]
+MAG_606	MAG_606_33_302	351						K06193	protein PhnA
+MAG_606	MAG_606_33_303	906						K25308	ferric hydroxamate/heme transport system substrate-binding protein
+MAG_606	MAG_606_33_304	1032						K25289	ferric hydroxamate/heme transport system permease protein
+MAG_606	MAG_606_33_305	1056						K25288	ferric hydroxamate/heme transport system permease protein
+MAG_606	MAG_606_33_306	804						K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]
+MAG_606	MAG_606_33_307	372							
+MAG_606	MAG_606_33_308	483							
+MAG_606	MAG_606_33_309	861						K15523	protein-ribulosamine 3-kinase [EC:2.7.1.172]
+MAG_606	MAG_606_33_31	1278						K01740	O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+MAG_606	MAG_606_33_310	588							
+MAG_606	MAG_606_33_311	822						K07090	uncharacterized protein
+MAG_606	MAG_606_33_312	1542						K12942	aminobenzoyl-glutamate transport protein
+MAG_606	MAG_606_33_313	1758						K01486	adenine deaminase [EC:3.5.4.2]
+MAG_606	MAG_606_33_314	846						K08974	putative membrane protein
+MAG_606	MAG_606_33_315	870							
+MAG_606	MAG_606_33_316	285						K06975	uncharacterized protein
+MAG_606	MAG_606_33_317	915							
+MAG_606	MAG_606_33_318	1092						K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+MAG_606	MAG_606_33_319	1356						K05548	MFS transporter, AAHS family, benzoate transport protein
+MAG_606	MAG_606_33_32	798							
+MAG_606	MAG_606_33_320	1143						K05916	nitric oxide dioxygenase [EC:1.14.12.17]
+MAG_606	MAG_606_33_321	465							
+MAG_606	MAG_606_33_322	1335							
+MAG_606	MAG_606_33_323	678						K02483	two-component system, OmpR family, response regulator
+MAG_606	MAG_606_33_324	1386							
+MAG_606	MAG_606_33_325	1029						K02004	putative ABC transport system permease protein
+MAG_606	MAG_606_33_326	681						K02003	putative ABC transport system ATP-binding protein
+MAG_606	MAG_606_33_327	1413							
+MAG_606	MAG_606_33_328	666							
+MAG_606	MAG_606_33_329	1362							
+MAG_606	MAG_606_33_33	564						K07002	serine hydrolase [EC:3.-.-.-]
+MAG_606	MAG_606_33_330	939						K05847	osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]
+MAG_606	MAG_606_33_331	1518						K05845	osmoprotectant transport system substrate-binding protein
+MAG_606	MAG_606_33_332	843						K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
+MAG_606	MAG_606_33_333	1116							
+MAG_606	MAG_606_33_334	1110							
+MAG_606	MAG_606_33_335	729							
+MAG_606	MAG_606_33_336	1962						K04041	fructose-1,6-bisphosphatase III [EC:3.1.3.11]
+MAG_606	MAG_606_33_337	852							
+MAG_606	MAG_606_33_338	1029						K16568	exopolysaccharide production protein ExoZ
+MAG_606	MAG_606_33_339	960						K01480	agmatinase [EC:3.5.3.11]
+MAG_606	MAG_606_33_34	1407							
+MAG_606	MAG_606_33_340	1419						K08170	MFS transporter, DHA2 family, multidrug resistance protein
+MAG_606	MAG_606_33_341	870							
+MAG_606	MAG_606_33_342	288							
+MAG_606	MAG_606_33_343	807							
+MAG_606	MAG_606_33_344	606						K00765	ATP phosphoribosyltransferase [EC:2.4.2.17]
+MAG_606	MAG_606_33_345	1233						K00013	histidinol dehydrogenase [EC:1.1.1.23]
+MAG_606	MAG_606_33_346	987							
+MAG_606	MAG_606_33_347	585							
+MAG_606	MAG_606_33_348	702							
+MAG_606	MAG_606_33_349	762						K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]
+MAG_606	MAG_606_33_35	1182							
+MAG_606	MAG_606_33_350	624						K11755	phosphoribosyl-AMP cyclohydrolase / phosphoribosyl-ATP pyrophosphohydrolase [EC:3.5.4.19 3.6.1.31]
+MAG_606	MAG_606_33_351	159							
+MAG_606	MAG_606_33_352	693							
+MAG_606	MAG_606_33_353	204						K07729	putative transcriptional regulator
+MAG_606	MAG_606_33_354	1050						K02004	putative ABC transport system permease protein
+MAG_606	MAG_606_33_355	666							
+MAG_606	MAG_606_33_356	309							
+MAG_606	MAG_606_33_357	342						K03297	small multidrug resistance pump
+MAG_606	MAG_606_33_358	354							
+MAG_606	MAG_606_33_359	531							
+MAG_606	MAG_606_33_36	894							
+MAG_606	MAG_606_33_360	615						K06895	L-lysine exporter family protein LysE/ArgO
+MAG_606	MAG_606_33_361	1218						K01992	ABC-2 type transport system permease protein
+MAG_606	MAG_606_33_362	1176							
+MAG_606	MAG_606_33_363	909							
+MAG_606	MAG_606_33_364	717							
+MAG_606	MAG_606_33_365	1455							
+MAG_606	MAG_606_33_366	345							
+MAG_606	MAG_606_33_367	549							
+MAG_606	MAG_606_33_368	792						K15984	16S rRNA (guanine1516-N2)-methyltransferase [EC:2.1.1.242]
+MAG_606	MAG_606_33_369	324						K18924	paired small multidrug resistance pump
+MAG_606	MAG_606_33_37	1554							
+MAG_606	MAG_606_33_370	318						K18925	paired small multidrug resistance pump
+MAG_606	MAG_606_33_371	261							
+MAG_606	MAG_606_33_372	990						K21567	ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2 1.19.1.1]
+MAG_606	MAG_606_33_373	1164						K08153	MFS transporter, DHA1 family, multidrug resistance protein
+MAG_606	MAG_606_33_374	918						K16264	cobalt-zinc-cadmium efflux system protein
+MAG_606	MAG_606_33_375	1107							
+MAG_606	MAG_606_33_376	1626						K05020	glycine betaine transporter
+MAG_606	MAG_606_33_377	1269						K12940	aminobenzoyl-glutamate utilization protein A
+MAG_606	MAG_606_33_378	1536						K12942	aminobenzoyl-glutamate transport protein
+MAG_606	MAG_606_33_379	873						K25232	fatty acid kinase fatty acid binding subunit
+MAG_606	MAG_606_33_38	1068						K09703	uncharacterized protein
+MAG_606	MAG_606_33_380	819							
+MAG_606	MAG_606_33_381	849							
+MAG_606	MAG_606_33_382	675						K02483	two-component system, OmpR family, response regulator
+MAG_606	MAG_606_33_383	1374						K18940	two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]
+MAG_606	MAG_606_33_384	687							
+MAG_606	MAG_606_33_385	438						K15973	MarR family transcriptional regulator, 2-MHQ and catechol-resistance regulon repressor
+MAG_606	MAG_606_33_386	513							
+MAG_606	MAG_606_33_387	1200						K08224	MFS transporter, YNFM family, putative membrane transport protein
+MAG_606	MAG_606_33_388	1428							
+MAG_606	MAG_606_33_389	348							
+MAG_606	MAG_606_33_39	1077						K09703	uncharacterized protein
+MAG_606	MAG_606_33_390	1020							
+MAG_606	MAG_606_33_391	1509							
+MAG_606	MAG_606_33_392	990							
+MAG_606	MAG_606_33_393	1563						K11928	sodium/proline symporter
+MAG_606	MAG_606_33_394	441							
+MAG_606	MAG_606_33_395	669							
+MAG_606	MAG_606_33_396	333							
+MAG_606	MAG_606_33_397	1506						K00116	malate dehydrogenase (quinone) [EC:1.1.5.4]
+MAG_606	MAG_606_33_398	1089							
+MAG_606	MAG_606_33_399	915							
+MAG_606	MAG_606_33_4	939							
+MAG_606	MAG_606_33_40	1302						K10974	cytosine permease
+MAG_606	MAG_606_33_400	984						K00364	GMP reductase [EC:1.7.1.7]
+MAG_606	MAG_606_33_401	852						K04517	prephenate dehydrogenase [EC:1.3.1.12]
+MAG_606	MAG_606_33_402	1038						K03856	3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]
+MAG_606	MAG_606_33_403	288							
+MAG_606	MAG_606_33_404	924						K00651	homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]
+MAG_606	MAG_606_33_405	354							
+MAG_606	MAG_606_33_406	954						K07084	putative amino acid transporter
+MAG_606	MAG_606_33_407	177							
+MAG_606	MAG_606_33_408	783							
+MAG_606	MAG_606_33_409	804						K02379	FdhD protein
+MAG_606	MAG_606_33_41	597							
+MAG_606	MAG_606_33_410	1263						K08177	MFS transporter, OFA family, oxalate/formate antiporter
+MAG_606	MAG_606_33_411	2358							
+MAG_606	MAG_606_33_412	1347						K03308	neurotransmitter:Na+ symporter, NSS family
+MAG_606	MAG_606_33_413	1338						K01915	glutamine synthetase [EC:6.3.1.2]
+MAG_606	MAG_606_33_414	1665						K03324	phosphate:Na+ symporter
+MAG_606	MAG_606_33_415	1113							
+MAG_606	MAG_606_33_416	420							
+MAG_606	MAG_606_33_417	1596						K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+MAG_606	MAG_606_33_418	1149							
+MAG_606	MAG_606_33_419	1053						K06211	HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]
+MAG_606	MAG_606_33_42	327						K26606	branched chain amino acid efflux pump
+MAG_606	MAG_606_33_420	249							
+MAG_606	MAG_606_33_421	1254						K11693	peptidoglycan pentaglycine glycine transferase (the first glycine) [EC:2.3.2.16]
+MAG_606	MAG_606_33_422	276							
+MAG_606	MAG_606_33_423	318							
+MAG_606	MAG_606_33_424	1155							
+MAG_606	MAG_606_33_425	168							
+MAG_606	MAG_606_33_426	639						K07149	uncharacterized protein
+MAG_606	MAG_606_33_427	1332						K06901	adenine/guanine/hypoxanthine permease
+MAG_606	MAG_606_33_428	309						K02946	small subunit ribosomal protein S10
+MAG_606	MAG_606_33_429	663						K02906	large subunit ribosomal protein L3
+MAG_606	MAG_606_33_43	708						K26605	branched chain amino acid efflux pump
+MAG_606	MAG_606_33_430	621						K02926	large subunit ribosomal protein L4
+MAG_606	MAG_606_33_431	273						K02892	large subunit ribosomal protein L23
+MAG_606	MAG_606_33_432	831						K02886	large subunit ribosomal protein L2
+MAG_606	MAG_606_33_433	276						K02965	small subunit ribosomal protein S19
+MAG_606	MAG_606_33_434	384						K02890	large subunit ribosomal protein L22
+MAG_606	MAG_606_33_435	642						K02982	small subunit ribosomal protein S3
+MAG_606	MAG_606_33_436	435						K02878	large subunit ribosomal protein L16
+MAG_606	MAG_606_33_437	210						K02904	large subunit ribosomal protein L29
+MAG_606	MAG_606_33_438	264			deeppeptide	Propeptide		K02961	small subunit ribosomal protein S17
+MAG_606	MAG_606_33_439	375						K02874	large subunit ribosomal protein L14
+MAG_606	MAG_606_33_44	555						K23779	XRE family transcriptional regulator, regulator of sulfur utilization
+MAG_606	MAG_606_33_440	309						K02895	large subunit ribosomal protein L24
+MAG_606	MAG_606_33_441	540						K02931	large subunit ribosomal protein L5
+MAG_606	MAG_606_33_442	399						K02994	small subunit ribosomal protein S8
+MAG_606	MAG_606_33_443	537						K02933	large subunit ribosomal protein L6
+MAG_606	MAG_606_33_444	363						K02881	large subunit ribosomal protein L18
+MAG_606	MAG_606_33_445	504						K02988	small subunit ribosomal protein S5
+MAG_606	MAG_606_33_446	180						K02907	large subunit ribosomal protein L30
+MAG_606	MAG_606_33_447	441						K02876	large subunit ribosomal protein L15
+MAG_606	MAG_606_33_448	1302						K03076	preprotein translocase subunit SecY
+MAG_606	MAG_606_33_449	648						K00939	adenylate kinase [EC:2.7.4.3]
+MAG_606	MAG_606_33_45	471							
+MAG_606	MAG_606_33_450	219						K02518	translation initiation factor IF-1
+MAG_606	MAG_606_33_451	114	smorfinder	smorfam02179				K02919	large subunit ribosomal protein L36
+MAG_606	MAG_606_33_452	366						K02952	small subunit ribosomal protein S13
+MAG_606	MAG_606_33_453	390						K02948	small subunit ribosomal protein S11
+MAG_606	MAG_606_33_454	945						K03040	DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+MAG_606	MAG_606_33_455	399						K02879	large subunit ribosomal protein L17
+MAG_606	MAG_606_33_456	792						K16786	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+MAG_606	MAG_606_33_457	861						K16787	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+MAG_606	MAG_606_33_458	798						K16785	energy-coupling factor transport system permease protein
+MAG_606	MAG_606_33_459	735						K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]
+MAG_606	MAG_606_33_46	1401						K03315	Na+:H+ antiporter, NhaC family
+MAG_606	MAG_606_33_460	438						K02871	large subunit ribosomal protein L13
+MAG_606	MAG_606_33_461	393						K02996	small subunit ribosomal protein S9
+MAG_606	MAG_606_33_462	444							
+MAG_606	MAG_606_33_463	459							
+MAG_606	MAG_606_33_464	192							
+MAG_606	MAG_606_33_465	1101							
+MAG_606	MAG_606_33_466	540							
+MAG_606	MAG_606_33_467	447							
+MAG_606	MAG_606_33_468	384							
+MAG_606	MAG_606_33_469	681						K07025	putative hydrolase of the HAD superfamily
+MAG_606	MAG_606_33_47	1095						K04940	opine dehydrogenase [EC:1.5.1.28]
+MAG_606	MAG_606_33_470	717							
+MAG_606	MAG_606_33_471	942							
+MAG_606	MAG_606_33_472	510							
+MAG_606	MAG_606_33_473	1371							
+MAG_606	MAG_606_33_474	444						K09768	uncharacterized protein
+MAG_606	MAG_606_33_475	924						K24180	malate permease and related proteins
+MAG_606	MAG_606_33_476	378							
+MAG_606	MAG_606_33_477	381						K09022	2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+MAG_606	MAG_606_33_478	1647						K09684	PucR family transcriptional regulator, purine catabolism regulatory protein
+MAG_606	MAG_606_33_479	1398						K03457	nucleobase:cation symporter-1, NCS1 family
+MAG_606	MAG_606_33_48	270						K02954	small subunit ribosomal protein S14
+MAG_606	MAG_606_33_480	936						K03284	magnesium transporter
+MAG_606	MAG_606_33_481	951							
+MAG_606	MAG_606_33_482	1161						K09815	zinc transport system substrate-binding protein
+MAG_606	MAG_606_33_483	498							
+MAG_606	MAG_606_33_484	1449						K01421	putative membrane protein
+MAG_606	MAG_606_33_485	282							
+MAG_606	MAG_606_33_486	969							
+MAG_606	MAG_606_33_487	1176							
+MAG_606	MAG_606_33_488	594						K06993	ribonuclease H-related protein
+MAG_606	MAG_606_33_489	408							
+MAG_606	MAG_606_33_49	348							
+MAG_606	MAG_606_33_490	780						K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+MAG_606	MAG_606_33_491	465						K04047	starvation-inducible DNA-binding protein
+MAG_606	MAG_606_33_492	660						K03709	DtxR family transcriptional regulator, Mn-dependent transcriptional regulator
+MAG_606	MAG_606_33_493	723							
+MAG_606	MAG_606_33_494	321							
+MAG_606	MAG_606_33_495	1302						K00756	pyrimidine-nucleoside phosphorylase [EC:2.4.2.2]
+MAG_606	MAG_606_33_496	1149							
+MAG_606	MAG_606_33_497	711						K11068	hemolysin III
+MAG_606	MAG_606_33_498	801						K00286	pyrroline-5-carboxylate reductase [EC:1.5.1.2]
+MAG_606	MAG_606_33_499	1551							
+MAG_606	MAG_606_33_5	801							
+MAG_606	MAG_606_33_50	903							
+MAG_606	MAG_606_33_500	1050						K03593	ATP-binding protein involved in chromosome partitioning
+MAG_606	MAG_606_33_501	777						K06349	KinB signaling pathway activation protein
+MAG_606	MAG_606_33_51	1179						K01436	amidohydrolase [EC:3.5.1.-]
+MAG_606	MAG_606_33_52	798							
+MAG_606	MAG_606_33_53	453							
+MAG_606	MAG_606_33_54	396							
+MAG_606	MAG_606_33_55	513							
+MAG_606	MAG_606_33_56	1647						K05020	glycine betaine transporter
+MAG_606	MAG_606_33_57	477							
+MAG_606	MAG_606_33_58	900							
+MAG_606	MAG_606_33_59	447							
+MAG_606	MAG_606_33_6	447							
+MAG_606	MAG_606_33_60	1401							
+MAG_606	MAG_606_33_61	1995						K03781	catalase [EC:1.11.1.6]
+MAG_606	MAG_606_33_62	1281						K10974	cytosine permease
+MAG_606	MAG_606_33_63	1269						K01485	cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]
+MAG_606	MAG_606_33_64	237							
+MAG_606	MAG_606_33_65	156							
+MAG_606	MAG_606_33_66	648							
+MAG_606	MAG_606_33_67	549						K04565	superoxide dismutase, Cu-Zn family [EC:1.15.1.1]
+MAG_606	MAG_606_33_68	1140						K00865	glycerate 2-kinase [EC:2.7.1.165]
+MAG_606	MAG_606_33_69	909							
+MAG_606	MAG_606_33_7	936							
+MAG_606	MAG_606_33_70	996						K19745	acrylyl-CoA reductase (NADPH) [EC:1.3.1.-]
+MAG_606	MAG_606_33_71	1383							
+MAG_606	MAG_606_33_72	261							
+MAG_606	MAG_606_33_73	105			deeppeptide	Peptide			
+MAG_606	MAG_606_33_74	1623							
+MAG_606	MAG_606_33_75	1008							
+MAG_606	MAG_606_33_76	711							
+MAG_606	MAG_606_33_77	639						K18555	fluoroquinolone resistance protein
+MAG_606	MAG_606_33_78	438							
+MAG_606	MAG_606_33_79	393							
+MAG_606	MAG_606_33_8	1737						K06151	gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3]
+MAG_606	MAG_606_33_80	1575							
+MAG_606	MAG_606_33_81	1029						K01269	aminopeptidase [EC:3.4.11.-]
+MAG_606	MAG_606_33_82	303							
+MAG_606	MAG_606_33_83	1755						K06151	gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3]
+MAG_606	MAG_606_33_84	813						K06152	gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3]
+MAG_606	MAG_606_33_85	675							
+MAG_606	MAG_606_33_86	930						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+MAG_606	MAG_606_33_87	672							
+MAG_606	MAG_606_33_88	729							
+MAG_606	MAG_606_33_89	2145						K03169	DNA topoisomerase III [EC:5.6.2.1]
+MAG_606	MAG_606_33_9	792						K06152	gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3]
+MAG_606	MAG_606_33_90	627							
+MAG_606	MAG_606_33_91	687							
+MAG_606	MAG_606_33_92	1380							
+MAG_606	MAG_606_33_93	1476						K03315	Na+:H+ antiporter, NhaC family
+MAG_606	MAG_606_33_94	996							
+MAG_606	MAG_606_33_95	582							
+MAG_606	MAG_606_33_96	819							
+MAG_606	MAG_606_33_97	1110							
+MAG_606	MAG_606_33_98	1545						K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+MAG_606	MAG_606_33_99	1470						K00088	IMP dehydrogenase [EC:1.1.1.205]
+MAG_606	MAG_606_34_1	393							
+MAG_606	MAG_606_34_10	168							
+MAG_606	MAG_606_34_11	765							
+MAG_606	MAG_606_34_12	489						K00287	dihydrofolate reductase [EC:1.5.1.3]
+MAG_606	MAG_606_34_13	594							
+MAG_606	MAG_606_34_14	936						K00560	thymidylate synthase [EC:2.1.1.45]
+MAG_606	MAG_606_34_15	747						K07074	uncharacterized protein
+MAG_606	MAG_606_34_16	252							
+MAG_606	MAG_606_34_17	576							
+MAG_606	MAG_606_34_18	612							
+MAG_606	MAG_606_34_19	321							
+MAG_606	MAG_606_34_2	474							
+MAG_606	MAG_606_34_3	240							
+MAG_606	MAG_606_34_4	225							
+MAG_606	MAG_606_34_5	408							
+MAG_606	MAG_606_34_6	162							
+MAG_606	MAG_606_34_7	318							
+MAG_606	MAG_606_34_8	621							
+MAG_606	MAG_606_34_9	1770							
+MAG_606	MAG_606_35_1	309							
+MAG_606	MAG_606_35_2	300							
+MAG_606	MAG_606_35_3	237							
+MAG_606	MAG_606_35_4	1068							
+MAG_606	MAG_606_36_1	1134							
+MAG_606	MAG_606_36_10	1152						K02851	UDP-GlcNAc:undecaprenyl-phosphate/decaprenyl-phosphate GlcNAc-1-phosphate transferase [EC:2.7.8.33 2.7.8.35]
+MAG_606	MAG_606_36_100	489						K05770	translocator protein
+MAG_606	MAG_606_36_101	486							
+MAG_606	MAG_606_36_102	1617						K00681	gamma-glutamyltranspeptidase / glutathione hydrolase [EC:2.3.2.2 3.4.19.13]
+MAG_606	MAG_606_36_103	1548							
+MAG_606	MAG_606_36_104	831							
+MAG_606	MAG_606_36_105	1653						K09384	uncharacterized protein
+MAG_606	MAG_606_36_106	300							
+MAG_606	MAG_606_36_107	420							
+MAG_606	MAG_606_36_108	210						K07729	putative transcriptional regulator
+MAG_606	MAG_606_36_109	471							
+MAG_606	MAG_606_36_11	1050							
+MAG_606	MAG_606_36_110	135							
+MAG_606	MAG_606_36_111	597							
+MAG_606	MAG_606_36_112	1074							
+MAG_606	MAG_606_36_113	1470							
+MAG_606	MAG_606_36_114	621							
+MAG_606	MAG_606_36_115	2469						K01534	Zn2+/Cd2+-exporting ATPase [EC:7.2.2.12 7.2.2.21]
+MAG_606	MAG_606_36_116	369							
+MAG_606	MAG_606_36_117	351							
+MAG_606	MAG_606_36_118	1644						K00520	mercuric reductase [EC:1.16.1.1]
+MAG_606	MAG_606_36_119	681							
+MAG_606	MAG_606_36_12	321						K26959	monothiol bacilliredoxin
+MAG_606	MAG_606_36_120	330							
+MAG_606	MAG_606_36_121	285			deeppeptide	Propeptide			
+MAG_606	MAG_606_36_122	399						K08365	MerR family transcriptional regulator, mercuric resistance operon regulatory protein
+MAG_606	MAG_606_36_123	321						K03892	ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor
+MAG_606	MAG_606_36_124	885						K07089	uncharacterized protein
+MAG_606	MAG_606_36_125	120	smorfinder						
+MAG_606	MAG_606_36_126	1290						K03893	arsenical pump membrane protein
+MAG_606	MAG_606_36_127	1659							
+MAG_606	MAG_606_36_128	1722						K01551	arsenite/tail-anchored protein-transporting ATPase [EC:7.3.2.7 7.3.-.-]
+MAG_606	MAG_606_36_129	348							
+MAG_606	MAG_606_36_13	252							
+MAG_606	MAG_606_36_130	837							
+MAG_606	MAG_606_36_131	147			deeppeptide	Peptide			
+MAG_606	MAG_606_36_132	657							
+MAG_606	MAG_606_36_133	1569							
+MAG_606	MAG_606_36_134	327							
+MAG_606	MAG_606_36_135	870							
+MAG_606	MAG_606_36_136	1317							
+MAG_606	MAG_606_36_137	672							
+MAG_606	MAG_606_36_138	1389							
+MAG_606	MAG_606_36_139	156			deeppeptide	Propeptide			
+MAG_606	MAG_606_36_14	897							
+MAG_606	MAG_606_36_140	624							
+MAG_606	MAG_606_36_141	252						K07213	copper chaperone
+MAG_606	MAG_606_36_142	432						K02171	BlaI family transcriptional regulator, penicillinase repressor
+MAG_606	MAG_606_36_143	2049						K01533	P-type Cu2+ transporter [EC:7.2.2.9]
+MAG_606	MAG_606_36_144	507							
+MAG_606	MAG_606_36_145	705						K06196	cytochrome c-type biogenesis protein
+MAG_606	MAG_606_36_146	534							
+MAG_606	MAG_606_36_147	1113							
+MAG_606	MAG_606_36_148	1224							
+MAG_606	MAG_606_36_149	1251							
+MAG_606	MAG_606_36_15	924						K00075	UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
+MAG_606	MAG_606_36_150	1386						K01464	dihydropyrimidinase [EC:3.5.2.2]
+MAG_606	MAG_606_36_151	312							
+MAG_606	MAG_606_36_152	294							
+MAG_606	MAG_606_36_153	1362						K03699	magnesium and cobalt exporter, CNNM family
+MAG_606	MAG_606_36_154	1548							
+MAG_606	MAG_606_36_155	1566							
+MAG_606	MAG_606_36_156	1026						K03639	GTP 3',8-cyclase [EC:4.1.99.22]
+MAG_606	MAG_606_36_157	567						K03752	molybdenum cofactor guanylyltransferase [EC:2.7.7.77]
+MAG_606	MAG_606_36_158	234						K03636	sulfur-carrier protein
+MAG_606	MAG_606_36_159	444						K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]
+MAG_606	MAG_606_36_16	1137						K25282	iron-siderophore transport system substrate-binding protein
+MAG_606	MAG_606_36_160	471						K03753	molybdopterin-guanine dinucleotide biosynthesis adapter protein
+MAG_606	MAG_606_36_161	1260						K03750	molybdopterin molybdotransferase [EC:2.10.1.1]
+MAG_606	MAG_606_36_162	477						K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]
+MAG_606	MAG_606_36_163	507						K03638	molybdopterin adenylyltransferase [EC:2.7.7.75]
+MAG_606	MAG_606_36_164	1002							
+MAG_606	MAG_606_36_165	693						K02483	two-component system, OmpR family, response regulator
+MAG_606	MAG_606_36_166	1776						K07636	two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]
+MAG_606	MAG_606_36_167	315							
+MAG_606	MAG_606_36_168	684						K07322	regulator of cell morphogenesis and NO signaling
+MAG_606	MAG_606_36_169	960							
+MAG_606	MAG_606_36_17	816						K25285	iron-siderophore transport system ATP-binding protein [EC:7.2.2.-]
+MAG_606	MAG_606_36_170	582						K22522	cytokinin riboside 5'-monophosphate phosphoribohydrolase [EC:3.2.2.-]
+MAG_606	MAG_606_36_171	564							
+MAG_606	MAG_606_36_172	336							
+MAG_606	MAG_606_36_173	261							
+MAG_606	MAG_606_36_174	1683						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_36_175	1680						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_36_176	1674						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_36_177	1995							
+MAG_606	MAG_606_36_178	429							
+MAG_606	MAG_606_36_179	1011						K07080	uncharacterized protein
+MAG_606	MAG_606_36_18	954						K25283	iron-siderophore transport system permease protein
+MAG_606	MAG_606_36_180	972						K14731	epsilon-lactone hydrolase [EC:3.1.1.83]
+MAG_606	MAG_606_36_181	666							
+MAG_606	MAG_606_36_182	1275							
+MAG_606	MAG_606_36_183	1680						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_36_184	1683						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_36_185	909						K02034	peptide/nickel transport system permease protein
+MAG_606	MAG_606_36_186	921						K02033	peptide/nickel transport system permease protein
+MAG_606	MAG_606_36_187	1008						K02031	peptide/nickel transport system ATP-binding protein
+MAG_606	MAG_606_36_188	1107						K02032	peptide/nickel transport system ATP-binding protein
+MAG_606	MAG_606_36_189	483						K09793	uncharacterized protein
+MAG_606	MAG_606_36_19	966						K25284	iron-siderophore transport system permease protein
+MAG_606	MAG_606_36_190	1206						K03291	MFS transporter, SET family, sugar efflux transporter
+MAG_606	MAG_606_36_191	861							
+MAG_606	MAG_606_36_192	537						K09145	uncharacterized protein
+MAG_606	MAG_606_36_193	1956						K16919	acetoin utilization transport system permease protein
+MAG_606	MAG_606_36_194	906						K16921	acetoin utilization transport system ATP-binding protein
+MAG_606	MAG_606_36_195	381						K07979	GntR family transcriptional regulator
+MAG_606	MAG_606_36_196	1008						K00611	ornithine carbamoyltransferase [EC:2.1.3.3]
+MAG_606	MAG_606_36_197	1041						K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]
+MAG_606	MAG_606_36_198	1221						K00620	glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]
+MAG_606	MAG_606_36_199	906						K00930	acetylglutamate kinase [EC:2.7.2.8]
+MAG_606	MAG_606_36_2	321							
+MAG_606	MAG_606_36_20	672							
+MAG_606	MAG_606_36_200	1209						K00821	acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]
+MAG_606	MAG_606_36_201	786							
+MAG_606	MAG_606_36_202	720						K18189	translational activator of cytochrome c oxidase 1
+MAG_606	MAG_606_36_203	915							
+MAG_606	MAG_606_36_204	1152							
+MAG_606	MAG_606_36_205	1191							
+MAG_606	MAG_606_36_206	504							
+MAG_606	MAG_606_36_207	282							
+MAG_606	MAG_606_36_208	639							
+MAG_606	MAG_606_36_209	984						K07146	UPF0176 protein
+MAG_606	MAG_606_36_21	417							
+MAG_606	MAG_606_36_210	1002							
+MAG_606	MAG_606_36_211	1311						K24116	N-acetyl-S-(2-succino)cysteine monooxygenase [EC:1.14.-.-]
+MAG_606	MAG_606_36_212	1440							
+MAG_606	MAG_606_36_213	1020						K22409	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+MAG_606	MAG_606_36_214	1398						K03299	gluconate:H+ symporter, GntP family
+MAG_606	MAG_606_36_215	999						K22024	4-phospho-D-threonate 3-dehydrogenase / 4-phospho-D-erythronate 3-dehydrogenase [EC:1.1.1.408 1.1.1.409]
+MAG_606	MAG_606_36_216	1284						K22129	D-threonate/D-erythronate kinase [EC:2.7.1.219 2.7.1.220]
+MAG_606	MAG_606_36_217	750							
+MAG_606	MAG_606_36_218	402							
+MAG_606	MAG_606_36_219	1446						K07248	lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]
+MAG_606	MAG_606_36_22	969							
+MAG_606	MAG_606_36_220	639						K07118	uncharacterized protein
+MAG_606	MAG_606_36_221	474						K03976	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase [EC:3.1.1.-]
+MAG_606	MAG_606_36_222	777						K02351	putative membrane protein
+MAG_606	MAG_606_36_223	462							
+MAG_606	MAG_606_36_224	2136						K03697	ATP-dependent Clp protease ATP-binding subunit ClpE
+MAG_606	MAG_606_36_225	369							
+MAG_606	MAG_606_36_226	882							
+MAG_606	MAG_606_36_227	702							
+MAG_606	MAG_606_36_228	1086							
+MAG_606	MAG_606_36_229	945						K15975	glyoxalase family protein
+MAG_606	MAG_606_36_23	2106						K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]
+MAG_606	MAG_606_36_230	942						K09936	bacterial/archaeal transporter family-2 protein
+MAG_606	MAG_606_36_231	975							
+MAG_606	MAG_606_36_232	324							
+MAG_606	MAG_606_36_233	1491						K18926	MFS transporter, DHA2 family, lincomycin resistance protein
+MAG_606	MAG_606_36_234	813							
+MAG_606	MAG_606_36_235	420							
+MAG_606	MAG_606_36_236	384							
+MAG_606	MAG_606_36_237	348							
+MAG_606	MAG_606_36_238	1464						K00283	glycine cleavage system P protein (glycine dehydrogenase) subunit 2 [EC:1.4.4.2]
+MAG_606	MAG_606_36_239	1353						K00282	glycine cleavage system P protein (glycine dehydrogenase) subunit 1 [EC:1.4.4.2]
+MAG_606	MAG_606_36_24	396						K03647	protein involved in ribonucleotide reduction
+MAG_606	MAG_606_36_240	621						K07118	uncharacterized protein
+MAG_606	MAG_606_36_241	1605							
+MAG_606	MAG_606_36_242	1773						K07459	putative ATP-dependent endonuclease of the OLD family
+MAG_606	MAG_606_36_243	1173							
+MAG_606	MAG_606_36_244	1803						K00820	glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
+MAG_606	MAG_606_36_245	195							
+MAG_606	MAG_606_36_246	897							
+MAG_606	MAG_606_36_247	1320						K03299	gluconate:H+ symporter, GntP family
+MAG_606	MAG_606_36_248	435							
+MAG_606	MAG_606_36_249	756							
+MAG_606	MAG_606_36_25	885							
+MAG_606	MAG_606_36_250	534						K07038	inner membrane protein
+MAG_606	MAG_606_36_251	1353						K03431	phosphoglucosamine mutase [EC:5.4.2.10]
+MAG_606	MAG_606_36_252	948							
+MAG_606	MAG_606_36_253	822						K18672	diadenylate cyclase [EC:2.7.7.85]
+MAG_606	MAG_606_36_254	945							
+MAG_606	MAG_606_36_255	459							
+MAG_606	MAG_606_36_256	906						K01476	arginase [EC:3.5.3.1]
+MAG_606	MAG_606_36_26	1785						K03654	ATP-dependent DNA helicase RecQ [EC:5.6.2.4]
+MAG_606	MAG_606_36_27	948							
+MAG_606	MAG_606_36_28	258							
+MAG_606	MAG_606_36_29	207			deeppeptide	Propeptide			
+MAG_606	MAG_606_36_3	1050						K02836	peptide chain release factor 2
+MAG_606	MAG_606_36_30	1680						K03342	para-aminobenzoate synthetase / 4-amino-4-deoxychorismate lyase [EC:2.6.1.85 4.1.3.38]
+MAG_606	MAG_606_36_31	603							
+MAG_606	MAG_606_36_32	1185							
+MAG_606	MAG_606_36_33	261							
+MAG_606	MAG_606_36_34	1248						K01485	cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]
+MAG_606	MAG_606_36_35	1125						K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+MAG_606	MAG_606_36_36	441							
+MAG_606	MAG_606_36_37	1731							
+MAG_606	MAG_606_36_38	1737						K18889	ATP-binding cassette, subfamily B, multidrug efflux pump
+MAG_606	MAG_606_36_39	990						K13955	zinc-binding alcohol dehydrogenase/oxidoreductase
+MAG_606	MAG_606_36_4	2526						K03070	preprotein translocase subunit SecA [EC:7.4.2.8]
+MAG_606	MAG_606_36_40	408							
+MAG_606	MAG_606_36_41	861						K01561	haloacetate dehalogenase [EC:3.8.1.3]
+MAG_606	MAG_606_36_42	489							
+MAG_606	MAG_606_36_43	1308						K21430	aldose sugar dehydrogenase [EC:1.1.5.-]
+MAG_606	MAG_606_36_44	969						K01424	L-asparaginase [EC:3.5.1.1]
+MAG_606	MAG_606_36_45	1422						K03315	Na+:H+ antiporter, NhaC family
+MAG_606	MAG_606_36_46	1149						K01305	beta-aspartyl-dipeptidase (metallo-type) [EC:3.4.19.-]
+MAG_606	MAG_606_36_47	1302						K01455	formamidase [EC:3.5.1.49]
+MAG_606	MAG_606_36_48	1146						K08223	MFS transporter, FSR family, fosmidomycin resistance protein
+MAG_606	MAG_606_36_49	210			deeppeptide	Propeptide			
+MAG_606	MAG_606_36_5	561						K05808	ribosome hibernation promoting factor
+MAG_606	MAG_606_36_50	903						K21755	LysR family transcriptional regulator, salicylic acid-responsive activator of bsdBCD
+MAG_606	MAG_606_36_51	1224						K03449	MFS transporter, CP family, cyanate transporter
+MAG_606	MAG_606_36_52	876						K13653	AraC family transcriptional regulator
+MAG_606	MAG_606_36_53	840							
+MAG_606	MAG_606_36_54	210							
+MAG_606	MAG_606_36_55	171							
+MAG_606	MAG_606_36_56	318							
+MAG_606	MAG_606_36_57	144							
+MAG_606	MAG_606_36_58	453							
+MAG_606	MAG_606_36_59	198							
+MAG_606	MAG_606_36_6	684						K02242	competence protein ComFC
+MAG_606	MAG_606_36_60	564							
+MAG_606	MAG_606_36_61	300							
+MAG_606	MAG_606_36_62	177							
+MAG_606	MAG_606_36_63	234							
+MAG_606	MAG_606_36_64	375							
+MAG_606	MAG_606_36_65	447							
+MAG_606	MAG_606_36_66	447							
+MAG_606	MAG_606_36_67	1194							
+MAG_606	MAG_606_36_68	813							
+MAG_606	MAG_606_36_69	1257							
+MAG_606	MAG_606_36_7	1245						K02240	competence protein ComFA
+MAG_606	MAG_606_36_70	720							
+MAG_606	MAG_606_36_71	570						K09962	uncharacterized protein
+MAG_606	MAG_606_36_72	495							
+MAG_606	MAG_606_36_73	513							
+MAG_606	MAG_606_36_74	165							
+MAG_606	MAG_606_36_75	408							
+MAG_606	MAG_606_36_76	498						K02503	histidine triad (HIT) family protein [EC:3.9.1.-]
+MAG_606	MAG_606_36_77	258							
+MAG_606	MAG_606_36_78	510							
+MAG_606	MAG_606_36_79	645							
+MAG_606	MAG_606_36_8	873						K25232	fatty acid kinase fatty acid binding subunit
+MAG_606	MAG_606_36_80	396							
+MAG_606	MAG_606_36_81	168							
+MAG_606	MAG_606_36_82	510						K07586	uncharacterized protein
+MAG_606	MAG_606_36_83	879							
+MAG_606	MAG_606_36_84	441							
+MAG_606	MAG_606_36_85	219							
+MAG_606	MAG_606_36_86	1083							
+MAG_606	MAG_606_36_87	744							
+MAG_606	MAG_606_36_88	273							
+MAG_606	MAG_606_36_89	282			deeppeptide	Peptide			
+MAG_606	MAG_606_36_9	630							
+MAG_606	MAG_606_36_90	834							
+MAG_606	MAG_606_36_91	675							
+MAG_606	MAG_606_36_92	528							
+MAG_606	MAG_606_36_93	615						K17462	putative AdoMet-dependent methyltransferase [EC:2.1.1.-]
+MAG_606	MAG_606_36_94	183							
+MAG_606	MAG_606_36_95	201							
+MAG_606	MAG_606_36_96	339							
+MAG_606	MAG_606_36_97	303							
+MAG_606	MAG_606_36_98	183							
+MAG_606	MAG_606_36_99	279							
+MAG_606	MAG_606_37_1	606							
+MAG_606	MAG_606_37_10	486						K24872	heptaprenylglycerol acetyltransferase [EC:2.3.1.-]
+MAG_606	MAG_606_37_11	1422							
+MAG_606	MAG_606_37_12	936						K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]
+MAG_606	MAG_606_37_13	885						K06958	RNase adapter protein RapZ
+MAG_606	MAG_606_37_14	975							
+MAG_606	MAG_606_37_15	945						K09762	cell division protein WhiA
+MAG_606	MAG_606_37_16	915						K07071	uncharacterized protein
+MAG_606	MAG_606_37_17	585						K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+MAG_606	MAG_606_37_18	789							
+MAG_606	MAG_606_37_19	462							
+MAG_606	MAG_606_37_2	588							
+MAG_606	MAG_606_37_20	255							
+MAG_606	MAG_606_37_21	1197						K00927	phosphoglycerate kinase [EC:2.7.2.3]
+MAG_606	MAG_606_37_22	756						K01803	triosephosphate isomerase (TIM) [EC:5.3.1.1]
+MAG_606	MAG_606_37_23	1521						K15633	2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]
+MAG_606	MAG_606_37_24	1299						K01689	enolase 1/2/3 [EC:4.2.1.11]
+MAG_606	MAG_606_37_25	840						K07497	putative transposase
+MAG_606	MAG_606_37_26	507						K07483	transposase
+MAG_606	MAG_606_37_27	903							
+MAG_606	MAG_606_37_28	231						K03075	preprotein translocase subunit SecG
+MAG_606	MAG_606_37_29	750						K03928	carboxylesterase [EC:3.1.1.1]
+MAG_606	MAG_606_37_3	636							
+MAG_606	MAG_606_37_30	2301						K12573	ribonuclease R [EC:3.1.13.1]
+MAG_606	MAG_606_37_31	471						K03664	SsrA-binding protein
+MAG_606	MAG_606_37_32	1074							
+MAG_606	MAG_606_37_33	642							
+MAG_606	MAG_606_37_34	246							
+MAG_606	MAG_606_37_35	198							
+MAG_606	MAG_606_37_36	225							
+MAG_606	MAG_606_37_37	201							
+MAG_606	MAG_606_37_38	219							
+MAG_606	MAG_606_37_39	300							
+MAG_606	MAG_606_37_4	246							
+MAG_606	MAG_606_37_40	363							
+MAG_606	MAG_606_37_5	1974						K03702	excinuclease ABC subunit B
+MAG_606	MAG_606_37_6	2829						K03701	excinuclease ABC subunit A
+MAG_606	MAG_606_37_7	1152							
+MAG_606	MAG_606_37_8	930						K06023	HPr kinase/phosphorylase [EC:2.7.11.- 2.7.4.-]
+MAG_606	MAG_606_37_9	888						K13292	phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]
+MAG_606	MAG_606_38_1	336							
+MAG_606	MAG_606_38_2	234						K07727	putative transcriptional regulator
+MAG_606	MAG_606_38_3	246							
+MAG_606	MAG_606_38_4	396							
+MAG_606	MAG_606_38_5	348							
+MAG_606	MAG_606_38_6	324							
+MAG_606	MAG_606_38_7	369							
+MAG_606	MAG_606_39_1	786						K26041	Straboviridae intron-associated endonuclease 1 [EC:3.1.-.-]
+MAG_606	MAG_606_39_2	477						K00560	thymidylate synthase [EC:2.1.1.45]
+MAG_606	MAG_606_3_1	975							
+MAG_606	MAG_606_3_10	2175						K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+MAG_606	MAG_606_3_11	1971						K01972	DNA ligase (NAD+) [EC:6.5.1.2]
+MAG_606	MAG_606_3_12	1209							
+MAG_606	MAG_606_3_13	303						K02435	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]
+MAG_606	MAG_606_3_14	1479						K02433	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]
+MAG_606	MAG_606_3_15	1431						K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]
+MAG_606	MAG_606_3_16	360							
+MAG_606	MAG_606_3_17	753							
+MAG_606	MAG_606_3_18	507							
+MAG_606	MAG_606_3_19	948						K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]
+MAG_606	MAG_606_3_2	927						K15986	manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1]
+MAG_606	MAG_606_3_20	1767						K01119	2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase [EC:3.1.4.16 3.1.3.6]
+MAG_606	MAG_606_3_21	1362						K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]
+MAG_606	MAG_606_3_22	786						K02624	IclR family transcriptional regulator, pca regulon regulatory protein
+MAG_606	MAG_606_3_23	1203						K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+MAG_606	MAG_606_3_24	648							
+MAG_606	MAG_606_3_25	687							
+MAG_606	MAG_606_3_26	837							
+MAG_606	MAG_606_3_27	468							
+MAG_606	MAG_606_3_28	798							
+MAG_606	MAG_606_3_29	1113						K01856	muconate cycloisomerase [EC:5.5.1.1]
+MAG_606	MAG_606_3_3	1452						K00763	nicotinate phosphoribosyltransferase [EC:6.3.4.21]
+MAG_606	MAG_606_3_30	828						K01142	exodeoxyribonuclease III [EC:3.1.11.2]
+MAG_606	MAG_606_3_31	1218							
+MAG_606	MAG_606_3_32	960						K01754	threonine dehydratase [EC:4.3.1.19]
+MAG_606	MAG_606_3_33	702						K07816	GTP pyrophosphokinase [EC:2.7.6.5]
+MAG_606	MAG_606_3_34	1017						K11621	lia operon protein LiaG
+MAG_606	MAG_606_3_35	300							
+MAG_606	MAG_606_3_36	723							
+MAG_606	MAG_606_3_37	876							
+MAG_606	MAG_606_3_38	594							
+MAG_606	MAG_606_3_39	318							
+MAG_606	MAG_606_3_4	819						K01916	NAD+ synthase [EC:6.3.1.5]
+MAG_606	MAG_606_3_40	1221							
+MAG_606	MAG_606_3_41	207			deeppeptide	Propeptide			
+MAG_606	MAG_606_3_42	951							
+MAG_606	MAG_606_3_43	1029						K21567	ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2 1.19.1.1]
+MAG_606	MAG_606_3_44	1404						K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]
+MAG_606	MAG_606_3_45	1008						K00359	NADPH:quinone reductase [EC:1.6.5.5]
+MAG_606	MAG_606_3_46	1188							
+MAG_606	MAG_606_3_47	423							
+MAG_606	MAG_606_3_48	1047							
+MAG_606	MAG_606_3_49	333						K02437	glycine cleavage system H protein
+MAG_606	MAG_606_3_5	657							
+MAG_606	MAG_606_3_50	771						K23518	O-acetyl-ADP-ribose deacetylase [EC:3.1.1.106]
+MAG_606	MAG_606_3_51	867							
+MAG_606	MAG_606_3_52	1023						K03800	lipoate---protein ligase [EC:6.3.1.20]
+MAG_606	MAG_606_3_53	510							
+MAG_606	MAG_606_3_54	228							
+MAG_606	MAG_606_3_55	1047							
+MAG_606	MAG_606_3_56	567							
+MAG_606	MAG_606_3_57	1071						K02346	DNA polymerase IV [EC:2.7.7.7]
+MAG_606	MAG_606_3_58	756						K01265	methionyl aminopeptidase [EC:3.4.11.18]
+MAG_606	MAG_606_3_59	285							
+MAG_606	MAG_606_3_6	213							
+MAG_606	MAG_606_3_60	570						K01673	carbonic anhydrase [EC:4.2.1.1]
+MAG_606	MAG_606_3_61	1029						K07058	membrane protein
+MAG_606	MAG_606_3_62	318							
+MAG_606	MAG_606_3_63	201							
+MAG_606	MAG_606_3_64	1233						K19689	aminopeptidase [EC:3.4.11.-]
+MAG_606	MAG_606_3_65	156							
+MAG_606	MAG_606_3_66	510							
+MAG_606	MAG_606_3_67	771						K03565	regulatory protein
+MAG_606	MAG_606_3_68	327							
+MAG_606	MAG_606_3_69	1488							
+MAG_606	MAG_606_3_7	1296						K01756	adenylosuccinate lyase [EC:4.3.2.2]
+MAG_606	MAG_606_3_70	762							
+MAG_606	MAG_606_3_71	978						K07038	inner membrane protein
+MAG_606	MAG_606_3_72	1038						K03575	A/G-specific adenine glycosylase [EC:3.2.2.31]
+MAG_606	MAG_606_3_73	537						K07586	uncharacterized protein
+MAG_606	MAG_606_3_74	1737						K24708	ATP-binding cassette, subfamily B, putative efflux pump [EC:7.6.2.-]
+MAG_606	MAG_606_3_75	609						K03652	DNA-3-methyladenine glycosylase [EC:3.2.2.21]
+MAG_606	MAG_606_3_76	1110							
+MAG_606	MAG_606_3_77	1293						K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]
+MAG_606	MAG_606_3_78	447						K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]
+MAG_606	MAG_606_3_79	933							
+MAG_606	MAG_606_3_8	678						K07260	zinc D-Ala-D-Ala carboxypeptidase [EC:3.4.17.14]
+MAG_606	MAG_606_3_80	465						K09825	Fur family transcriptional regulator, peroxide stress response regulator
+MAG_606	MAG_606_3_81	396							
+MAG_606	MAG_606_3_9	666							
+MAG_606	MAG_606_40_1	1275							
+MAG_606	MAG_606_40_10	1131						K00925	acetate kinase [EC:2.7.2.1]
+MAG_606	MAG_606_40_11	900							
+MAG_606	MAG_606_40_12	582							
+MAG_606	MAG_606_40_13	1002						K04773	protease IV [EC:3.4.21.-]
+MAG_606	MAG_606_40_14	798						K00858	NAD+ kinase [EC:2.7.1.23]
+MAG_606	MAG_606_40_15	384						K01489	cytidine deaminase [EC:3.5.4.5]
+MAG_606	MAG_606_40_16	165							
+MAG_606	MAG_606_40_17	1203						K03151	tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]
+MAG_606	MAG_606_40_18	1128						K04487	cysteine desulfurase [EC:2.8.1.7]
+MAG_606	MAG_606_40_19	1695						K06286	septation ring formation regulator
+MAG_606	MAG_606_40_2	690							
+MAG_606	MAG_606_40_20	471						K08968	L-methionine (R)-S-oxide reductase [EC:1.8.4.14]
+MAG_606	MAG_606_40_21	603						K02986	small subunit ribosomal protein S4
+MAG_606	MAG_606_40_22	201						K03704	cold shock protein
+MAG_606	MAG_606_40_23	1344						K01174	micrococcal nuclease [EC:3.1.31.1]
+MAG_606	MAG_606_40_24	468							
+MAG_606	MAG_606_40_25	1311						K03300	citrate-Mg2+:H+ or citrate-Ca2+:H+ symporter, CitMHS family
+MAG_606	MAG_606_40_26	1542						K00294	1-pyrroline-5-carboxylate dehydrogenase [EC:1.2.1.88]
+MAG_606	MAG_606_40_27	1284						K12940	aminobenzoyl-glutamate utilization protein A
+MAG_606	MAG_606_40_28	1179							
+MAG_606	MAG_606_40_29	624							
+MAG_606	MAG_606_40_3	576							
+MAG_606	MAG_606_40_30	216							
+MAG_606	MAG_606_40_31	909							
+MAG_606	MAG_606_40_32	489						K09457	7-cyano-7-deazaguanine reductase [EC:1.7.1.13]
+MAG_606	MAG_606_40_33	648						K09125	queuosine precursor transporter
+MAG_606	MAG_606_40_34	1950						K11632	bacitracin transport system permease protein
+MAG_606	MAG_606_40_35	762						K02003	putative ABC transport system ATP-binding protein
+MAG_606	MAG_606_40_36	993							
+MAG_606	MAG_606_40_37	675							
+MAG_606	MAG_606_40_38	1206						K07148	uncharacterized protein
+MAG_606	MAG_606_40_39	270							
+MAG_606	MAG_606_40_4	1116						K00259	alanine dehydrogenase [EC:1.4.1.1]
+MAG_606	MAG_606_40_40	1143							
+MAG_606	MAG_606_40_41	480							
+MAG_606	MAG_606_40_42	948						K01273	membrane dipeptidase [EC:3.4.13.19]
+MAG_606	MAG_606_40_43	1329							
+MAG_606	MAG_606_40_44	117							
+MAG_606	MAG_606_40_45	1260						K01866	tyrosyl-tRNA synthetase [EC:6.1.1.1]
+MAG_606	MAG_606_40_46	2535						K03693	penicillin-binding protein 1B
+MAG_606	MAG_606_40_47	1668						K01938	formate--tetrahydrofolate ligase [EC:6.3.4.3]
+MAG_606	MAG_606_40_48	1710							
+MAG_606	MAG_606_40_49	633						K04766	acetoin utilization protein AcuA [EC:2.3.1.-]
+MAG_606	MAG_606_40_5	498							
+MAG_606	MAG_606_40_50	636						K04767	acetoin utilization protein AcuB
+MAG_606	MAG_606_40_51	1146						K04768	acetoin utilization protein AcuC
+MAG_606	MAG_606_40_52	990						K02529	LacI family transcriptional regulator, galactose operon repressor
+MAG_606	MAG_606_40_53	456							
+MAG_606	MAG_606_40_54	474							
+MAG_606	MAG_606_40_55	1263						K01924	UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]
+MAG_606	MAG_606_40_56	1686							
+MAG_606	MAG_606_40_57	585							
+MAG_606	MAG_606_40_58	810							
+MAG_606	MAG_606_40_59	990						K07035	uncharacterized protein
+MAG_606	MAG_606_40_6	1056							
+MAG_606	MAG_606_40_60	1074						K01261	glutamyl aminopeptidase [EC:3.4.11.7]
+MAG_606	MAG_606_40_61	297							
+MAG_606	MAG_606_40_62	1197						K14155	cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+MAG_606	MAG_606_40_63	627						K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]
+MAG_606	MAG_606_40_64	792							
+MAG_606	MAG_606_40_65	1410							
+MAG_606	MAG_606_40_66	846							
+MAG_606	MAG_606_40_67	690						K06183	16S rRNA pseudouridine516 synthase [EC:5.4.99.19]
+MAG_606	MAG_606_40_68	1635							
+MAG_606	MAG_606_40_69	1254							
+MAG_606	MAG_606_40_7	519							
+MAG_606	MAG_606_40_70	2415						K01869	leucyl-tRNA synthetase [EC:6.1.1.4]
+MAG_606	MAG_606_40_71	462						K00567	methylated-DNA-[protein]-cysteine S-methyltransferase [EC:2.1.1.63]
+MAG_606	MAG_606_40_72	1563							
+MAG_606	MAG_606_40_73	753						K01990	ABC-2 type transport system ATP-binding protein
+MAG_606	MAG_606_40_74	546							
+MAG_606	MAG_606_40_75	807							
+MAG_606	MAG_606_40_76	504						K01726	gamma-carbonic anhydrase [EC:4.2.1.-]
+MAG_606	MAG_606_40_77	987							
+MAG_606	MAG_606_40_78	366						K06199	fluoride exporter
+MAG_606	MAG_606_40_79	363						K06199	fluoride exporter
+MAG_606	MAG_606_40_8	504							
+MAG_606	MAG_606_40_80	1149							
+MAG_606	MAG_606_40_81	765							
+MAG_606	MAG_606_40_82	402							
+MAG_606	MAG_606_40_83	1176							
+MAG_606	MAG_606_40_9	486							
+MAG_606	MAG_606_41_1	1248						K03699	magnesium and cobalt exporter, CNNM family
+MAG_606	MAG_606_41_10	246							
+MAG_606	MAG_606_41_11	2640						K06994	putative drug exporter of the RND superfamily
+MAG_606	MAG_606_41_12	471							
+MAG_606	MAG_606_41_13	993							
+MAG_606	MAG_606_41_14	924						K05786	chloramphenicol-sensitive protein RarD
+MAG_606	MAG_606_41_15	774							
+MAG_606	MAG_606_41_16	927						K15975	glyoxalase family protein
+MAG_606	MAG_606_41_17	639							
+MAG_606	MAG_606_41_18	852						K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+MAG_606	MAG_606_41_19	1041							
+MAG_606	MAG_606_41_2	861						K07098	uncharacterized protein
+MAG_606	MAG_606_41_20	549						K07240	chromate transporter
+MAG_606	MAG_606_41_21	531						K07240	chromate transporter
+MAG_606	MAG_606_41_22	507							
+MAG_606	MAG_606_41_23	213							
+MAG_606	MAG_606_41_24	345						K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]
+MAG_606	MAG_606_41_25	849						K00931	glutamate 5-kinase [EC:2.7.2.11]
+MAG_606	MAG_606_41_26	1251						K00147	glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]
+MAG_606	MAG_606_41_27	417						K07397	putative redox protein
+MAG_606	MAG_606_41_28	708							
+MAG_606	MAG_606_41_29	795							
+MAG_606	MAG_606_41_3	633						K05835	threonine efflux protein
+MAG_606	MAG_606_41_30	1584							
+MAG_606	MAG_606_41_31	831							
+MAG_606	MAG_606_41_32	507						K03048	DNA-directed RNA polymerase subunit delta
+MAG_606	MAG_606_41_33	1617						K01937	CTP synthase [EC:6.3.4.2]
+MAG_606	MAG_606_41_34	642						K00616	transaldolase [EC:2.2.1.2]
+MAG_606	MAG_606_41_35	1266						K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+MAG_606	MAG_606_41_36	966						K02446	fructose-1,6-bisphosphatase II [EC:3.1.3.11]
+MAG_606	MAG_606_41_37	1320						K03628	transcription termination factor Rho
+MAG_606	MAG_606_41_38	261						K02909	large subunit ribosomal protein L31
+MAG_606	MAG_606_41_39	1080						K02835	peptide chain release factor 1
+MAG_606	MAG_606_41_4	1173						K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]
+MAG_606	MAG_606_41_40	855						K02493	release factor glutamine methyltransferase [EC:2.1.1.297]
+MAG_606	MAG_606_41_41	1050						K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]
+MAG_606	MAG_606_41_42	402							
+MAG_606	MAG_606_41_43	429						K01808	ribose 5-phosphate isomerase B [EC:5.3.1.6]
+MAG_606	MAG_606_41_44	549							
+MAG_606	MAG_606_41_45	1236						K00600	glycine hydroxymethyltransferase [EC:2.1.2.1]
+MAG_606	MAG_606_41_46	630						K00761	uracil phosphoribosyltransferase [EC:2.4.2.9]
+MAG_606	MAG_606_41_47	1140						K01791	UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing) [EC:5.1.3.14]
+MAG_606	MAG_606_41_48	330							
+MAG_606	MAG_606_41_49	735						K02108	F-type H+-transporting ATPase subunit a
+MAG_606	MAG_606_41_5	1140						K02549	o-succinylbenzoate synthase [EC:4.2.1.113]
+MAG_606	MAG_606_41_50	216						K02110	F-type H+-transporting ATPase subunit c
+MAG_606	MAG_606_41_51	519						K02109	F-type H+-transporting ATPase subunit b
+MAG_606	MAG_606_41_52	543						K02113	F-type H+-transporting ATPase subunit delta
+MAG_606	MAG_606_41_53	1509						K02111	F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]
+MAG_606	MAG_606_41_54	876						K02115	F-type H+-transporting ATPase subunit gamma
+MAG_606	MAG_606_41_55	1416						K02112	F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]
+MAG_606	MAG_606_41_56	405						K02114	F-type H+-transporting ATPase subunit epsilon
+MAG_606	MAG_606_41_57	231							
+MAG_606	MAG_606_41_58	1293						K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+MAG_606	MAG_606_41_59	189							
+MAG_606	MAG_606_41_6	1425							
+MAG_606	MAG_606_41_60	444						K02372	3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]
+MAG_606	MAG_606_41_61	426							
+MAG_606	MAG_606_41_62	552						K03111	single-strand DNA-binding protein
+MAG_606	MAG_606_41_63	852							
+MAG_606	MAG_606_41_64	876						K25150	polyether ionophore transport system ATP-binding protein
+MAG_606	MAG_606_41_65	1566						K25149	polyether ionophore transport system permease protein
+MAG_606	MAG_606_41_66	792						K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]
+MAG_606	MAG_606_41_67	771						K00878	hydroxyethylthiazole kinase [EC:2.7.1.50]
+MAG_606	MAG_606_41_68	615						K00788	thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]
+MAG_606	MAG_606_41_69	864						K03217	YidC/Oxa1 family membrane protein insertase
+MAG_606	MAG_606_41_7	1113						K14665	amidohydrolase [EC:3.5.1.-]
+MAG_606	MAG_606_41_70	1485						K06131	cardiolipin synthase A/B [EC:2.7.8.-]
+MAG_606	MAG_606_41_71	150	smorfinder	smorfam00557	deeppeptide	Peptide			
+MAG_606	MAG_606_41_72	1188						K05837	rod shape determining protein RodA
+MAG_606	MAG_606_41_73	1353						K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]
+MAG_606	MAG_606_41_74	684						K03928	carboxylesterase [EC:3.1.1.1]
+MAG_606	MAG_606_41_75	1512						K05592	ATP-dependent RNA helicase DeaD [EC:5.6.2.7]
+MAG_606	MAG_606_41_76	465							
+MAG_606	MAG_606_41_77	1578						K08981	putative membrane protein
+MAG_606	MAG_606_41_78	486						K09167	uncharacterized protein
+MAG_606	MAG_606_41_79	348						K00997	holo-[acyl-carrier protein] synthase [EC:2.7.8.7]
+MAG_606	MAG_606_41_8	885							
+MAG_606	MAG_606_41_80	1152						K01775	alanine racemase [EC:5.1.1.1]
+MAG_606	MAG_606_41_81	378						K07171	mRNA interferase MazF [EC:3.1.-.-]
+MAG_606	MAG_606_41_82	1020						K07315	phosphoserine phosphatase RsbU/P [EC:3.1.3.3]
+MAG_606	MAG_606_41_83	330						K04749	anti-sigma B factor antagonist
+MAG_606	MAG_606_41_84	474						K04757	serine/threonine-protein kinase RsbW [EC:2.7.11.1]
+MAG_606	MAG_606_41_85	780						K03090	RNA polymerase sigma-B factor
+MAG_606	MAG_606_41_86	2142						K06959	protein Tex
+MAG_606	MAG_606_41_87	1500						K03781	catalase [EC:1.11.1.6]
+MAG_606	MAG_606_41_9	591							
+MAG_606	MAG_606_42_1	1473							
+MAG_606	MAG_606_42_10	1269							
+MAG_606	MAG_606_42_100	528						K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]
+MAG_606	MAG_606_42_101	888							
+MAG_606	MAG_606_42_102	2070						K03168	DNA topoisomerase I [EC:5.6.2.1]
+MAG_606	MAG_606_42_103	789						K04096	DNA processing protein
+MAG_606	MAG_606_42_104	909						K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]
+MAG_606	MAG_606_42_105	1170						K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]
+MAG_606	MAG_606_42_106	759						K03470	ribonuclease HII [EC:3.1.26.4]
+MAG_606	MAG_606_42_107	858						K14540	ribosome biogenesis GTPase A
+MAG_606	MAG_606_42_108	981							
+MAG_606	MAG_606_42_109	729						K07010	putative glutamine amidotransferase
+MAG_606	MAG_606_42_11	1203							
+MAG_606	MAG_606_42_110	348						K02884	large subunit ribosomal protein L19
+MAG_606	MAG_606_42_111	672						K00554	tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]
+MAG_606	MAG_606_42_112	495						K02860	16S rRNA processing protein RimM
+MAG_606	MAG_606_42_113	228						K06960	uncharacterized protein
+MAG_606	MAG_606_42_114	276						K02959	small subunit ribosomal protein S16
+MAG_606	MAG_606_42_115	1347						K03106	signal recognition particle subunit SRP54 [EC:3.6.5.4]
+MAG_606	MAG_606_42_116	336						K09787	uncharacterized protein
+MAG_606	MAG_606_42_117	1110						K03110	fused signal recognition particle receptor
+MAG_606	MAG_606_42_118	3555						K03529	chromosome segregation protein
+MAG_606	MAG_606_42_119	762						K03685	ribonuclease III [EC:3.1.26.3]
+MAG_606	MAG_606_42_12	1113							
+MAG_606	MAG_606_42_120	240						K02078	acyl carrier protein
+MAG_606	MAG_606_42_121	738						K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+MAG_606	MAG_606_42_122	912						K00645	[acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
+MAG_606	MAG_606_42_123	984						K03621	phosphate acyltransferase [EC:2.3.1.274]
+MAG_606	MAG_606_42_124	564							
+MAG_606	MAG_606_42_125	624						K07284	sortase A [EC:3.4.22.70]
+MAG_606	MAG_606_42_126	1968						K03655	ATP-dependent DNA helicase RecG [EC:5.6.2.4]
+MAG_606	MAG_606_42_127	876						K01752	L-serine dehydratase [EC:4.3.1.17]
+MAG_606	MAG_606_42_128	666						K01752	L-serine dehydratase [EC:4.3.1.17]
+MAG_606	MAG_606_42_129	1644						K07030	fatty acid kinase [EC:2.7.2.18]
+MAG_606	MAG_606_42_13	1194						K19430	pyridoxal phosphate-dependent aminotransferase EpsN [EC:2.6.1.-]
+MAG_606	MAG_606_42_130	369							
+MAG_606	MAG_606_42_131	822							
+MAG_606	MAG_606_42_132	267							
+MAG_606	MAG_606_42_133	189						K02902	large subunit ribosomal protein L28
+MAG_606	MAG_606_42_134	702						K07150	uncharacterized protein
+MAG_606	MAG_606_42_135	615						K00949	thiamine pyrophosphokinase [EC:2.7.6.2]
+MAG_606	MAG_606_42_136	645						K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]
+MAG_606	MAG_606_42_137	861						K06949	ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]
+MAG_606	MAG_606_42_138	303							
+MAG_606	MAG_606_42_139	1269						K15629	fatty-acid peroxygenase [EC:1.11.2.4]
+MAG_606	MAG_606_42_14	813							
+MAG_606	MAG_606_42_140	1974						K12132	eukaryotic-like serine/threonine-protein kinase [EC:2.7.11.1]
+MAG_606	MAG_606_42_141	747						K20074	PPM family protein phosphatase [EC:3.1.3.16]
+MAG_606	MAG_606_42_142	1305						K03500	16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]
+MAG_606	MAG_606_42_143	939						K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]
+MAG_606	MAG_606_42_144	2382						K04066	primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]
+MAG_606	MAG_606_42_145	1188						K13038	phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5]
+MAG_606	MAG_606_42_146	195						K03060	DNA-directed RNA polymerase subunit omega [EC:2.7.7.6]
+MAG_606	MAG_606_42_147	624						K00942	guanylate kinase [EC:2.7.4.8]
+MAG_606	MAG_606_42_148	1695							
+MAG_606	MAG_606_42_149	606						K00762	orotate phosphoribosyltransferase [EC:2.4.2.10]
+MAG_606	MAG_606_42_15	588							
+MAG_606	MAG_606_42_150	696						K01591	orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]
+MAG_606	MAG_606_42_151	912						K17828	dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14]
+MAG_606	MAG_606_42_152	759						K02823	dihydroorotate dehydrogenase electron transfer subunit
+MAG_606	MAG_606_42_153	1263						K01465	dihydroorotase [EC:3.5.2.3]
+MAG_606	MAG_606_42_154	924						K00609	aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]
+MAG_606	MAG_606_42_155	1308						K02824	uracil permease
+MAG_606	MAG_606_42_156	522						K02825	pyrimidine operon attenuation protein / uracil phosphoribosyltransferase [EC:2.4.2.9]
+MAG_606	MAG_606_42_157	906						K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]
+MAG_606	MAG_606_42_158	456						K03101	signal peptidase II [EC:3.4.23.36]
+MAG_606	MAG_606_42_159	2739						K01870	isoleucyl-tRNA synthetase [EC:6.1.1.5]
+MAG_606	MAG_606_42_16	1176							
+MAG_606	MAG_606_42_160	480						K04074	cell division initiation protein
+MAG_606	MAG_606_42_161	786							
+MAG_606	MAG_606_42_162	306						K02221	YggT family protein
+MAG_606	MAG_606_42_163	579						K09772	cell division inhibitor SepF
+MAG_606	MAG_606_42_164	630						K06997	PLP dependent protein
+MAG_606	MAG_606_42_165	780						K05810	purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase [EC:2.4.2.1 2.4.2.28 3.5.4.4]
+MAG_606	MAG_606_42_166	1182						K03531	cell division protein FtsZ
+MAG_606	MAG_606_42_167	1500						K03590	cell division protein FtsA
+MAG_606	MAG_606_42_168	1197						K03589	cell division protein FtsQ
+MAG_606	MAG_606_42_169	1338						K01925	UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]
+MAG_606	MAG_606_42_17	1275						K02474	UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]
+MAG_606	MAG_606_42_170	963						K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]
+MAG_606	MAG_606_42_171	2148						K12552	penicillin-binding protein 1 [EC:3.4.-.-]
+MAG_606	MAG_606_42_172	378						K03586	cell division protein FtsL
+MAG_606	MAG_606_42_173	930						K03438	16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]
+MAG_606	MAG_606_42_174	426						K03925	transcriptional regulator MraZ
+MAG_606	MAG_606_42_175	1572						K22136	bacillithiol synthase
+MAG_606	MAG_606_42_176	453							
+MAG_606	MAG_606_42_177	174						K02911	large subunit ribosomal protein L32
+MAG_606	MAG_606_42_178	522						K07040	DUF177 domain-containing protein
+MAG_606	MAG_606_42_179	1134						K27343	tRNAmet cytidine acetate ligase [EC:6.3.1.22]
+MAG_606	MAG_606_42_18	1341							
+MAG_606	MAG_606_42_180	492						K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]
+MAG_606	MAG_606_42_181	540						K08316	16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]
+MAG_606	MAG_606_42_182	372							
+MAG_606	MAG_606_42_183	264							
+MAG_606	MAG_606_42_184	921						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+MAG_606	MAG_606_42_185	438							
+MAG_606	MAG_606_42_186	363							
+MAG_606	MAG_606_42_187	462						K08976	putative membrane protein
+MAG_606	MAG_606_42_188	960						K02862	putative membrane protein
+MAG_606	MAG_606_42_189	342						K02277	cytochrome c oxidase subunit IV [EC:7.1.1.9]
+MAG_606	MAG_606_42_19	1005						K08679	UDP-glucuronate 4-epimerase [EC:5.1.3.6]
+MAG_606	MAG_606_42_190	627							
+MAG_606	MAG_606_42_191	1920						K02274	cytochrome c oxidase subunit I [EC:7.1.1.9]
+MAG_606	MAG_606_42_192	1134						K02275	cytochrome c oxidase subunit II [EC:7.1.1.9]
+MAG_606	MAG_606_42_193	921						K02257	heme o synthase [EC:2.5.1.141]
+MAG_606	MAG_606_42_194	900						K02259	heme a synthase [EC:1.17.99.9]
+MAG_606	MAG_606_42_195	1002							
+MAG_606	MAG_606_42_196	1185						K03588	cell division protein FtsW
+MAG_606	MAG_606_42_197	291							
+MAG_606	MAG_606_42_198	486							
+MAG_606	MAG_606_42_199	375							
+MAG_606	MAG_606_42_2	198							
+MAG_606	MAG_606_42_20	1851						K24300	UDP-N-acetylglucosamine 4,6-dehydratase [EC:4.2.1.135]
+MAG_606	MAG_606_42_200	1824						K06207	GTP-binding protein
+MAG_606	MAG_606_42_201	192							
+MAG_606	MAG_606_42_202	561							
+MAG_606	MAG_606_42_203	813						K01092	myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25]
+MAG_606	MAG_606_42_204	615							
+MAG_606	MAG_606_42_205	978						K01754	threonine dehydratase [EC:4.3.1.19]
+MAG_606	MAG_606_42_206	597						K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]
+MAG_606	MAG_606_42_207	1413						K01703	3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]
+MAG_606	MAG_606_42_208	1059						K00052	3-isopropylmalate dehydrogenase [EC:1.1.1.85]
+MAG_606	MAG_606_42_209	1566						K01649	2-isopropylmalate synthase [EC:2.3.3.13]
+MAG_606	MAG_606_42_21	792							
+MAG_606	MAG_606_42_210	999						K00053	ketol-acid reductoisomerase [EC:1.1.1.86]
+MAG_606	MAG_606_42_211	516						K01653	acetolactate synthase I/III small subunit [EC:2.2.1.6]
+MAG_606	MAG_606_42_212	1731						K01652	acetolactate synthase I/II/III large subunit [EC:2.2.1.6]
+MAG_606	MAG_606_42_213	1713						K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]
+MAG_606	MAG_606_42_214	996						K03453	bile acid:Na+ symporter, BASS family
+MAG_606	MAG_606_42_215	858							
+MAG_606	MAG_606_42_216	276			deeppeptide	Propeptide			
+MAG_606	MAG_606_42_217	1407						K00382	dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+MAG_606	MAG_606_42_218	1347						K09699	2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168]
+MAG_606	MAG_606_42_219	978							
+MAG_606	MAG_606_42_22	711						K00903	protein-tyrosine kinase [EC:2.7.10.3]
+MAG_606	MAG_606_42_220	1107							
+MAG_606	MAG_606_42_221	648							
+MAG_606	MAG_606_42_222	552						K01462	peptide deformylase [EC:3.5.1.88]
+MAG_606	MAG_606_42_223	267			deeppeptide	Propeptide			
+MAG_606	MAG_606_42_224	219							
+MAG_606	MAG_606_42_225	1680						K12574	ribonuclease J [EC:3.1.-.-]
+MAG_606	MAG_606_42_226	909							
+MAG_606	MAG_606_42_227	666						K03499	trk/ktr system potassium uptake protein
+MAG_606	MAG_606_42_228	1026						K00426	cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
+MAG_606	MAG_606_42_229	1383						K00425	cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]
+MAG_606	MAG_606_42_23	675						K19420	protein tyrosine kinase modulator
+MAG_606	MAG_606_42_230	1299						K06902	MFS transporter, UMF1 family
+MAG_606	MAG_606_42_231	1725						K08483	phosphoenolpyruvate-protein phosphotransferase (PTS system enzyme I) [EC:2.7.3.9]
+MAG_606	MAG_606_42_232	267						K02784	phosphocarrier protein HPr
+MAG_606	MAG_606_42_233	477							
+MAG_606	MAG_606_42_234	894						K01479	formiminoglutamase [EC:3.5.3.8]
+MAG_606	MAG_606_42_235	1260							
+MAG_606	MAG_606_42_236	1275						K01945	phosphoribosylamine---glycine ligase [EC:6.3.4.13]
+MAG_606	MAG_606_42_237	849						K01491	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]
+MAG_606	MAG_606_42_238	963						K07301	cation:H+ antiporter
+MAG_606	MAG_606_42_239	729							
+MAG_606	MAG_606_42_24	978							
+MAG_606	MAG_606_42_240	513						K05520	deglycase [EC:3.5.1.124]
+MAG_606	MAG_606_42_241	681							
+MAG_606	MAG_606_42_242	1779							
+MAG_606	MAG_606_42_243	798						K05946	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase [EC:2.4.1.187]
+MAG_606	MAG_606_42_244	720						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+MAG_606	MAG_606_42_245	1362						K09693	teichoic acid transport system ATP-binding protein [EC:7.5.2.4]
+MAG_606	MAG_606_42_246	822						K09692	teichoic acid transport system permease protein
+MAG_606	MAG_606_42_247	1194						K09809	CDP-glycerol glycerophosphotransferase [EC:2.7.8.12]
+MAG_606	MAG_606_42_248	396						K00980	glycerol-3-phosphate cytidylyltransferase [EC:2.7.7.39]
+MAG_606	MAG_606_42_249	1152						K21285	teichoic acid glycerol-phosphate primase [EC:2.7.8.44]
+MAG_606	MAG_606_42_25	1506						K21463	membrane-associated protein TcaA
+MAG_606	MAG_606_42_250	2649							
+MAG_606	MAG_606_42_251	1188							
+MAG_606	MAG_606_42_252	1164							
+MAG_606	MAG_606_42_253	1377						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+MAG_606	MAG_606_42_254	465							
+MAG_606	MAG_606_42_255	426							
+MAG_606	MAG_606_42_256	2172							
+MAG_606	MAG_606_42_257	210							
+MAG_606	MAG_606_42_258	909						K09693	teichoic acid transport system ATP-binding protein [EC:7.5.2.4]
+MAG_606	MAG_606_42_259	2085							
+MAG_606	MAG_606_42_26	771							
+MAG_606	MAG_606_42_260	627							
+MAG_606	MAG_606_42_261	378							
+MAG_606	MAG_606_42_262	1152							
+MAG_606	MAG_606_42_263	810						K09692	teichoic acid transport system permease protein
+MAG_606	MAG_606_42_264	957						K21005	polysaccharide biosynthesis protein PslL
+MAG_606	MAG_606_42_265	1977							
+MAG_606	MAG_606_42_266	807							
+MAG_606	MAG_606_42_267	1524							
+MAG_606	MAG_606_42_268	489						K02250	competence protein ComK
+MAG_606	MAG_606_42_269	468							
+MAG_606	MAG_606_42_27	1479							
+MAG_606	MAG_606_42_270	213							
+MAG_606	MAG_606_42_271	1080						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+MAG_606	MAG_606_42_272	858							
+MAG_606	MAG_606_42_273	1350						K03498	trk/ktr system potassium uptake protein
+MAG_606	MAG_606_42_274	1440							
+MAG_606	MAG_606_42_275	783							
+MAG_606	MAG_606_42_276	1557						K02837	peptide chain release factor 3
+MAG_606	MAG_606_42_277	261							
+MAG_606	MAG_606_42_278	1500						K01928	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]
+MAG_606	MAG_606_42_279	846						K03118	sec-independent protein translocase protein TatC
+MAG_606	MAG_606_42_28	267							
+MAG_606	MAG_606_42_280	1731						K06151	gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3]
+MAG_606	MAG_606_42_281	795						K06152	gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3]
+MAG_606	MAG_606_42_282	393							
+MAG_606	MAG_606_42_283	777							
+MAG_606	MAG_606_42_284	1098							
+MAG_606	MAG_606_42_285	726							
+MAG_606	MAG_606_42_286	510							
+MAG_606	MAG_606_42_287	768						K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]
+MAG_606	MAG_606_42_288	1380						K06213	magnesium transporter
+MAG_606	MAG_606_42_289	795						K00858	NAD+ kinase [EC:2.7.1.23]
+MAG_606	MAG_606_42_29	264							
+MAG_606	MAG_606_42_290	621						K07816	GTP pyrophosphokinase [EC:2.7.6.5]
+MAG_606	MAG_606_42_291	588							
+MAG_606	MAG_606_42_292	369						K06886	hemoglobin
+MAG_606	MAG_606_42_293	801							
+MAG_606	MAG_606_42_294	1806						K08602	oligoendopeptidase F [EC:3.4.24.-]
+MAG_606	MAG_606_42_295	975						K06198	competence protein CoiA
+MAG_606	MAG_606_42_296	672						K16511	adapter protein MecA 1/2
+MAG_606	MAG_606_42_297	399						K16509	regulatory protein spx
+MAG_606	MAG_606_42_298	1002						K01867	tryptophanyl-tRNA synthetase [EC:6.1.1.2]
+MAG_606	MAG_606_42_299	1242						K09458	3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+MAG_606	MAG_606_42_3	606						K07006	uncharacterized protein
+MAG_606	MAG_606_42_30	669							
+MAG_606	MAG_606_42_300	957						K00648	3-oxoacyl-[acyl-carrier-protein] synthase III [EC:2.3.1.180]
+MAG_606	MAG_606_42_301	1854						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_42_302	1089						K02034	peptide/nickel transport system permease protein
+MAG_606	MAG_606_42_303	963						K02033	peptide/nickel transport system permease protein
+MAG_606	MAG_606_42_304	933							
+MAG_606	MAG_606_42_305	1047						K02031	peptide/nickel transport system ATP-binding protein
+MAG_606	MAG_606_42_306	198							
+MAG_606	MAG_606_42_307	1500						K00864	glycerol kinase [EC:2.7.1.30]
+MAG_606	MAG_606_42_308	1653						K00111	glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
+MAG_606	MAG_606_42_309	981							
+MAG_606	MAG_606_42_31	522							
+MAG_606	MAG_606_42_310	2589						K03695	ATP-dependent Clp protease ATP-binding subunit ClpB
+MAG_606	MAG_606_42_311	825						K06153	undecaprenyl-diphosphatase [EC:3.6.1.27]
+MAG_606	MAG_606_42_312	309							
+MAG_606	MAG_606_42_313	822						K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+MAG_606	MAG_606_42_314	843						K25232	fatty acid kinase fatty acid binding subunit
+MAG_606	MAG_606_42_315	1338						K08255	CoA-disulfide reductase [EC:1.8.1.14]
+MAG_606	MAG_606_42_316	1431							
+MAG_606	MAG_606_42_317	387							
+MAG_606	MAG_606_42_318	891							
+MAG_606	MAG_606_42_319	1026							
+MAG_606	MAG_606_42_32	372							
+MAG_606	MAG_606_42_320	3456						K16898	ATP-dependent helicase/nuclease subunit A [EC:5.6.2.4 3.1.-.-]
+MAG_606	MAG_606_42_321	3480						K16899	ATP-dependent helicase/nuclease subunit B [EC:5.6.2.4 3.1.-.-]
+MAG_606	MAG_606_42_322	531						K03100	signal peptidase I [EC:3.4.21.89]
+MAG_606	MAG_606_42_323	600							
+MAG_606	MAG_606_42_324	789						K01695	tryptophan synthase alpha chain [EC:4.2.1.20]
+MAG_606	MAG_606_42_325	1209						K01696	tryptophan synthase beta chain [EC:4.2.1.20]
+MAG_606	MAG_606_42_326	612						K01817	phosphoribosylanthranilate isomerase [EC:5.3.1.24]
+MAG_606	MAG_606_42_327	777						K01609	indole-3-glycerol phosphate synthase [EC:4.1.1.48]
+MAG_606	MAG_606_42_328	1044						K00766	anthranilate phosphoribosyltransferase [EC:2.4.2.18]
+MAG_606	MAG_606_42_329	1245						K00260	glutamate dehydrogenase [EC:1.4.1.2]
+MAG_606	MAG_606_42_33	570							
+MAG_606	MAG_606_42_330	1200						K00819	ornithine--oxo-acid transaminase [EC:2.6.1.13]
+MAG_606	MAG_606_42_331	378						K07570	general stress protein 13
+MAG_606	MAG_606_42_332	207							
+MAG_606	MAG_606_42_333	591						K03768	peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8]
+MAG_606	MAG_606_42_334	2400						K05565	multicomponent Na+:H+ antiporter subunit A
+MAG_606	MAG_606_42_335	468							
+MAG_606	MAG_606_42_336	342						K05567	multicomponent Na+:H+ antiporter subunit C
+MAG_606	MAG_606_42_337	1494						K05568	multicomponent Na+:H+ antiporter subunit D
+MAG_606	MAG_606_42_338	480						K05569	multicomponent Na+:H+ antiporter subunit E
+MAG_606	MAG_606_42_339	300						K05570	multicomponent Na+:H+ antiporter subunit F
+MAG_606	MAG_606_42_34	390							
+MAG_606	MAG_606_42_340	417						K05571	multicomponent Na+:H+ antiporter subunit G
+MAG_606	MAG_606_42_341	375						K19222	1,4-dihydroxy-2-naphthoyl-CoA hydrolase [EC:3.1.2.28]
+MAG_606	MAG_606_42_342	1491						K01255	leucyl aminopeptidase [EC:3.4.11.1]
+MAG_606	MAG_606_42_343	324							
+MAG_606	MAG_606_42_344	1212						K03885	NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9]
+MAG_606	MAG_606_42_345	360						K13628	iron-sulfur cluster assembly protein
+MAG_606	MAG_606_42_346	246							
+MAG_606	MAG_606_42_347	243							
+MAG_606	MAG_606_42_348	531						K03523	biotin transport system substrate-specific component
+MAG_606	MAG_606_42_349	726							
+MAG_606	MAG_606_42_35	1242							
+MAG_606	MAG_606_42_350	429							
+MAG_606	MAG_606_42_351	336							
+MAG_606	MAG_606_42_352	1584						K18218	tetracycline resistance efflux pump
+MAG_606	MAG_606_42_353	1320							
+MAG_606	MAG_606_42_354	822						K07090	uncharacterized protein
+MAG_606	MAG_606_42_355	849							
+MAG_606	MAG_606_42_356	702							
+MAG_606	MAG_606_42_357	759						K02069	UDP-glucose/iron transport system permease protein
+MAG_606	MAG_606_42_358	915							
+MAG_606	MAG_606_42_359	552							
+MAG_606	MAG_606_42_36	1962							
+MAG_606	MAG_606_42_360	396							
+MAG_606	MAG_606_42_361	1422							
+MAG_606	MAG_606_42_362	1398						K09014	Fe-S cluster assembly protein SufB
+MAG_606	MAG_606_42_363	441						K04488	nitrogen fixation protein NifU and related proteins
+MAG_606	MAG_606_42_364	1227						K11717	cysteine desulfurase / selenocysteine lyase [EC:2.8.1.7 4.4.1.16]
+MAG_606	MAG_606_42_365	1314						K09015	Fe-S cluster assembly protein SufD
+MAG_606	MAG_606_42_366	783						K09013	Fe-S cluster assembly ATP-binding protein
+MAG_606	MAG_606_42_367	345						K09940	uncharacterized protein
+MAG_606	MAG_606_42_368	357						K09940	uncharacterized protein
+MAG_606	MAG_606_42_369	906						K02257	heme o synthase [EC:2.5.1.141]
+MAG_606	MAG_606_42_37	2583							
+MAG_606	MAG_606_42_370	831						K02073	D-methionine transport system substrate-binding protein
+MAG_606	MAG_606_42_371	693						K02072	D-methionine transport system permease protein
+MAG_606	MAG_606_42_372	1023						K02071	D-methionine transport system ATP-binding protein
+MAG_606	MAG_606_42_373	315							
+MAG_606	MAG_606_42_374	408						K07476	toprim domain protein
+MAG_606	MAG_606_42_375	381						K02437	glycine cleavage system H protein
+MAG_606	MAG_606_42_376	357							
+MAG_606	MAG_606_42_377	717						K03785	3-dehydroquinate dehydratase I [EC:4.2.1.10]
+MAG_606	MAG_606_42_378	591							
+MAG_606	MAG_606_42_379	261							
+MAG_606	MAG_606_42_38	525							
+MAG_606	MAG_606_42_380	408						K04063	lipoyl-dependent peroxiredoxin [EC:1.11.1.28]
+MAG_606	MAG_606_42_381	210							
+MAG_606	MAG_606_42_382	552							
+MAG_606	MAG_606_42_383	375							
+MAG_606	MAG_606_42_384	489						K07171	mRNA interferase MazF [EC:3.1.-.-]
+MAG_606	MAG_606_42_385	330							
+MAG_606	MAG_606_42_386	1674						K07273	lysozyme
+MAG_606	MAG_606_42_387	96			deeppeptide	Peptide			
+MAG_606	MAG_606_42_388	249							
+MAG_606	MAG_606_42_389	372							
+MAG_606	MAG_606_42_39	432						K02348	ElaA protein
+MAG_606	MAG_606_42_390	450							
+MAG_606	MAG_606_42_391	210							
+MAG_606	MAG_606_42_392	330							
+MAG_606	MAG_606_42_393	384							
+MAG_606	MAG_606_42_394	288							
+MAG_606	MAG_606_42_395	4176							
+MAG_606	MAG_606_42_396	735							
+MAG_606	MAG_606_42_397	4107							
+MAG_606	MAG_606_42_398	369							
+MAG_606	MAG_606_42_399	267							
+MAG_606	MAG_606_42_4	708							
+MAG_606	MAG_606_42_40	1812							
+MAG_606	MAG_606_42_400	582							
+MAG_606	MAG_606_42_401	378							
+MAG_606	MAG_606_42_402	375							
+MAG_606	MAG_606_42_403	333							
+MAG_606	MAG_606_42_404	345							
+MAG_606	MAG_606_42_405	1194							
+MAG_606	MAG_606_42_406	588						K06904	Escherichia/Staphylococcus phage prohead protease
+MAG_606	MAG_606_42_407	1242							
+MAG_606	MAG_606_42_408	222							
+MAG_606	MAG_606_42_409	228							
+MAG_606	MAG_606_42_41	1971							
+MAG_606	MAG_606_42_410	1812							
+MAG_606	MAG_606_42_411	468							
+MAG_606	MAG_606_42_412	192							
+MAG_606	MAG_606_42_413	438							
+MAG_606	MAG_606_42_414	201							
+MAG_606	MAG_606_42_415	174							
+MAG_606	MAG_606_42_416	2394							
+MAG_606	MAG_606_42_417	303							
+MAG_606	MAG_606_42_418	330							
+MAG_606	MAG_606_42_419	180							
+MAG_606	MAG_606_42_42	2745							
+MAG_606	MAG_606_42_43	1803							
+MAG_606	MAG_606_42_44	2601						K06320	spore maturation protein CgeB
+MAG_606	MAG_606_42_45	1092							
+MAG_606	MAG_606_42_46	1254						K02472	UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase [EC:1.1.1.336]
+MAG_606	MAG_606_42_47	630							
+MAG_606	MAG_606_42_48	522							
+MAG_606	MAG_606_42_49	1200							
+MAG_606	MAG_606_42_5	450							
+MAG_606	MAG_606_42_50	2820							
+MAG_606	MAG_606_42_51	906						K09693	teichoic acid transport system ATP-binding protein [EC:7.5.2.4]
+MAG_606	MAG_606_42_52	810						K09692	teichoic acid transport system permease protein
+MAG_606	MAG_606_42_53	1254							
+MAG_606	MAG_606_42_54	1230						K03665	GTPase
+MAG_606	MAG_606_42_55	486						K00432	glutathione peroxidase [EC:1.11.1.9]
+MAG_606	MAG_606_42_56	189						K03666	host factor-I protein
+MAG_606	MAG_606_42_57	909						K00791	tRNA dimethylallyltransferase [EC:2.5.1.75]
+MAG_606	MAG_606_42_58	885							
+MAG_606	MAG_606_42_59	1851						K03572	DNA mismatch repair protein MutL
+MAG_606	MAG_606_42_6	546							
+MAG_606	MAG_606_42_60	2541						K03555	DNA mismatch repair protein MutS
+MAG_606	MAG_606_42_61	588							
+MAG_606	MAG_606_42_62	435							
+MAG_606	MAG_606_42_63	1818						K18888	ATP-binding cassette, subfamily B, multidrug efflux pump
+MAG_606	MAG_606_42_64	1722							
+MAG_606	MAG_606_42_65	759						K09769	2',3'-cyclic-nucleotide 2'-phosphodiesterase [EC:3.1.4.16]
+MAG_606	MAG_606_42_66	975							
+MAG_606	MAG_606_42_67	1560						K18682	ribonucrease Y [EC:3.1.-.-]
+MAG_606	MAG_606_42_68	1062						K03553	recombination protein RecA
+MAG_606	MAG_606_42_69	585						K00995	CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]
+MAG_606	MAG_606_42_7	9231							
+MAG_606	MAG_606_42_70	846						K15539	cytoskeleton protein RodZ
+MAG_606	MAG_606_42_71	822							
+MAG_606	MAG_606_42_72	687							
+MAG_606	MAG_606_42_73	1296							
+MAG_606	MAG_606_42_74	1275							
+MAG_606	MAG_606_42_75	2448						K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family
+MAG_606	MAG_606_42_76	1674						K12574	ribonuclease J [EC:3.1.-.-]
+MAG_606	MAG_606_42_77	2121						K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+MAG_606	MAG_606_42_78	588							
+MAG_606	MAG_606_42_79	270						K02956	small subunit ribosomal protein S15
+MAG_606	MAG_606_42_8	1479							
+MAG_606	MAG_606_42_80	939						K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]
+MAG_606	MAG_606_42_81	951						K03177	tRNA pseudouridine55 synthase [EC:5.4.99.25]
+MAG_606	MAG_606_42_82	351						K02834	ribosome-binding factor A
+MAG_606	MAG_606_42_83	2097						K02519	translation initiation factor IF-2
+MAG_606	MAG_606_42_84	297							
+MAG_606	MAG_606_42_85	285						K07742	uncharacterized protein
+MAG_606	MAG_606_42_86	1056						K02600	transcription termination/antitermination protein NusA
+MAG_606	MAG_606_42_87	468						K09748	ribosome maturation factor RimP
+MAG_606	MAG_606_42_88	4284						K03763	DNA polymerase III subunit alpha, Gram-positive type [EC:2.7.7.7]
+MAG_606	MAG_606_42_89	1695						K01881	prolyl-tRNA synthetase [EC:6.1.1.15]
+MAG_606	MAG_606_42_9	567							
+MAG_606	MAG_606_42_90	1284						K11749	regulator of sigma E protease [EC:3.4.24.-]
+MAG_606	MAG_606_42_91	1128						K00099	1-deoxy-D-xylulose-5-phosphate reductoisomerase [EC:1.1.1.267]
+MAG_606	MAG_606_42_92	786						K00981	phosphatidate cytidylyltransferase [EC:2.7.7.41]
+MAG_606	MAG_606_42_93	762						K00806	undecaprenyl diphosphate synthase [EC:2.5.1.31]
+MAG_606	MAG_606_42_94	558						K02838	ribosome recycling factor
+MAG_606	MAG_606_42_95	726						K09903	uridylate kinase [EC:2.7.4.22]
+MAG_606	MAG_606_42_96	879						K02357	elongation factor Ts
+MAG_606	MAG_606_42_97	771						K02967	small subunit ribosomal protein S2
+MAG_606	MAG_606_42_98	771						K03706	transcriptional pleiotropic repressor
+MAG_606	MAG_606_42_99	1380						K03667	ATP-dependent HslUV protease ATP-binding subunit HslU
+MAG_606	MAG_606_43_1	249							
+MAG_606	MAG_606_43_10	192							
+MAG_606	MAG_606_43_11	354							
+MAG_606	MAG_606_43_12	420							
+MAG_606	MAG_606_43_13	213							
+MAG_606	MAG_606_43_14	321							
+MAG_606	MAG_606_43_2	408							
+MAG_606	MAG_606_43_3	378							
+MAG_606	MAG_606_43_4	180							
+MAG_606	MAG_606_43_5	243							
+MAG_606	MAG_606_43_6	135							
+MAG_606	MAG_606_43_7	201							
+MAG_606	MAG_606_43_8	384							
+MAG_606	MAG_606_43_9	372							
+MAG_606	MAG_606_44_1	3423							
+MAG_606	MAG_606_44_10	792						K14977	(S)-ureidoglycine aminohydrolase [EC:3.5.3.26]
+MAG_606	MAG_606_44_11	1029						K00073	ureidoglycolate dehydrogenase (NAD+) [EC:1.1.1.350]
+MAG_606	MAG_606_44_12	1050						K00073	ureidoglycolate dehydrogenase (NAD+) [EC:1.1.1.350]
+MAG_606	MAG_606_44_13	1752						K02381	FdrA protein
+MAG_606	MAG_606_44_14	1266							
+MAG_606	MAG_606_44_15	768							
+MAG_606	MAG_606_44_16	939						K00926	carbamate kinase [EC:2.7.2.2]
+MAG_606	MAG_606_44_17	1071							
+MAG_606	MAG_606_44_18	978							
+MAG_606	MAG_606_44_19	1077							
+MAG_606	MAG_606_44_2	1224						K00839	(S)-ureidoglycine---glyoxylate transaminase [EC:2.6.1.112]
+MAG_606	MAG_606_44_20	1104							
+MAG_606	MAG_606_44_21	1458						K08997	protein adenylyltransferase [EC:2.7.7.108]
+MAG_606	MAG_606_44_22	618						K03975	membrane-associated protein
+MAG_606	MAG_606_44_23	885						K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]
+MAG_606	MAG_606_44_24	801						K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11]
+MAG_606	MAG_606_44_25	840						K01918	pantoate--beta-alanine ligase [EC:6.3.2.1]
+MAG_606	MAG_606_44_26	990							
+MAG_606	MAG_606_44_27	618						K01356	repressor LexA [EC:3.4.21.88]
+MAG_606	MAG_606_44_28	315							
+MAG_606	MAG_606_44_29	246							
+MAG_606	MAG_606_44_3	1239							
+MAG_606	MAG_606_44_30	1986						K00615	transketolase [EC:2.2.1.1]
+MAG_606	MAG_606_44_31	243						K09976	uncharacterized protein
+MAG_606	MAG_606_44_32	1680						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_44_33	1689						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_44_34	1539						K12942	aminobenzoyl-glutamate transport protein
+MAG_606	MAG_606_44_35	1785						K18889	ATP-binding cassette, subfamily B, multidrug efflux pump
+MAG_606	MAG_606_44_36	1773						K18890	ATP-binding cassette, subfamily B, multidrug efflux pump
+MAG_606	MAG_606_44_37	705						K06196	cytochrome c-type biogenesis protein
+MAG_606	MAG_606_44_38	498							
+MAG_606	MAG_606_44_39	498							
+MAG_606	MAG_606_44_4	1623						K14445	solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2/3/5
+MAG_606	MAG_606_44_40	201							
+MAG_606	MAG_606_44_41	213							
+MAG_606	MAG_606_44_42	1062							
+MAG_606	MAG_606_44_43	630							
+MAG_606	MAG_606_44_44	231							
+MAG_606	MAG_606_44_45	303							
+MAG_606	MAG_606_44_46	222							
+MAG_606	MAG_606_44_47	201							
+MAG_606	MAG_606_44_48	219							
+MAG_606	MAG_606_44_49	381							
+MAG_606	MAG_606_44_5	1254							
+MAG_606	MAG_606_44_50	291							
+MAG_606	MAG_606_44_51	327							
+MAG_606	MAG_606_44_6	1659						K09684	PucR family transcriptional regulator, purine catabolism regulatory protein
+MAG_606	MAG_606_44_7	1368						K01466	allantoinase [EC:3.5.2.5]
+MAG_606	MAG_606_44_8	819							
+MAG_606	MAG_606_44_9	1224							
+MAG_606	MAG_606_45_1	735						K03553	recombination protein RecA
+MAG_606	MAG_606_45_2	357							
+MAG_606	MAG_606_45_3	432							
+MAG_606	MAG_606_46_1	747							
+MAG_606	MAG_606_46_2	432							
+MAG_606	MAG_606_46_3	432							
+MAG_606	MAG_606_47_1	1653							
+MAG_606	MAG_606_4_1	939						K03698	3'-5' exoribonuclease [EC:3.1.-.-]
+MAG_606	MAG_606_4_10	408							
+MAG_606	MAG_606_4_11	504							
+MAG_606	MAG_606_4_12	816							
+MAG_606	MAG_606_4_13	2124						K00937	polyphosphate kinase [EC:2.7.4.1]
+MAG_606	MAG_606_4_14	1527						K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]
+MAG_606	MAG_606_4_15	1389						K01679	fumarate hydratase, class II [EC:4.2.1.2]
+MAG_606	MAG_606_4_16	579							
+MAG_606	MAG_606_4_17	117			deeppeptide	Peptide			
+MAG_606	MAG_606_4_18	705							
+MAG_606	MAG_606_4_19	1677						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_4_2	2928							
+MAG_606	MAG_606_4_20	744						K19285	FMN reductase (NADPH) [EC:1.5.1.38]
+MAG_606	MAG_606_4_21	468						K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]
+MAG_606	MAG_606_4_22	1131						K18979	epoxyqueuosine reductase [EC:1.17.99.6]
+MAG_606	MAG_606_4_23	1506						K18231	macrolide transport system ATP-binding/permease protein
+MAG_606	MAG_606_4_24	357							
+MAG_606	MAG_606_4_25	555						K06287	nucleoside triphosphate pyrophosphatase [EC:3.6.1.-]
+MAG_606	MAG_606_4_26	1365						K21739	probable pyridine nucleotide-disulfide oxidoreductase
+MAG_606	MAG_606_4_27	993							
+MAG_606	MAG_606_4_28	534							
+MAG_606	MAG_606_4_29	1305							
+MAG_606	MAG_606_4_3	1185						K03547	DNA repair protein SbcD/Mre11
+MAG_606	MAG_606_4_30	1248							
+MAG_606	MAG_606_4_31	1344							
+MAG_606	MAG_606_4_32	804							
+MAG_606	MAG_606_4_33	1404						K18926	MFS transporter, DHA2 family, lincomycin resistance protein
+MAG_606	MAG_606_4_34	429							
+MAG_606	MAG_606_4_35	1704							
+MAG_606	MAG_606_4_36	915						K16329	pseudouridylate synthase [EC:4.2.1.70]
+MAG_606	MAG_606_4_37	1098							
+MAG_606	MAG_606_4_4	351							
+MAG_606	MAG_606_4_5	1131							
+MAG_606	MAG_606_4_6	447							
+MAG_606	MAG_606_4_7	1299							
+MAG_606	MAG_606_4_8	633							
+MAG_606	MAG_606_4_9	1110							
+MAG_606	MAG_606_5_1	1389							
+MAG_606	MAG_606_5_2	213							
+MAG_606	MAG_606_6_1	285							
+MAG_606	MAG_606_6_10	306							
+MAG_606	MAG_606_6_100	495							
+MAG_606	MAG_606_6_101	600							
+MAG_606	MAG_606_6_102	1062							
+MAG_606	MAG_606_6_103	930						K25144	linearmycin/streptolysin S transport system ATP-binding protein
+MAG_606	MAG_606_6_104	1053							
+MAG_606	MAG_606_6_105	1131						K01992	ABC-2 type transport system permease protein
+MAG_606	MAG_606_6_106	153	smorfinder	smorfam01323					
+MAG_606	MAG_606_6_107	939						K06607	myo-inositol catabolism protein IolS [EC:1.1.1.-]
+MAG_606	MAG_606_6_108	891						K01623	fructose-bisphosphate aldolase, class I [EC:4.1.2.13]
+MAG_606	MAG_606_6_109	546							
+MAG_606	MAG_606_6_11	180							
+MAG_606	MAG_606_6_110	1440							
+MAG_606	MAG_606_6_111	678							
+MAG_606	MAG_606_6_112	774							
+MAG_606	MAG_606_6_113	450							
+MAG_606	MAG_606_6_114	1272						K09022	2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+MAG_606	MAG_606_6_115	1626						K04077	chaperonin GroEL [EC:5.6.1.7]
+MAG_606	MAG_606_6_116	285						K04078	chaperonin GroES
+MAG_606	MAG_606_6_117	765						K07052	CAAX protease family protein
+MAG_606	MAG_606_6_118	849						K06872	uncharacterized protein
+MAG_606	MAG_606_6_119	600						K03744	LemA protein
+MAG_606	MAG_606_6_12	1119							
+MAG_606	MAG_606_6_120	1701						K08602	oligoendopeptidase F [EC:3.4.24.-]
+MAG_606	MAG_606_6_121	1056						K07246	tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]
+MAG_606	MAG_606_6_122	2316							
+MAG_606	MAG_606_6_123	960							
+MAG_606	MAG_606_6_124	747							
+MAG_606	MAG_606_6_125	1134							
+MAG_606	MAG_606_6_126	837							
+MAG_606	MAG_606_6_127	1461						K01193	beta-fructofuranosidase [EC:3.2.1.26]
+MAG_606	MAG_606_6_128	753						K03118	sec-independent protein translocase protein TatC
+MAG_606	MAG_606_6_129	261			deeppeptide	Propeptide		K03116	sec-independent protein translocase protein TatA
+MAG_606	MAG_606_6_13	936							
+MAG_606	MAG_606_6_130	633						K01926	redox-sensing transcriptional repressor
+MAG_606	MAG_606_6_131	1917						K06158	ATP-binding cassette, subfamily F, member 3
+MAG_606	MAG_606_6_132	846							
+MAG_606	MAG_606_6_133	438						K04750	PhnB protein
+MAG_606	MAG_606_6_134	1023							
+MAG_606	MAG_606_6_135	1458						K18231	macrolide transport system ATP-binding/permease protein
+MAG_606	MAG_606_6_136	1023						K25706	tRNA N6-adenosine threonylcarbamoyltransferase [EC:2.3.1.234]
+MAG_606	MAG_606_6_137	453						K03789	[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]
+MAG_606	MAG_606_6_138	642						K14742	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+MAG_606	MAG_606_6_139	462						K06925	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+MAG_606	MAG_606_6_14	387							
+MAG_606	MAG_606_6_15	549							
+MAG_606	MAG_606_6_16	1740						K18104	ATP-binding cassette, subfamily B, bacterial AbcA/BmrA [EC:7.6.2.2]
+MAG_606	MAG_606_6_17	900						K01990	ABC-2 type transport system ATP-binding protein
+MAG_606	MAG_606_6_18	1203						K01992	ABC-2 type transport system permease protein
+MAG_606	MAG_606_6_19	363							
+MAG_606	MAG_606_6_2	387							
+MAG_606	MAG_606_6_20	180							
+MAG_606	MAG_606_6_21	720						K02564	glucosamine-6-phosphate deaminase [EC:3.5.99.6]
+MAG_606	MAG_606_6_22	606						K01304	pyroglutamyl-peptidase [EC:3.4.19.3]
+MAG_606	MAG_606_6_23	213							
+MAG_606	MAG_606_6_24	633						K06384	stage II sporulation protein M
+MAG_606	MAG_606_6_25	1227						K07148	uncharacterized protein
+MAG_606	MAG_606_6_26	672							
+MAG_606	MAG_606_6_27	1464							
+MAG_606	MAG_606_6_28	1572						K02035	peptide/nickel transport system substrate-binding protein
+MAG_606	MAG_606_6_29	1251						K01945	phosphoribosylamine---glycine ligase [EC:6.3.4.13]
+MAG_606	MAG_606_6_3	873							
+MAG_606	MAG_606_6_30	1476						K00602	phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]
+MAG_606	MAG_606_6_31	570						K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]
+MAG_606	MAG_606_6_32	1023						K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]
+MAG_606	MAG_606_6_33	1419						K00764	amidophosphoribosyltransferase [EC:2.4.2.14]
+MAG_606	MAG_606_6_34	2169						K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]
+MAG_606	MAG_606_6_35	1125						K01589	5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]
+MAG_606	MAG_606_6_36	483						K01588	5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]
+MAG_606	MAG_606_6_37	768						K22210	D-glutamate cyclase [EC:4.2.1.48]
+MAG_606	MAG_606_6_38	1212							
+MAG_606	MAG_606_6_39	765						K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]
+MAG_606	MAG_606_6_4	150	smorfinder	smorfam01008				K02913	large subunit ribosomal protein L33
+MAG_606	MAG_606_6_40	1347							
+MAG_606	MAG_606_6_41	426						K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein
+MAG_606	MAG_606_6_42	990						K23124	5-oxoprolinase (ATP-hydrolysing) subunit C [EC:3.5.2.9]
+MAG_606	MAG_606_6_43	729						K06351	inhibitor of KinA
+MAG_606	MAG_606_6_44	426							
+MAG_606	MAG_606_6_45	429							
+MAG_606	MAG_606_6_46	606							
+MAG_606	MAG_606_6_47	939						K00981	phosphatidate cytidylyltransferase [EC:2.7.7.41]
+MAG_606	MAG_606_6_48	627							
+MAG_606	MAG_606_6_49	546							
+MAG_606	MAG_606_6_5	936						K09815	zinc transport system substrate-binding protein
+MAG_606	MAG_606_6_50	768							
+MAG_606	MAG_606_6_51	894							
+MAG_606	MAG_606_6_52	1224							
+MAG_606	MAG_606_6_53	1152							
+MAG_606	MAG_606_6_54	1197						K01992	ABC-2 type transport system permease protein
+MAG_606	MAG_606_6_55	1209							
+MAG_606	MAG_606_6_56	957						K03924	MoxR-like ATPase [EC:3.6.3.-]
+MAG_606	MAG_606_6_57	834						K02073	D-methionine transport system substrate-binding protein
+MAG_606	MAG_606_6_58	828						K02073	D-methionine transport system substrate-binding protein
+MAG_606	MAG_606_6_59	687						K02072	D-methionine transport system permease protein
+MAG_606	MAG_606_6_6	171							
+MAG_606	MAG_606_6_60	738						K02071	D-methionine transport system ATP-binding protein
+MAG_606	MAG_606_6_61	378						K04750	PhnB protein
+MAG_606	MAG_606_6_62	150							
+MAG_606	MAG_606_6_63	792							
+MAG_606	MAG_606_6_64	177							
+MAG_606	MAG_606_6_65	1482						K18926	MFS transporter, DHA2 family, lincomycin resistance protein
+MAG_606	MAG_606_6_66	1230						K01258	tripeptide aminopeptidase [EC:3.4.11.4]
+MAG_606	MAG_606_6_67	507							
+MAG_606	MAG_606_6_68	1059						K01921	D-alanine-D-alanine ligase [EC:6.3.2.4]
+MAG_606	MAG_606_6_69	1719						K06147	ATP-binding cassette, subfamily B, bacterial
+MAG_606	MAG_606_6_7	420						K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]
+MAG_606	MAG_606_6_70	867							
+MAG_606	MAG_606_6_71	1233							
+MAG_606	MAG_606_6_72	687							
+MAG_606	MAG_606_6_73	1428							
+MAG_606	MAG_606_6_74	1296							
+MAG_606	MAG_606_6_75	1353						K22278	peptidoglycan-N-acetylglucosamine deacetylase [EC:3.5.1.104]
+MAG_606	MAG_606_6_76	165							
+MAG_606	MAG_606_6_77	591							
+MAG_606	MAG_606_6_78	840						K06889	uncharacterized protein
+MAG_606	MAG_606_6_79	267							
+MAG_606	MAG_606_6_8	1107						K25985	sulfoacetaldehyde reductase (NADH) [EC:1.1.1.433]
+MAG_606	MAG_606_6_80	822						K02042	phosphonate transport system permease protein
+MAG_606	MAG_606_6_81	816						K02042	phosphonate transport system permease protein
+MAG_606	MAG_606_6_82	918						K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]
+MAG_606	MAG_606_6_83	1068						K02044	phosphonate transport system substrate-binding protein
+MAG_606	MAG_606_6_84	819						K07053	3',5'-nucleoside bisphosphate phosphatase [EC:3.1.3.97]
+MAG_606	MAG_606_6_85	699						K05780	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnL [EC:2.7.8.37]
+MAG_606	MAG_606_6_86	1176						K06162	alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase [EC:3.6.1.63]
+MAG_606	MAG_606_6_87	843						K05781	putative phosphonate transport system ATP-binding protein
+MAG_606	MAG_606_6_88	852						K06163	alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase [EC:4.7.1.1]
+MAG_606	MAG_606_6_89	1080						K06164	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]
+MAG_606	MAG_606_6_9	327							
+MAG_606	MAG_606_6_90	561						K06165	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH [EC:2.7.8.37]
+MAG_606	MAG_606_6_91	420						K06166	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]
+MAG_606	MAG_606_6_92	741							
+MAG_606	MAG_606_6_93	582						K03816	xanthine phosphoribosyltransferase [EC:2.4.2.22]
+MAG_606	MAG_606_6_94	1287						K16169	xanthine permease
+MAG_606	MAG_606_6_95	465						K07173	S-ribosylhomocysteine lyase [EC:4.4.1.21]
+MAG_606	MAG_606_6_96	525							
+MAG_606	MAG_606_6_97	885						K00852	ribokinase [EC:2.7.1.15]
+MAG_606	MAG_606_6_98	936							
+MAG_606	MAG_606_6_99	945							
+MAG_606	MAG_606_7_1	381							
+MAG_606	MAG_606_7_2	297							
+MAG_606	MAG_606_7_3	261							
+MAG_606	MAG_606_7_4	378							
+MAG_606	MAG_606_7_5	219							
+MAG_606	MAG_606_7_6	162							
+MAG_606	MAG_606_8_1	366							
+MAG_606	MAG_606_8_10	738							
+MAG_606	MAG_606_8_100	3882							
+MAG_606	MAG_606_8_101	1470							
+MAG_606	MAG_606_8_102	4317							
+MAG_606	MAG_606_8_103	300							
+MAG_606	MAG_606_8_104	270							
+MAG_606	MAG_606_8_105	465							
+MAG_606	MAG_606_8_106	306							
+MAG_606	MAG_606_8_107	981							
+MAG_606	MAG_606_8_108	270							
+MAG_606	MAG_606_8_109	516							
+MAG_606	MAG_606_8_11	1116						K01659	2-methylcitrate synthase [EC:2.3.3.5]
+MAG_606	MAG_606_8_110	1440						K18926	MFS transporter, DHA2 family, lincomycin resistance protein
+MAG_606	MAG_606_8_111	1062						K07120	uncharacterized protein
+MAG_606	MAG_606_8_112	2631						K01873	valyl-tRNA synthetase [EC:6.1.1.9]
+MAG_606	MAG_606_8_113	1266						K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+MAG_606	MAG_606_8_114	387						K03282	large conductance mechanosensitive channel
+MAG_606	MAG_606_8_115	2712						K27802	aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99]
+MAG_606	MAG_606_8_116	591						K08591	acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]
+MAG_606	MAG_606_8_117	1980							
+MAG_606	MAG_606_8_118	2421						K02621	topoisomerase IV subunit A [EC:5.6.2.2]
+MAG_606	MAG_606_8_119	1464						K03310	alanine or glycine:cation symporter, AGCS family
+MAG_606	MAG_606_8_12	1269						K00031	isocitrate dehydrogenase [EC:1.1.1.42]
+MAG_606	MAG_606_8_120	522						K01823	isopentenyl-diphosphate Delta-isomerase [EC:5.3.3.2]
+MAG_606	MAG_606_8_121	306							
+MAG_606	MAG_606_8_122	1239						K26745	MFS transporter, AAHS family, multidrug transporter
+MAG_606	MAG_606_8_123	636							
+MAG_606	MAG_606_8_124	963							
+MAG_606	MAG_606_8_125	222							
+MAG_606	MAG_606_8_126	1008						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+MAG_606	MAG_606_8_127	1251						K15629	fatty-acid peroxygenase [EC:1.11.2.4]
+MAG_606	MAG_606_8_128	582							
+MAG_606	MAG_606_8_129	1428							
+MAG_606	MAG_606_8_13	1575						K12942	aminobenzoyl-glutamate transport protein
+MAG_606	MAG_606_8_130	1374							
+MAG_606	MAG_606_8_131	243							
+MAG_606	MAG_606_8_132	423							
+MAG_606	MAG_606_8_133	963							
+MAG_606	MAG_606_8_134	1662							
+MAG_606	MAG_606_8_135	3492							
+MAG_606	MAG_606_8_136	327							
+MAG_606	MAG_606_8_137	744							
+MAG_606	MAG_606_8_138	618							
+MAG_606	MAG_606_8_139	1263							
+MAG_606	MAG_606_8_14	2604						K02335	DNA polymerase I [EC:2.7.7.7]
+MAG_606	MAG_606_8_140	255							
+MAG_606	MAG_606_8_141	1290							
+MAG_606	MAG_606_8_142	1659							
+MAG_606	MAG_606_8_143	732							
+MAG_606	MAG_606_8_144	681							
+MAG_606	MAG_606_8_145	558							
+MAG_606	MAG_606_8_146	771							
+MAG_606	MAG_606_8_147	915						K01990	ABC-2 type transport system ATP-binding protein
+MAG_606	MAG_606_8_148	741							
+MAG_606	MAG_606_8_149	852							
+MAG_606	MAG_606_8_15	864						K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]
+MAG_606	MAG_606_8_150	780						K03366	meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]
+MAG_606	MAG_606_8_151	981							
+MAG_606	MAG_606_8_152	480							
+MAG_606	MAG_606_8_153	339							
+MAG_606	MAG_606_8_154	276							
+MAG_606	MAG_606_8_155	783						K06152	gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3]
+MAG_606	MAG_606_8_156	1731						K06151	gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3]
+MAG_606	MAG_606_8_157	576							
+MAG_606	MAG_606_8_158	594							
+MAG_606	MAG_606_8_159	1251						K11694	peptidoglycan pentaglycine glycine transferase (the second and third glycine) [EC:2.3.2.17]
+MAG_606	MAG_606_8_16	585						K00859	dephospho-CoA kinase [EC:2.7.1.24]
+MAG_606	MAG_606_8_160	1263						K11695	peptidoglycan pentaglycine glycine transferase (the fourth and fifth glycine) [EC:2.3.2.18]
+MAG_606	MAG_606_8_161	1248							
+MAG_606	MAG_606_8_162	213							
+MAG_606	MAG_606_8_163	1011						K07404	6-phosphogluconolactonase [EC:3.1.1.31]
+MAG_606	MAG_606_8_164	336							
+MAG_606	MAG_606_8_165	357							
+MAG_606	MAG_606_8_166	546						K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)
+MAG_606	MAG_606_8_167	324							
+MAG_606	MAG_606_8_168	1806						K08602	oligoendopeptidase F [EC:3.4.24.-]
+MAG_606	MAG_606_8_169	873						K00243	uncharacterized protein
+MAG_606	MAG_606_8_17	1005						K00134	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]
+MAG_606	MAG_606_8_170	1602							
+MAG_606	MAG_606_8_171	978						K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
+MAG_606	MAG_606_8_172	888						K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+MAG_606	MAG_606_8_173	714						K00215	4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
+MAG_606	MAG_606_8_174	717							
+MAG_606	MAG_606_8_175	1152							
+MAG_606	MAG_606_8_176	1071						K01775	alanine racemase [EC:5.1.1.1]
+MAG_606	MAG_606_8_177	1296						K01586	diaminopimelate decarboxylase [EC:4.1.1.20]
+MAG_606	MAG_606_8_178	981							
+MAG_606	MAG_606_8_179	201						K03704	cold shock protein
+MAG_606	MAG_606_8_18	420							
+MAG_606	MAG_606_8_180	294							
+MAG_606	MAG_606_8_181	732							
+MAG_606	MAG_606_8_182	1155							
+MAG_606	MAG_606_8_183	1314						K03311	branched-chain amino acid:cation transporter, LIVCS family
+MAG_606	MAG_606_8_184	231			deeppeptide	Propeptide			
+MAG_606	MAG_606_8_185	1239						K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]
+MAG_606	MAG_606_8_186	2799							
+MAG_606	MAG_606_8_187	1374						K18940	two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]
+MAG_606	MAG_606_8_188	675						K18941	two-component system, OmpR family, response regulator ArlR
+MAG_606	MAG_606_8_189	621						K22479	N-acetyltransferase
+MAG_606	MAG_606_8_19	459						K07738	transcriptional repressor NrdR
+MAG_606	MAG_606_8_190	606						K19302	undecaprenyl-diphosphatase [EC:3.6.1.27]
+MAG_606	MAG_606_8_191	1077						K02563	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]
+MAG_606	MAG_606_8_192	1566						K03797	carboxyl-terminal processing protease [EC:3.4.21.102]
+MAG_606	MAG_606_8_193	714						K03784	purine-nucleoside phosphorylase [EC:2.4.2.1]
+MAG_606	MAG_606_8_194	222							
+MAG_606	MAG_606_8_195	435						K07305	peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]
+MAG_606	MAG_606_8_196	522						K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]
+MAG_606	MAG_606_8_197	552							
+MAG_606	MAG_606_8_198	477						K00287	dihydrofolate reductase [EC:1.5.1.3]
+MAG_606	MAG_606_8_199	954						K00560	thymidylate synthase [EC:2.1.1.45]
+MAG_606	MAG_606_8_2	957						K06881	bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3]
+MAG_606	MAG_606_8_20	1341						K03346	replication initiation and membrane attachment protein
+MAG_606	MAG_606_8_200	441						K26958	bacilliredoxin
+MAG_606	MAG_606_8_201	789							
+MAG_606	MAG_606_8_202	282							
+MAG_606	MAG_606_8_203	171							
+MAG_606	MAG_606_8_204	408							
+MAG_606	MAG_606_8_205	876						K23786	5'-3' exonuclease [EC:3.1.11.-]
+MAG_606	MAG_606_8_206	3384							
+MAG_606	MAG_606_8_207	1125						K07444	putative N6-adenine-specific DNA methylase [EC:2.1.1.-]
+MAG_606	MAG_606_8_208	327						K04074	cell division initiation protein
+MAG_606	MAG_606_8_209	540							
+MAG_606	MAG_606_8_21	921						K11144	primosomal protein DnaI
+MAG_606	MAG_606_8_210	327							
+MAG_606	MAG_606_8_211	591						K03700	recombination protein U
+MAG_606	MAG_606_8_212	2409							
+MAG_606	MAG_606_8_213	663						K10773	endonuclease III [EC:3.2.2.- 4.2.99.18]
+MAG_606	MAG_606_8_214	624						K02086	DNA replication protein
+MAG_606	MAG_606_8_215	1290						K01893	asparaginyl-tRNA synthetase [EC:6.1.1.22]
+MAG_606	MAG_606_8_216	1185						K00812	aspartate aminotransferase [EC:2.6.1.1]
+MAG_606	MAG_606_8_217	2517						K03722	ATP-dependent DNA helicase DinG [EC:5.6.2.3]
+MAG_606	MAG_606_8_218	924						K03524	BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]
+MAG_606	MAG_606_8_219	1221							
+MAG_606	MAG_606_8_22	1932						K01868	threonyl-tRNA synthetase [EC:6.1.1.3]
+MAG_606	MAG_606_8_220	1164						K00754	L-malate glycosyltransferase [EC:2.4.1.-]
+MAG_606	MAG_606_8_221	699						K06973	uncharacterized protein
+MAG_606	MAG_606_8_222	579							
+MAG_606	MAG_606_8_223	801						K03888	quinol---cytochrome c reductase cytochrome c subunit, bacillus type [EC:7.1.1.8]
+MAG_606	MAG_606_8_224	675						K03887	quinol---cytochrome c reductase cytochrome b subunit, bacillus type [EC:7.1.1.8]
+MAG_606	MAG_606_8_225	501						K03886	quinol---cytochrome c reductase iron-sulfur subunit, bacillus type [EC:7.1.1.8]
+MAG_606	MAG_606_8_226	429							
+MAG_606	MAG_606_8_227	477							
+MAG_606	MAG_606_8_228	1272							
+MAG_606	MAG_606_8_229	1290						K00800	3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]
+MAG_606	MAG_606_8_23	531						K02520	translation initiation factor IF-3
+MAG_606	MAG_606_8_230	1047						K01735	3-dehydroquinate synthase [EC:4.2.3.4]
+MAG_606	MAG_606_8_231	1167						K01736	chorismate synthase [EC:4.2.3.5]
+MAG_606	MAG_606_8_232	447						K00940	nucleoside-diphosphate kinase [EC:2.7.4.6]
+MAG_606	MAG_606_8_233	954							
+MAG_606	MAG_606_8_234	705						K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]
+MAG_606	MAG_606_8_235	507							
+MAG_606	MAG_606_8_236	273						K03530	DNA-binding protein HU-beta
+MAG_606	MAG_606_8_237	720							
+MAG_606	MAG_606_8_238	207							
+MAG_606	MAG_606_8_239	1053						K00057	glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]
+MAG_606	MAG_606_8_24	204						K02916	large subunit ribosomal protein L35
+MAG_606	MAG_606_8_240	1314						K03977	GTPase
+MAG_606	MAG_606_8_241	1251						K02945	small subunit ribosomal protein S1
+MAG_606	MAG_606_8_242	582						K00655	1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]
+MAG_606	MAG_606_8_243	654						K00945	CMP/dCMP kinase [EC:2.7.4.25]
+MAG_606	MAG_606_8_244	1056							
+MAG_606	MAG_606_8_245	255						K05337	ferredoxin
+MAG_606	MAG_606_8_246	555						K23675	riboflavin transporter
+MAG_606	MAG_606_8_247	1689						K07651	two-component system, OmpR family, sensor histidine kinase ResE [EC:2.7.13.3]
+MAG_606	MAG_606_8_248	711						K07775	two-component system, OmpR family, response regulator ResD
+MAG_606	MAG_606_8_249	1206							
+MAG_606	MAG_606_8_25	360						K02887	large subunit ribosomal protein L20
+MAG_606	MAG_606_8_250	1638						K07399	cytochrome c biogenesis protein
+MAG_606	MAG_606_8_251	531							
+MAG_606	MAG_606_8_252	723						K06178	23S rRNA pseudouridine2605 synthase [EC:5.4.99.22]
+MAG_606	MAG_606_8_253	534						K06024	segregation and condensation protein B
+MAG_606	MAG_606_8_254	711						K05896	segregation and condensation protein A
+MAG_606	MAG_606_8_255	546						K09763	uncharacterized protein
+MAG_606	MAG_606_8_256	1173						K01839	phosphopentomutase [EC:5.4.2.7]
+MAG_606	MAG_606_8_257	888						K04763	integrase/recombinase XerD
+MAG_606	MAG_606_8_258	459						K03711	Fur family transcriptional regulator, ferric uptake regulator
+MAG_606	MAG_606_8_259	555						K01515	ADP-ribose diphosphatase [EC:3.6.1.13 3.6.1.-]
+MAG_606	MAG_606_8_26	879							
+MAG_606	MAG_606_8_260	945						K06889	uncharacterized protein
+MAG_606	MAG_606_8_261	927						K00784	ribonuclease Z [EC:3.1.26.11]
+MAG_606	MAG_606_8_262	846							
+MAG_606	MAG_606_8_263	1125						K01258	tripeptide aminopeptidase [EC:3.4.11.4]
+MAG_606	MAG_606_8_264	438						K26958	bacilliredoxin
+MAG_606	MAG_606_8_265	1266						K09699	2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168]
+MAG_606	MAG_606_8_266	984						K00167	2-oxoisovalerate dehydrogenase E1 component subunit beta [EC:1.2.4.4]
+MAG_606	MAG_606_8_267	996							
+MAG_606	MAG_606_8_268	1413						K00382	dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+MAG_606	MAG_606_8_269	1083						K00929	butyrate kinase [EC:2.7.2.7]
+MAG_606	MAG_606_8_27	1206						K18479	sulfoquinovose isomerase [EC:5.3.1.31]
+MAG_606	MAG_606_8_270	1098						K00263	leucine dehydrogenase [EC:1.4.1.9]
+MAG_606	MAG_606_8_271	906							
+MAG_606	MAG_606_8_272	258							
+MAG_606	MAG_606_8_273	1665						K03631	DNA repair protein RecN (Recombination protein N)
+MAG_606	MAG_606_8_274	453						K03402	transcriptional regulator of arginine metabolism
+MAG_606	MAG_606_8_275	786						K06442	23S rRNA (cytidine1920-2'-O)/16S rRNA (cytidine1409-2'-O)-methyltransferase [EC:2.1.1.226 2.1.1.227]
+MAG_606	MAG_606_8_276	1893						K01662	1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]
+MAG_606	MAG_606_8_277	879							
+MAG_606	MAG_606_8_278	210						K03602	exodeoxyribonuclease VII small subunit [EC:3.1.11.6]
+MAG_606	MAG_606_8_279	1341						K03601	exodeoxyribonuclease VII large subunit [EC:3.1.11.6]
+MAG_606	MAG_606_8_28	990							
+MAG_606	MAG_606_8_280	384						K03625	transcription antitermination protein NusB
+MAG_606	MAG_606_8_281	351							
+MAG_606	MAG_606_8_282	546							
+MAG_606	MAG_606_8_283	279						K07341	death on curing protein
+MAG_606	MAG_606_8_284	306							
+MAG_606	MAG_606_8_285	1350						K01961	acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]
+MAG_606	MAG_606_8_286	435						K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein
+MAG_606	MAG_606_8_287	558						K02356	elongation factor P
+MAG_606	MAG_606_8_288	1056						K01262	Xaa-Pro aminopeptidase [EC:3.4.11.9]
+MAG_606	MAG_606_8_289	561							
+MAG_606	MAG_606_8_29	669							
+MAG_606	MAG_606_8_290	909							
+MAG_606	MAG_606_8_291	219							
+MAG_606	MAG_606_8_292	387							
+MAG_606	MAG_606_8_293	1083						K00605	glycine cleavage system T protein (aminomethyltransferase) [EC:2.1.2.10]
+MAG_606	MAG_606_8_294	507						K00891	shikimate kinase [EC:2.7.1.71]
+MAG_606	MAG_606_8_295	174							
+MAG_606	MAG_606_8_296	411						K02248	competence protein ComGF
+MAG_606	MAG_606_8_297	258			deeppeptide	Propeptide			
+MAG_606	MAG_606_8_298	399						K02246	competence protein ComGD
+MAG_606	MAG_606_8_299	324						K02245	competence protein ComGC
+MAG_606	MAG_606_8_3	3147						K02337	DNA polymerase III subunit alpha [EC:2.7.7.7]
+MAG_606	MAG_606_8_30	783							
+MAG_606	MAG_606_8_300	1056						K02244	competence protein ComGB
+MAG_606	MAG_606_8_301	993							
+MAG_606	MAG_606_8_302	249							
+MAG_606	MAG_606_8_303	612						K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]
+MAG_606	MAG_606_8_304	237							
+MAG_606	MAG_606_8_305	1374						K01755	argininosuccinate lyase [EC:4.3.2.1]
+MAG_606	MAG_606_8_306	1209						K01940	argininosuccinate synthase [EC:6.3.4.5]
+MAG_606	MAG_606_8_307	1410						K19225	rhomboid protease GluP [EC:3.4.21.105]
+MAG_606	MAG_606_8_308	573						K01934	5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]
+MAG_606	MAG_606_8_309	654						K02039	phosphate transport system protein
+MAG_606	MAG_606_8_31	1554						K03310	alanine or glycine:cation symporter, AGCS family
+MAG_606	MAG_606_8_310	843						K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]
+MAG_606	MAG_606_8_311	879						K02038	phosphate transport system permease protein
+MAG_606	MAG_606_8_312	924						K02037	phosphate transport system permease protein
+MAG_606	MAG_606_8_313	1038						K02040	phosphate transport system substrate-binding protein
+MAG_606	MAG_606_8_314	2184						K12553	penicillin-binding protein 3 [EC:3.4.-.-]
+MAG_606	MAG_606_8_315	603						K04564	superoxide dismutase, Fe-Mn family [EC:1.15.1.1]
+MAG_606	MAG_606_8_316	744							
+MAG_606	MAG_606_8_317	1122						K03526	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]
+MAG_606	MAG_606_8_318	177							
+MAG_606	MAG_606_8_319	414						K02076	Fur family transcriptional regulator, zinc uptake regulator
+MAG_606	MAG_606_8_32	1077						K01261	glutamyl aminopeptidase [EC:3.4.11.7]
+MAG_606	MAG_606_8_320	846						K09816	zinc transport system permease protein
+MAG_606	MAG_606_8_321	783						K09817	zinc transport system ATP-binding protein [EC:7.2.2.20]
+MAG_606	MAG_606_8_322	906						K01151	deoxyribonuclease IV [EC:3.1.21.2]
+MAG_606	MAG_606_8_323	1338						K18692	ATP-dependent RNA helicase CshB [EC:5.6.2.7]
+MAG_606	MAG_606_8_324	963						K03527	4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase [EC:1.17.7.4]
+MAG_606	MAG_606_8_325	1080						K22391	GTP cyclohydrolase I [EC:3.5.4.16]
+MAG_606	MAG_606_8_326	693						K06967	tRNA (adenine22-N1)-methyltransferase [EC:2.1.1.217]
+MAG_606	MAG_606_8_327	387							
+MAG_606	MAG_606_8_328	1107						K03086	RNA polymerase primary sigma factor
+MAG_606	MAG_606_8_329	1752						K02316	DNA primase [EC:2.7.7.101]
+MAG_606	MAG_606_8_33	744						K03437	RNA methyltransferase, TrmH family
+MAG_606	MAG_606_8_330	825						K09773	[pyruvate, water dikinase]-phosphate phosphotransferase / [pyruvate, water dikinase] kinase [EC:2.7.4.28 2.7.11.33]
+MAG_606	MAG_606_8_331	618						K23774	DeoR family transcriptional regulator, catabolite repression regulator
+MAG_606	MAG_606_8_332	1377						K01880	glycyl-tRNA synthetase [EC:6.1.1.14]
+MAG_606	MAG_606_8_333	606						K07152	protein SCO1
+MAG_606	MAG_606_8_334	744						K03584	DNA repair protein RecO (recombination protein O)
+MAG_606	MAG_606_8_335	909						K03595	GTPase
+MAG_606	MAG_606_8_336	408						K01489	cytidine deaminase [EC:3.5.4.5]
+MAG_606	MAG_606_8_337	462						K07042	probable rRNA maturation factor
+MAG_606	MAG_606_8_338	954						K06217	phosphate starvation-inducible protein PhoH and related proteins
+MAG_606	MAG_606_8_339	714							
+MAG_606	MAG_606_8_34	1065						K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]
+MAG_606	MAG_606_8_340	1008							
+MAG_606	MAG_606_8_341	684							
+MAG_606	MAG_606_8_342	177						K02970	small subunit ribosomal protein S21
+MAG_606	MAG_606_8_343	666						K01619	deoxyribose-phosphate aldolase [EC:4.1.2.4]
+MAG_606	MAG_606_8_344	717						K09761	16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]
+MAG_606	MAG_606_8_345	936						K02687	ribosomal protein L11 methyltransferase [EC:2.1.1.-]
+MAG_606	MAG_606_8_346	1122						K03686	molecular chaperone DnaJ
+MAG_606	MAG_606_8_347	1839						K04043	molecular chaperone DnaK
+MAG_606	MAG_606_8_348	612						K03687	molecular chaperone GrpE
+MAG_606	MAG_606_8_349	969						K03705	heat-inducible transcriptional repressor
+MAG_606	MAG_606_8_35	2403						K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]
+MAG_606	MAG_606_8_350	1113						K02495	oxygen-independent coproporphyrinogen III oxidase [EC:1.3.98.3]
+MAG_606	MAG_606_8_351	1824						K03596	GTP-binding protein LepA
+MAG_606	MAG_606_8_352	246						K02968	small subunit ribosomal protein S20
+MAG_606	MAG_606_8_353	963						K02340	DNA polymerase III subunit delta [EC:2.7.7.7]
+MAG_606	MAG_606_8_354	135	smorfinder	smorfam04180	deeppeptide	Propeptide			
+MAG_606	MAG_606_8_355	2256						K02238	competence protein ComEC
+MAG_606	MAG_606_8_356	459						K01493	dCMP deaminase [EC:3.5.4.12]
+MAG_606	MAG_606_8_357	624						K02237	competence protein ComEA
+MAG_606	MAG_606_8_358	723							
+MAG_606	MAG_606_8_359	339						K09710	ribosome-associated protein
+MAG_606	MAG_606_8_36	183							
+MAG_606	MAG_606_8_360	570							
+MAG_606	MAG_606_8_361	564						K00969	nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]
+MAG_606	MAG_606_8_362	294						K07574	RNA-binding protein
+MAG_606	MAG_606_8_363	777							
+MAG_606	MAG_606_8_364	1107						K06948	30S ribosome assembly GTPase
+MAG_606	MAG_606_8_365	525						K07015	putative phosphatase [EC:3.1.3.-]
+MAG_606	MAG_606_8_366	99	smorfinder	smorfam01848	deeppeptide	Peptide			
+MAG_606	MAG_606_8_367	669						K01243	adenosylhomocysteine nucleosidase [EC:3.2.2.9]
+MAG_606	MAG_606_8_368	477						K03624	transcription elongation factor GreA
+MAG_606	MAG_606_8_369	621						K00876	uridine kinase [EC:2.7.1.48]
+MAG_606	MAG_606_8_37	264						K09888	cell division protein ZapA
+MAG_606	MAG_606_8_370	645							
+MAG_606	MAG_606_8_371	1128						K07082	peptidoglycan lytic transglycosylase G [EC:4.2.2.29]
+MAG_606	MAG_606_8_372	306							
+MAG_606	MAG_606_8_373	432						K07447	putative pre-16S rRNA nuclease [EC:3.1.-.-]
+MAG_606	MAG_606_8_374	264							
+MAG_606	MAG_606_8_375	2631						K01872	alanyl-tRNA synthetase [EC:6.1.1.7]
+MAG_606	MAG_606_8_376	2364						K03581	exodeoxyribonuclease V alpha subunit [EC:3.1.11.5]
+MAG_606	MAG_606_8_377	645							
+MAG_606	MAG_606_8_378	1104						K00566	tRNA-uridine 2-sulfurtransferase [EC:2.8.1.13]
+MAG_606	MAG_606_8_379	1134						K04487	cysteine desulfurase [EC:2.8.1.7]
+MAG_606	MAG_606_8_38	534							
+MAG_606	MAG_606_8_380	1008							
+MAG_606	MAG_606_8_381	438							
+MAG_606	MAG_606_8_382	879						K00872	homoserine kinase [EC:2.7.1.39]
+MAG_606	MAG_606_8_383	1062						K01733	threonine synthase [EC:4.2.3.1]
+MAG_606	MAG_606_8_384	1209						K00003	homoserine dehydrogenase [EC:1.1.1.3]
+MAG_606	MAG_606_8_385	1353						K00928	aspartate kinase [EC:2.7.2.4]
+MAG_606	MAG_606_8_386	1686						K03688	ubiquinone biosynthesis protein
+MAG_606	MAG_606_8_387	417							
+MAG_606	MAG_606_8_388	1299						K07478	putative ATPase
+MAG_606	MAG_606_8_389	696							
+MAG_606	MAG_606_8_39	1713						K02347	DNA polymerase (family X)
+MAG_606	MAG_606_8_390	162			deeppeptide	Propeptide			
+MAG_606	MAG_606_8_391	492							
+MAG_606	MAG_606_8_392	1677							
+MAG_606	MAG_606_8_393	735							
+MAG_606	MAG_606_8_394	1764						K01876	aspartyl-tRNA synthetase [EC:6.1.1.12]
+MAG_606	MAG_606_8_395	1263						K01892	histidyl-tRNA synthetase [EC:6.1.1.21]
+MAG_606	MAG_606_8_396	738						K01448	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+MAG_606	MAG_606_8_397	453						K07560	D-aminoacyl-tRNA deacylase [EC:3.1.1.96]
+MAG_606	MAG_606_8_398	2175						K01139	GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase [EC:2.7.6.5 3.1.7.2]
+MAG_606	MAG_606_8_399	519						K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]
+MAG_606	MAG_606_8_4	1236						K00027	malate dehydrogenase (oxaloacetate-decarboxylating) [EC:1.1.1.38]
+MAG_606	MAG_606_8_40	2328						K07456	DNA mismatch repair protein MutS2
+MAG_606	MAG_606_8_400	2241						K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]
+MAG_606	MAG_606_8_401	2280						K12257	SecD/SecF fusion protein
+MAG_606	MAG_606_8_402	258						K03210	preprotein translocase subunit YajC
+MAG_606	MAG_606_8_403	1146						K00773	queuine tRNA-ribosyltransferase [EC:2.4.2.29]
+MAG_606	MAG_606_8_404	1023						K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase [EC:2.4.99.17]
+MAG_606	MAG_606_8_405	984						K03551	holliday junction DNA helicase RuvB [EC:5.6.2.4]
+MAG_606	MAG_606_8_406	594						K03550	holliday junction DNA helicase RuvA
+MAG_606	MAG_606_8_407	1281						K03979	GTPase [EC:3.6.5.-]
+MAG_606	MAG_606_8_408	285			deeppeptide	Propeptide		K02899	large subunit ribosomal protein L27
+MAG_606	MAG_606_8_409	321						K07584	uncharacterized protein
+MAG_606	MAG_606_8_41	315						K03671	thioredoxin
+MAG_606	MAG_606_8_410	309						K02888	large subunit ribosomal protein L21
+MAG_606	MAG_606_8_411	519						K03571	rod shape-determining protein MreD
+MAG_606	MAG_606_8_412	855						K03570	rod shape-determining protein MreC
+MAG_606	MAG_606_8_413	1155							
+MAG_606	MAG_606_8_414	807						K02073	D-methionine transport system substrate-binding protein
+MAG_606	MAG_606_8_415	660						K02072	D-methionine transport system permease protein
+MAG_606	MAG_606_8_416	1014						K02071	D-methionine transport system ATP-binding protein
+MAG_606	MAG_606_8_417	474						K03095	SprT-like protein
+MAG_606	MAG_606_8_418	867						K00563	23S rRNA (guanine745-N1)-methyltransferase [EC:2.1.1.187]
+MAG_606	MAG_606_8_419	408							
+MAG_606	MAG_606_8_42	1776						K03703	excinuclease ABC subunit C
+MAG_606	MAG_606_8_420	1179						K07240	chromate transporter
+MAG_606	MAG_606_8_421	1068						K00459	nitronate monooxygenase [EC:1.13.12.16]
+MAG_606	MAG_606_8_422	849						K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
+MAG_606	MAG_606_8_423	414						K08713	potassium channel LctB
+MAG_606	MAG_606_8_424	363							
+MAG_606	MAG_606_8_425	687						K03630	DNA repair protein RadC
+MAG_606	MAG_606_8_426	714						K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]
+MAG_606	MAG_606_8_427	1236							
+MAG_606	MAG_606_8_428	1191							
+MAG_606	MAG_606_8_429	705							
+MAG_606	MAG_606_8_43	612						K00241	succinate dehydrogenase cytochrome b subunit
+MAG_606	MAG_606_8_430	645							
+MAG_606	MAG_606_8_431	669							
+MAG_606	MAG_606_8_432	615						K07152	protein SCO1
+MAG_606	MAG_606_8_433	3003						K03546	DNA repair protein SbcC/Rad50
+MAG_606	MAG_606_8_434	1116						K03547	DNA repair protein SbcD/Mre11
+MAG_606	MAG_606_8_435	555							
+MAG_606	MAG_606_8_436	543							
+MAG_606	MAG_606_8_437	375							
+MAG_606	MAG_606_8_438	582							
+MAG_606	MAG_606_8_439	1566						K07273	lysozyme
+MAG_606	MAG_606_8_44	1752						K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]
+MAG_606	MAG_606_8_440	291							
+MAG_606	MAG_606_8_441	378							
+MAG_606	MAG_606_8_442	336							
+MAG_606	MAG_606_8_443	207							
+MAG_606	MAG_606_8_444	3876							
+MAG_606	MAG_606_8_445	816							
+MAG_606	MAG_606_8_446	3972							
+MAG_606	MAG_606_8_447	474							
+MAG_606	MAG_606_8_448	348							
+MAG_606	MAG_606_8_449	537							
+MAG_606	MAG_606_8_45	780						K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]
+MAG_606	MAG_606_8_450	396							
+MAG_606	MAG_606_8_451	345							
+MAG_606	MAG_606_8_452	303							
+MAG_606	MAG_606_8_453	330							
+MAG_606	MAG_606_8_454	264							
+MAG_606	MAG_606_8_455	972							
+MAG_606	MAG_606_8_456	609							
+MAG_606	MAG_606_8_457	183			deeppeptide	Peptide			
+MAG_606	MAG_606_8_458	1851							
+MAG_606	MAG_606_8_459	198							
+MAG_606	MAG_606_8_46	258			deeppeptide	Peptide			
+MAG_606	MAG_606_8_460	1413							
+MAG_606	MAG_606_8_461	1179						K06909	phage terminase large subunit
+MAG_606	MAG_606_8_462	474						K07474	phage terminase small subunit
+MAG_606	MAG_606_8_463	975							
+MAG_606	MAG_606_8_464	189							
+MAG_606	MAG_606_8_465	474							
+MAG_606	MAG_606_8_466	2388							
+MAG_606	MAG_606_8_467	537							
+MAG_606	MAG_606_8_468	360							
+MAG_606	MAG_606_8_47	444							
+MAG_606	MAG_606_8_48	810						K01776	glutamate racemase [EC:5.1.1.3]
+MAG_606	MAG_606_8_49	591						K01519	XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+MAG_606	MAG_606_8_5	399							
+MAG_606	MAG_606_8_50	486						K07095	uncharacterized protein
+MAG_606	MAG_606_8_51	540						K03817	ribosomal-protein-serine acetyltransferase [EC:2.3.1.-]
+MAG_606	MAG_606_8_52	522						K03824	putative acetyltransferase [EC:2.3.1.-]
+MAG_606	MAG_606_8_53	1656							
+MAG_606	MAG_606_8_54	1422							
+MAG_606	MAG_606_8_55	615							
+MAG_606	MAG_606_8_56	942							
+MAG_606	MAG_606_8_57	1290						K03545	trigger factor
+MAG_606	MAG_606_8_58	1257						K03544	ATP-dependent Clp protease ATP-binding subunit ClpX
+MAG_606	MAG_606_8_59	588						K03978	GTP-binding protein
+MAG_606	MAG_606_8_6	849						K01963	acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15]
+MAG_606	MAG_606_8_60	1347						K02492	glutamyl-tRNA reductase [EC:1.2.1.70]
+MAG_606	MAG_606_8_61	825						K02497	HemX protein
+MAG_606	MAG_606_8_62	933						K01749	hydroxymethylbilane synthase [EC:2.5.1.61]
+MAG_606	MAG_606_8_63	690						K01719	uroporphyrinogen-III synthase [EC:4.2.1.75]
+MAG_606	MAG_606_8_64	981						K01698	porphobilinogen synthase [EC:4.2.1.24]
+MAG_606	MAG_606_8_65	1287						K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]
+MAG_606	MAG_606_8_66	1059							
+MAG_606	MAG_606_8_67	816							
+MAG_606	MAG_606_8_68	627							
+MAG_606	MAG_606_8_69	1350							
+MAG_606	MAG_606_8_7	948						K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]
+MAG_606	MAG_606_8_70	846						K06223	DNA adenine methylase [EC:2.1.1.72]
+MAG_606	MAG_606_8_71	384							
+MAG_606	MAG_606_8_72	195							
+MAG_606	MAG_606_8_73	540							
+MAG_606	MAG_606_8_74	198							
+MAG_606	MAG_606_8_75	252							
+MAG_606	MAG_606_8_76	402							
+MAG_606	MAG_606_8_77	147							
+MAG_606	MAG_606_8_78	1299							
+MAG_606	MAG_606_8_79	879							
+MAG_606	MAG_606_8_8	960						K00850	6-phosphofructokinase 1 [EC:2.7.1.11]
+MAG_606	MAG_606_8_80	1212							
+MAG_606	MAG_606_8_81	255						K07451	5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]
+MAG_606	MAG_606_8_82	168			deeppeptide	Propeptide			
+MAG_606	MAG_606_8_83	279							
+MAG_606	MAG_606_8_84	222							
+MAG_606	MAG_606_8_85	171							
+MAG_606	MAG_606_8_86	450							
+MAG_606	MAG_606_8_87	486							
+MAG_606	MAG_606_8_88	1767							
+MAG_606	MAG_606_8_89	225							
+MAG_606	MAG_606_8_9	1761						K00873	pyruvate kinase [EC:2.7.1.40]
+MAG_606	MAG_606_8_90	1233							
+MAG_606	MAG_606_8_91	615						K06904	Escherichia/Staphylococcus phage prohead protease
+MAG_606	MAG_606_8_92	1254							
+MAG_606	MAG_606_8_93	207							
+MAG_606	MAG_606_8_94	336							
+MAG_606	MAG_606_8_95	327							
+MAG_606	MAG_606_8_96	408							
+MAG_606	MAG_606_8_97	390							
+MAG_606	MAG_606_8_98	591							
+MAG_606	MAG_606_8_99	348							
+MAG_606	MAG_606_9_1	891							
+MAG_606	MAG_606_9_2	1230						K07481	transposase, IS5 family

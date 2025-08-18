@@ -1,0 +1,1942 @@
+genome	locus_tag	gene_length	smorfinder_peptide	smorfinder_peptide_name	deeppeptide_peptide	deeppeptide_peptide_name	antismash_bgc_type	ko_number	kofamscan_annotation
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_1	108							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_10	1677						K01552	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_11	828						K16785	energy-coupling factor transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_12	1446							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_13	297						K02990	small subunit ribosomal protein S6
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_14	567						K03111	single-strand DNA-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_15	285						K02963	small subunit ribosomal protein S18
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_16	2028						K22927	cyclic-di-AMP phosphodiesterase [EC:3.1.4.59]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_17	453						K02939	large subunit ribosomal protein L9
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_18	1464						K02314	replicative DNA helicase [EC:5.6.2.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_19	543							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_2	288							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_20	486						K03976	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase [EC:3.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_21	753						K03492	GntR family transcriptional regulator, regulator of glucomannan utilization
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_22	2442						K01621	xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_23	792							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_24	1713						K01652	acetolactate synthase I/II/III large subunit [EC:2.2.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_25	246							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_26	1044						K00053	ketol-acid reductoisomerase [EC:1.1.1.86]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_27	1266						K01754	threonine dehydratase [EC:4.3.1.19]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_28	393						K09022	2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_29	930							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_3	873							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_30	813						K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_31	498						K11065	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_32	981						K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_33	708						K07668	two-component system, OmpR family, response regulator VicR
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_34	1866						K07652	two-component system, OmpR family, sensor histidine kinase VicK [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_35	1293							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_36	804							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_37	1140							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_38	480						K00783	23S rRNA (pseudouridine1915-N3)-methyltransferase [EC:2.1.1.177]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_39	2166						K01421	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_4	195							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_40	453							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_41	699							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_42	1113						K01775	alanine racemase [EC:5.1.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_43	1095						K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_44	1008							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_45	1782						K18889	ATP-binding cassette, subfamily B, multidrug efflux pump
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_46	1806							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_47	738						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_48	867						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_49	642						K02029	polar amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_5	552							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_50	660						K02029	polar amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_51	1635						K15580	oligopeptide transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_52	918						K02033	peptide/nickel transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_53	1026						K02034	peptide/nickel transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_54	1050						K02031	peptide/nickel transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_55	936						K02032	peptide/nickel transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_56	1893							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_57	885							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_6	459							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_7	1809						K03654	ATP-dependent DNA helicase RecQ [EC:5.6.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_8	861						K22205	S-adenosyl-L-methionine hydrolase (adenosine-forming) [EC:3.13.2.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104291_9	564						K16924	energy-coupling factor transport system substrate-specific component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_1	1308						K01875	seryl-tRNA synthetase [EC:6.1.1.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_10	1107						K11072	spermidine/putrescine transport system ATP-binding protein [EC:7.6.2.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_11	819						K11071	spermidine/putrescine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_12	831						K11070	spermidine/putrescine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_13	1080						K11069	spermidine/putrescine transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_14	309						K02946	small subunit ribosomal protein S10
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_15	687						K02906	large subunit ribosomal protein L3
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_16	624						K02926	large subunit ribosomal protein L4
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_17	288						K02892	large subunit ribosomal protein L23
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_18	834						K02886	large subunit ribosomal protein L2
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_19	279						K02965	small subunit ribosomal protein S19
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_2	2526						K03070	preprotein translocase subunit SecA [EC:7.4.2.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_20	357						K02890	large subunit ribosomal protein L22
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_21	672						K02982	small subunit ribosomal protein S3
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_22	414						K02878	large subunit ribosomal protein L16
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_23	207						K02904	large subunit ribosomal protein L29
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_24	267			deeppeptide	Propeptide		K02961	small subunit ribosomal protein S17
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_25	369						K02874	large subunit ribosomal protein L14
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_26	309						K02895	large subunit ribosomal protein L24
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_27	543						K02931	large subunit ribosomal protein L5
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_28	399						K02994	small subunit ribosomal protein S8
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_29	537						K02933	large subunit ribosomal protein L6
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_3	1119						K02836	peptide chain release factor 2
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_30	354						K02881	large subunit ribosomal protein L18
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_31	507						K02988	small subunit ribosomal protein S5
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_32	183						K02907	large subunit ribosomal protein L30
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_33	435						K02876	large subunit ribosomal protein L15
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_34	1335						K03076	preprotein translocase subunit SecY
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_35	564						K00939	adenylate kinase [EC:2.7.4.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_36	216						K02518	translation initiation factor IF-1
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_37	120	smorfinder	smorfam02017				K02919	large subunit ribosomal protein L36
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_38	372						K02952	small subunit ribosomal protein S13
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_39	387						K02948	small subunit ribosomal protein S11
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_4	2481						K03696	ATP-dependent Clp protease ATP-binding subunit ClpC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_40	945						K03040	DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_41	384						K02879	large subunit ribosomal protein L17
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_42	999							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_43	1671						K03885	NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_44	819						K16786	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_45	858						K16787	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_46	804						K16785	energy-coupling factor transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_47	768						K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_48	411							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_49	444						K02871	large subunit ribosomal protein L13
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_5	660							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_50	396						K02996	small subunit ribosomal protein S9
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_51	918							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_52	1185							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_6	414						K02950	small subunit ribosomal protein S12
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_7	471						K02992	small subunit ribosomal protein S7
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_8	2112						K02355	elongation factor G
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_104555_9	1194						K03449	MFS transporter, CP family, cyanate transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_1	1059						K07035	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_10	375							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_11	1287						K07478	putative ATPase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_12	444							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_13	1440						K11733	lysine-specific permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_14	654							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_15	1179						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_16	1233							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_17	1617							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_18	1332							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_19	1020						K01867	tryptophanyl-tRNA synthetase [EC:6.1.1.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_2	990							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_20	1302						K03665	GTPase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_21	1110							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_22	1029						K03575	A/G-specific adenine glycosylase [EC:3.2.2.31]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_23	144	smorfinder						
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_24	1398						K18926	MFS transporter, DHA2 family, lincomycin resistance protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_25	768						K00286	pyrroline-5-carboxylate reductase [EC:1.5.1.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_26	1245							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_27	639							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_28	447						K02114	F-type H+-transporting ATPase subunit epsilon
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_29	1401						K02112	F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_3	1194						K00841	aminotransferase [EC:2.6.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_30	909						K02115	F-type H+-transporting ATPase subunit gamma
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_31	1518						K02111	F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_32	543						K02113	F-type H+-transporting ATPase subunit delta
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_33	504						K02109	F-type H+-transporting ATPase subunit b
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_34	228							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_35	726						K02108	F-type H+-transporting ATPase subunit a
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_36	1272						K02824	uracil permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_37	714						K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_38	201						K03704	cold shock protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_39	678							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_4	591							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_40	1512							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_41	690						K00867	type I pantothenate kinase [EC:2.7.1.33]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_42	2364							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_43	420							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_44	924							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_45	990							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_46	621							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_47	387							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_48	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_49	612							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_5	1401							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_50	1125							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_51	2748						K01421	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_52	618							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_53	1362							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_54	939							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_55	1617							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_56	549							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_57	609							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_58	504							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_59	516							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_6	1716						K06286	septation ring formation regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_60	1170						K09384	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_61	540							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_62	342							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_63	501							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_64	576							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_65	153							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_66	234			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_67	276							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_68	207							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_69	159							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_7	612						K02986	small subunit ribosomal protein S4
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_70	240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_71	342							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_72	846						K06897	7,8-dihydropterin-6-yl-methyl-4-(beta-D-ribofuranosyl)aminobenzene 5'-phosphate synthase [EC:2.5.1.105]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_8	1710						K11925	SgrR family transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_108347_9	1230						K08152	MFS transporter, DHA1 family, multidrug resistance protein B
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_1	1023						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_10	1338							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_11	1080						K02071	D-methionine transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_12	696						K02072	D-methionine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_13	726						K03710	GntR family transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_14	1167						K01443	N-acetylglucosamine-6-phosphate deacetylase [EC:3.5.1.25]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_15	525							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_16	1122						K01775	alanine racemase [EC:5.1.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_17	549							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_18	1827							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_19	2091							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_2	1056						K07335	basic membrane protein A and related proteins
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_20	411							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_21	468							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_22	729							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_23	801							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_24	1449						K06901	adenine/guanine/hypoxanthine permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_3	978							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_4	447							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_5	2664						K01537	P-type Ca2+ transporter type 2C [EC:7.2.2.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_6	1842							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_7	660							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_8	846						K02073	D-methionine transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_121736_9	843						K02073	D-methionine transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_1	645							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_10	1353						K03311	branched-chain amino acid:cation transporter, LIVCS family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_100	450						K06925	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_101	1155						K07284	sortase A [EC:3.4.22.70]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_102	1188						K07284	sortase A [EC:3.4.22.70]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_103	1527							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_104	1125							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_105	2763							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_106	924							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_107	549						K04068	anaerobic ribonucleoside-triphosphate reductase activating protein [EC:1.97.1.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_108	2211						K21636	ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_109	1443						K00763	nicotinate phosphoribosyltransferase [EC:6.3.4.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_11	420						K02887	large subunit ribosomal protein L20
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_110	822						K01916	NAD+ synthase [EC:6.3.1.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_111	519							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_112	669							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_113	435							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_12	198						K02916	large subunit ribosomal protein L35
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_13	432						K02520	translation initiation factor IF-3
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_14	651							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_15	795						K03811	nicotinamide mononucleotide transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_16	174						K02911	large subunit ribosomal protein L32
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_17	633						K06201	copper homeostasis protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_18	642							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_19	315							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_2	1170						K12996	rhamnosyltransferase [EC:2.4.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_20	570						K24119	NADH-dependent peroxiredoxin subunit C [EC:1.11.1.26]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_21	1719						K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_22	1695							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_23	759							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_24	1008						K00560	thymidylate synthase [EC:2.1.1.45]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_25	471							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_26	2367						K01621	xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_27	1017						K00611	ornithine carbamoyltransferase [EC:2.1.3.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_28	1383						K01755	argininosuccinate lyase [EC:4.3.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_29	1227						K01940	argininosuccinate synthase [EC:6.3.4.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_3	606						K16566	exopolysaccharide production protein ExoY
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_30	1284						K01939	adenylosuccinate synthase [EC:6.3.4.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_31	723						K18189	translational activator of cytochrome c oxidase 1
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_32	489							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_33	1179							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_34	1089						K00831	phosphoserine aminotransferase [EC:2.6.1.52]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_35	981						K00625	phosphate acetyltransferase [EC:2.3.1.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_36	663						K03648	uracil-DNA glycosylase [EC:3.2.2.27]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_37	540							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_38	1143						K07035	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_39	321							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_4	768						K00903	protein-tyrosine kinase [EC:2.7.10.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_40	705							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_41	837						K08974	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_42	531						K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_43	1968						K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_44	957						K00784	ribonuclease Z [EC:3.1.26.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_45	516						K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_46	1023						K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_47	732						K00554	tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_48	522						K02860	16S rRNA processing protein RimM
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_49	483							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_5	894						K19420	protein tyrosine kinase modulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_50	3693						K16898	ATP-dependent helicase/nuclease subunit A [EC:5.6.2.4 3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_51	3480						K16899	ATP-dependent helicase/nuclease subunit B [EC:5.6.2.4 3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_52	792						K03930	putative tributyrin esterase [EC:3.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_53	1782							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_54	420						K02959	small subunit ribosomal protein S16
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_55	201							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_56	2793						K01870	isoleucyl-tRNA synthetase [EC:6.1.1.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_57	663						K04074	cell division initiation protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_58	798							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_59	264						K02221	YggT family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_6	771							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_60	450						K09772	cell division inhibitor SepF
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_61	1308						K03531	cell division protein FtsZ
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_62	1332						K03590	cell division protein FtsA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_63	705						K03589	cell division protein FtsQ
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_64	1092						K02563	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_65	1350						K01925	UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_66	963						K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_67	2139							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_68	369						K03586	cell division protein FtsL
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_69	939						K03438	16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_7	789						K01265	methionyl aminopeptidase [EC:3.4.11.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_70	432						K03925	transcriptional regulator MraZ
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_71	342							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_72	207							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_73	1707						K07030	fatty acid kinase [EC:2.7.2.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_74	375							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_75	201						K02902	large subunit ribosomal protein L28
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_76	315						K03671	thioredoxin
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_77	660						K00949	thiamine pyrophosphokinase [EC:2.7.6.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_78	657						K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_79	900						K06949	ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_8	963						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_80	1926						K12132	eukaryotic-like serine/threonine-protein kinase [EC:2.7.11.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_81	735						K20074	PPM family protein phosphatase [EC:3.1.3.16]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_82	1347						K03500	16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_83	966						K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_84	2412						K04066	primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_85	555							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_86	1143						K06211	HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_87	768						K03811	nicotinamide mononucleotide transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_88	444						K07305	peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_89	585						K03978	GTP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_9	612						K00761	uracil phosphoribosyltransferase [EC:2.4.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_90	1251						K03544	ATP-dependent Clp protease ATP-binding subunit ClpX
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_91	1296						K03545	trigger factor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_92	678							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_93	105	smorfinder	smorfam00643					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_94	1416						K01274	beta-Ala-Xaa dipeptidase [EC:3.4.13.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_95	1200						K09384	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_96	822						K17758	ADP-dependent NAD(P)H-hydrate dehydratase [EC:4.2.1.136]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_97	858						K01142	exodeoxyribonuclease III [EC:3.1.11.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_98	534						K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_127579_99	489							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_1	414							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_10	546							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_100	1365						K16211	maltose/moltooligosaccharide transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_101	1683						K01182	oligo-1,6-glucosidase [EC:3.2.1.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_102	861						K03488	beta-glucoside operon transcriptional antiterminator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_103	1839						K02757	beta-glucoside PTS system EIICBA component [EC:2.7.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_104	1461						K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_105	546						K03817	ribosomal-protein-serine acetyltransferase [EC:2.3.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_106	456						K08968	L-methionine (R)-S-oxide reductase [EC:1.8.4.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_107	1569							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_108	987							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_109	240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_11	3555						K06994	putative drug exporter of the RND superfamily
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_110	1404						K03292	glycoside/pentoside/hexuronide:cation symporter, GPH family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_111	1713							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_112	654							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_113	573							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_114	1347						K11936	poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_115	381						K01737	6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_116	1557							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_117	822						K00019	3-hydroxybutyrate dehydrogenase [EC:1.1.1.30]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_118	738							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_119	1167						K08369	MFS transporter, putative metabolite:H+ symporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_12	432							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_120	1050						K00004	(R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.4 1.1.1.- 1.1.1.303]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_121	762							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_122	588							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_123	576							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_124	507							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_125	771							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_126	1197							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_127	186							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_128	399						K07006	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_129	1227							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_13	813							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_130	771						K00065	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase [EC:1.1.1.127]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_131	171							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_132	1128						K03299	gluconate:H+ symporter, GntP family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_133	1428						K00033	6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_134	981						K01297	muramoyltetrapeptide carboxypeptidase [EC:3.4.17.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_135	507							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_136	1437						K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_137	318						K02760	cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_138	1992						K03491	probable licABCH operon transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_139	360						K02759	cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_14	378							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_140	555							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_141	1350						K02761	cellobiose PTS system EIIC component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_142	117			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_143	756							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_144	1467							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_145	768							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_146	510							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_147	840						K00878	hydroxyethylthiazole kinase [EC:2.7.1.50]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_148	306						K02760	cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_149	462							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_15	4134							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_150	765						K02761	cellobiose PTS system EIIC component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_151	330						K02759	cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_152	1425						K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_153	567							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_154	360							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_155	468							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_156	1341							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_157	939						K18980	2-methylene-furan-3-one reductase [EC:1.3.1.105]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_158	360						K08987	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_159	825							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_16	375							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_160	744						K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_161	843						K19976	manganese transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_162	942						K19975	manganese transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_163	711						K01575	acetolactate decarboxylase [EC:4.1.1.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_164	1347							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_165	672							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_166	1068							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_167	522							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_168	234							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_169	609							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_17	1455							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_170	1233						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_171	444							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_172	1350							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_173	2691							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_174	432							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_175	879						K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_176	387						K21745	MerR family transcriptional regulator, aldehyde-responsive regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_177	465							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_178	573							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_179	960						K00018	glycerate dehydrogenase [EC:1.1.1.29]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_18	906							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_180	864							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_181	285							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_182	786							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_183	624						K05995	dipeptidase E [EC:3.4.13.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_184	651						K07149	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_185	1323							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_186	381							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_187	252							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_188	1827						K00158	pyruvate oxidase [EC:1.2.3.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_189	423						K13993	HSP20 family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_19	960							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_190	636							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_191	513							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_192	1266						K20895	formylaminopyrimidine deformylase [EC:3.5.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_193	669						K03707	thiaminase (transcriptional activator TenA) [EC:3.5.99.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_194	312							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_195	156							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_196	420						K05995	dipeptidase E [EC:3.4.13.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_197	420							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_198	852						K06998	trans-2,3-dihydro-3-hydroxyanthranilate isomerase [EC:5.3.3.17]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_199	825							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_2	801							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_20	1035						K11752	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_200	1446						K06131	cardiolipin synthase A/B [EC:2.7.8.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_201	273							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_202	192							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_203	399							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_204	465							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_205	234							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_206	888							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_207	276							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_208	357							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_209	435						K03111	single-strand DNA-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_21	591						K00793	riboflavin synthase [EC:2.5.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_210	969							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_211	378							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_212	786						K15051	DNA-entry nuclease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_213	714							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_214	315							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_215	1488							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_216	402						K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_217	1341							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_218	771						K22210	D-glutamate cyclase [EC:4.2.1.48]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_219	765						K07160	5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_22	1194						K14652	3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_220	1233							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_221	717						K06351	inhibitor of KinA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_222	1014							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_223	1173							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_224	666							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_225	270							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_226	117							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_23	471						K00794	6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_24	2640							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_25	1179							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_26	1440							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_27	279							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_28	984							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_29	696							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_3	1332							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_30	282							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_31	372							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_32	591							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_33	678							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_34	891						K19081	two-component system, OmpR family, sensor histidine kinase BraS/BceS [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_35	756						K19083	bacitracin transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_36	1968						K19084	bacitracin transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_37	915							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_38	1338						K00596	2,2-dialkylglycine decarboxylase (pyruvate) [EC:4.1.1.64]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_39	504						K00640	serine O-acetyltransferase [EC:2.3.1.30]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_4	1674							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_40	546						K03817	ribosomal-protein-serine acetyltransferase [EC:2.3.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_41	552							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_42	390							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_43	501							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_44	897							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_45	2025							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_46	1251							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_47	1149						K01210	glucan 1,3-beta-glucosidase [EC:3.2.1.58]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_48	1740						K01198	xylan 1,4-beta-xylosidase [EC:3.2.1.37]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_49	729						K26605	branched chain amino acid efflux pump
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_5	1701							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_50	330						K26606	branched chain amino acid efflux pump
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_51	1080						K02103	GntR family transcriptional regulator, arabinose operon transcriptional repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_52	1425						K01804	L-arabinose isomerase [EC:5.3.1.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_53	1380							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_54	1620							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_55	705						K03077	L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_56	828							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_57	3057							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_58	1920							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_59	3084							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_6	1017						K21053	adenine deaminase [EC:3.5.4.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_60	870							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_61	135	smorfinder	smorfam04401					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_62	246							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_63	555							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_64	201							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_65	528							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_66	645							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_67	249							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_68	144							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_69	843						K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_7	1413						K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_70	1374						K06609	MFS transporter, SP family, major inositol transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_71	1020						K19426	pyruvyl transferase EpsI [EC:2.-.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_72	627						K07149	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_73	972							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_74	1482							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_75	1200							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_76	1302						K05349	beta-glucosidase [EC:3.2.1.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_77	927							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_78	543						K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_79	648							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_8	1047						K02004	putative ABC transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_80	876						K07052	CAAX protease family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_81	522							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_82	1386						K16209	lactose/raffinose/galactose permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_83	522							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_84	1008							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_85	2223						K07407	alpha-galactosidase [EC:3.2.1.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_86	1185						K00849	galactokinase [EC:2.7.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_87	1506							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_88	2253						K03701	excinuclease ABC subunit A
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_89	1122							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_9	696							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_90	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_91	1122							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_92	1527						K01209	alpha-L-arabinofuranosidase [EC:3.2.1.55]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_93	987							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_94	954							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_95	1353						K16211	maltose/moltooligosaccharide transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_96	2259						K00691	maltose phosphorylase [EC:2.4.1.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_97	687						K01838	beta-phosphoglucomutase [EC:5.4.2.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_98	1008							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_133931_99	1671						K01182	oligo-1,6-glucosidase [EC:3.2.1.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_134217_1	861							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_134217_2	294							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_134217_3	639							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_1	435						K16509	regulatory protein spx
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_10	912							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_100	201						K03704	cold shock protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_101	384							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_102	648							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_103	291							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_104	258							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_105	1002						K02340	DNA polymerase III subunit delta [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_106	1086						K02346	DNA polymerase IV [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_107	981						K06881	bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_108	1365						K18692	ATP-dependent RNA helicase CshB [EC:5.6.2.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_109	252						K02968	small subunit ribosomal protein S20
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_11	1515						K01595	phosphoenolpyruvate carboxylase [EC:4.1.1.31]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_110	270						K02956	small subunit ribosomal protein S15
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_111	309						K02435	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_112	1467						K02433	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_113	1440						K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_114	987						K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_115	1395						K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_116	2565						K03555	DNA mismatch repair protein MutS
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_117	1947						K03572	DNA mismatch repair protein MutL
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_118	342							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_12	390							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_13	1683						K12574	ribonuclease J [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_14	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_15	552						K22522	cytokinin riboside 5'-monophosphate phosphoribohydrolase [EC:3.2.2.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_16	477							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_17	561						K02356	elongation factor P
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_18	453							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_19	414						K03625	transcription antitermination protein NusB
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_2	708						K16511	adapter protein MecA 1/2
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_20	798						K03424	TatD DNase family protein [EC:3.1.21.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_21	570						K05985	ribonuclease M5 [EC:3.1.26.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_22	888						K02528	16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_23	246							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_24	843							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_25	705							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_26	792							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_27	834						K09685	HTH-type transcriptional regulator, purine operon repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_28	1374						K04042	bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_29	486							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_3	405							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_30	255							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_31	1278						K03601	exodeoxyribonuclease VII large subunit [EC:3.1.11.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_32	225						K03602	exodeoxyribonuclease VII small subunit [EC:3.1.11.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_33	915							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_34	837						K06442	23S rRNA (cytidine1920-2'-O)/16S rRNA (cytidine1409-2'-O)-methyltransferase [EC:2.1.1.226 2.1.1.227]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_35	456						K03402	transcriptional regulator of arginine metabolism
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_36	1668						K03631	DNA repair protein RecN (Recombination protein N)
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_37	1308						K06901	adenine/guanine/hypoxanthine permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_38	1356						K26937	MATE family, multidrug efflux pump
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_39	663						K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_4	183							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_40	1068						K01261	glutamyl aminopeptidase [EC:3.4.11.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_41	1173							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_42	291							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_43	555						K08316	16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_44	489						K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_45	1092						K07177	Lon-like protease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_46	636						K02237	competence protein ComEA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_47	957						K02238	competence protein ComEC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_48	1194						K02238	competence protein ComEC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_49	1242							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_5	744						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_50	513							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_51	420							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_52	408						K22299	HTH-type transcriptional regulator, competence development regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_53	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_54	282							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_55	165							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_56	219							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_57	219							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_58	210							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_59	201							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_6	894						K00791	tRNA dimethylallyltransferase [EC:2.5.1.75]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_60	972							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_61	663							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_62	696							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_63	1092							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_64	1329						K02314	replicative DNA helicase [EC:5.6.2.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_65	171							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_66	681							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_67	168			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_68	417						K01160	crossover junction endodeoxyribonuclease RusA [EC:3.1.21.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_69	558							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_7	828							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_70	417							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_71	729						K00571	site-specific DNA-methyltransferase (adenine-specific) [EC:2.1.1.72]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_72	735							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_73	567							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_74	1419							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_75	306							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_76	576							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_77	180							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_78	618							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_79	765						K07474	phage terminase small subunit
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_8	1158						K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_80	1284						K06909	phage terminase large subunit
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_81	1572							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_82	918							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_83	243							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_84	606							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_85	1173							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_86	348							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_87	303							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_88	363							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_89	366							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_9	960							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_90	597							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_91	450							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_92	237							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_93	3729							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_94	828							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_95	6240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_96	423							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_97	240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_98	471							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139009_99	876							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139377_1	531						K02029	polar amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139377_2	753						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139377_3	1029						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139428_1	1011							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_1	267						K26993	ArsR family transcriptional regulator, repressor of sdpIR and other operons
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_10	918						K16264	cobalt-zinc-cadmium efflux system protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_11	1395						K03322	manganese transport protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_12	468							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_13	345							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_14	684							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_15	954							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_16	948							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_17	720						K03501	16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_18	762						K03496	chromosome partitioning protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_19	900						K03497	ParB family transcriptional regulator, chromosome partitioning protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_2	636						K26996	immunity protein, SdpI family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_20	210							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_21	1101						K06942	ribosome-binding ATPase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_22	699							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_23	693						K02483	two-component system, OmpR family, response regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_24	1086						K18350	two-component system, OmpR family, sensor histidine kinase VanS [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_25	1335							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_26	702						K02564	glucosamine-6-phosphate deaminase [EC:3.5.99.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_27	1353						K01810	glucose-6-phosphate isomerase [EC:5.3.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_28	615							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_29	1194						K02000	glycine betaine/proline transport system ATP-binding protein [EC:7.6.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_3	1989						K02004	putative ABC transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_30	1722						K02001	glycine betaine/proline transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_31	480							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_32	1221						K01992	ABC-2 type transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_33	894							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_34	468							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_35	207						K07729	putative transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_36	216							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_37	306							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_38	501							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_39	747						K16958	L-cystine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_4	1149						K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_40	828						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_41	705						K16959	L-cystine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_42	738						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_43	1236						K05825	2-aminoadipate transaminase [EC:2.6.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_44	972							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_45	774						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_46	1236							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_47	114			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_48	1221						K00773	queuine tRNA-ribosyltransferase [EC:2.4.2.29]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_49	363						K03210	preprotein translocase subunit YajC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_5	402						K09790	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_50	735							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_51	2535						K14205	phosphatidylglycerol lysyltransferase [EC:2.3.2.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_52	654							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_53	495							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_54	657							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_55	1191							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_56	1479						K00690	sucrose phosphorylase [EC:2.4.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_57	1719						K18891	ATP-binding cassette, subfamily B, multidrug efflux pump
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_58	1782						K18892	ATP-binding cassette, subfamily B, multidrug efflux pump
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_59	1227						K19002	1,2-diacylglycerol 3-alpha-glucosyltransferase [EC:2.4.1.337]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_6	924						K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_60	1008						K13677	1,2-diacylglycerol-3-alpha-glucose alpha-1,2-glucosyltransferase [EC:2.4.1.208]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_61	1038						K07027	glycosyltransferase 2 family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_62	264							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_63	2139						K19005	lipoteichoic acid synthase [EC:2.7.8.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_64	2010						K03702	excinuclease ABC subunit B
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_65	2859						K03701	excinuclease ABC subunit A
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_66	969							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_67	945						K09762	cell division protein WhiA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_68	603						K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_69	645							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_7	1206						K00054	hydroxymethylglutaryl-CoA reductase [EC:1.1.1.88]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_70	567						K01056	peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_71	3540						K03723	transcription-repair coupling factor (superfamily II helicase) [EC:5.6.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_72	282							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_73	399						K13052	cell division protein DivIC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_74	1308						K04075	tRNA(Ile)-lysidine synthase [EC:6.3.4.19]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_75	540						K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_76	2103						K03798	cell division protease FtsH [EC:3.4.24.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_77	894						K04083	molecular chaperone Hsp33
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_78	1488						K04567	lysyl-tRNA synthetase, class II [EC:6.1.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_79	534						K06181	23S rRNA pseudouridine2457 synthase [EC:5.4.99.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_8	951							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_80	717						K18189	translational activator of cytochrome c oxidase 1
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_81	948						K01772	protoporphyrin/coproporphyrin ferrochelatase [EC:4.98.1.1 4.99.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_139547_9	705							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_1	171			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_10	969							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_100	372							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_101	429							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_102	345							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_103	339							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_104	1218							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_105	723						K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_106	1167							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_107	198							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_108	1878							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_109	468							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_11	411						K03111	single-strand DNA-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_110	498							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_111	102	smorfinder						
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_112	696							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_113	777							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_114	318							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_115	198			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_116	255							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_117	126	smorfinder	smorfam02841					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_118	579							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_119	444							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_12	351							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_120	168							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_121	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_122	399							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_123	222							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_124	138			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_125	774							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_126	756							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_127	426						K03111	single-strand DNA-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_128	651							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_129	402							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_13	267							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_130	183							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_131	165							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_132	240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_133	744						K07741	anti-repressor protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_134	348							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_135	216							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_136	333							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_137	411							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_138	1056							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_139	1068							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_14	942							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_140	519							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_141	534							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_142	834						K05786	chloramphenicol-sensitive protein RarD
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_143	618							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_144	321							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_145	1689							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_146	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_147	1842						K06207	GTP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_148	789							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_149	273							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_15	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_150	579						K01462	peptide deformylase [EC:3.5.1.88]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_151	900							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_152	1848						K04043	molecular chaperone DnaK
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_153	570						K03687	molecular chaperone GrpE
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_154	1026						K03705	heat-inducible transcriptional repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_155	951						K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_156	909						K03177	tRNA pseudouridine55 synthase [EC:5.4.99.25]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_157	540							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_158	1176							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_159	354						K02834	ribosome-binding factor A
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_16	294							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_160	2505						K02519	translation initiation factor IF-2
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_161	321							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_162	297						K07742	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_163	1098						K02600	transcription termination/antitermination protein NusA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_164	477						K09748	ribosome maturation factor RimP
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_165	270						K02954	small subunit ribosomal protein S14
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_166	150	smorfinder	smorfam01671				K02913	large subunit ribosomal protein L33
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_167	906						K15986	manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_168	2439							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_169	2064						K02622	topoisomerase IV subunit B [EC:5.6.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_17	843							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_170	615						K08591	acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_171	450						K07560	D-aminoacyl-tRNA deacylase [EC:3.1.1.96]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_172	2238						K01139	GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase [EC:2.7.6.5 3.1.7.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_173	1209						K08161	MFS transporter, DHA1 family, multidrug resistance protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_174	303							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_175	2502							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_176	1080							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_177	528						K02825	pyrimidine operon attenuation protein / uracil phosphoribosyltransferase [EC:2.4.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_178	939						K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_179	390							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_18	864							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_180	384							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_181	528							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_182	1203						K00841	aminotransferase [EC:2.6.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_183	1134						K07444	putative N6-adenine-specific DNA methylase [EC:2.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_184	282							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_185	636						K02086	DNA replication protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_186	1308						K01893	asparaginyl-tRNA synthetase [EC:6.1.1.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_187	1194							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_188	528							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_189	2394						K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_19	495							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_190	933						K00869	mevalonate kinase [EC:2.7.1.36]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_191	942						K01597	diphosphomevalonate decarboxylase [EC:4.1.1.33]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_192	1020						K00938	phosphomevalonate kinase [EC:2.7.4.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_193	1053							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_194	564						K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_195	1296						K01756	adenylosuccinate lyase [EC:4.3.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_196	765							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_197	720							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_198	453							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_199	417							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_2	1080							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_20	432							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_200	903						K16649	rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_201	873							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_202	1908							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_203	1770							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_204	1944							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_205	954							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_206	954						K12999	glucosyltransferase [EC:2.4.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_207	1191						K01854	UDP-galactopyranose mutase [EC:5.4.99.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_208	771							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_209	1377							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_21	576							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_210	627							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_211	627						K16566	exopolysaccharide production protein ExoY
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_212	1446							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_213	1512						K01193	beta-fructofuranosidase [EC:3.2.1.26]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_214	3009						K00692	levansucrase [EC:2.4.1.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_215	1032							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_216	1314						K07273	lysozyme
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_217	510							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_218	1008							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_219	1050							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_22	1137							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_220	735							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_221	342							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_222	1533							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_223	840						K00067	dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_224	1038						K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_225	594							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_226	876						K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_227	1152						K22708	poly(ribitol-phosphate) beta-N-acetylglucosaminyltransferase [EC:2.4.1.355]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_228	1434							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_229	1167						K00012	UDPglucose 6-dehydrogenase [EC:1.1.1.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_23	144	smorfinder	smorfam04045					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_230	963							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_231	672							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_232	108							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_233	234							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_24	867						K04096	DNA processing protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_25	1878						K15738	ABC transport system ATP-binding/permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_26	939						K00226	dihydroorotate dehydrogenase (fumarate) [EC:1.3.98.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_27	1257						K00925	acetate kinase [EC:2.7.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_28	864						K01448	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_29	300			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_3	243							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_30	2193						K06959	protein Tex
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_31	432							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_32	477						K03282	large conductance mechanosensitive channel
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_33	2235							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_34	915							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_35	1140						K01760	cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_36	495						K00640	serine O-acetyltransferase [EC:2.3.1.30]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_37	342							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_38	246							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_39	159							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_4	1497							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_40	369							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_41	189							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_42	642							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_43	702							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_44	294							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_45	276						K03530	DNA-binding protein HU-beta
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_46	1311						K03977	GTPase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_47	1191						K02945	small subunit ribosomal protein S1
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_48	675						K00945	CMP/dCMP kinase [EC:2.7.4.25]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_49	558							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_5	315							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_50	591						K23675	riboflavin transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_51	780						K06178	23S rRNA pseudouridine2605 synthase [EC:5.4.99.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_52	600						K06024	segregation and condensation protein B
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_53	777						K05896	segregation and condensation protein A
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_54	375						K02859	riboflavin biosynthesis RibT protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_55	894						K04763	integrase/recombinase XerD
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_56	864						K00243	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_57	447						K09117	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_58	186						K02970	small subunit ribosomal protein S21
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_59	1269						K03761	MFS transporter, MHS family, alpha-ketoglutarate permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_6	714							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_60	1548						K09684	PucR family transcriptional regulator, purine catabolism regulatory protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_61	1407							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_62	867							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_63	1776						K01876	aspartyl-tRNA synthetase [EC:6.1.1.12]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_64	1302						K01892	histidyl-tRNA synthetase [EC:6.1.1.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_65	996						K01785	aldose 1-epimerase [EC:5.1.3.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_66	930						K02099	AraC family transcriptional regulator, arabinose operon regulatory protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_67	1173						K00849	galactokinase [EC:2.7.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_68	1413						K16209	lactose/raffinose/galactose permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_69	1008						K19265	L-glyceraldehyde 3-phosphate reductase [EC:1.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_7	309							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_70	3111						K01190	beta-galactosidase [EC:3.2.1.23]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_71	1356							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_72	945							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_73	1044						K00826	branched-chain amino acid aminotransferase [EC:2.6.1.42]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_74	498							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_75	1344							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_76	447							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_77	1095						K01262	Xaa-Pro aminopeptidase [EC:3.4.11.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_78	318						K02899	large subunit ribosomal protein L27
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_79	300						K02888	large subunit ribosomal protein L21
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_8	798						K15051	DNA-entry nuclease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_80	582							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_81	261							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_82	120							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_83	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_84	96							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_85	258							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_86	1623							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_87	474							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_88	1092						K07273	lysozyme
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_89	225							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_9	378							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_90	807							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_91	1092							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_92	426							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_93	240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_94	144							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_95	3795							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_96	1119							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_97	5028							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_98	366							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_140200_99	648							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_1	1665							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_10	1413							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_100	954						K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_101	876						K00963	UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_102	1011						K00057	glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_103	966						K06023	HPr kinase/phosphorylase [EC:2.7.11.- 2.7.4.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_104	357						K08972	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_105	1101							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_106	675						K02039	phosphate transport system protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_107	771						K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_108	843						K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_109	885						K02038	phosphate transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_11	912						K00852	ribokinase [EC:2.7.1.15]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_110	924						K02037	phosphate transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_111	882						K02040	phosphate transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_112	1341							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_113	915						K02040	phosphate transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_114	693						K02483	two-component system, OmpR family, response regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_115	1158						K03553	recombination protein RecA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_116	582						K00995	CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_117	876						K15539	cytoskeleton protein RodZ
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_118	1272							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_119	1266							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_12	408						K13256	protein PsiE
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_120	1455						K06131	cardiolipin synthase A/B [EC:2.7.8.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_121	855						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_122	639							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_123	642						K02029	polar amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_124	528						K03571	rod shape-determining protein MreD
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_125	858						K03570	rod shape-determining protein MreC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_126	1008						K03569	rod shape-determining protein MreB and related proteins
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_127	174							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_128	2055						K03697	ATP-dependent Clp protease ATP-binding subunit ClpE
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_129	693							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_13	4314						K03763	DNA polymerase III subunit alpha, Gram-positive type [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_130	1143							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_131	2043						K01972	DNA ligase (NAD+) [EC:6.5.1.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_132	489							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_133	2301						K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_134	498							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_135	639						K02395	peptidoglycan hydrolase FlgJ
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_136	1725						K16012	ATP-binding cassette, subfamily C, bacterial CydC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_137	1728						K16013	ATP-binding cassette, subfamily C, bacterial CydD
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_138	1014						K00426	cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_139	1479						K00425	cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_14	1719						K01881	prolyl-tRNA synthetase [EC:6.1.1.15]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_140	300							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_141	432						K07447	putative pre-16S rRNA nuclease [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_142	252							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_143	2682						K01872	alanyl-tRNA synthetase [EC:6.1.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_144	1335							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_145	1431							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_146	1371						K03299	gluconate:H+ symporter, GntP family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_147	1539						K25031	gluconokinase [EC:2.7.1.12]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_148	909						K00033	6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_149	855							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_15	1254						K11749	regulator of sigma E protease [EC:3.4.24.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_150	720						K01575	acetolactate decarboxylase [EC:4.1.1.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_151	921							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_152	957							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_153	1347							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_154	1863							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_155	1008						K02529	LacI family transcriptional regulator, galactose operon repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_156	1098							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_157	735						K07052	CAAX protease family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_158	207							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_159	834						K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_16	795						K00981	phosphatidate cytidylyltransferase [EC:2.7.7.41]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_160	453						K03095	SprT-like protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_161	249						K02078	acyl carrier protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_162	1047						K03621	phosphate acyltransferase [EC:2.3.1.274]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_163	2031						K03655	ATP-dependent DNA helicase RecG [EC:5.6.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_164	303							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_165	777							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_166	1086							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_167	948						K11144	primosomal protein DnaI
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_168	1290						K03346	replication initiation and membrane attachment protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_169	621						K00859	dephospho-CoA kinase [EC:2.7.1.24]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_17	780						K00806	undecaprenyl diphosphate synthase [EC:2.5.1.31]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_170	735							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_171	834						K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_172	159							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_173	966							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_174	423							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_175	267							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_176	240							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_177	144	smorfinder						
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_178	216							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_179	5859							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_18	1806						K00820	glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_180	726							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_181	3186							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_182	96			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_183	363							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_184	579							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_185	333							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_186	357							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_187	309							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_188	315							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_189	1209							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_19	1701						K01486	adenine deaminase [EC:3.5.4.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_190	552						K06904	Escherichia/Staphylococcus phage prohead protease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_191	1155							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_192	180							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_193	1755							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_194	489							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_195	492							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_196	363							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_197	171							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_198	1224							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_199	171			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_2	1245						K01945	phosphoribosylamine---glycine ligase [EC:6.3.4.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_20	498							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_200	393							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_201	186							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_202	108							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_203	183							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_204	144	smorfinder						
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_205	225							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_206	1179							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_207	738							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_208	171							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_209	474							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_21	1365						K06213	magnesium transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_210	651							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_211	744							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_212	1158							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_213	303							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_214	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_215	198							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_216	219							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_217	231							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_218	159							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_219	306							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_22	900						K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_220	210							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_221	147							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_222	216							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_223	378							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_224	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_225	348							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_226	420							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_227	456							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_228	1134							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_229	1296							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_23	795						K00858	NAD+ kinase [EC:2.7.1.23]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_230	1005						K22230	scyllo-inositol 2-dehydrogenase (NADP+) [EC:1.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_231	738						K07273	lysozyme
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_232	1230						K19689	aminopeptidase [EC:3.4.11.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_233	390							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_234	1686							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_235	1320						K03979	GTPase [EC:3.6.5.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_236	1800						K03703	excinuclease ABC subunit C
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_237	1614						K01937	CTP synthase [EC:6.3.4.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_238	978						K03524	BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_239	543						K03523	biotin transport system substrate-specific component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_24	576						K07816	GTP pyrophosphokinase [EC:2.7.6.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_240	1410							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_241	588						K03048	DNA-directed RNA polymerase subunit delta
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_242	447							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_243	1347						K06885	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_244	723						K03486	GntR family transcriptional regulator, trehalose operon transcriptional repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_245	1650						K01226	trehalose-6-phosphate hydrolase [EC:3.2.1.93]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_246	1515							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_247	486							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_248	2331						K01281	X-Pro dipeptidyl-peptidase [EC:3.4.14.11]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_249	1773						K10254	oleate hydratase [EC:4.2.1.53]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_25	600							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_250	2535							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_251	945						K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_252	963						K00874	2-dehydro-3-deoxygluconokinase [EC:2.7.1.45]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_253	1278							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_254	744							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_255	255			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_256	990						K02525	LacI family transcriptional regulator, kdg operon repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_257	2088						K24163	monovalent cation/hydrogen antiporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_258	594							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_259	861						K07058	membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_26	966						K25026	glucokinase [EC:2.7.1.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_260	684						K22736	vacuolar iron transporter family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_261	687						K22736	vacuolar iron transporter family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_262	405							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_27	207							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_28	684						K19225	rhomboid protease GluP [EC:3.4.21.105]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_29	570						K07586	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_3	993						K19265	L-glyceraldehyde 3-phosphate reductase [EC:1.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_30	804						K03565	regulatory protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_31	723						K00215	4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_32	867						K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_33	1155						K05823	N-acetyldiaminopimelate deacetylase [EC:3.5.1.47]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_34	702							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_35	1293						K01586	diaminopimelate decarboxylase [EC:4.1.1.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_36	843						K15523	protein-ribulosamine 3-kinase [EC:2.7.1.172]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_37	546							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_38	675						K03975	membrane-associated protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_39	1374							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_4	891							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_40	1959						K01868	threonyl-tRNA synthetase [EC:6.1.1.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_41	120	smorfinder	smorfam00321					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_42	2367						K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_43	513						K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_44	1155							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_45	1029						K07404	6-phosphogluconolactonase [EC:3.1.1.31]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_46	1473						K17077	arginine/lysine/histidine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_47	399							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_48	567							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_49	2193							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_5	972						K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_50	615						K03700	recombination protein U
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_51	228							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_52	171			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_53	171							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_54	1545						K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_55	987							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_56	1143						K00088	IMP dehydrogenase [EC:1.1.1.205]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_57	264							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_58	1464							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_59	186						K01821	4-oxalocrotonate tautomerase [EC:5.3.2.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_6	2388						K03581	exodeoxyribonuclease V alpha subunit [EC:3.1.11.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_60	978							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_61	894						K03799	heat shock protein HtpX [EC:3.4.24.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_62	549						K03744	LemA protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_63	915							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_64	849							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_65	1944							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_66	2427						K01869	leucyl-tRNA synthetase [EC:6.1.1.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_67	654						K19302	undecaprenyl-diphosphatase [EC:3.6.1.27]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_68	522							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_69	750							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_7	654							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_70	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_71	690						K01807	ribose 5-phosphate isomerase A [EC:5.3.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_72	735						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_73	135			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_74	1188						K02358	elongation factor Tu
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_75	924							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_76	1830						K12574	ribonuclease J [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_77	657							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_78	615							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_79	615							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_8	345							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_80	663							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_81	1476						K02004	putative ABC transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_82	384						K03282	large conductance mechanosensitive channel
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_83	633							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_84	591						K03550	holliday junction DNA helicase RuvA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_85	1026						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_86	1134						K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase [EC:2.4.99.17]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_87	858							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_88	1056						K03551	holliday junction DNA helicase RuvB [EC:5.6.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_89	537							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_9	1116						K07335	basic membrane protein A and related proteins
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_90	606						K01519	XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_91	876						K01776	glutamate racemase [EC:5.1.1.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_92	714							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_93	360						K02884	large subunit ribosomal protein L19
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_94	1701						K01835	phosphoglucomutase [EC:5.4.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_95	660						K03975	membrane-associated protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_96	978						K03484	LacI family transcriptional regulator, sucrose operon repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_97	1017							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_98	738						K07149	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_150571_99	384							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_152797_1	141							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_152797_2	777							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_152797_3	378							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_1	528							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_10	2457						K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_11	1287						K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_12	267						K02909	large subunit ribosomal protein L31
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_13	1392						K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_14	1329						K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_15	1143						K22580	teichoic acid D-alanine hydrolase [EC:3.1.1.103]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_16	1611						K05592	ATP-dependent RNA helicase DeaD [EC:5.6.2.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_17	1182						K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_18	1389							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_19	609						K03630	DNA repair protein RadC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_2	360						K06198	competence protein CoiA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_20	969						K00560	thymidylate synthase [EC:2.1.1.45]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_21	477						K01493	dCMP deaminase [EC:3.5.4.12]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_22	846							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_23	942						K02243	competence protein ComGA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_24	1011						K02244	competence protein ComGB
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_25	312						K02245	competence protein ComGC
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_26	402						K02246	competence protein ComGD
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_27	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_28	414							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_29	288			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_3	666							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_30	990							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_31	1260						K00925	acetate kinase [EC:2.7.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_32	1302						K07082	peptidoglycan lytic transglycosylase G [EC:4.2.2.29]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_33	966						K05340	glucose uptake protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_34	483						K03624	transcription elongation factor GreA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_35	2610							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_36	618							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_37	1152							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_38	1158							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_39	291							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_4	1794						K08602	oligoendopeptidase F [EC:3.4.24.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_40	507							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_41	1068						K01999	branched-chain amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_42	879						K01997	branched-chain amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_43	975						K01998	branched-chain amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_44	786						K01995	branched-chain amino acid transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_45	714						K01996	branched-chain amino acid transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_46	780						K00878	hydroxyethylthiazole kinase [EC:2.7.1.50]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_47	834						K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_48	639						K00788	thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_49	1407							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_5	390						K01489	cytidine deaminase [EC:3.5.4.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_50	744							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_51	1812						K08602	oligoendopeptidase F [EC:3.4.24.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_52	930						K06889	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_6	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_7	930							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_8	369							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_157767_9	1050						K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_1	1407						K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_10	1431						K01744	aspartate ammonia-lyase [EC:4.3.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_100	297							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_101	381							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_102	507							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_103	1041						K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_104	1215						K00620	glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_105	735						K00930	acetylglutamate kinase [EC:2.7.2.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_106	1119							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_107	861						K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_108	768							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_109	906						K01990	ABC-2 type transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_11	939							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_110	834							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_111	906						K16921	acetoin utilization transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_112	366						K07979	GntR family transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_113	426						K02171	BlaI family transcriptional regulator, penicillinase repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_114	2052							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_115	753							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_116	894							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_117	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_118	1062							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_119	2199						K19005	lipoteichoic acid synthase [EC:2.7.8.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_12	993							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_120	441						K02348	ElaA protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_121	792							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_122	444							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_123	777							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_124	1206							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_13	2151						K04086	ATP-dependent Clp protease ATP-binding subunit ClpL
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_14	225							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_15	1164							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_16	1497						K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_17	2703						K04072	acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_18	777						K03366	meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_19	684						K07149	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_2	1497						K01885	glutamyl-tRNA synthetase [EC:6.1.1.17]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_20	828							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_21	558							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_22	543							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_23	1512						K02837	peptide chain release factor 3
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_24	783						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_25	711						K16959	L-cystine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_26	723						K16958	L-cystine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_27	861						K16957	L-cystine transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_28	1002							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_29	1032							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_3	588							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_30	882						K06153	undecaprenyl-diphosphatase [EC:3.6.1.27]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_31	1512						K00854	xylulokinase [EC:2.7.1.17]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_32	1347						K01805	xylose isomerase [EC:5.3.1.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_33	1170							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_34	1455							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_35	639						K11068	hemolysin III
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_36	882						K25232	fatty acid kinase fatty acid binding subunit
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_37	339						K06199	fluoride exporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_38	399						K06199	fluoride exporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_39	1122						K02846	N-methyl-L-tryptophan oxidase [EC:1.5.3.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_4	225							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_40	846						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_41	741							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_42	681							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_43	468							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_44	864						K02073	D-methionine transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_45	777						K03366	meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_46	1332						K14052	putrescine importer
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_47	747							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_48	315						K03671	thioredoxin
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_49	1167							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_5	1011							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_50	816						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_51	753							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_52	669						K16962	putative S-methylcysteine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_53	558							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_54	1335							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_55	1083						K07393	glutathionyl-hydroquinone reductase [EC:1.8.5.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_56	90			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_57	147			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_58	540						K08996	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_59	1371						K05910	NADH peroxidase [EC:1.11.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_6	1227						K04485	DNA repair protein RadA/Sms
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_60	483							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_61	1005						K20534	polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_62	2103							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_63	729							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_64	891							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_65	1398							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_66	567							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_67	804							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_68	120			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_69	1311					RiPP-like	K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_7	540						K01520	dUTP diphosphatase [EC:3.6.1.23]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_70	726					RiPP-like	K07707	two-component system, LytTR family, response regulator AgrA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_71	213					RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_72	177			deeppeptide	Propeptide	RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_73	180			deeppeptide	Propeptide	RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_74	138	smorfinder	smorfam03883	deeppeptide	Propeptide	RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_75	306					RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_76	162			deeppeptide	Propeptide	RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_77	177			deeppeptide	Propeptide	RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_78	2148					RiPP-like	K20344	ATP-binding cassette, subfamily C, bacteriocin exporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_79	1350					RiPP-like	K20345	membrane fusion protein, peptide pheromone/bacteriocin exporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_8	282						K06975	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_80	126	smorfinder	smorfam02447			RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_81	738					RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_82	588					RiPP-like		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_83	1005						K01989	putative tryptophan/tyrosine transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_84	900						K05832	putative tryptophan/tyrosine transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_85	756						K05833	putative tryptophan/tyrosine transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_86	915							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_87	957						K23536	general nucleoside transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_88	1122						K23535	general nucleoside transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_89	1557						K23537	general nucleoside transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_9	687						K01807	ribose 5-phosphate isomerase A [EC:5.3.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_90	405						K07052	CAAX protease family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_91	246							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_92	198			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_93	153							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_94	171			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_95	264			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_96	723						K07726	putative transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_97	1206						K26745	MFS transporter, AAHS family, multidrug transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_98	1404						K03498	trk/ktr system potassium uptake protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_165160_99	666						K03499	trk/ktr system potassium uptake protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_1	894							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_10	822						K18672	diadenylate cyclase [EC:2.7.7.85]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_11	1098							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_12	1368						K03431	phosphoglucosamine mutase [EC:5.4.2.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_13	711						K03685	ribonuclease III [EC:3.1.26.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_14	3558						K03529	chromosome segregation protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_15	285							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_2	285			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_3	1095						K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_4	1710							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_5	228							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_6	567							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_7	414						K00940	nucleoside-diphosphate kinase [EC:2.7.4.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_8	879						K00075	UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_28490_9	2097						K24163	monovalent cation/hydrogen antiporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_1	1185						K08969	L-glutamine---4-(methylsulfanyl)-2-oxobutanoate aminotransferase [EC:2.6.1.117]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_10	834						K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_100	864						K03079	L-ribulose-5-phosphate 3-epimerase [EC:5.1.3.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_101	729						K03077	L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_102	369							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_103	858							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_11	714						K07707	two-component system, LytTR family, response regulator AgrA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_12	474						K00432	glutathione peroxidase [EC:1.11.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_13	2547						K02469	DNA gyrase subunit A [EC:5.6.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_14	2019						K02470	DNA gyrase subunit B [EC:5.6.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_15	1125						K03629	DNA replication and repair protein RecF
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_16	447						K14761	ribosome-associated protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_17	1137						K02338	DNA polymerase III subunit beta [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_18	1347						K02313	chromosomal replication initiator protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_19	714							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_2	795							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_20	894						K24180	malate permease and related proteins
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_21	1851							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_22	810							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_23	864							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_24	270							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_25	1356							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_26	675							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_27	135	smorfinder	smorfam00416				K02914	large subunit ribosomal protein L34
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_28	351						K03536	ribonuclease P protein component [EC:3.1.26.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_29	837						K03217	YidC/Oxa1 family membrane protein insertase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_3	834						K01661	naphthoate synthase [EC:4.1.3.36]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_30	606						K03100	signal peptidase I [EC:3.4.21.89]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_31	465							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_32	924							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_33	570						K03816	xanthine phosphoribosyltransferase [EC:2.4.2.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_34	828							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_35	993							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_36	789							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_37	768							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_38	489							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_39	1041							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_4	375						K19222	1,4-dihydroxy-2-naphthoyl-CoA hydrolase [EC:3.1.2.28]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_40	690						K02003	putative ABC transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_41	1182						K02004	putative ABC transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_42	1455						K01919	glutamate--cysteine ligase [EC:6.3.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_43	912							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_44	264							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_45	1335						K11621	lia operon protein LiaG
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_46	351						K10947	PadR family transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_47	1248						K01866	tyrosyl-tRNA synthetase [EC:6.1.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_48	990							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_49	963						K03453	bile acid:Na+ symporter, BASS family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_5	1038						K12270	accessory secretory protein Asp3
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_50	321					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_51	1743					betalactone	K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_52	414					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_53	402					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_54	801					betalactone	K09013	Fe-S cluster assembly ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_55	1185					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_56	1227					betalactone	K11717	cysteine desulfurase / selenocysteine lyase [EC:2.8.1.7 4.4.1.16]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_57	435					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_58	1431					betalactone	K09014	Fe-S cluster assembly protein SufB
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_59	306					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_6	1521						K12269	accessory secretory protein Asp2
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_60	1173					betalactone	K01649	2-isopropylmalate synthase [EC:2.3.3.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_61	1074					betalactone	K00052	3-isopropylmalate dehydrogenase [EC:1.1.1.85]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_62	1377					betalactone	K01703	3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_63	585					betalactone	K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_64	1287					betalactone	K08369	MFS transporter, putative metabolite:H+ symporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_65	789					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_66	309					betalactone	K10947	PadR family transcriptional regulator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_67	606					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_68	978					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_69	1026					betalactone	K07241	nickel/cobalt transporter (NiCoT) family protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_7	1464						K12268	accessory secretory protein Asp1
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_70	516					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_71	1440					betalactone	K01911	o-succinylbenzoate---CoA ligase [EC:6.2.1.26]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_72	711					betalactone	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_73	882					betalactone	K02077	zinc/manganese transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_74	441					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_75	918					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_76	1461					betalactone	K00036	glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_77	141	smorfinder	smorfam02971			betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_78	1233					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_79	513					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_8	1473						K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_80	978					betalactone	K05275	pyridoxine 4-dehydrogenase [EC:1.1.1.65]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_81	471					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_82	867					betalactone		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_83	381							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_84	111			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_85	1083							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_86	252							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_87	1356						K03315	Na+:H+ antiporter, NhaC family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_88	489						K03828	putative acetyltransferase [EC:2.3.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_89	429							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_9	1626						K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_90	492						K09167	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_91	1452						K08981	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_92	957						K09936	bacterial/archaeal transporter family-2 protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_93	822						K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_94	1512						K03493	transcriptional antiterminator
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_95	1074						K03476	L-ascorbate 6-phosphate lactonase [EC:3.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_96	477						K02821	ascorbate PTS system EIIA or EIIAB component [EC:2.7.1.194]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_97	1512						K03475	ascorbate PTS system EIIC component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_98	306						K02822	ascorbate PTS system EIIB component [EC:2.7.1.194]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_29060_99	639						K03078	3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_42269_1	132							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_46810_1	105			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_1	918						K03544	ATP-dependent Clp protease ATP-binding subunit ClpX
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_2	594						K03978	GTP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_3	1911						K16209	lactose/raffinose/galactose permease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_4	1014							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_5	339							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_6	1191						K00849	galactokinase [EC:2.7.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_7	1509							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_50209_8	1002						K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_52699_1	768							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_52699_2	1635						K02791	maltose/glucose PTS system EIICB component [EC:2.7.1.199 2.7.1.208]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_52699_3	741							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_52699_4	480							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_52699_5	249							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_6722_1	1515							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_1	876							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_10	1578						K01193	beta-fructofuranosidase [EC:3.2.1.26]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_100	852						K01627	2-dehydro-3-deoxyphosphooctonate aldolase (KDO 8-P synthase) [EC:2.5.1.55]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_101	450							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_102	891						K02077	zinc/manganese transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_103	411							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_11	2682						K02335	DNA polymerase I [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_12	996						K07284	sortase A [EC:3.4.22.70]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_13	1230							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_14	339						K03713	MerR family transcriptional regulator, glutamine synthetase repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_15	1347						K01915	glutamine synthetase [EC:6.3.1.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_16	486						K01588	5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_17	1110						K01589	5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_18	750							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_19	270						K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_2	225							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_20	669						K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_21	2217						K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_22	1611						K00764	amidophosphoribosyltransferase [EC:2.4.2.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_23	1038						K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_24	591						K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_25	1527						K00602	phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_26	1173						K03547	DNA repair protein SbcD/Mre11
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_27	2364							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_28	951						K03698	3'-5' exoribonuclease [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_29	159							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_3	555							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_30	1290							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_31	1314						K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_32	1098							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_33	1473						K01928	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_34	1011						K03800	lipoate---protein ligase [EC:6.3.1.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_35	1137							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_36	981							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_37	1296						K09699	2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_38	1410						K00382	dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_39	792							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_4	294							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_40	1116							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_41	441							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_42	1176						K15051	DNA-entry nuclease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_43	171			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_44	537						K21908	membrane protein HdeD
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_45	2085						K03168	DNA topoisomerase I [EC:5.6.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_46	888							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_47	504							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_48	804							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_49	1203							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_5	675						K01243	adenosylhomocysteine nucleosidase [EC:3.2.2.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_50	1626						K02551	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase [EC:2.2.1.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_51	801						K08680	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase [EC:4.2.99.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_52	1101							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_53	1266							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_54	1206						K00974	tRNA nucleotidyltransferase (CCA-adding enzyme) [EC:2.7.7.72 3.1.3.- 3.1.4.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_55	498						K00287	dihydrofolate reductase [EC:1.5.1.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_56	855						K25232	fatty acid kinase fatty acid binding subunit
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_57	987							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_58	549						K16923	energy-coupling factor transport system substrate-specific component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_59	912							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_6	657							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_60	615							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_61	228							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_62	855						K14540	ribosome biogenesis GTPase A
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_63	762						K03470	ribonuclease HII [EC:3.1.26.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_64	642							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_65	1374						K01552	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_66	294							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_67	582						K16925	energy-coupling factor transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_68	690						K06967	tRNA (adenine22-N1)-methyltransferase [EC:2.1.1.217]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_69	786						K22391	GTP cyclohydrolase I [EC:3.5.4.16]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_7	1335						K01924	UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_70	1236						K01258	tripeptide aminopeptidase [EC:3.4.11.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_71	198							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_72	3339						K02337	DNA polymerase III subunit alpha [EC:2.7.7.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_73	1422						K00873	pyruvate kinase [EC:2.7.1.40]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_74	1197						K03320	ammonium transporter, Amt family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_75	993						K06217	phosphate starvation-inducible protein PhoH and related proteins
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_76	483						K07042	probable rRNA maturation factor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_77	468						K00887	undecaprenol kinase [EC:2.7.1.66]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_78	912						K03595	GTPase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_79	780						K03584	DNA repair protein RecO (recombination protein O)
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_8	720						K06890	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_80	963						K01424	L-asparaginase [EC:3.5.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_81	552							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_82	1356						K00928	aspartate kinase [EC:2.7.2.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_83	879						K00872	homoserine kinase [EC:2.7.1.39]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_84	1278						K00003	homoserine dehydrogenase [EC:1.1.1.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_85	1458						K01733	threonine synthase [EC:4.2.3.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_86	1233						K00600	glycine hydroxymethyltransferase [EC:2.1.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_87	537						K01934	5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_88	1197						K00574	cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_89	834							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_9	396							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_90	918						K09936	bacterial/archaeal transporter family-2 protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_91	696						K01807	ribose 5-phosphate isomerase A [EC:5.3.1.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_92	942						K00852	ribokinase [EC:2.7.1.15]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_93	1011						K02529	LacI family transcriptional regulator, galactose operon repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_94	117			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_95	1059						K16323	purine nucleoside transport protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_96	933							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_97	960							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_98	1284						K03281	chloride channel protein, CIC family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_67304_99	957						K06041	arabinose-5-phosphate isomerase [EC:5.3.1.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_1	438							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_10	1404						K03292	glycoside/pentoside/hexuronide:cation symporter, GPH family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_100	777						K03149	thiazole synthase [EC:2.8.1.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_101	1227							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_102	1200							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_103	777						K02050	NitT/TauT family transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_104	723							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_105	741						K15553	sulfonate transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_106	231							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_107	1530							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_108	1143							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_109	762						K03366	meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_11	2139						K01811	alpha-D-xyloside xylohydrolase [EC:3.2.1.177]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_110	936							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_111	1200							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_112	1371							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_113	462							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_114	2115						K06994	putative drug exporter of the RND superfamily
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_115	1233						K11623	two-component system, NarL family, sensor histidine kinase YdfH [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_116	477							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_117	777							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_118	408							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_119	462							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_12	822							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_120	414						K01489	cytidine deaminase [EC:3.5.4.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_121	615							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_122	339							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_123	558							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_124	474							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_125	1626							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_13	1863						K02316	DNA primase [EC:2.7.7.101]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_14	1299						K03086	RNA polymerase primary sigma factor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_15	558							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_16	738							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_17	294							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_18	516							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_19	1197							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_2	315						K07497	putative transposase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_20	837						K02030	polar amino acid transport system substrate-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_21	660						K02029	polar amino acid transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_22	723						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_23	939							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_24	1182							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_25	1143						K08161	MFS transporter, DHA1 family, multidrug resistance protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_26	984							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_27	243							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_28	423						K02503	histidine triad (HIT) family protein [EC:3.9.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_29	741						K25158	ABC-2 type transport system ATP-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_3	1023							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_30	1287						K25157	ABC-2 type transport system permease protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_31	660						K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_32	219							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_33	309							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_34	204							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_35	330							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_36	816							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_37	498							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_38	1206						K13038	phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_39	270							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_4	258							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_40	1692						K01887	arginyl-tRNA synthetase [EC:6.1.1.19]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_41	471						K03402	transcriptional regulator of arginine metabolism
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_42	2061						K12555	penicillin-binding protein 2A [EC:2.4.99.28 3.4.16.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_43	354							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_44	624						K03100	signal peptidase I [EC:3.4.21.89]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_45	894						K00609	aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_46	1278						K01465	dihydroorotase [EC:3.5.2.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_47	1086						K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_48	3180						K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_49	696						K01591	orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_5	237							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_50	633						K00762	orotate phosphoribosyltransferase [EC:2.4.2.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_51	639					T3PKS	K01356	repressor LexA [EC:3.4.21.88]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_52	237					T3PKS	K09976	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_53	639					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_54	765					T3PKS	K15460	tRNA1Val (adenine37-N6)-methyltransferase [EC:2.1.1.223]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_55	273					T3PKS	K07461	putative endonuclease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_56	777					T3PKS	K02967	small subunit ribosomal protein S2
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_57	876					T3PKS	K02357	elongation factor Ts
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_58	726					T3PKS	K09903	uridylate kinase [EC:2.7.4.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_59	546					T3PKS	K02838	ribosome recycling factor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_6	210							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_60	813					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_61	291					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_62	942					T3PKS	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_63	2058					T3PKS	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_64	1053					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_65	1863					T3PKS	K03596	GTP-binding protein LepA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_66	792					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_67	1071					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_68	891					T3PKS	K02687	ribosomal protein L11 methyltransferase [EC:2.1.1.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_69	738					T3PKS	K09761	16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_7	219							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_70	438					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_71	1623					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_72	1158					T3PKS	K01641	hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_73	636					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_74	444					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_75	279					T3PKS	K07166	ACT domain-containing protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_76	1344					T3PKS	K09157	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_77	441					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_78	903					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_79	879					T3PKS	K01785	aldose 1-epimerase [EC:5.1.3.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_8	213							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_80	1188					T3PKS	K01696	tryptophan synthase beta chain [EC:4.2.1.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_81	1026					T3PKS	K00766	anthranilate phosphoribosyltransferase [EC:2.4.2.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_82	789					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_83	576					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_84	777					T3PKS	K01695	tryptophan synthase alpha chain [EC:4.2.1.20]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_85	1365					T3PKS	K01657	anthranilate synthase component I [EC:4.1.3.27]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_86	573					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_87	1923					T3PKS	K00615	transketolase [EC:2.2.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_88	825					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_89	993					T3PKS		
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_9	444							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_90	1065					T3PKS	K01735	3-dehydroquinate synthase [EC:4.2.3.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_91	1179					T3PKS	K01736	chorismate synthase [EC:4.2.3.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_92	1305						K00800	3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_93	852						K04517	prephenate dehydrogenase [EC:1.3.1.12]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_94	801						K00891	shikimate kinase [EC:2.7.1.71]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_95	555							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_96	882						K03785	3-dehydroquinate dehydratase I [EC:4.2.1.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_97	639						K00788	thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_98	198						K03154	sulfur carrier protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_75811_99	648							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_1	372						K09707	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_10	1836							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_11	477							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_12	501							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_13	414							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_14	318							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_15	204			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_16	1239							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_17	885							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_18	108	smorfinder	smorfam02468					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_19	204							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_2	1128						K14059	integrase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_20	798							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_21	279							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_22	1527							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_23	948							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_24	1281							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_25	333							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_26	1053						K13953	alcohol dehydrogenase, propanol-preferring [EC:1.1.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_27	1272							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_28	1218						K00927	phosphoglycerate kinase [EC:2.7.2.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_29	831							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_3	189							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_30	1446						K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_4	348							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_5	300							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_6	1161							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_7	561						K06904	Escherichia/Staphylococcus phage prohead protease
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_8	924							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_7987_9	174							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_82482_1	96	smorfinder	smorfam02288					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_82482_2	1197						K00925	acetate kinase [EC:2.7.2.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_1	3609						K03043	DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_10	1209						K03739	membrane protein involved in D-alanine export
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_11	237						K14188	D-alanine--poly(phosphoribitol) ligase subunit 2 [EC:6.1.1.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_12	1287						K03740	D-alanine transfer protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_13	411						K00997	holo-[acyl-carrier protein] synthase [EC:2.7.8.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_14	1122						K01775	alanine racemase [EC:5.1.1.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_15	366						K07171	mRNA interferase MazF [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_16	702						K14983	two-component system, OmpR family, response regulator CiaR
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_17	1299						K14982	two-component system, OmpR family, sensor histidine kinase CiaH [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_18	858							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_19	327							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_2	3663						K03046	DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_20	918						K00651	homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_21	1110							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_22	1140						K01760	cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_23	1128						K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_24	477						K07173	S-ribosylhomocysteine lyase [EC:4.4.1.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_25	1128						K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_26	99			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_27	1293						K01740	O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_28	1596							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_29	717						K07010	putative glutamine amidotransferase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_3	408						K11145	mini-ribonuclease III [EC:3.1.26.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_30	894						K00297	methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_31	2301						K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_32	996							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_33	1131						K07035	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_34	1845							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_35	174							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_36	732						K07009	lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_37	1359						K23393	lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_38	618						K01519	XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_39	912							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_4	750						K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_40	636						K00857	thymidine kinase [EC:2.7.1.21]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_41	1071						K02835	peptide chain release factor 1
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_42	993						K02493	release factor glutamine methyltransferase [EC:2.1.1.297]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_43	1014						K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_44	1491						K01299	carboxypeptidase Taq [EC:3.4.17.19]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_45	270						K02784	phosphocarrier protein HPr
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_46	1716						K08483	phosphoenolpyruvate-protein phosphotransferase (PTS system enzyme I) [EC:2.7.3.9]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_47	774						K14742	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_48	558						K03789	[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_49	438						K03789	[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_5	552							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_50	1017						K25706	tRNA N6-adenosine threonylcarbamoyltransferase [EC:2.3.1.234]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_51	651						K01926	redox-sensing transcriptional repressor
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_52	1038						K05363	serine/alanine adding enzyme [EC:2.3.2.10]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_53	819							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_54	483							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_55	744							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_56	960						K01809	mannose-6-phosphate isomerase [EC:5.3.1.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_57	945						K02794	mannose PTS system EIIAB component [EC:2.7.1.191]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_58	807						K02795	mannose PTS system EIIC component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_59	918						K02796	mannose PTS system EIID component
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_6	837							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_60	360							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_61	834							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_62	285						K04078	chaperonin GroES
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_63	1620						K04077	chaperonin GroEL [EC:5.6.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_64	804							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_65	1338						K01372	bleomycin hydrolase [EC:3.4.22.40]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_66	444							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_67	639							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_68	891							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_69	996						K03778	D-lactate dehydrogenase [EC:1.1.1.28]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_7	1197							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_70	1239						K07035	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_71	549							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_72	222							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_73	231							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_8	141	smorfinder	smorfam01044					
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88411_9	1530						K03367	D-alanine--poly(phosphoribitol) ligase subunit 1 [EC:6.1.1.13]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_1	204			deeppeptide	Propeptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_2	600						K00655	1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_3	609							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_4	267							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_5	672						K01838	beta-phosphoglucomutase [EC:5.4.2.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_6	984						K01785	aldose 1-epimerase [EC:5.1.3.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_7	2259						K00691	maltose phosphorylase [EC:2.4.1.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_8	1353						K16211	maltose/moltooligosaccharide transporter
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_88851_9	270							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_93468_1	126							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_1	372							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_10	522						K03558	membrane protein required for colicin V production
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_11	393						K09888	cell division protein ZapA
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_12	378							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_13	912						K03471	ribonuclease HIII [EC:3.1.26.4]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_14	531							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_15	393							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_16	1554						K18682	ribonucrease Y [EC:3.1.-.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_17	465						K03664	SsrA-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_18	2325						K12573	ribonuclease R [EC:3.1.13.1]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_19	237						K03075	preprotein translocase subunit SecG
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_2	384						K07570	general stress protein 13
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_20	774						K03437	RNA methyltransferase, TrmH family
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_21	924						K03217	YidC/Oxa1 family membrane protein insertase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_22	273						K01512	acylphosphatase [EC:3.6.1.7]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_23	1101						K18940	two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_24	690						K18941	two-component system, OmpR family, response regulator ArlR
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_25	546						K07040	DUF177 domain-containing protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_26	1173						K27343	tRNAmet cytidine acetate ligase [EC:6.3.1.22]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_27	753							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_28	375						K09710	ribosome-associated protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_29	585						K06950	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_3	588						K03768	peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_30	639						K00969	nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_31	312						K07574	RNA-binding protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_32	1140						K06948	30S ribosome assembly GTPase
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_33	537						K07015	putative phosphatase [EC:3.1.3.-]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_34	657							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_35	504						K08996	putative membrane protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_36	651						K07118	uncharacterized protein
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_37	216							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_38	99			deeppeptide	Peptide			
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_39	420							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_4	213						K03060	DNA-directed RNA polymerase subunit omega [EC:2.7.7.6]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_40	4584						K00689	dextransucrase [EC:2.4.1.5]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_5	597						K00942	guanylate kinase [EC:2.7.4.8]
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_6	327							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_7	1077							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_8	351							
+AlvarezOrdonezA_xxxx__Q02-27__bin.13	Q02-27_k141_97637_9	2403						K07456	DNA mismatch repair protein MutS2

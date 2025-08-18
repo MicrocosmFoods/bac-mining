@@ -279,9 +279,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                 'genome': genome,
                 'locus_tag': locus_tag,
                 'gene_length': gene_info['length'],
-                'smorfinder_peptide': '',
                 'smorfinder_peptide_name': '',
-                'deeppeptide_peptide': '',
                 'deeppeptide_peptide_name': '',
                 'antismash_bgc_type': '',
                 'ko_number': '',
@@ -307,7 +305,6 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                     matched = False
                     for entry in summary_data:
                         if entry['locus_tag'] == locus_tag:
-                            entry['smorfinder_peptide'] = 'smorfinder'
                             entry['smorfinder_peptide_name'] = row.get('smorfam', '')  # Use smorfam as peptide name
                             annotations_added += 1
                             matched = True
@@ -319,7 +316,6 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                             if (hasattr(entry, 'gene_start') and hasattr(entry, 'gene_end') and
                                 entry['gene_start'] and entry['gene_end'] and
                                 entry['gene_start'] == smorf_start and entry['gene_end'] == smorf_end):
-                                entry['smorfinder_peptide'] = 'smorfinder'
                                 entry['smorfinder_peptide_name'] = row.get('smorfam', '')
                                 annotations_added += 1
                                 matched = True
@@ -331,9 +327,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                             'genome': genome,
                             'locus_tag': locus_tag if locus_tag else f"smorf_{smorf_start}_{smorf_end}",
                             'gene_length': '',
-                            'smorfinder_peptide': 'smorfinder',
                             'smorfinder_peptide_name': row.get('smorfam', ''),
-                            'deeppeptide_peptide': '',
                             'deeppeptide_peptide_name': '',
                             'antismash_bgc_type': '',
                             'ko_number': '',
@@ -360,7 +354,6 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                     matched = False
                     for entry in summary_data:
                         if entry['locus_tag'] == locus_tag:
-                            entry['deeppeptide_peptide'] = 'deeppeptide'
                             entry['deeppeptide_peptide_name'] = row.get('peptide_class', '')  # Use peptide_class as name
                             annotations_added += 1
                             matched = True
@@ -372,9 +365,7 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
                             'genome': genome,
                             'locus_tag': locus_tag,
                             'gene_length': '',
-                            'smorfinder_peptide': '',
                             'smorfinder_peptide_name': '',
-                            'deeppeptide_peptide': 'deeppeptide',
                             'deeppeptide_peptide_name': row.get('peptide_class', ''),
                             'antismash_bgc_type': '',
                             'ko_number': '',
@@ -477,8 +468,20 @@ def create_genome_summaries(input_dir, output_dir, predicted_orfs_dir, genome_li
         if summary_data:
             summary_df = pd.DataFrame(summary_data)
             
-            # Sort by locus tag for better readability
-            summary_df = summary_df.sort_values('locus_tag')
+            # Define the desired column order
+            column_order = [
+                'genome',
+                'locus_tag', 
+                'gene_length',
+                'smorfinder_peptide_name',
+                'deeppeptide_peptide_name',
+                'antismash_bgc_type',
+                'ko_number',
+                'kofamscan_annotation'
+            ]
+            
+            # Reorder columns and sort by locus tag for better readability
+            summary_df = summary_df[column_order].sort_values('locus_tag')
             
             # Save genome summary
             output_file = output_path / f"{genome}_genome_summary.tsv"

@@ -1,0 +1,2769 @@
+genome	locus_tag	gene_length	smorfinder_peptide	smorfinder_peptide_name	deeppeptide_peptide	deeppeptide_peptide_name	antismash_bgc_type	ko_number	kofamscan_annotation
+MAG_321	MAG_321_0_1	636						K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]
+MAG_321	MAG_321_0_10	2106						K13040	two-component system, LuxR family, sensor histidine kinase TtrS [EC:2.7.13.3]
+MAG_321	MAG_321_0_100	465							
+MAG_321	MAG_321_0_101	2007							
+MAG_321	MAG_321_0_102	2814						K00163	pyruvate dehydrogenase E1 component [EC:1.2.4.1]
+MAG_321	MAG_321_0_103	1734							
+MAG_321	MAG_321_0_104	642						K07275	outer membrane protein
+MAG_321	MAG_321_0_105	228							
+MAG_321	MAG_321_0_106	984						K10716	voltage-gated potassium channel
+MAG_321	MAG_321_0_107	648							
+MAG_321	MAG_321_0_108	1119							
+MAG_321	MAG_321_0_109	2856						K04770	Lon-like ATP-dependent protease [EC:3.4.21.-]
+MAG_321	MAG_321_0_11	678							
+MAG_321	MAG_321_0_110	717						K03501	16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]
+MAG_321	MAG_321_0_111	780						K03496	chromosome partitioning protein
+MAG_321	MAG_321_0_112	1146						K03497	ParB family transcriptional regulator, chromosome partitioning protein
+MAG_321	MAG_321_0_113	735						K03561	biopolymer transport protein ExbB
+MAG_321	MAG_321_0_114	432						K03559	biopolymer transport protein ExbD
+MAG_321	MAG_321_0_115	1788						K11085	ATP-binding cassette, subfamily B, bacterial MsbA [EC:7.5.2.6]
+MAG_321	MAG_321_0_116	1152						K00912	tetraacyldisaccharide 4'-kinase [EC:2.7.1.130]
+MAG_321	MAG_321_0_117	813						K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]
+MAG_321	MAG_321_0_118	1137							
+MAG_321	MAG_321_0_119	348						K02676	type IV pilus assembly protein PilZ
+MAG_321	MAG_321_0_12	795						K05833	putative tryptophan/tyrosine transport system ATP-binding protein
+MAG_321	MAG_321_0_120	1014						K22468	polyphosphate kinase [EC:2.7.4.34]
+MAG_321	MAG_321_0_121	1542						K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+MAG_321	MAG_321_0_122	1401						K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+MAG_321	MAG_321_0_123	918							
+MAG_321	MAG_321_0_124	543							
+MAG_321	MAG_321_0_125	1416							
+MAG_321	MAG_321_0_126	1248						K24160	sodium/hydrogen antiporter
+MAG_321	MAG_321_0_127	1887						K01687	dihydroxy-acid dehydratase [EC:4.2.1.9]
+MAG_321	MAG_321_0_128	795							
+MAG_321	MAG_321_0_129	441						K02503	histidine triad (HIT) family protein [EC:3.9.1.-]
+MAG_321	MAG_321_0_13	900						K05832	putative tryptophan/tyrosine transport system permease protein
+MAG_321	MAG_321_0_130	2046						K02168	choline/glycine/proline betaine transport protein
+MAG_321	MAG_321_0_131	1032						K05540	tRNA-dihydrouridine synthase B [EC:1.-.-.-]
+MAG_321	MAG_321_0_132	390							
+MAG_321	MAG_321_0_133	888							
+MAG_321	MAG_321_0_134	279							
+MAG_321	MAG_321_0_135	1068							
+MAG_321	MAG_321_0_136	915							
+MAG_321	MAG_321_0_137	546							
+MAG_321	MAG_321_0_138	981							
+MAG_321	MAG_321_0_139	2154						K01534	Zn2+/Cd2+-exporting ATPase [EC:7.2.2.12 7.2.2.21]
+MAG_321	MAG_321_0_14	1041						K01989	putative tryptophan/tyrosine transport system substrate-binding protein
+MAG_321	MAG_321_0_140	411							
+MAG_321	MAG_321_0_141	126							
+MAG_321	MAG_321_0_142	195							
+MAG_321	MAG_321_0_143	2478						K17686	P-type Cu+ transporter [EC:7.2.2.8]
+MAG_321	MAG_321_0_144	393						K19591	MerR family transcriptional regulator, copper efflux regulator
+MAG_321	MAG_321_0_145	327							
+MAG_321	MAG_321_0_146	468							
+MAG_321	MAG_321_0_147	531						K01507	inorganic pyrophosphatase [EC:3.6.1.1]
+MAG_321	MAG_321_0_148	783							
+MAG_321	MAG_321_0_149	1485						K00154	coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+MAG_321	MAG_321_0_15	1053						K01989	putative tryptophan/tyrosine transport system substrate-binding protein
+MAG_321	MAG_321_0_150	1932						K02001	glycine betaine/proline transport system permease protein
+MAG_321	MAG_321_0_151	909						K02000	glycine betaine/proline transport system ATP-binding protein [EC:7.6.2.9]
+MAG_321	MAG_321_0_152	1815						K12267	peptide methionine sulfoxide reductase msrA/msrB [EC:1.8.4.11 1.8.4.12]
+MAG_321	MAG_321_0_153	1077						K07496	putative transposase
+MAG_321	MAG_321_0_154	1242						K00763	nicotinate phosphoribosyltransferase [EC:6.3.4.21]
+MAG_321	MAG_321_0_155	246						K03602	exodeoxyribonuclease VII small subunit [EC:3.1.11.6]
+MAG_321	MAG_321_0_156	1515						K03601	exodeoxyribonuclease VII large subunit [EC:3.1.11.6]
+MAG_321	MAG_321_0_157	369							
+MAG_321	MAG_321_0_158	660						K07018	uncharacterized protein
+MAG_321	MAG_321_0_159	1101						K06916	cell division protein ZapE
+MAG_321	MAG_321_0_16	2112						K01874	methionyl-tRNA synthetase [EC:6.1.1.10]
+MAG_321	MAG_321_0_160	645							
+MAG_321	MAG_321_0_161	1296						K00057	glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]
+MAG_321	MAG_321_0_162	459						K08296	phosphohistidine phosphatase [EC:3.1.3.-]
+MAG_321	MAG_321_0_163	1257						K02461	general secretion pathway protein L
+MAG_321	MAG_321_0_164	567							
+MAG_321	MAG_321_0_165	546							
+MAG_321	MAG_321_0_166	1035						K00254	dihydroorotate dehydrogenase [EC:1.3.5.2]
+MAG_321	MAG_321_0_167	498						K03558	membrane protein required for colicin V production
+MAG_321	MAG_321_0_168	1536						K00764	amidophosphoribosyltransferase [EC:2.4.2.14]
+MAG_321	MAG_321_0_169	366						K26606	branched chain amino acid efflux pump
+MAG_321	MAG_321_0_17	1416							
+MAG_321	MAG_321_0_170	732						K26605	branched chain amino acid efflux pump
+MAG_321	MAG_321_0_171	1422							
+MAG_321	MAG_321_0_172	1272						K03074	preprotein translocase subunit SecF
+MAG_321	MAG_321_0_173	1878						K03072	preprotein translocase subunit SecD
+MAG_321	MAG_321_0_174	330						K03210	preprotein translocase subunit YajC
+MAG_321	MAG_321_0_175	1392							
+MAG_321	MAG_321_0_176	495							
+MAG_321	MAG_321_0_177	3000						K08307	peptidoglycan lytic transglycosylase D [EC:4.2.2.29]
+MAG_321	MAG_321_0_178	1209						K18691	peptidoglycan lytic transglycosylase F [EC:4.2.2.29]
+MAG_321	MAG_321_0_179	834							
+MAG_321	MAG_321_0_18	714						K01028	3-oxoacid CoA-transferase subunit A [EC:2.8.3.5]
+MAG_321	MAG_321_0_180	1329						K04691	serine protease DegS [EC:3.4.21.-]
+MAG_321	MAG_321_0_181	267						K11107	ferredoxin
+MAG_321	MAG_321_0_182	1134						K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]
+MAG_321	MAG_321_0_183	384							
+MAG_321	MAG_321_0_184	288						K06218	mRNA interferase RelE/StbE
+MAG_321	MAG_321_0_185	252						K18923	antitoxin StbD
+MAG_321	MAG_321_0_186	1218							
+MAG_321	MAG_321_0_187	2277						K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]
+MAG_321	MAG_321_0_188	393						K09158	uncharacterized protein
+MAG_321	MAG_321_0_189	699							
+MAG_321	MAG_321_0_19	630						K01029	3-oxoacid CoA-transferase subunit B [EC:2.8.3.5]
+MAG_321	MAG_321_0_190	648						K03707	thiaminase (transcriptional activator TenA) [EC:3.5.99.2]
+MAG_321	MAG_321_0_191	927						K08994	ion channel-forming bestrophin family protein
+MAG_321	MAG_321_0_192	774						K01265	methionyl aminopeptidase [EC:3.4.11.18]
+MAG_321	MAG_321_0_193	261							
+MAG_321	MAG_321_0_194	1917						K03086	RNA polymerase primary sigma factor
+MAG_321	MAG_321_0_195	2163						K02316	DNA primase [EC:2.7.7.101]
+MAG_321	MAG_321_0_196	1203						K05807	outer membrane protein assembly factor BamD
+MAG_321	MAG_321_0_197	1176						K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]
+MAG_321	MAG_321_0_198	963						K05810	purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase [EC:2.4.2.1 2.4.2.28 3.5.4.4]
+MAG_321	MAG_321_0_199	603						K03809	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]
+MAG_321	MAG_321_0_2	1515						K03427	type I restriction enzyme M protein [EC:2.1.1.72]
+MAG_321	MAG_321_0_20	801							
+MAG_321	MAG_321_0_200	186							
+MAG_321	MAG_321_0_201	1470							
+MAG_321	MAG_321_0_202	1602							
+MAG_321	MAG_321_0_203	693							
+MAG_321	MAG_321_0_204	1302						K03641	TolB protein
+MAG_321	MAG_321_0_205	972							
+MAG_321	MAG_321_0_206	459						K03559	biopolymer transport protein ExbD
+MAG_321	MAG_321_0_207	741						K03561	biopolymer transport protein ExbB
+MAG_321	MAG_321_0_208	1296						K06901	adenine/guanine/hypoxanthine permease
+MAG_321	MAG_321_0_209	3255						K13821	RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]
+MAG_321	MAG_321_0_21	1353						K06213	magnesium transporter
+MAG_321	MAG_321_0_210	693							
+MAG_321	MAG_321_0_211	1173						K18850	50S ribosomal protein L16 3-hydroxylase [EC:1.14.11.47]
+MAG_321	MAG_321_0_212	195							
+MAG_321	MAG_321_0_213	1392						K01756	adenylosuccinate lyase [EC:4.3.2.2]
+MAG_321	MAG_321_0_214	1857							
+MAG_321	MAG_321_0_215	1227						K00566	tRNA-uridine 2-sulfurtransferase [EC:2.8.1.13]
+MAG_321	MAG_321_0_216	504						K01770	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [EC:4.6.1.12]
+MAG_321	MAG_321_0_217	351						K07390	monothiol glutaredoxin
+MAG_321	MAG_321_0_218	531							
+MAG_321	MAG_321_0_219	1896						K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme
+MAG_321	MAG_321_0_22	1224						K03593	ATP-binding protein involved in chromosome partitioning
+MAG_321	MAG_321_0_220	960						K13936	malonate transporter and related proteins
+MAG_321	MAG_321_0_221	1032							
+MAG_321	MAG_321_0_222	171			deeppeptide	Propeptide			
+MAG_321	MAG_321_0_223	1002							
+MAG_321	MAG_321_0_224	930							
+MAG_321	MAG_321_0_225	585						K18697	phosphatidylglycerophosphatase C [EC:3.1.3.27]
+MAG_321	MAG_321_0_226	2301						K03782	catalase-peroxidase [EC:1.11.1.21]
+MAG_321	MAG_321_0_227	1902						K08218	MFS transporter, PAT family, beta-lactamase induction signal transducer AmpG
+MAG_321	MAG_321_0_228	912						K02493	release factor glutamine methyltransferase [EC:2.1.1.297]
+MAG_321	MAG_321_0_229	795							
+MAG_321	MAG_321_0_23	1143							
+MAG_321	MAG_321_0_230	1353							
+MAG_321	MAG_321_0_231	1254							
+MAG_321	MAG_321_0_232	489						K03719	Lrp/AsnC family transcriptional regulator, leucine-responsive regulatory protein
+MAG_321	MAG_321_0_233	1785						K01649	2-isopropylmalate synthase [EC:2.3.3.13]
+MAG_321	MAG_321_0_234	621							
+MAG_321	MAG_321_0_235	1362						K01961	acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]
+MAG_321	MAG_321_0_236	429						K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein
+MAG_321	MAG_321_0_237	1368						K26939	MATE family, multidrug efflux pump
+MAG_321	MAG_321_0_238	1041							
+MAG_321	MAG_321_0_239	495							
+MAG_321	MAG_321_0_24	576						K01494	dCTP deaminase [EC:3.5.4.13]
+MAG_321	MAG_321_0_240	120							
+MAG_321	MAG_321_0_241	1137							
+MAG_321	MAG_321_0_242	141	smorfinder	smorfam00147				K16348	entericidin B
+MAG_321	MAG_321_0_243	573						K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]
+MAG_321	MAG_321_0_244	357						K11179	tRNA 2-thiouridine synthesizing protein E [EC:2.8.1.-]
+MAG_321	MAG_321_0_245	360							
+MAG_321	MAG_321_0_246	324							
+MAG_321	MAG_321_0_247	432						K07235	tRNA 2-thiouridine synthesizing protein D [EC:2.8.1.-]
+MAG_321	MAG_321_0_248	2880						K00982	[glutamine synthetase] adenylyltransferase / [glutamine synthetase]-adenylyl-L-tyrosine phosphorylase [EC:2.7.7.42 2.7.7.89]
+MAG_321	MAG_321_0_249	930						K00826	branched-chain amino acid aminotransferase [EC:2.6.1.42]
+MAG_321	MAG_321_0_25	438						K03600	stringent starvation protein B
+MAG_321	MAG_321_0_250	1089							
+MAG_321	MAG_321_0_251	963							
+MAG_321	MAG_321_0_252	978							
+MAG_321	MAG_321_0_253	870							
+MAG_321	MAG_321_0_254	801							
+MAG_321	MAG_321_0_255	960						K02517	Kdo2-lipid IVA lauroyltransferase/acyltransferase [EC:2.3.1.241 2.3.1.-]
+MAG_321	MAG_321_0_256	1842						K01876	aspartyl-tRNA synthetase [EC:6.1.1.12]
+MAG_321	MAG_321_0_257	981						K04774	serine protease SohB [EC:3.4.21.-]
+MAG_321	MAG_321_0_258	1269						K00249	acyl-CoA dehydrogenase [EC:1.3.8.7]
+MAG_321	MAG_321_0_259	1278							
+MAG_321	MAG_321_0_26	615						K03599	stringent starvation protein A
+MAG_321	MAG_321_0_260	759							
+MAG_321	MAG_321_0_261	870							
+MAG_321	MAG_321_0_262	1701							
+MAG_321	MAG_321_0_263	1698							
+MAG_321	MAG_321_0_264	795						K02069	UDP-glucose/iron transport system permease protein
+MAG_321	MAG_321_0_265	879						K02068	UDP-glucose/iron transport system ATP-binding protein
+MAG_321	MAG_321_0_266	591						K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]
+MAG_321	MAG_321_0_267	825						K01142	exodeoxyribonuclease III [EC:3.1.11.2]
+MAG_321	MAG_321_0_268	1224						K00620	glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]
+MAG_321	MAG_321_0_269	399							
+MAG_321	MAG_321_0_27	717						K00413	ubiquinol-cytochrome c reductase cytochrome c1 subunit
+MAG_321	MAG_321_0_270	1434						K01752	L-serine dehydratase [EC:4.3.1.17]
+MAG_321	MAG_321_0_271	1434						K09016	putative pyrimidine permease RutG
+MAG_321	MAG_321_0_272	933							
+MAG_321	MAG_321_0_273	1002							
+MAG_321	MAG_321_0_274	1029							
+MAG_321	MAG_321_0_275	165							
+MAG_321	MAG_321_0_276	570						K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]
+MAG_321	MAG_321_0_277	477							
+MAG_321	MAG_321_0_278	942						K00616	transaldolase [EC:2.2.1.2]
+MAG_321	MAG_321_0_279	1182						K14170	chorismate mutase / prephenate dehydratase [EC:5.4.99.5 4.2.1.51]
+MAG_321	MAG_321_0_28	1227						K00412	ubiquinol-cytochrome c reductase cytochrome b subunit
+MAG_321	MAG_321_0_280	1143						K00817	histidinol-phosphate aminotransferase [EC:2.6.1.9]
+MAG_321	MAG_321_0_281	2307						K24018	cyclohexadieny/prephenate dehydrogenase / 3-phosphoshikimate 1-carboxyvinyltransferase [EC:1.3.1.43 1.3.1.12 2.5.1.19]
+MAG_321	MAG_321_0_282	963						K05786	chloramphenicol-sensitive protein RarD
+MAG_321	MAG_321_0_283	411						K01633	7,8-dihydroneopterin aldolase/epimerase/oxygenase [EC:4.1.2.25 5.1.99.8 1.13.11.81]
+MAG_321	MAG_321_0_284	609						K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]
+MAG_321	MAG_321_0_285	735						K00038	3alpha(or 20beta)-hydroxysteroid dehydrogenase [EC:1.1.1.53]
+MAG_321	MAG_321_0_286	543							
+MAG_321	MAG_321_0_287	942						K00640	serine O-acetyltransferase [EC:2.3.1.30]
+MAG_321	MAG_321_0_288	444							
+MAG_321	MAG_321_0_289	894							
+MAG_321	MAG_321_0_29	585						K00411	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]
+MAG_321	MAG_321_0_290	378						K20976	histidine phosphotransfer protein HptB
+MAG_321	MAG_321_0_291	3711						K02337	DNA polymerase III subunit alpha [EC:2.7.7.7]
+MAG_321	MAG_321_0_292	678							
+MAG_321	MAG_321_0_293	432						K07448	restriction system protein
+MAG_321	MAG_321_0_294	1449						K03310	alanine or glycine:cation symporter, AGCS family
+MAG_321	MAG_321_0_295	1512						K09472	4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]
+MAG_321	MAG_321_0_296	867						K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+MAG_321	MAG_321_0_297	1248						K21060	D-hydroxyproline dehydrogenase [EC:1.5.99.-]
+MAG_321	MAG_321_0_298	1023						K12658	4-hydroxyproline epimerase [EC:5.1.1.8]
+MAG_321	MAG_321_0_299	804							
+MAG_321	MAG_321_0_3	498							
+MAG_321	MAG_321_0_30	1944						K15738	ABC transport system ATP-binding/permease protein
+MAG_321	MAG_321_0_300	1947						K00681	gamma-glutamyltranspeptidase / glutathione hydrolase [EC:2.3.2.2 3.4.19.13]
+MAG_321	MAG_321_0_301	747							
+MAG_321	MAG_321_0_302	1440							
+MAG_321	MAG_321_0_303	1635							
+MAG_321	MAG_321_0_304	885						K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]
+MAG_321	MAG_321_0_305	522						K06006	periplasmic protein CpxP/Spy
+MAG_321	MAG_321_0_306	699							
+MAG_321	MAG_321_0_307	1653						K07640	two-component system, OmpR family, sensor histidine kinase CpxA [EC:2.7.13.3]
+MAG_321	MAG_321_0_308	6090							
+MAG_321	MAG_321_0_309	1182						K22027	indole-3-acetate monooxygenase [EC:1.14.13.235]
+MAG_321	MAG_321_0_31	273						K03745	SlyX protein
+MAG_321	MAG_321_0_310	648						K01800	maleylacetoacetate isomerase [EC:5.2.1.2]
+MAG_321	MAG_321_0_311	858							
+MAG_321	MAG_321_0_312	1053						K21395	TRAP-type transport system periplasmic protein
+MAG_321	MAG_321_0_313	576							
+MAG_321	MAG_321_0_314	1299						K01555	fumarylacetoacetase [EC:3.7.1.2]
+MAG_321	MAG_321_0_315	1197						K00832	aromatic-amino-acid transaminase [EC:2.6.1.57]
+MAG_321	MAG_321_0_316	930						K17737	LysR family transcriptional regulator, carnitine catabolism transcriptional activator
+MAG_321	MAG_321_0_317	1101						K00457	4-hydroxyphenylpyruvate dioxygenase [EC:1.13.11.27]
+MAG_321	MAG_321_0_318	984						K00500	phenylalanine-4-hydroxylase [EC:1.14.16.1]
+MAG_321	MAG_321_0_319	342						K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]
+MAG_321	MAG_321_0_32	1194						K06076	long-chain fatty acid transport protein
+MAG_321	MAG_321_0_320	1389						K03315	Na+:H+ antiporter, NhaC family
+MAG_321	MAG_321_0_321	351						K00363	nitrite reductase (NADH) small subunit [EC:1.7.1.15]
+MAG_321	MAG_321_0_322	2601						K00362	nitrite reductase (NADH) large subunit [EC:1.7.1.15]
+MAG_321	MAG_321_0_323	1509						K02575	MFS transporter, NNP family, nitrate/nitrite transporter
+MAG_321	MAG_321_0_324	2208							
+MAG_321	MAG_321_0_325	1479							
+MAG_321	MAG_321_0_326	3480						K00372	assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-]
+MAG_321	MAG_321_0_327	924						K02303	uroporphyrin-III C-methyltransferase [EC:2.1.1.107]
+MAG_321	MAG_321_0_328	765						K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]
+MAG_321	MAG_321_0_329	1020						K23227	ferric hydroxamate transport system substrate-binding protein
+MAG_321	MAG_321_0_33	1515						K06076	long-chain fatty acid transport protein
+MAG_321	MAG_321_0_330	2169						K23228	ferric hydroxamate transport system permease protein
+MAG_321	MAG_321_0_331	351							
+MAG_321	MAG_321_0_332	711						K00799	glutathione S-transferase [EC:2.5.1.18]
+MAG_321	MAG_321_0_333	426							
+MAG_321	MAG_321_0_334	345							
+MAG_321	MAG_321_0_335	1143							
+MAG_321	MAG_321_0_336	1248							
+MAG_321	MAG_321_0_337	741						K21449	trimeric autotransporter adhesin
+MAG_321	MAG_321_0_338	678						K03192	urease accessory protein
+MAG_321	MAG_321_0_339	654						K03189	urease accessory protein
+MAG_321	MAG_321_0_34	1500						K11928	sodium/proline symporter
+MAG_321	MAG_321_0_340	798						K03188	urease accessory protein
+MAG_321	MAG_321_0_341	549						K03187	urease accessory protein
+MAG_321	MAG_321_0_342	2133						K01428	urease subunit alpha [EC:3.5.1.5]
+MAG_321	MAG_321_0_343	303						K01430	urease subunit gamma [EC:3.5.1.5]
+MAG_321	MAG_321_0_344	990						K03190	urease accessory protein
+MAG_321	MAG_321_0_345	699						K11963	urea transport system ATP-binding protein
+MAG_321	MAG_321_0_346	957						K11962	urea transport system ATP-binding protein
+MAG_321	MAG_321_0_347	1071						K11961	urea transport system permease protein
+MAG_321	MAG_321_0_348	1800						K11960	urea transport system permease protein
+MAG_321	MAG_321_0_349	1365						K11959	urea transport system substrate-binding protein
+MAG_321	MAG_321_0_35	873							
+MAG_321	MAG_321_0_350	1617						K07137	uncharacterized protein
+MAG_321	MAG_321_0_351	798							
+MAG_321	MAG_321_0_352	522							
+MAG_321	MAG_321_0_353	4512						K03583	exodeoxyribonuclease V gamma subunit [EC:3.1.11.5]
+MAG_321	MAG_321_0_354	4545						K03582	exodeoxyribonuclease V beta subunit [EC:3.1.11.5]
+MAG_321	MAG_321_0_355	2214						K03581	exodeoxyribonuclease V alpha subunit [EC:3.1.11.5]
+MAG_321	MAG_321_0_356	519							
+MAG_321	MAG_321_0_357	564						K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]
+MAG_321	MAG_321_0_358	669							
+MAG_321	MAG_321_0_359	1680						K06200	carbon starvation protein
+MAG_321	MAG_321_0_36	1419						K01703	3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]
+MAG_321	MAG_321_0_360	294			deeppeptide	Propeptide			
+MAG_321	MAG_321_0_361	1026						K01551	arsenite/tail-anchored protein-transporting ATPase [EC:7.3.2.7 7.3.-.-]
+MAG_321	MAG_321_0_362	1635							
+MAG_321	MAG_321_0_363	1365							
+MAG_321	MAG_321_0_364	792							
+MAG_321	MAG_321_0_365	1545						K01720	2-methylcitrate dehydratase [EC:4.2.1.79]
+MAG_321	MAG_321_0_366	627						K02348	ElaA protein
+MAG_321	MAG_321_0_367	1854							
+MAG_321	MAG_321_0_368	780							
+MAG_321	MAG_321_0_369	1257						K09788	2-methylaconitate isomerase [EC:5.3.3.-]
+MAG_321	MAG_321_0_37	465							
+MAG_321	MAG_321_0_370	678						K07126	uncharacterized protein
+MAG_321	MAG_321_0_371	2658						K20455	2-methylcitrate dehydratase (2-methyl-trans-aconitate forming) [EC:4.2.1.117]
+MAG_321	MAG_321_0_372	1140						K01659	2-methylcitrate synthase [EC:2.3.3.5]
+MAG_321	MAG_321_0_373	642							
+MAG_321	MAG_321_0_374	894						K03417	methylisocitrate lyase [EC:4.1.3.30]
+MAG_321	MAG_321_0_375	1299							
+MAG_321	MAG_321_0_376	1014						K21757	LysR family transcriptional regulator, benzoate and cis,cis-muconate-responsive activator of ben and cat genes
+MAG_321	MAG_321_0_377	957							
+MAG_321	MAG_321_0_378	516							
+MAG_321	MAG_321_0_379	2391						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_0_38	651						K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]
+MAG_321	MAG_321_0_380	624							
+MAG_321	MAG_321_0_381	627							
+MAG_321	MAG_321_0_382	906							
+MAG_321	MAG_321_0_383	1704					redox-cofactor	K03303	lactate permease
+MAG_321	MAG_321_0_384	1776					redox-cofactor	K03777	D-lactate dehydrogenase (quinone) [EC:1.1.5.12]
+MAG_321	MAG_321_0_385	1143					redox-cofactor		
+MAG_321	MAG_321_0_386	2775					redox-cofactor	K01595	phosphoenolpyruvate carboxylase [EC:4.1.1.31]
+MAG_321	MAG_321_0_387	1050					redox-cofactor	K01273	membrane dipeptidase [EC:3.4.13.19]
+MAG_321	MAG_321_0_388	1155					redox-cofactor	K06139	PqqA peptide cyclase [EC:1.21.98.4]
+MAG_321	MAG_321_0_389	285					redox-cofactor	K06138	pyrroloquinoline quinone biosynthesis protein D
+MAG_321	MAG_321_0_39	750							
+MAG_321	MAG_321_0_390	768					redox-cofactor	K06137	pyrroloquinoline-quinone synthase [EC:1.3.3.11]
+MAG_321	MAG_321_0_391	912					redox-cofactor	K06136	pyrroloquinoline quinone biosynthesis protein B
+MAG_321	MAG_321_0_392	2637					redox-cofactor	K00117	quinoprotein glucose dehydrogenase [EC:1.1.5.2]
+MAG_321	MAG_321_0_393	297					redox-cofactor	K07483	transposase
+MAG_321	MAG_321_0_394	384					redox-cofactor	K07497	putative transposase
+MAG_321	MAG_321_0_395	375					redox-cofactor	K07497	putative transposase
+MAG_321	MAG_321_0_396	1788					redox-cofactor	K07393	glutathionyl-hydroquinone reductase [EC:1.8.5.7]
+MAG_321	MAG_321_0_397	453					redox-cofactor	K15977	putative oxidoreductase
+MAG_321	MAG_321_0_398	930					redox-cofactor		
+MAG_321	MAG_321_0_399	459							
+MAG_321	MAG_321_0_4	1365							
+MAG_321	MAG_321_0_40	1104						K00052	3-isopropylmalate dehydrogenase [EC:1.1.1.85]
+MAG_321	MAG_321_0_400	351							
+MAG_321	MAG_321_0_401	891							
+MAG_321	MAG_321_0_402	297						K06518	holin-like protein
+MAG_321	MAG_321_0_403	699							
+MAG_321	MAG_321_0_404	309						K07483	transposase
+MAG_321	MAG_321_0_405	1269							
+MAG_321	MAG_321_0_406	486							
+MAG_321	MAG_321_0_407	666							
+MAG_321	MAG_321_0_408	744						K09933	MtfA peptidase
+MAG_321	MAG_321_0_409	993						K07341	death on curing protein
+MAG_321	MAG_321_0_41	1212							
+MAG_321	MAG_321_0_410	3408							
+MAG_321	MAG_321_0_411	7836							
+MAG_321	MAG_321_0_412	2193							
+MAG_321	MAG_321_0_413	1428						K00986	RNA-directed DNA polymerase [EC:2.7.7.49]
+MAG_321	MAG_321_0_414	1116						K14063	AraC family transcriptional regulator, positive regulator of tynA and feaB
+MAG_321	MAG_321_0_415	1308							
+MAG_321	MAG_321_0_416	678							
+MAG_321	MAG_321_0_417	1764							
+MAG_321	MAG_321_0_418	1245							
+MAG_321	MAG_321_0_419	1674							
+MAG_321	MAG_321_0_42	222						K02518	translation initiation factor IF-1
+MAG_321	MAG_321_0_420	1272							
+MAG_321	MAG_321_0_421	849						K11209	GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]
+MAG_321	MAG_321_0_422	1377						K18326	MFS transporter, DHA2 family, multidrug resistance protein
+MAG_321	MAG_321_0_423	480						K03594	bacterioferritin [EC:1.16.3.1]
+MAG_321	MAG_321_0_424	489						K03594	bacterioferritin [EC:1.16.3.1]
+MAG_321	MAG_321_0_425	192						K02192	bacterioferritin-associated ferredoxin
+MAG_321	MAG_321_0_426	330						K03892	ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor
+MAG_321	MAG_321_0_427	723						K02045	sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3]
+MAG_321	MAG_321_0_428	957						K02047	sulfate/thiosulfate transport system permease protein
+MAG_321	MAG_321_0_429	885						K02046	sulfate/thiosulfate transport system permease protein
+MAG_321	MAG_321_0_43	840						K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]
+MAG_321	MAG_321_0_430	1095							
+MAG_321	MAG_321_0_431	1158							
+MAG_321	MAG_321_0_432	522							
+MAG_321	MAG_321_0_433	1251						K00958	sulfate adenylyltransferase [EC:2.7.7.4]
+MAG_321	MAG_321_0_434	1692							
+MAG_321	MAG_321_0_435	621							
+MAG_321	MAG_321_0_436	639							
+MAG_321	MAG_321_0_437	816							
+MAG_321	MAG_321_0_438	951							
+MAG_321	MAG_321_0_439	1605						K02302	uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase [EC:2.1.1.107 1.3.1.76 4.99.1.4]
+MAG_321	MAG_321_0_44	1101						K01424	L-asparaginase [EC:3.5.1.1]
+MAG_321	MAG_321_0_440	666							
+MAG_321	MAG_321_0_441	1566						K03547	DNA repair protein SbcD/Mre11
+MAG_321	MAG_321_0_442	3948						K03546	DNA repair protein SbcC/Rad50
+MAG_321	MAG_321_0_443	4848						K15371	glutamate dehydrogenase [EC:1.4.1.2]
+MAG_321	MAG_321_0_444	1332						K01945	phosphoribosylamine---glycine ligase [EC:6.3.4.13]
+MAG_321	MAG_321_0_445	1395							
+MAG_321	MAG_321_0_446	678						K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]
+MAG_321	MAG_321_0_447	192						K09862	uncharacterized protein
+MAG_321	MAG_321_0_448	1182							
+MAG_321	MAG_321_0_449	900						K21698	LysR family transcriptional regulator, transcriptional activator for aaeXAB operon
+MAG_321	MAG_321_0_45	1659							
+MAG_321	MAG_321_0_450	1962						K02343	DNA polymerase III subunit gamma/tau [EC:2.7.7.7]
+MAG_321	MAG_321_0_451	1263							
+MAG_321	MAG_321_0_452	1533						K04567	lysyl-tRNA synthetase, class II [EC:6.1.1.6]
+MAG_321	MAG_321_0_453	1092						K02835	peptide chain release factor 1
+MAG_321	MAG_321_0_454	1146						K16872	beta-ketodecanoyl-[acyl-carrier-protein] synthase [EC:2.3.1.207]
+MAG_321	MAG_321_0_455	762						K03811	nicotinamide mononucleotide transporter
+MAG_321	MAG_321_0_456	582						K06211	HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]
+MAG_321	MAG_321_0_457	525							
+MAG_321	MAG_321_0_458	180							
+MAG_321	MAG_321_0_46	1755							
+MAG_321	MAG_321_0_47	1221						K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase [EC:2.4.99.17]
+MAG_321	MAG_321_0_48	1086						K02346	DNA polymerase IV [EC:2.7.7.7]
+MAG_321	MAG_321_0_49	246							
+MAG_321	MAG_321_0_5	1098						K02379	FdhD protein
+MAG_321	MAG_321_0_50	774						K00528	ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2 1.19.1.1]
+MAG_321	MAG_321_0_51	873						K22900	tRNA (adenine37-N6)-methyltransferase [EC:2.1.1.-]
+MAG_321	MAG_321_0_52	1788							
+MAG_321	MAG_321_0_53	666						K22247	polysialic-acid O-acetyltransferase [EC:2.3.1.136]
+MAG_321	MAG_321_0_54	789						K03424	TatD DNase family protein [EC:3.1.21.-]
+MAG_321	MAG_321_0_55	684							
+MAG_321	MAG_321_0_56	828							
+MAG_321	MAG_321_0_57	492						K02458	general secretion pathway protein I
+MAG_321	MAG_321_0_58	855						K02459	general secretion pathway protein J
+MAG_321	MAG_321_0_59	1068						K02460	general secretion pathway protein K
+MAG_321	MAG_321_0_6	2373							
+MAG_321	MAG_321_0_60	681						K22105	TetR/AcrR family transcriptional regulator, fatty acid biosynthesis regulator
+MAG_321	MAG_321_0_61	1422						K01129	dGTPase [EC:3.1.5.1]
+MAG_321	MAG_321_0_62	567							
+MAG_321	MAG_321_0_63	1092						K06942	ribosome-binding ATPase
+MAG_321	MAG_321_0_64	2193						K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+MAG_321	MAG_321_0_65	957							
+MAG_321	MAG_321_0_66	4653							
+MAG_321	MAG_321_0_67	1248						K26064	D-lysine oxidase
+MAG_321	MAG_321_0_68	342							
+MAG_321	MAG_321_0_69	237							
+MAG_321	MAG_321_0_7	1308						K07496	putative transposase
+MAG_321	MAG_321_0_70	813							
+MAG_321	MAG_321_0_71	501							
+MAG_321	MAG_321_0_72	870							
+MAG_321	MAG_321_0_73	948						K07126	uncharacterized protein
+MAG_321	MAG_321_0_74	1137						K00865	glycerate 2-kinase [EC:2.7.1.165]
+MAG_321	MAG_321_0_75	1359						K03299	gluconate:H+ symporter, GntP family
+MAG_321	MAG_321_0_76	1044						K00768	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase [EC:2.4.2.21]
+MAG_321	MAG_321_0_77	897						K02233	adenosylcobinamide-GDP ribazoletransferase [EC:2.7.8.26]
+MAG_321	MAG_321_0_78	552							
+MAG_321	MAG_321_0_79	249							
+MAG_321	MAG_321_0_8	969						K19713	thiosulfate dehydrogenase [EC:1.8.2.2]
+MAG_321	MAG_321_0_80	510						K02939	large subunit ribosomal protein L9
+MAG_321	MAG_321_0_81	231						K02963	small subunit ribosomal protein S18
+MAG_321	MAG_321_0_82	405						K02990	small subunit ribosomal protein S6
+MAG_321	MAG_321_0_83	984							
+MAG_321	MAG_321_0_84	2385						K01007	pyruvate, water dikinase [EC:2.7.9.2]
+MAG_321	MAG_321_0_85	897						K09773	[pyruvate, water dikinase]-phosphate phosphotransferase / [pyruvate, water dikinase] kinase [EC:2.7.4.28 2.7.11.33]
+MAG_321	MAG_321_0_86	405							
+MAG_321	MAG_321_0_87	1650						K00322	NAD(P) transhydrogenase [EC:1.6.1.1]
+MAG_321	MAG_321_0_88	1203							
+MAG_321	MAG_321_0_89	1338							
+MAG_321	MAG_321_0_9	1377						K22474	alcohol dehydrogenase (quinone), cytochrome c subunit [EC:1.1.5.5]
+MAG_321	MAG_321_0_90	1185						K01993	HlyD family secretion protein
+MAG_321	MAG_321_0_91	867						K07058	membrane protein
+MAG_321	MAG_321_0_92	1710							
+MAG_321	MAG_321_0_93	1593						K00864	glycerol kinase [EC:2.7.1.30]
+MAG_321	MAG_321_0_94	513							
+MAG_321	MAG_321_0_95	1029							
+MAG_321	MAG_321_0_96	693							
+MAG_321	MAG_321_0_97	774							
+MAG_321	MAG_321_0_98	5334							
+MAG_321	MAG_321_0_99	2034							
+MAG_321	MAG_321_10_1	408						K06891	ATP-dependent Clp protease adaptor protein ClpS
+MAG_321	MAG_321_10_10	165			deeppeptide	Propeptide			
+MAG_321	MAG_321_10_11	4995						K09800	translocation and assembly module TamB
+MAG_321	MAG_321_10_12	3540						K07278	translocation and assembly module TamA
+MAG_321	MAG_321_10_13	1332							
+MAG_321	MAG_321_10_14	645						K06134	3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60]
+MAG_321	MAG_321_10_15	1131							
+MAG_321	MAG_321_10_16	2475							
+MAG_321	MAG_321_10_17	1497						K00425	cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]
+MAG_321	MAG_321_10_18	1017						K00426	cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
+MAG_321	MAG_321_10_19	117	smorfinder	smorfam00620					
+MAG_321	MAG_321_10_2	867							
+MAG_321	MAG_321_10_20	744						K00992	N-acetyl-alpha-D-muramate 1-phosphate uridylyltransferase [EC:2.7.7.99]
+MAG_321	MAG_321_10_21	1113						K07102	N-acetylmuramate 1-kinase [EC:2.7.1.221]
+MAG_321	MAG_321_10_22	3135						K04744	LPS-assembly protein
+MAG_321	MAG_321_10_23	1404						K03771	peptidyl-prolyl cis-trans isomerase SurA [EC:5.2.1.8]
+MAG_321	MAG_321_10_24	1125							
+MAG_321	MAG_321_10_25	1134						K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
+MAG_321	MAG_321_10_26	651							
+MAG_321	MAG_321_10_27	1152						K00773	queuine tRNA-ribosyltransferase [EC:2.4.2.29]
+MAG_321	MAG_321_10_28	1353						K03308	neurotransmitter:Na+ symporter, NSS family
+MAG_321	MAG_321_10_29	780						K00677	UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129]
+MAG_321	MAG_321_10_3	1068						K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]
+MAG_321	MAG_321_10_30	510						K02372	3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]
+MAG_321	MAG_321_10_31	1017						K02536	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase [EC:2.3.1.191]
+MAG_321	MAG_321_10_32	2424						K07277	outer membrane protein insertion porin family
+MAG_321	MAG_321_10_33	1377						K11749	regulator of sigma E protease [EC:3.4.24.-]
+MAG_321	MAG_321_10_34	1209						K00099	1-deoxy-D-xylulose-5-phosphate reductoisomerase [EC:1.1.1.267]
+MAG_321	MAG_321_10_35	810						K00981	phosphatidate cytidylyltransferase [EC:2.7.7.41]
+MAG_321	MAG_321_10_36	759						K00806	undecaprenyl diphosphate synthase [EC:2.5.1.31]
+MAG_321	MAG_321_10_37	555						K02838	ribosome recycling factor
+MAG_321	MAG_321_10_38	726						K09903	uridylate kinase [EC:2.7.4.22]
+MAG_321	MAG_321_10_39	1623						K14441	ribosomal protein S12 methylthiotransferase [EC:2.8.4.4]
+MAG_321	MAG_321_10_4	1137						K01599	uroporphyrinogen decarboxylase [EC:4.1.1.37]
+MAG_321	MAG_321_10_40	1404						K07708	two-component system, NtrC family, nitrogen regulation sensor histidine kinase GlnL [EC:2.7.13.3]
+MAG_321	MAG_321_10_41	1839						K07712	two-component system, NtrC family, nitrogen regulation response regulator GlnG
+MAG_321	MAG_321_10_42	1017							
+MAG_321	MAG_321_10_43	1851							
+MAG_321	MAG_321_10_44	336							
+MAG_321	MAG_321_10_45	495							
+MAG_321	MAG_321_10_46	396							
+MAG_321	MAG_321_10_47	660							
+MAG_321	MAG_321_10_48	5097							
+MAG_321	MAG_321_10_49	450							
+MAG_321	MAG_321_10_5	1173						K00931	glutamate 5-kinase [EC:2.7.2.11]
+MAG_321	MAG_321_10_50	243			deeppeptide	Propeptide			
+MAG_321	MAG_321_10_51	180							
+MAG_321	MAG_321_10_52	2751						K27332	Peduoviridae DNA primase
+MAG_321	MAG_321_10_53	345							
+MAG_321	MAG_321_10_54	1182						K14059	integrase
+MAG_321	MAG_321_10_55	492							
+MAG_321	MAG_321_10_56	1014							
+MAG_321	MAG_321_10_57	963						K06923	uncharacterized protein
+MAG_321	MAG_321_10_58	1128						K00784	ribonuclease Z [EC:3.1.26.11]
+MAG_321	MAG_321_10_59	270			deeppeptide	Propeptide			
+MAG_321	MAG_321_10_6	1218						K03979	GTPase [EC:3.6.5.-]
+MAG_321	MAG_321_10_60	669						K00799	glutathione S-transferase [EC:2.5.1.18]
+MAG_321	MAG_321_10_61	1071						K05786	chloramphenicol-sensitive protein RarD
+MAG_321	MAG_321_10_62	1071						K05786	chloramphenicol-sensitive protein RarD
+MAG_321	MAG_321_10_63	2820						K02469	DNA gyrase subunit A [EC:5.6.2.2]
+MAG_321	MAG_321_10_64	180							
+MAG_321	MAG_321_10_65	1692							
+MAG_321	MAG_321_10_66	873						K06219	tRNA 5-carboxymethoxyuridine methyltransferase [EC:2.1.1.-]
+MAG_321	MAG_321_10_67	1341						K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]
+MAG_321	MAG_321_10_68	1707						K02011	iron(III) transport system permease protein
+MAG_321	MAG_321_10_69	1125						K02012	iron(III) transport system substrate-binding protein
+MAG_321	MAG_321_10_7	1437							
+MAG_321	MAG_321_10_70	726						K09761	16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]
+MAG_321	MAG_321_10_71	1599						K02527	3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13 2.4.99.14 2.4.99.15]
+MAG_321	MAG_321_10_72	1458						K07126	uncharacterized protein
+MAG_321	MAG_321_10_73	1638						K06131	cardiolipin synthase A/B [EC:2.7.8.-]
+MAG_321	MAG_321_10_8	1245						K03098	apolipoprotein D and lipocalin family protein
+MAG_321	MAG_321_10_9	1104						K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]
+MAG_321	MAG_321_11_1	999						K21053	adenine deaminase [EC:3.5.4.2]
+MAG_321	MAG_321_11_10	885						K06879	7-cyano-7-deazaguanine reductase [EC:1.7.1.13]
+MAG_321	MAG_321_11_11	402							
+MAG_321	MAG_321_11_12	1719						K01881	prolyl-tRNA synthetase [EC:6.1.1.15]
+MAG_321	MAG_321_11_13	738							
+MAG_321	MAG_321_11_14	162			deeppeptide	Propeptide			
+MAG_321	MAG_321_11_15	1671						K01669	deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]
+MAG_321	MAG_321_11_16	684						K01817	phosphoribosylanthranilate isomerase [EC:5.3.1.24]
+MAG_321	MAG_321_11_17	1275						K01696	tryptophan synthase beta chain [EC:4.2.1.20]
+MAG_321	MAG_321_11_18	825						K01695	tryptophan synthase alpha chain [EC:4.2.1.20]
+MAG_321	MAG_321_11_19	993						K01963	acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15]
+MAG_321	MAG_321_11_2	801						K12410	NAD-dependent protein deacetylase/lipoamidase [EC:2.3.1.286 2.3.1.313]
+MAG_321	MAG_321_11_20	1404						K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+MAG_321	MAG_321_11_21	138			deeppeptide	Peptide			
+MAG_321	MAG_321_11_22	1191							
+MAG_321	MAG_321_11_23	531							
+MAG_321	MAG_321_11_24	1458							
+MAG_321	MAG_321_11_25	1263							
+MAG_321	MAG_321_11_26	963						K09977	uncharacterized protein
+MAG_321	MAG_321_11_27	462							
+MAG_321	MAG_321_11_28	1527						K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]
+MAG_321	MAG_321_11_29	1497						K02433	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]
+MAG_321	MAG_321_11_3	369							
+MAG_321	MAG_321_11_30	315						K02435	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]
+MAG_321	MAG_321_11_31	1029						K03569	rod shape-determining protein MreB and related proteins
+MAG_321	MAG_321_11_32	861						K03570	rod shape-determining protein MreC
+MAG_321	MAG_321_11_33	486						K03571	rod shape-determining protein MreD
+MAG_321	MAG_321_11_34	666						K06287	nucleoside triphosphate pyrophosphatase [EC:3.6.1.-]
+MAG_321	MAG_321_11_35	1611						K08301	ribonuclease G [EC:3.1.26.-]
+MAG_321	MAG_321_11_36	312						K02946	small subunit ribosomal protein S10
+MAG_321	MAG_321_11_37	639						K02906	large subunit ribosomal protein L3
+MAG_321	MAG_321_11_38	603						K02926	large subunit ribosomal protein L4
+MAG_321	MAG_321_11_39	351						K02892	large subunit ribosomal protein L23
+MAG_321	MAG_321_11_4	618							
+MAG_321	MAG_321_11_40	828						K02886	large subunit ribosomal protein L2
+MAG_321	MAG_321_11_41	276						K02965	small subunit ribosomal protein S19
+MAG_321	MAG_321_11_42	330						K02890	large subunit ribosomal protein L22
+MAG_321	MAG_321_11_43	729						K02982	small subunit ribosomal protein S3
+MAG_321	MAG_321_11_44	414						K02878	large subunit ribosomal protein L16
+MAG_321	MAG_321_11_45	198						K02904	large subunit ribosomal protein L29
+MAG_321	MAG_321_11_46	273						K02961	small subunit ribosomal protein S17
+MAG_321	MAG_321_11_47	369						K02874	large subunit ribosomal protein L14
+MAG_321	MAG_321_11_48	318						K02895	large subunit ribosomal protein L24
+MAG_321	MAG_321_11_49	543						K02931	large subunit ribosomal protein L5
+MAG_321	MAG_321_11_5	963						K01990	ABC-2 type transport system ATP-binding protein
+MAG_321	MAG_321_11_50	306						K02954	small subunit ribosomal protein S14
+MAG_321	MAG_321_11_51	399						K02994	small subunit ribosomal protein S8
+MAG_321	MAG_321_11_52	534						K02933	large subunit ribosomal protein L6
+MAG_321	MAG_321_11_53	351						K02881	large subunit ribosomal protein L18
+MAG_321	MAG_321_11_54	516						K02988	small subunit ribosomal protein S5
+MAG_321	MAG_321_11_55	180						K02907	large subunit ribosomal protein L30
+MAG_321	MAG_321_11_56	441						K02876	large subunit ribosomal protein L15
+MAG_321	MAG_321_11_57	1347						K03076	preprotein translocase subunit SecY
+MAG_321	MAG_321_11_58	117	smorfinder	smorfam00961				K02919	large subunit ribosomal protein L36
+MAG_321	MAG_321_11_59	357						K02952	small subunit ribosomal protein S13
+MAG_321	MAG_321_11_6	795							
+MAG_321	MAG_321_11_60	390						K02948	small subunit ribosomal protein S11
+MAG_321	MAG_321_11_61	642						K02986	small subunit ribosomal protein S4
+MAG_321	MAG_321_11_62	1008						K03040	DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+MAG_321	MAG_321_11_63	360						K02879	large subunit ribosomal protein L17
+MAG_321	MAG_321_11_64	621						K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]
+MAG_321	MAG_321_11_65	741						K09906	elongation factor P hydroxylase [EC:1.14.-.-]
+MAG_321	MAG_321_11_66	594						K07040	DUF177 domain-containing protein
+MAG_321	MAG_321_11_67	183						K02911	large subunit ribosomal protein L32
+MAG_321	MAG_321_11_68	969						K00645	[acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
+MAG_321	MAG_321_11_69	729						K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+MAG_321	MAG_321_11_7	858							
+MAG_321	MAG_321_11_70	237						K02078	acyl carrier protein
+MAG_321	MAG_321_11_71	510							
+MAG_321	MAG_321_11_72	1233						K18979	epoxyqueuosine reductase [EC:1.17.99.6]
+MAG_321	MAG_321_11_73	1740						K23997	ADP-dependent NAD(P)H-hydrate dehydratase / NAD(P)H-hydrate epimerase [EC:4.2.1.136 5.1.99.6]
+MAG_321	MAG_321_11_74	498							
+MAG_321	MAG_321_11_75	1833						K01652	acetolactate synthase I/II/III large subunit [EC:2.2.1.6]
+MAG_321	MAG_321_11_76	498						K01653	acetolactate synthase I/III small subunit [EC:2.2.1.6]
+MAG_321	MAG_321_11_77	1017						K00053	ketol-acid reductoisomerase [EC:1.1.1.86]
+MAG_321	MAG_321_11_78	426							
+MAG_321	MAG_321_11_79	213						K03704	cold shock protein
+MAG_321	MAG_321_11_8	870							
+MAG_321	MAG_321_11_80	588							
+MAG_321	MAG_321_11_81	750						K03521	electron transfer flavoprotein beta subunit
+MAG_321	MAG_321_11_82	933						K03522	electron transfer flavoprotein alpha subunit
+MAG_321	MAG_321_11_83	795						K03437	RNA methyltransferase, TrmH family
+MAG_321	MAG_321_11_84	984						K03841	fructose-1,6-bisphosphatase I [EC:3.1.3.11]
+MAG_321	MAG_321_11_85	1074						K00609	aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]
+MAG_321	MAG_321_11_86	1212							
+MAG_321	MAG_321_11_87	549							
+MAG_321	MAG_321_11_88	1275						K03316	Na+:H+ antiporter
+MAG_321	MAG_321_11_89	1614							
+MAG_321	MAG_321_11_9	831							
+MAG_321	MAG_321_11_90	2937							
+MAG_321	MAG_321_11_91	1551						K07058	membrane protein
+MAG_321	MAG_321_11_92	618						K03809	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]
+MAG_321	MAG_321_11_93	477							
+MAG_321	MAG_321_11_94	771							
+MAG_321	MAG_321_11_95	291						K04078	chaperonin GroES
+MAG_321	MAG_321_11_96	1650						K04077	chaperonin GroEL [EC:5.6.1.7]
+MAG_321	MAG_321_11_97	996							
+MAG_321	MAG_321_12_1	354							
+MAG_321	MAG_321_12_10	789							
+MAG_321	MAG_321_12_11	2052						K05685	macrolide transport system ATP-binding/permease protein [EC:7.6.2.-]
+MAG_321	MAG_321_12_12	1341						K13888	membrane fusion protein, macrolide-specific efflux system
+MAG_321	MAG_321_12_13	246							
+MAG_321	MAG_321_12_14	189							
+MAG_321	MAG_321_12_15	1074						K02340	DNA polymerase III subunit delta [EC:2.7.7.7]
+MAG_321	MAG_321_12_16	720						K03643	LPS-assembly lipoprotein
+MAG_321	MAG_321_12_17	2688						K01869	leucyl-tRNA synthetase [EC:6.1.1.4]
+MAG_321	MAG_321_12_18	372							
+MAG_321	MAG_321_12_19	234							
+MAG_321	MAG_321_12_2	642						K00799	glutathione S-transferase [EC:2.5.1.18]
+MAG_321	MAG_321_12_20	915						K00930	acetylglutamate kinase [EC:2.7.2.8]
+MAG_321	MAG_321_12_21	1794						K15778	phosphomannomutase / phosphoglucomutase [EC:5.4.2.8 5.4.2.2]
+MAG_321	MAG_321_12_22	465						K01520	dUTP diphosphatase [EC:3.6.1.23]
+MAG_321	MAG_321_12_23	1404						K06213	magnesium transporter
+MAG_321	MAG_321_12_24	2034						K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+MAG_321	MAG_321_12_25	624						K00330	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]
+MAG_321	MAG_321_12_26	669						K00331	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]
+MAG_321	MAG_321_12_27	1776						K13378	NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2]
+MAG_321	MAG_321_12_28	510						K00334	NADH-quinone oxidoreductase subunit E [EC:7.1.1.2]
+MAG_321	MAG_321_12_29	1425						K00335	NADH-quinone oxidoreductase subunit F [EC:7.1.1.2]
+MAG_321	MAG_321_12_3	1092							
+MAG_321	MAG_321_12_30	3081							
+MAG_321	MAG_321_12_31	1044						K00337	NADH-quinone oxidoreductase subunit H [EC:7.1.1.2]
+MAG_321	MAG_321_12_32	549						K00338	NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]
+MAG_321	MAG_321_12_33	747						K00339	NADH-quinone oxidoreductase subunit J [EC:7.1.1.2]
+MAG_321	MAG_321_12_34	408						K00340	NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]
+MAG_321	MAG_321_12_35	1875						K00341	NADH-quinone oxidoreductase subunit L [EC:7.1.1.2]
+MAG_321	MAG_321_12_36	1626						K00342	NADH-quinone oxidoreductase subunit M [EC:7.1.1.2]
+MAG_321	MAG_321_12_37	1479						K00343	NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]
+MAG_321	MAG_321_12_38	831							
+MAG_321	MAG_321_12_39	780							
+MAG_321	MAG_321_12_4	414						K07397	putative redox protein
+MAG_321	MAG_321_12_40	888						K03832	periplasmic protein TonB
+MAG_321	MAG_321_12_41	876						K03442	small conductance mechanosensitive channel
+MAG_321	MAG_321_12_42	615						K07042	probable rRNA maturation factor
+MAG_321	MAG_321_12_43	1107						K06217	phosphate starvation-inducible protein PhoH and related proteins
+MAG_321	MAG_321_12_44	1308						K03185	2-octaprenyl-6-methoxyphenol hydroxylase [EC:1.14.13.-]
+MAG_321	MAG_321_12_45	1269							
+MAG_321	MAG_321_12_46	720							
+MAG_321	MAG_321_12_47	663							
+MAG_321	MAG_321_12_48	1191							
+MAG_321	MAG_321_12_49	582							
+MAG_321	MAG_321_12_5	483							
+MAG_321	MAG_321_12_50	705							
+MAG_321	MAG_321_12_51	912							
+MAG_321	MAG_321_12_52	2757							
+MAG_321	MAG_321_12_53	1206							
+MAG_321	MAG_321_12_54	816							
+MAG_321	MAG_321_12_55	858						K00981	phosphatidate cytidylyltransferase [EC:2.7.7.41]
+MAG_321	MAG_321_12_56	1935						K00278	L-aspartate oxidase [EC:1.4.3.16]
+MAG_321	MAG_321_12_57	1140						K03517	quinolinate synthase [EC:2.5.1.72]
+MAG_321	MAG_321_12_58	1089							
+MAG_321	MAG_321_12_59	861						K00767	nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]
+MAG_321	MAG_321_12_6	654							
+MAG_321	MAG_321_12_60	642						K05595	multiple antibiotic resistance protein
+MAG_321	MAG_321_12_61	1383						K18277	trimethylamine monooxygenase [EC:1.14.13.148]
+MAG_321	MAG_321_12_62	603						K06895	L-lysine exporter family protein LysE/ArgO
+MAG_321	MAG_321_12_63	765							
+MAG_321	MAG_321_12_64	690							
+MAG_321	MAG_321_12_65	558							
+MAG_321	MAG_321_12_66	948						K06178	23S rRNA pseudouridine2605 synthase [EC:5.4.99.22]
+MAG_321	MAG_321_12_67	1092						K01991	polysaccharide biosynthesis/export protein
+MAG_321	MAG_321_12_68	477							
+MAG_321	MAG_321_12_69	2268						K16692	tyrosine-protein kinase Etk/Wzc [EC:2.7.10.3]
+MAG_321	MAG_321_12_7	2790						K01595	phosphoenolpyruvate carboxylase [EC:4.1.1.31]
+MAG_321	MAG_321_12_70	2004						K24300	UDP-N-acetylglucosamine 4,6-dehydratase [EC:4.2.1.135]
+MAG_321	MAG_321_12_71	738							
+MAG_321	MAG_321_12_8	792						K01061	carboxymethylenebutenolidase [EC:3.1.1.45]
+MAG_321	MAG_321_12_9	2088						K03781	catalase [EC:1.11.1.6]
+MAG_321	MAG_321_13_1	390							
+MAG_321	MAG_321_13_10	711						K06911	quercetin 2,3-dioxygenase [EC:1.13.11.24]
+MAG_321	MAG_321_13_11	939						K06911	quercetin 2,3-dioxygenase [EC:1.13.11.24]
+MAG_321	MAG_321_13_12	612						K07078	uncharacterized protein
+MAG_321	MAG_321_13_13	1398							
+MAG_321	MAG_321_13_14	2424						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_13_15	144							
+MAG_321	MAG_321_13_16	978						K07393	glutathionyl-hydroquinone reductase [EC:1.8.5.7]
+MAG_321	MAG_321_13_17	1008						K01698	porphobilinogen synthase [EC:4.2.1.24]
+MAG_321	MAG_321_13_18	1812						K18139	outer membrane protein, multidrug efflux system
+MAG_321	MAG_321_13_19	3231						K18138	multidrug efflux pump
+MAG_321	MAG_321_13_2	261			deeppeptide	Propeptide			
+MAG_321	MAG_321_13_20	1398						K03585	membrane fusion protein, multidrug efflux system
+MAG_321	MAG_321_13_21	1026						K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]
+MAG_321	MAG_321_13_22	312						K02888	large subunit ribosomal protein L21
+MAG_321	MAG_321_13_23	258						K02899	large subunit ribosomal protein L27
+MAG_321	MAG_321_13_24	687						K03634	outer membrane lipoprotein carrier protein
+MAG_321	MAG_321_13_25	615						K06024	segregation and condensation protein B
+MAG_321	MAG_321_13_26	930						K05896	segregation and condensation protein A
+MAG_321	MAG_321_13_27	1101						K01867	tryptophanyl-tRNA synthetase [EC:6.1.1.2]
+MAG_321	MAG_321_13_28	1092						K02517	Kdo2-lipid IVA lauroyltransferase/acyltransferase [EC:2.3.1.241 2.3.1.-]
+MAG_321	MAG_321_13_29	387						K02996	small subunit ribosomal protein S9
+MAG_321	MAG_321_13_3	708							
+MAG_321	MAG_321_13_30	429						K02871	large subunit ribosomal protein L13
+MAG_321	MAG_321_13_31	687						K08316	16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]
+MAG_321	MAG_321_13_32	1986						K05515	penicillin-binding protein 2 [EC:3.4.16.4]
+MAG_321	MAG_321_13_33	1281							
+MAG_321	MAG_321_13_34	2031						K02198	cytochrome c-type biogenesis protein CcmF
+MAG_321	MAG_321_13_35	660						K02199	cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE
+MAG_321	MAG_321_13_36	564						K02200	cytochrome c-type biogenesis protein CcmH
+MAG_321	MAG_321_13_37	1281							
+MAG_321	MAG_321_13_38	657						K00939	adenylate kinase [EC:2.7.4.3]
+MAG_321	MAG_321_13_39	453						K03071	preprotein translocase subunit SecB
+MAG_321	MAG_321_13_4	987						K06182	23S rRNA pseudouridine2604 synthase [EC:5.4.99.21]
+MAG_321	MAG_321_13_40	264						K03676	glutaredoxin 3
+MAG_321	MAG_321_13_41	456							
+MAG_321	MAG_321_13_42	1104						K06949	ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]
+MAG_321	MAG_321_13_43	588						K13288	oligoribonuclease [EC:3.1.-.-]
+MAG_321	MAG_321_13_44	855						K03269	UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]
+MAG_321	MAG_321_13_45	516							
+MAG_321	MAG_321_13_46	1740						K01886	glutaminyl-tRNA synthetase [EC:6.1.1.18]
+MAG_321	MAG_321_13_47	759							
+MAG_321	MAG_321_13_48	639						K24158	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]
+MAG_321	MAG_321_13_49	663						K00799	glutathione S-transferase [EC:2.5.1.18]
+MAG_321	MAG_321_13_5	906							
+MAG_321	MAG_321_13_50	975						K03668	heat shock protein HslJ
+MAG_321	MAG_321_13_51	585						K01159	crossover junction endodeoxyribonuclease RuvC [EC:3.1.21.10]
+MAG_321	MAG_321_13_52	621						K07113	UPF0716 protein FxsA
+MAG_321	MAG_321_13_53	1659						K15633	2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]
+MAG_321	MAG_321_13_54	1503						K03797	carboxyl-terminal processing protease [EC:3.4.21.102]
+MAG_321	MAG_321_13_55	1716						K02667	two-component system, NtrC family, response regulator PilR
+MAG_321	MAG_321_13_56	1794						K02668	two-component system, NtrC family, sensor histidine kinase PilS [EC:2.7.13.3]
+MAG_321	MAG_321_13_57	636						K07689	two-component system, NarL family, invasion response regulator UvrY
+MAG_321	MAG_321_13_58	1089						K07262	serine-type D-Ala-D-Ala endopeptidase (penicillin-binding protein 7) [EC:3.4.21.-]
+MAG_321	MAG_321_13_59	669							
+MAG_321	MAG_321_13_6	393						K15977	putative oxidoreductase
+MAG_321	MAG_321_13_60	330						K06204	RNA polymerase-binding transcription factor
+MAG_321	MAG_321_13_61	1215						K00927	phosphoglycerate kinase [EC:2.7.2.3]
+MAG_321	MAG_321_13_62	387							
+MAG_321	MAG_321_13_63	1038						K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]
+MAG_321	MAG_321_13_64	621						K03550	holliday junction DNA helicase RuvA
+MAG_321	MAG_321_13_65	984						K03551	holliday junction DNA helicase RuvB [EC:5.6.2.4]
+MAG_321	MAG_321_13_66	1416						K00102	D-lactate dehydrogenase (cytochrome) [EC:1.1.2.4]
+MAG_321	MAG_321_13_67	1662						K03688	ubiquinone biosynthesis protein
+MAG_321	MAG_321_13_68	705						K03690	ubiquinone biosynthesis accessory factor UbiJ
+MAG_321	MAG_321_13_69	1137						K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]
+MAG_321	MAG_321_13_7	555						K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)
+MAG_321	MAG_321_13_70	711							
+MAG_321	MAG_321_13_71	1737						K23753	AMP-polyphosphate phosphotransferase [EC:2.7.4.33]
+MAG_321	MAG_321_13_8	735							
+MAG_321	MAG_321_13_9	327						K06975	uncharacterized protein
+MAG_321	MAG_321_14_1	1710						K02652	type IV pilus assembly protein PilB
+MAG_321	MAG_321_14_10	480							
+MAG_321	MAG_321_14_11	336						K04085	tRNA 2-thiouridine synthesizing protein A [EC:2.8.1.-]
+MAG_321	MAG_321_14_12	1203							
+MAG_321	MAG_321_14_13	939						K04763	integrase/recombinase XerD
+MAG_321	MAG_321_14_14	1257							
+MAG_321	MAG_321_14_15	609						K00564	16S rRNA (guanine1207-N2)-methyltransferase [EC:2.1.1.172]
+MAG_321	MAG_321_14_16	1227						K11720	lipopolysaccharide export system permease protein
+MAG_321	MAG_321_14_17	1314						K07091	lipopolysaccharide export system permease protein
+MAG_321	MAG_321_14_18	621							
+MAG_321	MAG_321_14_19	1680						K01255	leucyl aminopeptidase [EC:3.4.11.1]
+MAG_321	MAG_321_14_2	1224						K02653	type IV pilus assembly protein PilC
+MAG_321	MAG_321_14_20	489						K02339	DNA polymerase III subunit chi [EC:2.7.7.7]
+MAG_321	MAG_321_14_21	1203						K07862	serine/threonine transporter
+MAG_321	MAG_321_14_22	1203						K07862	serine/threonine transporter
+MAG_321	MAG_321_14_23	324						K18997	chaperone modulatory protein CbpM
+MAG_321	MAG_321_14_24	984							
+MAG_321	MAG_321_14_25	363						K03642	peptidoglycan lytic transglycosylase [EC:4.2.2.29]
+MAG_321	MAG_321_14_26	2022						K06158	ATP-binding cassette, subfamily F, member 3
+MAG_321	MAG_321_14_27	381						K15724	iron-sulfur cluster insertion protein
+MAG_321	MAG_321_14_28	1575						K01919	glutamate--cysteine ligase [EC:6.3.2.2]
+MAG_321	MAG_321_14_29	528						K03611	protein dithiol:quinone oxidoreductase [EC:1.8.5.9]
+MAG_321	MAG_321_14_3	900						K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]
+MAG_321	MAG_321_14_30	672							
+MAG_321	MAG_321_14_31	1506						K02558	UDP-N-acetylmuramate: L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase [EC:6.3.2.45]
+MAG_321	MAG_321_14_32	255							
+MAG_321	MAG_321_14_33	129							
+MAG_321	MAG_321_14_34	555						K01462	peptide deformylase [EC:3.5.1.88]
+MAG_321	MAG_321_14_35	1182						K01581	ornithine decarboxylase [EC:4.1.1.17]
+MAG_321	MAG_321_14_36	954							
+MAG_321	MAG_321_14_37	849						K00215	4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
+MAG_321	MAG_321_14_38	1137						K03686	molecular chaperone DnaJ
+MAG_321	MAG_321_14_39	795							
+MAG_321	MAG_321_14_4	687						K00859	dephospho-CoA kinase [EC:2.7.1.24]
+MAG_321	MAG_321_14_40	1065						K03981	thiol:disulfide interchange protein DsbC [EC:5.3.4.1]
+MAG_321	MAG_321_14_41	705							
+MAG_321	MAG_321_14_42	609							
+MAG_321	MAG_321_14_43	1065						K07019	uncharacterized protein
+MAG_321	MAG_321_14_44	543							
+MAG_321	MAG_321_14_45	378							
+MAG_321	MAG_321_14_46	2094							
+MAG_321	MAG_321_14_47	1191						K06921	uncharacterized protein
+MAG_321	MAG_321_14_48	1044						K00459	nitronate monooxygenase [EC:1.13.12.16]
+MAG_321	MAG_321_14_49	705						K01779	aspartate racemase [EC:5.1.1.13]
+MAG_321	MAG_321_14_5	771						K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]
+MAG_321	MAG_321_14_50	255							
+MAG_321	MAG_321_14_51	1029						K02032	peptide/nickel transport system ATP-binding protein
+MAG_321	MAG_321_14_52	1191						K02031	peptide/nickel transport system ATP-binding protein
+MAG_321	MAG_321_14_53	906						K02034	peptide/nickel transport system permease protein
+MAG_321	MAG_321_14_54	921						K02033	peptide/nickel transport system permease protein
+MAG_321	MAG_321_14_55	1668						K15580	oligopeptide transport system substrate-binding protein
+MAG_321	MAG_321_14_56	1053							
+MAG_321	MAG_321_14_57	1209							
+MAG_321	MAG_321_14_58	681							
+MAG_321	MAG_321_14_59	978						K07512	mitochondrial enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase [EC:1.3.1.- 1.3.1.38]
+MAG_321	MAG_321_14_6	336						K09913	purine/pyrimidine-nucleoside phosphorylase [EC:2.4.2.1 2.4.2.2]
+MAG_321	MAG_321_14_60	1008						K19745	acrylyl-CoA reductase (NADPH) [EC:1.3.1.-]
+MAG_321	MAG_321_14_61	546							
+MAG_321	MAG_321_14_7	1680						K03631	DNA repair protein RecN (Recombination protein N)
+MAG_321	MAG_321_14_8	564						K07735	putative transcriptional regulator
+MAG_321	MAG_321_14_9	531						K07447	putative pre-16S rRNA nuclease [EC:3.1.-.-]
+MAG_321	MAG_321_15_1	1215						K07493	putative transposase
+MAG_321	MAG_321_15_10	798							
+MAG_321	MAG_321_15_11	837							
+MAG_321	MAG_321_15_12	267						K02968	small subunit ribosomal protein S20
+MAG_321	MAG_321_15_13	702						K17290	oxidoreductase [EC:1.1.1.-]
+MAG_321	MAG_321_15_14	543						K02553	regulator of ribonuclease activity A
+MAG_321	MAG_321_15_15	3774						K03723	transcription-repair coupling factor (superfamily II helicase) [EC:5.6.2.4]
+MAG_321	MAG_321_15_16	432							
+MAG_321	MAG_321_15_17	1416						K01768	adenylate cyclase [EC:4.6.1.1]
+MAG_321	MAG_321_15_18	339						K04755	ferredoxin, 2Fe-2S
+MAG_321	MAG_321_15_19	1881						K04044	molecular chaperone HscA
+MAG_321	MAG_321_15_2	2574						K03694	ATP-dependent Clp protease ATP-binding subunit ClpA
+MAG_321	MAG_321_15_20	582						K04082	molecular chaperone HscB
+MAG_321	MAG_321_15_21	321						K13628	iron-sulfur cluster assembly protein
+MAG_321	MAG_321_15_22	411						K04488	nitrogen fixation protein NifU and related proteins
+MAG_321	MAG_321_15_23	1227						K04487	cysteine desulfurase [EC:2.8.1.7]
+MAG_321	MAG_321_15_24	510						K13643	Rrf2 family transcriptional regulator, iron-sulfur cluster assembly transcription factor
+MAG_321	MAG_321_15_25	645							
+MAG_321	MAG_321_15_26	273						K03530	DNA-binding protein HU-beta
+MAG_321	MAG_321_15_27	1875						K03770	peptidyl-prolyl cis-trans isomerase D [EC:5.2.1.8]
+MAG_321	MAG_321_15_28	1581						K00602	phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]
+MAG_321	MAG_321_15_29	126			deeppeptide	Propeptide			
+MAG_321	MAG_321_15_3	738						K03648	uracil-DNA glycosylase [EC:3.2.2.27]
+MAG_321	MAG_321_15_30	360						K03557	Fis family transcriptional regulator, factor for inversion stimulation protein
+MAG_321	MAG_321_15_31	1293							
+MAG_321	MAG_321_15_32	927						K02687	ribosomal protein L11 methyltransferase [EC:2.1.1.-]
+MAG_321	MAG_321_15_33	804							
+MAG_321	MAG_321_15_34	2478						K05365	penicillin-binding protein 1B [EC:2.4.99.28 3.4.16.4]
+MAG_321	MAG_321_15_35	2781							
+MAG_321	MAG_321_15_36	723							
+MAG_321	MAG_321_15_37	1005						K00858	NAD+ kinase [EC:2.7.1.23]
+MAG_321	MAG_321_15_38	312						K09916	uncharacterized protein
+MAG_321	MAG_321_15_39	375							
+MAG_321	MAG_321_15_4	576						K11991	tRNA(adenine34) deaminase [EC:3.5.4.33]
+MAG_321	MAG_321_15_40	246						K03563	carbon storage regulator
+MAG_321	MAG_321_15_41	1287						K00928	aspartate kinase [EC:2.7.2.4]
+MAG_321	MAG_321_15_42	2673						K01872	alanyl-tRNA synthetase [EC:6.1.1.7]
+MAG_321	MAG_321_15_43	1770							
+MAG_321	MAG_321_15_44	213							
+MAG_321	MAG_321_15_45	1362							
+MAG_321	MAG_321_15_46	1167						K07320	ribosomal protein L3 glutamine methyltransferase [EC:2.1.1.298]
+MAG_321	MAG_321_15_47	1104						K01736	chorismate synthase [EC:4.2.3.5]
+MAG_321	MAG_321_15_48	201							
+MAG_321	MAG_321_15_49	1818						K07641	two-component system, OmpR family, sensor histidine kinase CreC [EC:2.7.13.3]
+MAG_321	MAG_321_15_5	783						K00945	CMP/dCMP kinase [EC:2.7.4.25]
+MAG_321	MAG_321_15_50	795						K07663	two-component system, OmpR family, catabolic regulation response regulator CreB
+MAG_321	MAG_321_15_51	672						K06999	phospholipase/carboxylesterase
+MAG_321	MAG_321_15_52	231			deeppeptide	Propeptide			
+MAG_321	MAG_321_15_53	318						K07483	transposase
+MAG_321	MAG_321_15_54	168							
+MAG_321	MAG_321_15_6	1692						K02945	small subunit ribosomal protein S1
+MAG_321	MAG_321_15_7	306						K05788	integration host factor subunit beta
+MAG_321	MAG_321_15_8	414						K08992	lipopolysaccharide assembly protein A
+MAG_321	MAG_321_15_9	699						K01591	orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]
+MAG_321	MAG_321_16_1	1281							
+MAG_321	MAG_321_16_10	963						K07497	putative transposase
+MAG_321	MAG_321_16_11	276						K07483	transposase
+MAG_321	MAG_321_16_12	441							
+MAG_321	MAG_321_16_13	1281							
+MAG_321	MAG_321_16_14	564						K02200	cytochrome c-type biogenesis protein CcmH
+MAG_321	MAG_321_16_15	651						K02199	cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE
+MAG_321	MAG_321_16_16	2055						K02198	cytochrome c-type biogenesis protein CcmF
+MAG_321	MAG_321_16_17	1290							
+MAG_321	MAG_321_16_18	870						K03118	sec-independent protein translocase protein TatC
+MAG_321	MAG_321_16_19	387						K03117	sec-independent protein translocase protein TatB
+MAG_321	MAG_321_16_2	570						K02200	cytochrome c-type biogenesis protein CcmH
+MAG_321	MAG_321_16_20	285						K03116	sec-independent protein translocase protein TatA
+MAG_321	MAG_321_16_21	2619						K17686	P-type Cu+ transporter [EC:7.2.2.8]
+MAG_321	MAG_321_16_22	177			deeppeptide	Propeptide			
+MAG_321	MAG_321_16_23	477							
+MAG_321	MAG_321_16_24	1143						K07233	copper resistance protein B
+MAG_321	MAG_321_16_25	1707						K22552	multicopper oxidase [EC:1.16.3.1]
+MAG_321	MAG_321_16_26	639							
+MAG_321	MAG_321_16_27	624							
+MAG_321	MAG_321_16_28	273							
+MAG_321	MAG_321_16_29	327							
+MAG_321	MAG_321_16_3	663						K02199	cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE
+MAG_321	MAG_321_16_30	747						K07665	two-component system, OmpR family, copper resistance phosphate regulon response regulator CusR
+MAG_321	MAG_321_16_31	1473							
+MAG_321	MAG_321_16_32	885						K13292	phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]
+MAG_321	MAG_321_16_33	723							
+MAG_321	MAG_321_16_34	969							
+MAG_321	MAG_321_16_35	297							
+MAG_321	MAG_321_16_36	216						K07473	DNA-damage-inducible protein J
+MAG_321	MAG_321_16_37	954							
+MAG_321	MAG_321_16_38	171							
+MAG_321	MAG_321_16_39	342							
+MAG_321	MAG_321_16_4	2049						K02198	cytochrome c-type biogenesis protein CcmF
+MAG_321	MAG_321_16_40	2652							
+MAG_321	MAG_321_16_41	957							
+MAG_321	MAG_321_16_42	276			deeppeptide	Propeptide			
+MAG_321	MAG_321_16_43	225						K07727	putative transcriptional regulator
+MAG_321	MAG_321_16_44	639						K03496	chromosome partitioning protein
+MAG_321	MAG_321_16_45	210							
+MAG_321	MAG_321_16_46	1542						K03427	type I restriction enzyme M protein [EC:2.1.1.72]
+MAG_321	MAG_321_16_47	1173						K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]
+MAG_321	MAG_321_16_48	3102						K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]
+MAG_321	MAG_321_16_49	1119							
+MAG_321	MAG_321_16_5	2202						K01534	Zn2+/Cd2+-exporting ATPase [EC:7.2.2.12 7.2.2.21]
+MAG_321	MAG_321_16_50	561							
+MAG_321	MAG_321_16_51	1557						K07126	uncharacterized protein
+MAG_321	MAG_321_16_52	591							
+MAG_321	MAG_321_16_53	1584						K04095	cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]
+MAG_321	MAG_321_16_54	249							
+MAG_321	MAG_321_16_55	363							
+MAG_321	MAG_321_16_56	708						K03101	signal peptidase II [EC:3.4.23.36]
+MAG_321	MAG_321_16_6	411							
+MAG_321	MAG_321_16_7	723							
+MAG_321	MAG_321_16_8	645							
+MAG_321	MAG_321_16_9	1569						K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]
+MAG_321	MAG_321_17_1	72			deeppeptide	Propeptide			
+MAG_321	MAG_321_17_10	270						K07391	magnesium chelatase family protein
+MAG_321	MAG_321_17_11	1896							
+MAG_321	MAG_321_17_12	387						K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]
+MAG_321	MAG_321_17_13	336							
+MAG_321	MAG_321_17_14	1125						K18831	HTH-type transcriptional regulator / antitoxin HigA
+MAG_321	MAG_321_17_15	885							
+MAG_321	MAG_321_17_16	999						K00560	thymidylate synthase [EC:2.1.1.45]
+MAG_321	MAG_321_17_17	306							
+MAG_321	MAG_321_17_18	300							
+MAG_321	MAG_321_17_19	246							
+MAG_321	MAG_321_17_2	351							
+MAG_321	MAG_321_17_20	552							
+MAG_321	MAG_321_17_21	1578							
+MAG_321	MAG_321_17_22	1371							
+MAG_321	MAG_321_17_23	237							
+MAG_321	MAG_321_17_24	225							
+MAG_321	MAG_321_17_25	150			deeppeptide	Propeptide			
+MAG_321	MAG_321_17_26	276			deeppeptide	Propeptide			
+MAG_321	MAG_321_17_27	882							
+MAG_321	MAG_321_17_28	1161							
+MAG_321	MAG_321_17_29	900							
+MAG_321	MAG_321_17_3	513							
+MAG_321	MAG_321_17_30	2151						K07497	putative transposase
+MAG_321	MAG_321_17_31	645							
+MAG_321	MAG_321_17_32	483						K07391	magnesium chelatase family protein
+MAG_321	MAG_321_17_33	702						K01091	phosphoglycolate phosphatase [EC:3.1.3.18]
+MAG_321	MAG_321_17_34	492							
+MAG_321	MAG_321_17_35	369							
+MAG_321	MAG_321_17_36	423							
+MAG_321	MAG_321_17_37	666						K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]
+MAG_321	MAG_321_17_38	645						K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]
+MAG_321	MAG_321_17_39	393							
+MAG_321	MAG_321_17_4	753							
+MAG_321	MAG_321_17_40	1338						K00835	valine--pyruvate aminotransferase [EC:2.6.1.66]
+MAG_321	MAG_321_17_41	1449							
+MAG_321	MAG_321_17_42	2643							
+MAG_321	MAG_321_17_43	720						K02003	putative ABC transport system ATP-binding protein
+MAG_321	MAG_321_17_44	825						K10804	acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]
+MAG_321	MAG_321_17_45	1269						K03449	MFS transporter, CP family, cyanate transporter
+MAG_321	MAG_321_17_46	246						K05952	uncharacterized protein
+MAG_321	MAG_321_17_47	1131						K03734	FAD:protein FMN transferase [EC:2.7.1.180]
+MAG_321	MAG_321_17_48	801							
+MAG_321	MAG_321_17_49	1236						K00351	Na+-transporting NADH:ubiquinone oxidoreductase subunit F [EC:7.2.1.1]
+MAG_321	MAG_321_17_5	1425							
+MAG_321	MAG_321_17_50	609						K00350	Na+-transporting NADH:ubiquinone oxidoreductase subunit E [EC:7.2.1.1]
+MAG_321	MAG_321_17_51	672						K00349	Na+-transporting NADH:ubiquinone oxidoreductase subunit D [EC:7.2.1.1]
+MAG_321	MAG_321_17_52	906						K00348	Na+-transporting NADH:ubiquinone oxidoreductase subunit C [EC:7.2.1.1]
+MAG_321	MAG_321_17_53	1236						K00347	Na+-transporting NADH:ubiquinone oxidoreductase subunit B [EC:7.2.1.1]
+MAG_321	MAG_321_17_54	1353						K00346	Na+-transporting NADH:ubiquinone oxidoreductase subunit A [EC:7.2.1.1]
+MAG_321	MAG_321_17_55	738						K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]
+MAG_321	MAG_321_17_56	1644						K03442	small conductance mechanosensitive channel
+MAG_321	MAG_321_17_57	303							
+MAG_321	MAG_321_17_58	2310						K12573	ribonuclease R [EC:3.1.13.1]
+MAG_321	MAG_321_17_59	1245							
+MAG_321	MAG_321_17_6	1158							
+MAG_321	MAG_321_17_60	504						K02520	translation initiation factor IF-3
+MAG_321	MAG_321_17_61	1935						K01868	threonyl-tRNA synthetase [EC:6.1.1.3]
+MAG_321	MAG_321_17_7	894							
+MAG_321	MAG_321_17_8	2016						K07497	putative transposase
+MAG_321	MAG_321_17_9	651							
+MAG_321	MAG_321_18_1	549							
+MAG_321	MAG_321_18_10	1074						K07098	uncharacterized protein
+MAG_321	MAG_321_18_11	462							
+MAG_321	MAG_321_18_12	870							
+MAG_321	MAG_321_18_13	456							
+MAG_321	MAG_321_18_14	966						K07071	uncharacterized protein
+MAG_321	MAG_321_18_15	501							
+MAG_321	MAG_321_18_16	948							
+MAG_321	MAG_321_18_17	519							
+MAG_321	MAG_321_18_18	630						K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]
+MAG_321	MAG_321_18_19	1224						K04096	DNA processing protein
+MAG_321	MAG_321_18_2	543							
+MAG_321	MAG_321_18_20	1098							
+MAG_321	MAG_321_18_21	1422						K01733	threonine synthase [EC:4.2.3.1]
+MAG_321	MAG_321_18_22	1575						K03500	16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]
+MAG_321	MAG_321_18_23	1086						K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]
+MAG_321	MAG_321_18_24	2841							
+MAG_321	MAG_321_18_25	675						K00793	riboflavin synthase [EC:2.5.1.9]
+MAG_321	MAG_321_18_26	1056						K11752	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
+MAG_321	MAG_321_18_27	477						K07738	transcriptional repressor NrdR
+MAG_321	MAG_321_18_28	1473						K03650	tRNA modification GTPase [EC:3.6.-.-]
+MAG_321	MAG_321_18_29	1698						K03217	YidC/Oxa1 family membrane protein insertase
+MAG_321	MAG_321_18_3	546							
+MAG_321	MAG_321_18_30	378						K08998	uncharacterized protein
+MAG_321	MAG_321_18_31	372						K03536	ribonuclease P protein component [EC:3.1.26.5]
+MAG_321	MAG_321_18_32	135	smorfinder	smorfam00756				K02914	large subunit ribosomal protein L34
+MAG_321	MAG_321_18_33	1446						K02313	chromosomal replication initiator protein
+MAG_321	MAG_321_18_34	1176						K02338	DNA polymerase III subunit beta [EC:2.7.7.7]
+MAG_321	MAG_321_18_35	1209						K03629	DNA replication and repair protein RecF
+MAG_321	MAG_321_18_36	2616						K02470	DNA gyrase subunit B [EC:5.6.2.2]
+MAG_321	MAG_321_18_37	582						K23242	manganese efflux pump family protein
+MAG_321	MAG_321_18_38	1038						K06970	23S rRNA (adenine1618-N6)-methyltransferase [EC:2.1.1.181]
+MAG_321	MAG_321_18_39	738						K05835	threonine efflux protein
+MAG_321	MAG_321_18_4	1233							
+MAG_321	MAG_321_18_5	810						K02169	malonyl-CoA O-methyltransferase [EC:2.1.1.197]
+MAG_321	MAG_321_18_6	1944						K04043	molecular chaperone DnaK
+MAG_321	MAG_321_18_7	600						K03687	molecular chaperone GrpE
+MAG_321	MAG_321_18_8	1404							
+MAG_321	MAG_321_18_9	1143						K07098	uncharacterized protein
+MAG_321	MAG_321_19_1	804							
+MAG_321	MAG_321_19_10	1938							
+MAG_321	MAG_321_19_11	1443						K03977	GTPase
+MAG_321	MAG_321_19_12	1209						K17713	outer membrane protein assembly factor BamB
+MAG_321	MAG_321_19_13	786							
+MAG_321	MAG_321_19_14	1290						K01892	histidyl-tRNA synthetase [EC:6.1.1.21]
+MAG_321	MAG_321_19_15	1116						K03526	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]
+MAG_321	MAG_321_19_16	813						K15539	cytoskeleton protein RodZ
+MAG_321	MAG_321_19_17	1023						K02656	type IV pilus assembly protein PilF
+MAG_321	MAG_321_19_18	1242						K06941	23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192]
+MAG_321	MAG_321_19_19	432						K00940	nucleoside-diphosphate kinase [EC:2.7.4.6]
+MAG_321	MAG_321_19_2	1005						K17950	L-cysteate sulfo-lyase [EC:4.4.1.25]
+MAG_321	MAG_321_19_20	417							
+MAG_321	MAG_321_19_21	1290						K01939	adenylosuccinate synthase [EC:6.3.4.4]
+MAG_321	MAG_321_19_22	1308						K02502	ATP phosphoribosyltransferase regulatory subunit
+MAG_321	MAG_321_19_23	498						K09966	uncharacterized protein
+MAG_321	MAG_321_19_24	1215						K03284	magnesium transporter
+MAG_321	MAG_321_19_25	519						K13256	protein PsiE
+MAG_321	MAG_321_19_26	879						K01491	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]
+MAG_321	MAG_321_19_27	1200							
+MAG_321	MAG_321_19_28	612							
+MAG_321	MAG_321_19_29	1170							
+MAG_321	MAG_321_19_3	702							
+MAG_321	MAG_321_19_30	864							
+MAG_321	MAG_321_19_31	1041							
+MAG_321	MAG_321_19_32	1095						K19424	glycosyltransferase EpsF [EC:2.4.-.-]
+MAG_321	MAG_321_19_33	1014							
+MAG_321	MAG_321_19_34	1083						K19426	pyruvyl transferase EpsI [EC:2.-.-.-]
+MAG_321	MAG_321_19_35	1191							
+MAG_321	MAG_321_19_36	1017						K19427	glycosyltransferase EpsJ [EC:2.4.-.-]
+MAG_321	MAG_321_19_37	663							
+MAG_321	MAG_321_19_4	1305						K08305	peptidoglycan lytic transglycosylase B [EC:4.2.2.29]
+MAG_321	MAG_321_19_5	795						K06194	lipoprotein NlpD
+MAG_321	MAG_321_19_6	813						K03787	5'/3'-nucleotidase [EC:3.1.3.5 3.1.3.6]
+MAG_321	MAG_321_19_7	183							
+MAG_321	MAG_321_19_8	438							
+MAG_321	MAG_321_19_9	1167						K07258	serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6) [EC:3.4.16.4]
+MAG_321	MAG_321_1_1	267							
+MAG_321	MAG_321_1_10	864							
+MAG_321	MAG_321_1_100	759							
+MAG_321	MAG_321_1_101	894							
+MAG_321	MAG_321_1_102	798							
+MAG_321	MAG_321_1_103	519						K03640	peptidoglycan-associated lipoprotein
+MAG_321	MAG_321_1_104	597							
+MAG_321	MAG_321_1_105	2643						K01256	aminopeptidase N [EC:3.4.11.2]
+MAG_321	MAG_321_1_106	1083						K01626	3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]
+MAG_321	MAG_321_1_107	1308						K00748	lipid-A-disaccharide synthase [EC:2.4.1.182]
+MAG_321	MAG_321_1_108	855						K03470	ribonuclease HII [EC:3.1.26.4]
+MAG_321	MAG_321_1_109	1230							
+MAG_321	MAG_321_1_11	213							
+MAG_321	MAG_321_1_110	666							
+MAG_321	MAG_321_1_111	1245						K13747	carboxynorspermidine decarboxylase [EC:4.1.1.96]
+MAG_321	MAG_321_1_112	1275							
+MAG_321	MAG_321_1_113	915						K03799	heat shock protein HtpX [EC:3.4.24.-]
+MAG_321	MAG_321_1_114	462							
+MAG_321	MAG_321_1_115	330							
+MAG_321	MAG_321_1_116	816							
+MAG_321	MAG_321_1_117	333						K09771	small multidrug resistance family-3 protein
+MAG_321	MAG_321_1_118	123							
+MAG_321	MAG_321_1_119	624						K01737	6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
+MAG_321	MAG_321_1_12	1251							
+MAG_321	MAG_321_1_120	525						K06925	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+MAG_321	MAG_321_1_121	1845							
+MAG_321	MAG_321_1_122	1149						K00791	tRNA dimethylallyltransferase [EC:2.5.1.75]
+MAG_321	MAG_321_1_123	531						K03666	host factor-I protein
+MAG_321	MAG_321_1_124	993						K06041	arabinose-5-phosphate isomerase [EC:5.3.1.13]
+MAG_321	MAG_321_1_125	567						K03270	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase (KDO 8-P phosphatase) [EC:3.1.3.45]
+MAG_321	MAG_321_1_126	585						K11719	lipopolysaccharide export system protein LptC
+MAG_321	MAG_321_1_127	579						K09774	lipopolysaccharide export system protein LptA
+MAG_321	MAG_321_1_128	780						K06861	lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]
+MAG_321	MAG_321_1_129	1440						K04485	DNA repair protein RadA/Sms
+MAG_321	MAG_321_1_13	1020							
+MAG_321	MAG_321_1_130	615						K03642	peptidoglycan lytic transglycosylase [EC:4.2.2.29]
+MAG_321	MAG_321_1_131	1143						K05837	rod shape determining protein RodA
+MAG_321	MAG_321_1_132	945							
+MAG_321	MAG_321_1_133	453							
+MAG_321	MAG_321_1_134	1554							
+MAG_321	MAG_321_1_135	1512						K07263	zinc protease [EC:3.4.24.-]
+MAG_321	MAG_321_1_136	165			deeppeptide	Peptide			
+MAG_321	MAG_321_1_137	1425						K03110	fused signal recognition particle receptor
+MAG_321	MAG_321_1_138	573						K00567	methylated-DNA-[protein]-cysteine S-methyltransferase [EC:2.1.1.63]
+MAG_321	MAG_321_1_139	750						K18189	translational activator of cytochrome c oxidase 1
+MAG_321	MAG_321_1_14	522							
+MAG_321	MAG_321_1_140	831						K10716	voltage-gated potassium channel
+MAG_321	MAG_321_1_141	1275							
+MAG_321	MAG_321_1_142	537						K03786	3-dehydroquinate dehydratase II [EC:4.2.1.10]
+MAG_321	MAG_321_1_143	216						K03704	cold shock protein
+MAG_321	MAG_321_1_144	1155						K03732	ATP-dependent RNA helicase RhlB [EC:5.6.2.7]
+MAG_321	MAG_321_1_145	903						K09792	uncharacterized protein
+MAG_321	MAG_321_1_146	297							
+MAG_321	MAG_321_1_147	774							
+MAG_321	MAG_321_1_148	1161						K00075	UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
+MAG_321	MAG_321_1_149	498						K25307	low molecular weight protein-tyrosine phosphatase [EC:3.1.3.48]
+MAG_321	MAG_321_1_15	1656							
+MAG_321	MAG_321_1_150	441						K04762	ribosome-associated heat shock protein Hsp15
+MAG_321	MAG_321_1_151	534						K07734	transcriptional regulator
+MAG_321	MAG_321_1_152	390							
+MAG_321	MAG_321_1_153	1554						K01754	threonine dehydratase [EC:4.3.1.19]
+MAG_321	MAG_321_1_154	375						K03892	ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor
+MAG_321	MAG_321_1_155	405						K00537	arsenate reductase (glutaredoxin) [EC:1.20.4.1]
+MAG_321	MAG_321_1_156	747						K11811	arsenical resistance protein ArsH
+MAG_321	MAG_321_1_157	1311						K03893	arsenical pump membrane protein
+MAG_321	MAG_321_1_158	660						K01807	ribose 5-phosphate isomerase A [EC:5.3.1.6]
+MAG_321	MAG_321_1_159	918						K00611	ornithine carbamoyltransferase [EC:2.1.3.3]
+MAG_321	MAG_321_1_16	675							
+MAG_321	MAG_321_1_160	1107						K01775	alanine racemase [EC:5.1.1.1]
+MAG_321	MAG_321_1_161	1404						K02314	replicative DNA helicase [EC:5.6.2.3]
+MAG_321	MAG_321_1_162	1092							
+MAG_321	MAG_321_1_163	387							
+MAG_321	MAG_321_1_164	426							
+MAG_321	MAG_321_1_165	864						K02528	16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]
+MAG_321	MAG_321_1_166	843						K01525	bis(5'-nucleosyl)-tetraphosphatase (symmetrical) [EC:3.6.1.41]
+MAG_321	MAG_321_1_167	2481							
+MAG_321	MAG_321_1_168	1785						K20035	3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]
+MAG_321	MAG_321_1_169	1794						K20035	3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]
+MAG_321	MAG_321_1_17	318							
+MAG_321	MAG_321_1_170	1713							
+MAG_321	MAG_321_1_171	894						K09761	16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]
+MAG_321	MAG_321_1_172	846						K00297	methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54]
+MAG_321	MAG_321_1_173	1425						K01251	adenosylhomocysteinase [EC:3.13.2.1]
+MAG_321	MAG_321_1_174	2088						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_1_175	1998						K16052	MscS family membrane protein
+MAG_321	MAG_321_1_176	633						K01247	DNA-3-methyladenine glycosylase II [EC:3.2.2.21]
+MAG_321	MAG_321_1_177	732							
+MAG_321	MAG_321_1_178	879						K01609	indole-3-glycerol phosphate synthase [EC:4.1.1.48]
+MAG_321	MAG_321_1_179	1122						K00766	anthranilate phosphoribosyltransferase [EC:2.4.2.18]
+MAG_321	MAG_321_1_18	294							
+MAG_321	MAG_321_1_180	624						K01658	anthranilate synthase component II [EC:4.1.3.27]
+MAG_321	MAG_321_1_181	1410						K01915	glutamine synthetase [EC:6.3.1.2]
+MAG_321	MAG_321_1_182	795							
+MAG_321	MAG_321_1_183	717							
+MAG_321	MAG_321_1_184	597						K03744	LemA protein
+MAG_321	MAG_321_1_185	3069						K03799	heat shock protein HtpX [EC:3.4.24.-]
+MAG_321	MAG_321_1_186	885							
+MAG_321	MAG_321_1_187	1110						K00831	phosphoserine aminotransferase [EC:2.6.1.52]
+MAG_321	MAG_321_1_188	1818							
+MAG_321	MAG_321_1_189	780						K01069	hydroxyacylglutathione hydrolase [EC:3.1.2.6]
+MAG_321	MAG_321_1_19	1230						K14059	integrase
+MAG_321	MAG_321_1_190	1068						K13894	microcin C transport system permease protein
+MAG_321	MAG_321_1_191	1095						K13895	microcin C transport system permease protein
+MAG_321	MAG_321_1_192	1701						K02031	peptide/nickel transport system ATP-binding protein
+MAG_321	MAG_321_1_193	1305							
+MAG_321	MAG_321_1_194	1206						K12267	peptide methionine sulfoxide reductase msrA/msrB [EC:1.8.4.11 1.8.4.12]
+MAG_321	MAG_321_1_195	597						K01495	GTP cyclohydrolase IA [EC:3.5.4.16]
+MAG_321	MAG_321_1_196	807						K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]
+MAG_321	MAG_321_1_197	696							
+MAG_321	MAG_321_1_198	165							
+MAG_321	MAG_321_1_199	1422						K14445	solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2/3/5
+MAG_321	MAG_321_1_2	192							
+MAG_321	MAG_321_1_20	216							
+MAG_321	MAG_321_1_200	810							
+MAG_321	MAG_321_1_201	504							
+MAG_321	MAG_321_1_202	594							
+MAG_321	MAG_321_1_203	318							
+MAG_321	MAG_321_1_204	414							
+MAG_321	MAG_321_1_205	4299						K03578	ATP-dependent RNA helicase HrpA [EC:5.6.2.6]
+MAG_321	MAG_321_1_206	369							
+MAG_321	MAG_321_1_207	330							
+MAG_321	MAG_321_1_208	858							
+MAG_321	MAG_321_1_209	414						K04063	lipoyl-dependent peroxiredoxin [EC:1.11.1.28]
+MAG_321	MAG_321_1_21	228						K07727	putative transcriptional regulator
+MAG_321	MAG_321_1_210	372							
+MAG_321	MAG_321_1_211	921							
+MAG_321	MAG_321_1_212	684							
+MAG_321	MAG_321_1_213	1500						K06143	inner membrane protein
+MAG_321	MAG_321_1_22	1671						K21431	alpha-keto-acid decarboxylase [EC:4.1.1.-]
+MAG_321	MAG_321_1_23	390						K02442	membrane protein GlpM
+MAG_321	MAG_321_1_24	1791						K11105	potassium/hydrogen antiporter
+MAG_321	MAG_321_1_25	900						K21699	LysR family transcriptional regulator, transcriptional activator for bauABCD operon
+MAG_321	MAG_321_1_26	969						K01480	agmatinase [EC:3.5.3.11]
+MAG_321	MAG_321_1_27	1725							
+MAG_321	MAG_321_1_28	1812						K03777	D-lactate dehydrogenase (quinone) [EC:1.1.5.12]
+MAG_321	MAG_321_1_29	1407							
+MAG_321	MAG_321_1_3	186							
+MAG_321	MAG_321_1_30	1524							
+MAG_321	MAG_321_1_31	612						K16137	TetR/AcrR family transcriptional regulator, transcriptional repressor for nem operon
+MAG_321	MAG_321_1_32	654							
+MAG_321	MAG_321_1_33	555							
+MAG_321	MAG_321_1_34	810							
+MAG_321	MAG_321_1_35	636							
+MAG_321	MAG_321_1_36	645						K05779	putative thiamine transport system ATP-binding protein
+MAG_321	MAG_321_1_37	1788						K05778	putative thiamine transport system permease protein
+MAG_321	MAG_321_1_38	1308						K05777	putative thiamine transport system substrate-binding protein
+MAG_321	MAG_321_1_39	2187							
+MAG_321	MAG_321_1_4	1803						K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]
+MAG_321	MAG_321_1_40	405							
+MAG_321	MAG_321_1_41	534						K09912	uncharacterized protein
+MAG_321	MAG_321_1_42	864							
+MAG_321	MAG_321_1_43	669							
+MAG_321	MAG_321_1_44	744						K07229	ferric-chelate reductase (NADPH) [EC:1.16.1.9]
+MAG_321	MAG_321_1_45	2202						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_1_46	1503							
+MAG_321	MAG_321_1_47	1713						K06159	multidrug/microcin transport system ATP-binding/permease protein
+MAG_321	MAG_321_1_48	2289						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_1_49	1128							
+MAG_321	MAG_321_1_5	3471						K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]
+MAG_321	MAG_321_1_50	1275							
+MAG_321	MAG_321_1_51	2181						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_1_52	156							
+MAG_321	MAG_321_1_53	1134						K07225	putative hemin transport protein
+MAG_321	MAG_321_1_54	858							
+MAG_321	MAG_321_1_55	987							
+MAG_321	MAG_321_1_56	858						K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]
+MAG_321	MAG_321_1_57	1248						K02005	HlyD family secretion protein
+MAG_321	MAG_321_1_58	1278						K09808	lipoprotein-releasing system permease protein
+MAG_321	MAG_321_1_59	804						K02003	putative ABC transport system ATP-binding protein
+MAG_321	MAG_321_1_6	1569						K03427	type I restriction enzyme M protein [EC:2.1.1.72]
+MAG_321	MAG_321_1_60	1683						K00029	malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]
+MAG_321	MAG_321_1_61	186							
+MAG_321	MAG_321_1_62	1188							
+MAG_321	MAG_321_1_63	2334						K00029	malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]
+MAG_321	MAG_321_1_64	1467						K08997	protein adenylyltransferase [EC:2.7.7.108]
+MAG_321	MAG_321_1_65	1404						K00507	stearoyl-CoA desaturase (Delta-9 desaturase) [EC:1.14.19.1]
+MAG_321	MAG_321_1_66	729						K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+MAG_321	MAG_321_1_67	936							
+MAG_321	MAG_321_1_68	597						K00798	cob(I)alamin adenosyltransferase [EC:2.5.1.17]
+MAG_321	MAG_321_1_69	1461						K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]
+MAG_321	MAG_321_1_7	1140						K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]
+MAG_321	MAG_321_1_70	2001							
+MAG_321	MAG_321_1_71	1473						K00088	IMP dehydrogenase [EC:1.1.1.205]
+MAG_321	MAG_321_1_72	1371						K03431	phosphoglucosamine mutase [EC:5.4.2.10]
+MAG_321	MAG_321_1_73	651						K00275	pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]
+MAG_321	MAG_321_1_74	435							
+MAG_321	MAG_321_1_75	1296						K03543	membrane fusion protein, multidrug efflux system
+MAG_321	MAG_321_1_76	1617							
+MAG_321	MAG_321_1_77	93			deeppeptide	Peptide			
+MAG_321	MAG_321_1_78	630						K00799	glutathione S-transferase [EC:2.5.1.18]
+MAG_321	MAG_321_1_79	678							
+MAG_321	MAG_321_1_8	3888							
+MAG_321	MAG_321_1_80	1050						K23256	NADPH-dependent curcumin reductase [EC:1.3.1.-]
+MAG_321	MAG_321_1_81	1221						K08325	NADP-dependent alcohol dehydrogenase [EC:1.1.-.-]
+MAG_321	MAG_321_1_82	603						K16137	TetR/AcrR family transcriptional regulator, transcriptional repressor for nem operon
+MAG_321	MAG_321_1_83	1491						K20199	4-hydroxybenzaldehyde dehydrogenase (NADP+) [EC:1.2.1.96]
+MAG_321	MAG_321_1_84	231							
+MAG_321	MAG_321_1_85	1077						K07496	putative transposase
+MAG_321	MAG_321_1_86	1419						K25656	cryptochrome
+MAG_321	MAG_321_1_87	1242						K07234	uncharacterized protein involved in response to NO
+MAG_321	MAG_321_1_88	510						K13771	Rrf2 family transcriptional regulator, nitric oxide-sensitive transcriptional repressor
+MAG_321	MAG_321_1_89	747							
+MAG_321	MAG_321_1_9	6648						K06877	DEAD/DEAH box helicase domain-containing protein
+MAG_321	MAG_321_1_90	792							
+MAG_321	MAG_321_1_91	990							
+MAG_321	MAG_321_1_92	1494						K08224	MFS transporter, YNFM family, putative membrane transport protein
+MAG_321	MAG_321_1_93	1671							
+MAG_321	MAG_321_1_94	2055						K01908	propionyl-CoA synthetase [EC:6.2.1.17]
+MAG_321	MAG_321_1_95	1485						K00140	malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]
+MAG_321	MAG_321_1_96	1161						K11538	isobutyryl-CoA dehydrogenase [EC:1.3.99.-]
+MAG_321	MAG_321_1_97	783							
+MAG_321	MAG_321_1_98	1230						K05605	3-hydroxyisobutyryl-CoA hydrolase [EC:3.1.2.4]
+MAG_321	MAG_321_1_99	939						K00020	3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]
+MAG_321	MAG_321_20_1	1608							
+MAG_321	MAG_321_20_10	714							
+MAG_321	MAG_321_20_11	1320							
+MAG_321	MAG_321_20_12	2679						K11904	type VI secretion system secreted protein VgrG
+MAG_321	MAG_321_20_13	837						K03286	OmpA-OmpF porin, OOP family
+MAG_321	MAG_321_20_14	981						K11890	type VI secretion system protein ImpM
+MAG_321	MAG_321_20_15	4047						K11891	type VI secretion system protein ImpL
+MAG_321	MAG_321_20_16	1797							
+MAG_321	MAG_321_20_17	1050						K17733	peptidoglycan LD-endopeptidase CwlK [EC:3.4.-.-]
+MAG_321	MAG_321_20_18	687							
+MAG_321	MAG_321_20_19	1347						K11893	type VI secretion system protein ImpJ
+MAG_321	MAG_321_20_2	1650						K14260	alanine-synthesizing transaminase [EC:2.6.1.66 2.6.1.2]
+MAG_321	MAG_321_20_20	813						K11892	type VI secretion system protein ImpK
+MAG_321	MAG_321_20_21	1203						K00812	aspartate aminotransferase [EC:2.6.1.1]
+MAG_321	MAG_321_20_22	738							
+MAG_321	MAG_321_20_23	1752						K06954	uncharacterized protein
+MAG_321	MAG_321_20_24	981						K09701	uncharacterized protein
+MAG_321	MAG_321_20_25	1494						K00574	cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]
+MAG_321	MAG_321_20_26	411							
+MAG_321	MAG_321_20_27	546						K10806	acyl-CoA thioesterase YciA [EC:3.1.2.-]
+MAG_321	MAG_321_20_28	1122						K14696	solute carrier family 30 (zinc transporter), member 9
+MAG_321	MAG_321_20_29	708						K09924	uncharacterized protein
+MAG_321	MAG_321_20_3	426						K07305	peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]
+MAG_321	MAG_321_20_30	483						K04047	starvation-inducible DNA-binding protein
+MAG_321	MAG_321_20_31	2112						K03702	excinuclease ABC subunit B
+MAG_321	MAG_321_20_32	294							
+MAG_321	MAG_321_20_4	486						K00432	glutathione peroxidase [EC:1.11.1.9]
+MAG_321	MAG_321_20_5	1455							
+MAG_321	MAG_321_20_6	768						K07665	two-component system, OmpR family, copper resistance phosphate regulon response regulator CusR
+MAG_321	MAG_321_20_7	609							
+MAG_321	MAG_321_20_8	468							
+MAG_321	MAG_321_20_9	558							
+MAG_321	MAG_321_21_1	93			deeppeptide	Peptide			
+MAG_321	MAG_321_21_10	1950							
+MAG_321	MAG_321_21_11	633						K02494	outer membrane lipoprotein LolB
+MAG_321	MAG_321_21_12	957						K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]
+MAG_321	MAG_321_21_13	480							
+MAG_321	MAG_321_21_14	948						K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]
+MAG_321	MAG_321_21_15	675						K02897	large subunit ribosomal protein L25
+MAG_321	MAG_321_21_16	582						K01056	peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]
+MAG_321	MAG_321_21_17	381						K01579	aspartate 1-decarboxylase [EC:4.1.1.11]
+MAG_321	MAG_321_21_18	981						K07301	cation:H+ antiporter
+MAG_321	MAG_321_21_19	654							
+MAG_321	MAG_321_21_2	351							
+MAG_321	MAG_321_21_20	807							
+MAG_321	MAG_321_21_21	570						K02221	YggT family protein
+MAG_321	MAG_321_21_22	834						K00286	pyrroline-5-carboxylate reductase [EC:1.5.1.2]
+MAG_321	MAG_321_21_23	513							
+MAG_321	MAG_321_21_24	1587						K04075	tRNA(Ile)-lysidine synthase [EC:6.3.4.19]
+MAG_321	MAG_321_21_25	804						K01962	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]
+MAG_321	MAG_321_21_26	1527						K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]
+MAG_321	MAG_321_21_27	411							
+MAG_321	MAG_321_21_28	1740							
+MAG_321	MAG_321_21_29	90							
+MAG_321	MAG_321_21_3	453							
+MAG_321	MAG_321_21_30	1302						K01845	glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]
+MAG_321	MAG_321_21_31	402						K06193	protein PhnA
+MAG_321	MAG_321_21_32	774							
+MAG_321	MAG_321_21_33	1326						K00285	D-amino-acid dehydrogenase [EC:1.4.5.1]
+MAG_321	MAG_321_21_34	1962							
+MAG_321	MAG_321_21_4	2136						K00219	2,4-dienoyl-CoA reductase (NADPH2) [EC:1.3.1.34]
+MAG_321	MAG_321_21_5	1665						K20034	3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44]
+MAG_321	MAG_321_21_6	420						K07112	uncharacterized protein
+MAG_321	MAG_321_21_7	438						K07112	uncharacterized protein
+MAG_321	MAG_321_21_8	1134							
+MAG_321	MAG_321_21_9	1356						K02492	glutamyl-tRNA reductase [EC:1.2.1.70]
+MAG_321	MAG_321_22_1	813						K01055	3-oxoadipate enol-lactonase [EC:3.1.1.24]
+MAG_321	MAG_321_22_10	1020						K07080	uncharacterized protein
+MAG_321	MAG_321_22_11	894						K00772	5'-methylthioadenosine phosphorylase [EC:2.4.2.28]
+MAG_321	MAG_321_22_12	639						K09931	uncharacterized protein
+MAG_321	MAG_321_22_13	720							
+MAG_321	MAG_321_22_14	849							
+MAG_321	MAG_321_22_15	1086							
+MAG_321	MAG_321_22_16	1740							
+MAG_321	MAG_321_22_17	957							
+MAG_321	MAG_321_22_18	822						K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]
+MAG_321	MAG_321_22_19	732						K10026	7-carboxy-7-deazaguanine synthase [EC:4.3.99.3]
+MAG_321	MAG_321_22_2	798						K15866	2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase [EC:5.3.3.18]
+MAG_321	MAG_321_22_20	1155							
+MAG_321	MAG_321_22_21	636							
+MAG_321	MAG_321_22_22	666							
+MAG_321	MAG_321_22_23	1830						K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]
+MAG_321	MAG_321_22_24	516							
+MAG_321	MAG_321_22_25	234							
+MAG_321	MAG_321_22_26	390							
+MAG_321	MAG_321_22_27	288							
+MAG_321	MAG_321_22_28	1053							
+MAG_321	MAG_321_22_29	1053							
+MAG_321	MAG_321_22_3	444							
+MAG_321	MAG_321_22_30	1176							
+MAG_321	MAG_321_22_4	456							
+MAG_321	MAG_321_22_5	2604						K01682	aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99]
+MAG_321	MAG_321_22_6	456						K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]
+MAG_321	MAG_321_22_7	1044						K03644	lipoyl synthase [EC:2.8.1.8]
+MAG_321	MAG_321_22_8	2091							
+MAG_321	MAG_321_22_9	564							
+MAG_321	MAG_321_23_1	1125							
+MAG_321	MAG_321_23_10	1599						K03333	cholesterol oxidase [EC:1.1.3.6]
+MAG_321	MAG_321_23_11	1227						K01696	tryptophan synthase beta chain [EC:4.2.1.20]
+MAG_321	MAG_321_23_12	903							
+MAG_321	MAG_321_23_13	1104						K10680	N-ethylmaleimide reductase [EC:1.-.-.-]
+MAG_321	MAG_321_23_14	969						K06911	quercetin 2,3-dioxygenase [EC:1.13.11.24]
+MAG_321	MAG_321_23_15	1317							
+MAG_321	MAG_321_23_16	177							
+MAG_321	MAG_321_23_17	1962						K01895	acetyl-CoA synthetase [EC:6.2.1.1]
+MAG_321	MAG_321_23_18	1194						K18208	renalase [EC:1.6.3.5]
+MAG_321	MAG_321_23_19	429						K07507	putative Mg2+ transporter-C (MgtC) family protein
+MAG_321	MAG_321_23_2	795						K07126	uncharacterized protein
+MAG_321	MAG_321_23_20	252							
+MAG_321	MAG_321_23_21	237							
+MAG_321	MAG_321_23_22	672						K00995	CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]
+MAG_321	MAG_321_23_23	774							
+MAG_321	MAG_321_23_24	495							
+MAG_321	MAG_321_23_25	3999						K01952	phosphoribosylformylglycinamidine synthase [EC:6.3.5.3]
+MAG_321	MAG_321_23_26	3288							
+MAG_321	MAG_321_23_3	570							
+MAG_321	MAG_321_23_4	525							
+MAG_321	MAG_321_23_5	606							
+MAG_321	MAG_321_23_6	540							
+MAG_321	MAG_321_23_7	1020						K03800	lipoate---protein ligase [EC:6.3.1.20]
+MAG_321	MAG_321_23_8	447							
+MAG_321	MAG_321_23_9	591							
+MAG_321	MAG_321_24_1	372						K06199	fluoride exporter
+MAG_321	MAG_321_24_10	378							
+MAG_321	MAG_321_24_11	201						K03154	sulfur carrier protein
+MAG_321	MAG_321_24_12	369						K05808	ribosome hibernation promoting factor
+MAG_321	MAG_321_24_13	1656						K03092	RNA polymerase sigma-54 factor
+MAG_321	MAG_321_24_14	897							
+MAG_321	MAG_321_24_15	1035							
+MAG_321	MAG_321_24_16	888						K01778	diaminopimelate epimerase [EC:5.1.1.7]
+MAG_321	MAG_321_24_17	1356						K01586	diaminopimelate decarboxylase [EC:4.1.1.20]
+MAG_321	MAG_321_24_18	342							
+MAG_321	MAG_321_24_19	1233						K00925	acetate kinase [EC:2.7.2.1]
+MAG_321	MAG_321_24_2	1059						K25706	tRNA N6-adenosine threonylcarbamoyltransferase [EC:2.3.1.234]
+MAG_321	MAG_321_24_20	2157						K13788	phosphate acetyltransferase [EC:2.3.1.8]
+MAG_321	MAG_321_24_21	915						K00969	nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]
+MAG_321	MAG_321_24_22	414						K09710	ribosome-associated protein
+MAG_321	MAG_321_24_23	783							
+MAG_321	MAG_321_24_24	876						K01447	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+MAG_321	MAG_321_24_25	741						K03474	pyridoxine 5-phosphate synthase [EC:2.6.99.2]
+MAG_321	MAG_321_24_26	1191						K00639	glycine C-acetyltransferase [EC:2.3.1.29]
+MAG_321	MAG_321_24_27	1026						K00060	threonine 3-dehydrogenase [EC:1.1.1.103]
+MAG_321	MAG_321_24_28	189			deeppeptide	Peptide			
+MAG_321	MAG_321_24_3	510							
+MAG_321	MAG_321_24_4	399							
+MAG_321	MAG_321_24_5	216						K02970	small subunit ribosomal protein S21
+MAG_321	MAG_321_24_6	450						K09117	uncharacterized protein
+MAG_321	MAG_321_24_7	1671						K01423	beta-barrel assembly-enhancing protease [EC:3.4.-.-]
+MAG_321	MAG_321_24_8	456						K04085	tRNA 2-thiouridine synthesizing protein A [EC:2.8.1.-]
+MAG_321	MAG_321_24_9	1026						K03089	RNA polymerase sigma-32 factor
+MAG_321	MAG_321_25_1	453							
+MAG_321	MAG_321_25_10	780							
+MAG_321	MAG_321_25_11	447							
+MAG_321	MAG_321_25_12	2910						K11904	type VI secretion system secreted protein VgrG
+MAG_321	MAG_321_25_13	3096							
+MAG_321	MAG_321_25_14	987							
+MAG_321	MAG_321_25_15	219			deeppeptide	Propeptide			
+MAG_321	MAG_321_25_16	984							
+MAG_321	MAG_321_25_17	1791						K11904	type VI secretion system secreted protein VgrG
+MAG_321	MAG_321_25_18	1746							
+MAG_321	MAG_321_25_2	1152						K11902	type VI secretion system protein ImpA
+MAG_321	MAG_321_25_3	2952						K11907	type VI secretion system protein VasG
+MAG_321	MAG_321_25_4	1041						K11895	type VI secretion system protein ImpH
+MAG_321	MAG_321_25_5	1824						K11896	type VI secretion system protein ImpG
+MAG_321	MAG_321_25_6	492						K11897	type VI secretion system protein ImpF
+MAG_321	MAG_321_25_7	504						K11903	type VI secretion system secreted protein Hcp
+MAG_321	MAG_321_25_8	1491						K11900	type VI secretion system protein ImpC
+MAG_321	MAG_321_25_9	513						K11901	type VI secretion system protein ImpB
+MAG_321	MAG_321_26_1	333							
+MAG_321	MAG_321_26_10	993							
+MAG_321	MAG_321_26_11	282							
+MAG_321	MAG_321_26_12	930							
+MAG_321	MAG_321_26_13	882							
+MAG_321	MAG_321_26_14	1107							
+MAG_321	MAG_321_26_15	1302							
+MAG_321	MAG_321_26_16	1062							
+MAG_321	MAG_321_26_17	2250							
+MAG_321	MAG_321_26_2	831							
+MAG_321	MAG_321_26_3	1017						K27078	spore coat protein U domain-containing protein, fimbrial subunit CupE1/2/3/6
+MAG_321	MAG_321_26_4	2493							
+MAG_321	MAG_321_26_5	762						K07346	fimbrial chaperone protein
+MAG_321	MAG_321_26_6	540						K27078	spore coat protein U domain-containing protein, fimbrial subunit CupE1/2/3/6
+MAG_321	MAG_321_26_7	252						K07733	prophage regulatory protein
+MAG_321	MAG_321_26_8	924							
+MAG_321	MAG_321_26_9	1128							
+MAG_321	MAG_321_27_1	468							
+MAG_321	MAG_321_27_10	324						K03746	DNA-binding protein H-NS
+MAG_321	MAG_321_27_11	924						K02463	general secretion pathway protein N
+MAG_321	MAG_321_27_12	897						K02452	general secretion pathway protein C
+MAG_321	MAG_321_27_13	2247						K02453	general secretion pathway protein D
+MAG_321	MAG_321_27_14	189							
+MAG_321	MAG_321_27_15	978						K03424	TatD DNase family protein [EC:3.1.21.-]
+MAG_321	MAG_321_27_16	402							
+MAG_321	MAG_321_27_2	267							
+MAG_321	MAG_321_27_3	2907						K03701	excinuclease ABC subunit A
+MAG_321	MAG_321_27_4	1365							
+MAG_321	MAG_321_27_5	618							
+MAG_321	MAG_321_27_6	624						K03111	single-strand DNA-binding protein
+MAG_321	MAG_321_27_7	627							
+MAG_321	MAG_321_27_8	519							
+MAG_321	MAG_321_27_9	438							
+MAG_321	MAG_321_28_1	693						K22736	vacuolar iron transporter family protein
+MAG_321	MAG_321_28_10	675						K07666	two-component system, OmpR family, response regulator QseB
+MAG_321	MAG_321_28_11	606							
+MAG_321	MAG_321_28_12	1260							
+MAG_321	MAG_321_28_13	1305							
+MAG_321	MAG_321_28_14	261			deeppeptide	Propeptide			
+MAG_321	MAG_321_28_15	927							
+MAG_321	MAG_321_28_16	111			deeppeptide	Peptide			
+MAG_321	MAG_321_28_17	1062						K07222	putative flavoprotein involved in K+ transport
+MAG_321	MAG_321_28_2	1260							
+MAG_321	MAG_321_28_3	633							
+MAG_321	MAG_321_28_4	702						K22736	vacuolar iron transporter family protein
+MAG_321	MAG_321_28_5	684							
+MAG_321	MAG_321_28_6	1083						K03734	FAD:protein FMN transferase [EC:2.7.1.180]
+MAG_321	MAG_321_28_7	315							
+MAG_321	MAG_321_28_8	591							
+MAG_321	MAG_321_28_9	1464						K07645	two-component system, OmpR family, sensor histidine kinase QseC [EC:2.7.13.3]
+MAG_321	MAG_321_29_1	387							
+MAG_321	MAG_321_29_10	390							
+MAG_321	MAG_321_29_11	2130							
+MAG_321	MAG_321_29_12	411							
+MAG_321	MAG_321_29_2	813							
+MAG_321	MAG_321_29_3	687							
+MAG_321	MAG_321_29_4	1596						K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+MAG_321	MAG_321_29_5	1758						K00803	alkyldihydroxyacetonephosphate synthase [EC:2.5.1.26]
+MAG_321	MAG_321_29_6	1668						K00111	glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
+MAG_321	MAG_321_29_7	1569							
+MAG_321	MAG_321_29_8	1170						K14155	cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+MAG_321	MAG_321_29_9	657							
+MAG_321	MAG_321_2_1	591							
+MAG_321	MAG_321_2_10	402							
+MAG_321	MAG_321_2_100	807						K06169	tRNA 2-(methylsulfanyl)-N6-isopentenyladenosine37 hydroxylase [EC:1.14.99.69]
+MAG_321	MAG_321_2_101	201							
+MAG_321	MAG_321_2_102	393							
+MAG_321	MAG_321_2_103	252							
+MAG_321	MAG_321_2_104	171							
+MAG_321	MAG_321_2_105	2208						K00937	polyphosphate kinase [EC:2.7.4.1]
+MAG_321	MAG_321_2_106	687						K03814	monofunctional glycosyltransferase [EC:2.4.99.28]
+MAG_321	MAG_321_2_107	318							
+MAG_321	MAG_321_2_108	1188						K00101	L-lactate dehydrogenase (cytochrome) [EC:1.1.2.3]
+MAG_321	MAG_321_2_109	975							
+MAG_321	MAG_321_2_11	1479						K02575	MFS transporter, NNP family, nitrate/nitrite transporter
+MAG_321	MAG_321_2_110	813						K07274	MipA family protein
+MAG_321	MAG_321_2_111	486							
+MAG_321	MAG_321_2_112	1404						K01679	fumarate hydratase, class II [EC:4.2.1.2]
+MAG_321	MAG_321_2_113	651						K01934	5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]
+MAG_321	MAG_321_2_114	252							
+MAG_321	MAG_321_2_115	462							
+MAG_321	MAG_321_2_116	1374						K07084	putative amino acid transporter
+MAG_321	MAG_321_2_117	2655						K01338	ATP-dependent Lon protease [EC:3.4.21.53]
+MAG_321	MAG_321_2_118	1101							
+MAG_321	MAG_321_2_119	558						K04565	superoxide dismutase, Cu-Zn family [EC:1.15.1.1]
+MAG_321	MAG_321_2_12	660							
+MAG_321	MAG_321_2_120	2667						K03168	DNA topoisomerase I [EC:5.6.2.1]
+MAG_321	MAG_321_2_121	597							
+MAG_321	MAG_321_2_122	225							
+MAG_321	MAG_321_2_123	540							
+MAG_321	MAG_321_2_124	402						K03559	biopolymer transport protein ExbD
+MAG_321	MAG_321_2_125	690						K03561	biopolymer transport protein ExbB
+MAG_321	MAG_321_2_126	975						K03832	periplasmic protein TonB
+MAG_321	MAG_321_2_127	1050						K25282	iron-siderophore transport system substrate-binding protein
+MAG_321	MAG_321_2_128	1101						K25284	iron-siderophore transport system permease protein
+MAG_321	MAG_321_2_129	1062						K25283	iron-siderophore transport system permease protein
+MAG_321	MAG_321_2_13	2034						K07673	two-component system, NarL family, nitrate/nitrite sensor histidine kinase NarX [EC:2.7.13.3]
+MAG_321	MAG_321_2_130	771						K25285	iron-siderophore transport system ATP-binding protein [EC:7.2.2.-]
+MAG_321	MAG_321_2_131	1410							
+MAG_321	MAG_321_2_132	2070						K16087	hemoglobin/transferrin/lactoferrin receptor protein
+MAG_321	MAG_321_2_133	1410						K16345	xanthine permease XanP
+MAG_321	MAG_321_2_134	666						K09017	TetR/AcrR family transcriptional regulator
+MAG_321	MAG_321_2_135	522						K16840	2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase [EC:4.1.1.97]
+MAG_321	MAG_321_2_136	369						K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]
+MAG_321	MAG_321_2_137	1326							
+MAG_321	MAG_321_2_138	981						K16842	allantoinase [EC:3.5.2.5]
+MAG_321	MAG_321_2_139	837						K14977	(S)-ureidoglycine aminohydrolase [EC:3.5.3.26]
+MAG_321	MAG_321_2_14	1380						K02575	MFS transporter, NNP family, nitrate/nitrite transporter
+MAG_321	MAG_321_2_140	549						K01483	ureidoglycolate lyase [EC:4.3.2.3]
+MAG_321	MAG_321_2_141	276						K03720	TrpR family transcriptional regulator, trp operon repressor
+MAG_321	MAG_321_2_142	1419							
+MAG_321	MAG_321_2_143	648						K01658	anthranilate synthase component II [EC:4.1.3.27]
+MAG_321	MAG_321_2_144	948						K03298	drug/metabolite transporter, DME family
+MAG_321	MAG_321_2_145	744						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+MAG_321	MAG_321_2_146	738						K10009	L-cystine transport system permease protein
+MAG_321	MAG_321_2_147	837						K02424	L-cystine transport system substrate-binding protein
+MAG_321	MAG_321_2_148	183							
+MAG_321	MAG_321_2_149	786						K05836	GntR family transcriptional regulator, histidine utilization repressor
+MAG_321	MAG_321_2_15	3759						K00370	nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]
+MAG_321	MAG_321_2_150	1728						K01712	urocanate hydratase [EC:4.2.1.49]
+MAG_321	MAG_321_2_151	1362							
+MAG_321	MAG_321_2_152	1563						K01745	histidine ammonia-lyase [EC:4.3.1.3]
+MAG_321	MAG_321_2_153	1083						K01479	formiminoglutamase [EC:3.5.3.8]
+MAG_321	MAG_321_2_154	1326						K01468	imidazolonepropionase [EC:3.5.2.7]
+MAG_321	MAG_321_2_155	585							
+MAG_321	MAG_321_2_156	1347						K00262	glutamate dehydrogenase (NADP+) [EC:1.4.1.4]
+MAG_321	MAG_321_2_157	363						K07131	uncharacterized protein
+MAG_321	MAG_321_2_158	495							
+MAG_321	MAG_321_2_159	750							
+MAG_321	MAG_321_2_16	1539						K00371	nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]
+MAG_321	MAG_321_2_160	618							
+MAG_321	MAG_321_2_161	615							
+MAG_321	MAG_321_2_162	522						K21908	membrane protein HdeD
+MAG_321	MAG_321_2_163	576							
+MAG_321	MAG_321_2_164	741						K07141	molybdenum cofactor cytidylyltransferase [EC:2.7.7.76]
+MAG_321	MAG_321_2_165	1383						K07402	xanthine dehydrogenase accessory factor
+MAG_321	MAG_321_2_166	2460						K11177	xanthine dehydrogenase YagR molybdenum-binding subunit [EC:1.17.1.4]
+MAG_321	MAG_321_2_167	990						K11178	xanthine dehydrogenase YagS FAD-binding subunit [EC:1.17.1.4]
+MAG_321	MAG_321_2_168	648						K13483	xanthine dehydrogenase YagT iron-sulfur-binding subunit
+MAG_321	MAG_321_2_169	657						K10679	nitroreductase / dihydropteridine reductase [EC:1.-.-.- 1.5.1.34]
+MAG_321	MAG_321_2_17	855						K00373	nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW
+MAG_321	MAG_321_2_170	669						K07396	putative protein-disulfide isomerase
+MAG_321	MAG_321_2_171	696						K01560	2-haloacid dehalogenase [EC:3.8.1.2]
+MAG_321	MAG_321_2_172	1125						K00121	S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]
+MAG_321	MAG_321_2_173	894							
+MAG_321	MAG_321_2_174	519							
+MAG_321	MAG_321_2_175	288							
+MAG_321	MAG_321_2_176	2274						K22452	protein-glutamine gamma-glutamyltransferase [EC:2.3.2.13]
+MAG_321	MAG_321_2_177	1050							
+MAG_321	MAG_321_2_178	1029						K03924	MoxR-like ATPase [EC:3.6.3.-]
+MAG_321	MAG_321_2_179	465						K08738	cytochrome c
+MAG_321	MAG_321_2_18	726						K00374	nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-]
+MAG_321	MAG_321_2_180	2088						K21025	multidomain signaling protein FimX
+MAG_321	MAG_321_2_181	1776						K23127	cyclic-di-GMP-binding protein
+MAG_321	MAG_321_2_182	1008						K19810	L-lysine 2,3-aminomutase [EC:5.4.3.-]
+MAG_321	MAG_321_2_183	576						K02356	elongation factor P
+MAG_321	MAG_321_2_184	1818							
+MAG_321	MAG_321_2_185	411							
+MAG_321	MAG_321_2_19	1053							
+MAG_321	MAG_321_2_2	2304						K02014	iron complex outermembrane recepter protein
+MAG_321	MAG_321_2_20	1296						K03750	molybdopterin molybdotransferase [EC:2.10.1.1]
+MAG_321	MAG_321_2_21	1116						K03639	GTP 3',8-cyclase [EC:4.1.99.22]
+MAG_321	MAG_321_2_22	531						K03638	molybdopterin adenylyltransferase [EC:2.7.7.75]
+MAG_321	MAG_321_2_23	786						K03752	molybdenum cofactor guanylyltransferase [EC:2.7.7.77]
+MAG_321	MAG_321_2_24	519						K03637	cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]
+MAG_321	MAG_321_2_25	291						K03636	sulfur-carrier protein
+MAG_321	MAG_321_2_26	492						K03635	molybdopterin synthase catalytic subunit [EC:2.8.1.12]
+MAG_321	MAG_321_2_27	846						K02020	molybdate transport system substrate-binding protein
+MAG_321	MAG_321_2_28	480							
+MAG_321	MAG_321_2_29	441							
+MAG_321	MAG_321_2_3	951						K09792	uncharacterized protein
+MAG_321	MAG_321_2_30	1713						K03760	lipid A ethanolaminephosphotransferase [EC:2.7.8.43]
+MAG_321	MAG_321_2_31	687							
+MAG_321	MAG_321_2_32	1347							
+MAG_321	MAG_321_2_33	474							
+MAG_321	MAG_321_2_34	792							
+MAG_321	MAG_321_2_35	627							
+MAG_321	MAG_321_2_36	414							
+MAG_321	MAG_321_2_37	543							
+MAG_321	MAG_321_2_38	702						K03499	trk/ktr system potassium uptake protein
+MAG_321	MAG_321_2_39	1296						K03498	trk/ktr system potassium uptake protein
+MAG_321	MAG_321_2_4	939							
+MAG_321	MAG_321_2_40	465							
+MAG_321	MAG_321_2_41	942							
+MAG_321	MAG_321_2_42	1197							
+MAG_321	MAG_321_2_43	423							
+MAG_321	MAG_321_2_44	486							
+MAG_321	MAG_321_2_45	492						K07043	UTP pyrophosphatase [EC:3.6.1.-]
+MAG_321	MAG_321_2_46	2046						K02168	choline/glycine/proline betaine transport protein
+MAG_321	MAG_321_2_47	1701						K00108	choline dehydrogenase [EC:1.1.99.1]
+MAG_321	MAG_321_2_48	1515						K00130	betaine-aldehyde dehydrogenase [EC:1.2.1.8]
+MAG_321	MAG_321_2_49	573							
+MAG_321	MAG_321_2_5	2358						K02482	two-component system, NtrC family, sensor kinase [EC:2.7.13.3]
+MAG_321	MAG_321_2_50	345						K03297	small multidrug resistance pump
+MAG_321	MAG_321_2_51	342							
+MAG_321	MAG_321_2_52	735							
+MAG_321	MAG_321_2_53	426							
+MAG_321	MAG_321_2_54	1191							
+MAG_321	MAG_321_2_55	1926						K15255	ATP-dependent DNA helicase PIF1 [EC:5.6.2.3]
+MAG_321	MAG_321_2_56	1527						K00138	aldehyde dehydrogenase [EC:1.2.1.-]
+MAG_321	MAG_321_2_57	1017						K13953	alcohol dehydrogenase, propanol-preferring [EC:1.1.1.1]
+MAG_321	MAG_321_2_58	327						K09959	uncharacterized protein
+MAG_321	MAG_321_2_59	1644							
+MAG_321	MAG_321_2_6	477							
+MAG_321	MAG_321_2_60	1641						K12368	dipeptide transport system substrate-binding protein
+MAG_321	MAG_321_2_61	1017						K02033	peptide/nickel transport system permease protein
+MAG_321	MAG_321_2_62	915						K02034	peptide/nickel transport system permease protein
+MAG_321	MAG_321_2_63	1068						K02031	peptide/nickel transport system ATP-binding protein
+MAG_321	MAG_321_2_64	972						K02032	peptide/nickel transport system ATP-binding protein
+MAG_321	MAG_321_2_65	1020							
+MAG_321	MAG_321_2_66	657						K05835	threonine efflux protein
+MAG_321	MAG_321_2_67	1998						K00615	transketolase [EC:2.2.1.1]
+MAG_321	MAG_321_2_68	1476							
+MAG_321	MAG_321_2_69	1284						K01875	seryl-tRNA synthetase [EC:6.1.1.11]
+MAG_321	MAG_321_2_7	1935						K10254	oleate hydratase [EC:4.2.1.53]
+MAG_321	MAG_321_2_70	660							
+MAG_321	MAG_321_2_71	477						K04047	starvation-inducible DNA-binding protein
+MAG_321	MAG_321_2_72	690						K09909	uncharacterized protein
+MAG_321	MAG_321_2_73	804						K10763	DnaA-homolog protein
+MAG_321	MAG_321_2_74	1107							
+MAG_321	MAG_321_2_75	1050						K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]
+MAG_321	MAG_321_2_76	708						K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]
+MAG_321	MAG_321_2_77	1383							
+MAG_321	MAG_321_2_78	990						K14657	LysR family transcriptional regulator, nod-box dependent transcriptional activator
+MAG_321	MAG_321_2_79	1587						K01637	isocitrate/methylisocitrate lyase [EC:4.1.3.1 4.1.3.30]
+MAG_321	MAG_321_2_8	897							
+MAG_321	MAG_321_2_80	1323							
+MAG_321	MAG_321_2_81	1692							
+MAG_321	MAG_321_2_82	615						K07078	uncharacterized protein
+MAG_321	MAG_321_2_83	540							
+MAG_321	MAG_321_2_84	1299							
+MAG_321	MAG_321_2_85	1239						K01940	argininosuccinate synthase [EC:6.3.4.5]
+MAG_321	MAG_321_2_86	1071							
+MAG_321	MAG_321_2_87	780						K03683	ribonuclease T [EC:3.1.13.-]
+MAG_321	MAG_321_2_88	198			deeppeptide	Peptide			
+MAG_321	MAG_321_2_89	624							
+MAG_321	MAG_321_2_9	1143						K10680	N-ethylmaleimide reductase [EC:1.-.-.-]
+MAG_321	MAG_321_2_90	768						K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [EC:2.7.7.60]
+MAG_321	MAG_321_2_91	309						K05589	cell division protein FtsB
+MAG_321	MAG_321_2_92	1317						K01689	enolase 1/2/3 [EC:4.2.1.11]
+MAG_321	MAG_321_2_93	2361							
+MAG_321	MAG_321_2_94	225							
+MAG_321	MAG_321_2_95	255							
+MAG_321	MAG_321_2_96	876						K01627	2-dehydro-3-deoxyphosphooctonate aldolase (KDO 8-P synthase) [EC:2.5.1.55]
+MAG_321	MAG_321_2_97	1635						K01937	CTP synthase [EC:6.3.4.2]
+MAG_321	MAG_321_2_98	1065							
+MAG_321	MAG_321_2_99	2199						K01638	malate synthase [EC:2.3.3.9]
+MAG_321	MAG_321_30_1	903						K17103	CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8]
+MAG_321	MAG_321_30_10	1167						K00324	proton-translocating NAD(P)+ transhydrogenase subunit alpha [EC:7.1.1.1]
+MAG_321	MAG_321_30_11	801						K09861	uncharacterized protein
+MAG_321	MAG_321_30_12	1215						K07493	putative transposase
+MAG_321	MAG_321_30_13	390							
+MAG_321	MAG_321_30_14	678							
+MAG_321	MAG_321_30_2	876						K07115	23S rRNA (adenine2030-N6)-methyltransferase [EC:2.1.1.266]
+MAG_321	MAG_321_30_3	756						K07394	SM-20-related protein
+MAG_321	MAG_321_30_4	1215						K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]
+MAG_321	MAG_321_30_5	501							
+MAG_321	MAG_321_30_6	210							
+MAG_321	MAG_321_30_7	564							
+MAG_321	MAG_321_30_8	1401						K00325	proton-translocating NAD(P)+ transhydrogenase subunit beta [EC:7.1.1.1]
+MAG_321	MAG_321_30_9	390							
+MAG_321	MAG_321_31_1	942						K05792	tellurite resistance protein TerA
+MAG_321	MAG_321_31_10	462							
+MAG_321	MAG_321_31_2	1224							
+MAG_321	MAG_321_31_3	609						K05791	tellurium resistance protein TerZ
+MAG_321	MAG_321_31_4	753							
+MAG_321	MAG_321_31_5	576						K05795	tellurium resistance protein TerD
+MAG_321	MAG_321_31_6	1065						K09799	uncharacterized protein
+MAG_321	MAG_321_31_7	576						K05795	tellurium resistance protein TerD
+MAG_321	MAG_321_31_8	2304						K12297	23S rRNA (guanine2069-N7)-methyltransferase / 23S rRNA (guanine2445-N2)-methyltransferase [EC:2.1.1.264 2.1.1.173]
+MAG_321	MAG_321_31_9	1188						K03442	small conductance mechanosensitive channel
+MAG_321	MAG_321_32_1	1683							
+MAG_321	MAG_321_32_2	1080						K07391	magnesium chelatase family protein
+MAG_321	MAG_321_32_3	2484						K07116	acyl-homoserine-lactone acylase [EC:3.5.1.97]
+MAG_321	MAG_321_32_4	1542						K02495	oxygen-independent coproporphyrinogen III oxidase [EC:1.3.98.3]
+MAG_321	MAG_321_32_5	1392							
+MAG_321	MAG_321_32_6	861							
+MAG_321	MAG_321_32_7	498						K07340	inner membrane protein
+MAG_321	MAG_321_33_1	240							
+MAG_321	MAG_321_33_2	1188							
+MAG_321	MAG_321_33_3	1245							
+MAG_321	MAG_321_33_4	1074							
+MAG_321	MAG_321_33_5	1308							
+MAG_321	MAG_321_33_6	828							
+MAG_321	MAG_321_33_7	1197							
+MAG_321	MAG_321_33_8	1065							
+MAG_321	MAG_321_34_1	1689						K11904	type VI secretion system secreted protein VgrG
+MAG_321	MAG_321_34_2	1023							
+MAG_321	MAG_321_34_3	3252							
+MAG_321	MAG_321_34_4	1086							
+MAG_321	MAG_321_35_1	900						K07533	foldase protein PrsA [EC:5.2.1.8]
+MAG_321	MAG_321_35_2	5703						K01361	lactocepin [EC:3.4.21.96]
+MAG_321	MAG_321_36_1	3057						K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]
+MAG_321	MAG_321_36_2	924							
+MAG_321	MAG_321_37_1	165							
+MAG_321	MAG_321_37_2	936							
+MAG_321	MAG_321_37_3	519							
+MAG_321	MAG_321_37_4	537							
+MAG_321	MAG_321_37_5	333							
+MAG_321	MAG_321_38_1	1182							
+MAG_321	MAG_321_38_2	876							
+MAG_321	MAG_321_38_3	1692						K11904	type VI secretion system secreted protein VgrG
+MAG_321	MAG_321_39_1	1302						K06639	cell division cycle 14 [EC:3.1.3.16 3.1.3.48]
+MAG_321	MAG_321_39_2	123							
+MAG_321	MAG_321_3_1	1194							
+MAG_321	MAG_321_3_10	735							
+MAG_321	MAG_321_3_100	1041						K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]
+MAG_321	MAG_321_3_101	600							
+MAG_321	MAG_321_3_102	630							
+MAG_321	MAG_321_3_103	1551						K03980	putative peptidoglycan lipid II flippase
+MAG_321	MAG_321_3_104	588						K03806	N-acetyl-anhydromuramoyl-L-alanine amidase [EC:3.5.1.28]
+MAG_321	MAG_321_3_105	2103							
+MAG_321	MAG_321_3_106	852							
+MAG_321	MAG_321_3_107	999							
+MAG_321	MAG_321_3_108	723						K00762	orotate phosphoribosyltransferase [EC:2.4.2.10]
+MAG_321	MAG_321_3_109	984						K01920	glutathione synthase [EC:6.3.2.3]
+MAG_321	MAG_321_3_11	1365							
+MAG_321	MAG_321_3_110	1086						K02563	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]
+MAG_321	MAG_321_3_111	1440						K01924	UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]
+MAG_321	MAG_321_3_112	1008						K01921	D-alanine-D-alanine ligase [EC:6.3.2.4]
+MAG_321	MAG_321_3_113	795						K03589	cell division protein FtsQ
+MAG_321	MAG_321_3_114	1341						K03590	cell division protein FtsA
+MAG_321	MAG_321_3_115	1206						K03531	cell division protein FtsZ
+MAG_321	MAG_321_3_116	918						K02535	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108]
+MAG_321	MAG_321_3_117	516							
+MAG_321	MAG_321_3_118	729							
+MAG_321	MAG_321_3_119	729							
+MAG_321	MAG_321_3_12	585							
+MAG_321	MAG_321_3_120	309						K07574	RNA-binding protein
+MAG_321	MAG_321_3_121	633						K02427	23S rRNA (uridine2552-2'-O)-methyltransferase [EC:2.1.1.166]
+MAG_321	MAG_321_3_122	1887						K03798	cell division protease FtsH [EC:3.4.24.-]
+MAG_321	MAG_321_3_123	897						K00796	dihydropteroate synthase [EC:2.5.1.15]
+MAG_321	MAG_321_3_124	282							
+MAG_321	MAG_321_3_125	444						K19168	toxin CptA
+MAG_321	MAG_321_3_126	744							
+MAG_321	MAG_321_3_127	1458						K03319	divalent anion:Na+ symporter, DASS family
+MAG_321	MAG_321_3_128	1119						K03565	regulatory protein
+MAG_321	MAG_321_3_129	1053						K03553	recombination protein RecA
+MAG_321	MAG_321_3_13	1203						K03313	Na+:H+ antiporter, NhaA family
+MAG_321	MAG_321_3_130	852						K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]
+MAG_321	MAG_321_3_131	930							
+MAG_321	MAG_321_3_132	1887						K11747	glutathione-regulated potassium-efflux system protein KefB
+MAG_321	MAG_321_3_133	705							
+MAG_321	MAG_321_3_134	1191						K16264	cobalt-zinc-cadmium efflux system protein
+MAG_321	MAG_321_3_135	2286						K04066	primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]
+MAG_321	MAG_321_3_136	381						K09022	2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+MAG_321	MAG_321_3_137	2199							
+MAG_321	MAG_321_3_138	261			deeppeptide	Propeptide		K03060	DNA-directed RNA polymerase subunit omega [EC:2.7.7.6]
+MAG_321	MAG_321_3_139	627						K00942	guanylate kinase [EC:2.7.4.8]
+MAG_321	MAG_321_3_14	756						K07090	uncharacterized protein
+MAG_321	MAG_321_3_140	957						K03527	4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase [EC:1.17.7.4]
+MAG_321	MAG_321_3_141	246							
+MAG_321	MAG_321_3_142	819							
+MAG_321	MAG_321_3_143	1545						K03781	catalase [EC:1.11.1.6]
+MAG_321	MAG_321_3_144	1974						K04079	molecular chaperone HtpG
+MAG_321	MAG_321_3_145	1482							
+MAG_321	MAG_321_3_146	891						K01070	S-formylglutathione hydrolase [EC:3.1.2.12]
+MAG_321	MAG_321_3_147	453							
+MAG_321	MAG_321_3_148	693						K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]
+MAG_321	MAG_321_3_149	378							
+MAG_321	MAG_321_3_15	1377							
+MAG_321	MAG_321_3_150	312							
+MAG_321	MAG_321_3_151	312							
+MAG_321	MAG_321_3_152	156						K02913	large subunit ribosomal protein L33
+MAG_321	MAG_321_3_153	237						K02902	large subunit ribosomal protein L28
+MAG_321	MAG_321_3_154	2514							
+MAG_321	MAG_321_3_155	987						K01433	formyltetrahydrofolate deformylase [EC:3.5.1.10]
+MAG_321	MAG_321_3_156	792							
+MAG_321	MAG_321_3_157	1551						K03106	signal recognition particle subunit SRP54 [EC:3.6.5.4]
+MAG_321	MAG_321_3_158	684						K14742	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+MAG_321	MAG_321_3_159	843						K06153	undecaprenyl-diphosphatase [EC:3.6.1.27]
+MAG_321	MAG_321_3_16	2946						K06445	acyl-CoA dehydrogenase [EC:1.3.99.-]
+MAG_321	MAG_321_3_160	909						K15984	16S rRNA (guanine1516-N2)-methyltransferase [EC:2.1.1.242]
+MAG_321	MAG_321_3_161	243							
+MAG_321	MAG_321_3_162	918						K03179	4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39]
+MAG_321	MAG_321_3_163	675							
+MAG_321	MAG_321_3_164	642							
+MAG_321	MAG_321_3_165	633							
+MAG_321	MAG_321_3_166	558							
+MAG_321	MAG_321_3_167	2139						K15461	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein [EC:2.1.1.61 1.5.-.-]
+MAG_321	MAG_321_3_168	441							
+MAG_321	MAG_321_3_169	330						K09780	uncharacterized protein
+MAG_321	MAG_321_3_17	684						K03630	DNA repair protein RadC
+MAG_321	MAG_321_3_170	552						K06190	intracellular septation protein
+MAG_321	MAG_321_3_171	882						K07053	3',5'-nucleoside bisphosphate phosphatase [EC:3.1.3.97]
+MAG_321	MAG_321_3_172	1458							
+MAG_321	MAG_321_3_173	1287						K06176	tRNA pseudouridine13 synthase [EC:5.4.99.27]
+MAG_321	MAG_321_3_174	1653						K22747	apoptosis-inducing factor 3
+MAG_321	MAG_321_3_175	624							
+MAG_321	MAG_321_3_176	228							
+MAG_321	MAG_321_3_177	462							
+MAG_321	MAG_321_3_178	1356						K00383	glutathione reductase (NADPH) [EC:1.8.1.7]
+MAG_321	MAG_321_3_179	453							
+MAG_321	MAG_321_3_18	1413						K13038	phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5]
+MAG_321	MAG_321_3_180	789							
+MAG_321	MAG_321_3_181	855						K23010	metalloendopeptidase OMA1, mitochondrial [EC:3.4.24.-]
+MAG_321	MAG_321_3_182	1284							
+MAG_321	MAG_321_3_19	789						K07090	uncharacterized protein
+MAG_321	MAG_321_3_2	423						K09790	uncharacterized protein
+MAG_321	MAG_321_3_20	918							
+MAG_321	MAG_321_3_21	801							
+MAG_321	MAG_321_3_22	1092							
+MAG_321	MAG_321_3_23	630						K02193	heme exporter protein A [EC:7.6.2.5]
+MAG_321	MAG_321_3_24	738						K02194	heme exporter protein B
+MAG_321	MAG_321_3_25	789						K02195	heme exporter protein C
+MAG_321	MAG_321_3_26	222						K02196	heme exporter protein D
+MAG_321	MAG_321_3_27	501						K02197	cytochrome c-type biogenesis protein CcmE
+MAG_321	MAG_321_3_28	849						K06222	2,5-diketo-D-gluconate reductase B [EC:1.1.1.346]
+MAG_321	MAG_321_3_29	960						K02073	D-methionine transport system substrate-binding protein
+MAG_321	MAG_321_3_3	210						K03704	cold shock protein
+MAG_321	MAG_321_3_30	687						K02072	D-methionine transport system permease protein
+MAG_321	MAG_321_3_31	771						K02071	D-methionine transport system ATP-binding protein
+MAG_321	MAG_321_3_32	2184							
+MAG_321	MAG_321_3_33	723						K02483	two-component system, OmpR family, response regulator
+MAG_321	MAG_321_3_34	1305							
+MAG_321	MAG_321_3_35	378						K02657	twitching motility two-component system response regulator PilG
+MAG_321	MAG_321_3_36	363							
+MAG_321	MAG_321_3_37	531						K02659	twitching motility protein PilI
+MAG_321	MAG_321_3_38	1413						K03406	methyl-accepting chemotaxis protein
+MAG_321	MAG_321_3_39	993						K02661	type IV pilus assembly protein PilK
+MAG_321	MAG_321_3_4	1086							
+MAG_321	MAG_321_3_40	6909						K06596	chemosensory pili system protein ChpA (sensor histidine kinase/response regulator)
+MAG_321	MAG_321_3_41	1005						K06597	chemosensory pili system protein ChpB (putative protein-glutamate methylesterase)
+MAG_321	MAG_321_3_42	516							
+MAG_321	MAG_321_3_43	528						K12262	superoxide oxidase [EC:1.10.3.17]
+MAG_321	MAG_321_3_44	291						K03608	cell division topological specificity factor
+MAG_321	MAG_321_3_45	816						K03609	septum site-determining protein MinD
+MAG_321	MAG_321_3_46	849						K03610	septum site-determining protein MinC
+MAG_321	MAG_321_3_47	1086							
+MAG_321	MAG_321_3_48	963							
+MAG_321	MAG_321_3_49	654						K03286	OmpA-OmpF porin, OOP family
+MAG_321	MAG_321_3_5	936							
+MAG_321	MAG_321_3_50	1461						K07231	putative iron-regulated protein
+MAG_321	MAG_321_3_51	1680							
+MAG_321	MAG_321_3_52	1149						K07338	uncharacterized protein
+MAG_321	MAG_321_3_53	1542						K09947	uncharacterized protein
+MAG_321	MAG_321_3_54	663							
+MAG_321	MAG_321_3_55	606						K21552	methyl halide transferase [EC:2.1.1.165]
+MAG_321	MAG_321_3_56	684							
+MAG_321	MAG_321_3_57	909						K04761	LysR family transcriptional regulator, hydrogen peroxide-inducible genes activator
+MAG_321	MAG_321_3_58	567						K24119	NADH-dependent peroxiredoxin subunit C [EC:1.11.1.26]
+MAG_321	MAG_321_3_59	249						K09794	uncharacterized protein
+MAG_321	MAG_321_3_6	462						K06149	universal stress protein A
+MAG_321	MAG_321_3_60	90			deeppeptide	Peptide			
+MAG_321	MAG_321_3_61	1578						K03387	NADH-dependent peroxiredoxin subunit F [EC:1.8.1.-]
+MAG_321	MAG_321_3_62	861							
+MAG_321	MAG_321_3_63	822							
+MAG_321	MAG_321_3_64	747							
+MAG_321	MAG_321_3_65	333							
+MAG_321	MAG_321_3_66	327							
+MAG_321	MAG_321_3_67	1710						K03321	sulfate permease, SulP family
+MAG_321	MAG_321_3_68	369						K22042	ArsR family transcriptional regulator, virulence genes transcriptional regulator
+MAG_321	MAG_321_3_69	873							
+MAG_321	MAG_321_3_7	3078						K06972	presequence protease [EC:3.4.24.-]
+MAG_321	MAG_321_3_70	183							
+MAG_321	MAG_321_3_71	438						K03672	thioredoxin 2 [EC:1.8.1.8]
+MAG_321	MAG_321_3_72	402							
+MAG_321	MAG_321_3_73	360							
+MAG_321	MAG_321_3_74	324						K05527	BolA family transcriptional regulator, general stress-responsive regulator
+MAG_321	MAG_321_3_75	813						K23010	metalloendopeptidase OMA1, mitochondrial [EC:3.4.24.-]
+MAG_321	MAG_321_3_76	792						K00076	7-alpha-hydroxysteroid dehydrogenase [EC:1.1.1.159]
+MAG_321	MAG_321_3_77	1236						K01485	cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]
+MAG_321	MAG_321_3_78	360							
+MAG_321	MAG_321_3_79	729							
+MAG_321	MAG_321_3_8	1329							
+MAG_321	MAG_321_3_80	534						K06945	uncharacterized protein
+MAG_321	MAG_321_3_81	426							
+MAG_321	MAG_321_3_82	453							
+MAG_321	MAG_321_3_83	732						K03811	nicotinamide mononucleotide transporter
+MAG_321	MAG_321_3_84	1041						K06211	HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]
+MAG_321	MAG_321_3_85	1044						K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]
+MAG_321	MAG_321_3_86	2094						K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]
+MAG_321	MAG_321_3_87	297							
+MAG_321	MAG_321_3_88	432						K09888	cell division protein ZapA
+MAG_321	MAG_321_3_89	441							
+MAG_321	MAG_321_3_9	564						K18453	ADP-ribose/FAD diphosphatase [EC:3.6.1.13 3.6.1.18]
+MAG_321	MAG_321_3_90	654						K09895	uncharacterized protein
+MAG_321	MAG_321_3_91	486							
+MAG_321	MAG_321_3_92	1233						K01438	acetylornithine deacetylase [EC:3.5.1.16]
+MAG_321	MAG_321_3_93	735						K05834	homoserine/homoserine lactone efflux protein
+MAG_321	MAG_321_3_94	498							
+MAG_321	MAG_321_3_95	1491						K06168	tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]
+MAG_321	MAG_321_3_96	2139						K08309	peptidoglycan lytic transglycosylase [EC:4.2.2.29]
+MAG_321	MAG_321_3_97	777							
+MAG_321	MAG_321_3_98	990						K00024	malate dehydrogenase [EC:1.1.1.37]
+MAG_321	MAG_321_3_99	240							
+MAG_321	MAG_321_41_1	1374							
+MAG_321	MAG_321_41_2	1530							
+MAG_321	MAG_321_42_1	471							
+MAG_321	MAG_321_42_2	846							
+MAG_321	MAG_321_42_3	141							
+MAG_321	MAG_321_43_1	1992						K07497	putative transposase
+MAG_321	MAG_321_44_1	666						K02068	UDP-glucose/iron transport system ATP-binding protein
+MAG_321	MAG_321_44_2	756						K02069	UDP-glucose/iron transport system permease protein
+MAG_321	MAG_321_44_3	426							
+MAG_321	MAG_321_4_1	1212							
+MAG_321	MAG_321_4_10	1632							
+MAG_321	MAG_321_4_100	1269							
+MAG_321	MAG_321_4_101	885							
+MAG_321	MAG_321_4_102	1350							
+MAG_321	MAG_321_4_103	753						K14056	HTH-type transcriptional regulator, repressor for puuD
+MAG_321	MAG_321_4_104	741						K07010	putative glutamine amidotransferase
+MAG_321	MAG_321_4_105	1344						K01915	glutamine synthetase [EC:6.3.1.2]
+MAG_321	MAG_321_4_106	1374						K09471	gamma-glutamylputrescine oxidase [EC:1.4.3.-]
+MAG_321	MAG_321_4_107	1494						K18218	tetracycline resistance efflux pump
+MAG_321	MAG_321_4_108	870						K12251	N-carbamoylputrescine amidase [EC:3.5.1.53]
+MAG_321	MAG_321_4_109	1128						K10536	agmatine deiminase [EC:3.5.3.12]
+MAG_321	MAG_321_4_11	2730						K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+MAG_321	MAG_321_4_110	1374						K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]
+MAG_321	MAG_321_4_111	1443							
+MAG_321	MAG_321_4_112	1263							
+MAG_321	MAG_321_4_113	1476						K00135	succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]
+MAG_321	MAG_321_4_114	771						K20539	IclR family transcriptional regulator, blcABC operon repressor
+MAG_321	MAG_321_4_115	1050							
+MAG_321	MAG_321_4_116	1224						K01041	glutaryl-CoA transferase [EC:2.8.3.-]
+MAG_321	MAG_321_4_117	1185						K00252	glutaryl-CoA dehydrogenase [EC:1.3.8.6]
+MAG_321	MAG_321_4_118	828							
+MAG_321	MAG_321_4_119	1707						K14414	transcriptional regulatory protein RtcR
+MAG_321	MAG_321_4_12	1647							
+MAG_321	MAG_321_4_120	1233						K14415	tRNA-splicing ligase RtcB (3'-phosphate/5'-hydroxy nucleic acid ligase) [EC:6.5.1.8]
+MAG_321	MAG_321_4_121	663							
+MAG_321	MAG_321_4_122	459							
+MAG_321	MAG_321_4_123	1107						K01974	RNA 3'-terminal phosphate cyclase (ATP) [EC:6.5.1.4]
+MAG_321	MAG_321_4_124	1803							
+MAG_321	MAG_321_4_125	816							
+MAG_321	MAG_321_4_126	1197						K05916	nitric oxide dioxygenase [EC:1.14.12.17]
+MAG_321	MAG_321_4_127	1224						K09989	uncharacterized protein
+MAG_321	MAG_321_4_128	864							
+MAG_321	MAG_321_4_129	642							
+MAG_321	MAG_321_4_13	639							
+MAG_321	MAG_321_4_130	321						K09902	uncharacterized protein
+MAG_321	MAG_321_4_131	1188						K00605	glycine cleavage system T protein (aminomethyltransferase) [EC:2.1.2.10]
+MAG_321	MAG_321_4_132	381						K02437	glycine cleavage system H protein
+MAG_321	MAG_321_4_133	783							
+MAG_321	MAG_321_4_134	2898						K00281	glycine cleavage system P protein (glycine dehydrogenase) [EC:1.4.4.2]
+MAG_321	MAG_321_4_135	690						K01046	triacylglycerol lipase [EC:3.1.1.3]
+MAG_321	MAG_321_4_136	1332						K03684	ribonuclease D [EC:3.1.13.5]
+MAG_321	MAG_321_4_137	594						K06187	recombination protein RecR
+MAG_321	MAG_321_4_138	330						K09747	nucleoid-associated protein EbfC
+MAG_321	MAG_321_4_139	1290						K10764	O-succinylhomoserine sulfhydrylase [EC:2.5.1.-]
+MAG_321	MAG_321_4_14	411							
+MAG_321	MAG_321_4_140	210							
+MAG_321	MAG_321_4_141	1641						K06132	cardiolipin synthase C [EC:2.7.8.-]
+MAG_321	MAG_321_4_142	1302							
+MAG_321	MAG_321_4_143	972						K05539	tRNA-dihydrouridine synthase A [EC:1.-.-.-]
+MAG_321	MAG_321_4_144	789						K07052	CAAX protease family protein
+MAG_321	MAG_321_4_145	891							
+MAG_321	MAG_321_4_146	1056						K04773	protease IV [EC:3.4.21.-]
+MAG_321	MAG_321_4_147	3000						K02238	competence protein ComEC
+MAG_321	MAG_321_4_148	576						K09928	uncharacterized protein
+MAG_321	MAG_321_4_149	312							
+MAG_321	MAG_321_4_15	372							
+MAG_321	MAG_321_4_150	681						K09810	lipoprotein-releasing system ATP-binding protein [EC:7.6.2.-]
+MAG_321	MAG_321_4_151	1236						K09808	lipoprotein-releasing system permease protein
+MAG_321	MAG_321_4_152	975							
+MAG_321	MAG_321_4_153	390							
+MAG_321	MAG_321_4_154	1482						K00404	cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9]
+MAG_321	MAG_321_4_155	639						K00405	cytochrome c oxidase cbb3-type subunit II
+MAG_321	MAG_321_4_156	183						K00407	cytochrome c oxidase cbb3-type subunit IV
+MAG_321	MAG_321_4_157	1137						K00406	cytochrome c oxidase cbb3-type subunit III
+MAG_321	MAG_321_4_158	90							
+MAG_321	MAG_321_4_159	1410							
+MAG_321	MAG_321_4_16	333							
+MAG_321	MAG_321_4_160	582						K09926	uncharacterized protein
+MAG_321	MAG_321_4_161	1158						K14058	tRNA 2-thiocytidine biosynthesis protein TtcA
+MAG_321	MAG_321_4_162	780						K06920	7-cyano-7-deazaguanine synthase [EC:6.3.4.20]
+MAG_321	MAG_321_4_163	330							
+MAG_321	MAG_321_4_164	498						K03564	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]
+MAG_321	MAG_321_4_165	1077							
+MAG_321	MAG_321_4_17	1356							
+MAG_321	MAG_321_4_18	3162							
+MAG_321	MAG_321_4_19	708							
+MAG_321	MAG_321_4_2	720						K10857	exodeoxyribonuclease X [EC:3.1.11.-]
+MAG_321	MAG_321_4_20	876							
+MAG_321	MAG_321_4_21	648							
+MAG_321	MAG_321_4_22	2898							
+MAG_321	MAG_321_4_23	3132							
+MAG_321	MAG_321_4_24	2241							
+MAG_321	MAG_321_4_25	552							
+MAG_321	MAG_321_4_26	735							
+MAG_321	MAG_321_4_27	741							
+MAG_321	MAG_321_4_28	642							
+MAG_321	MAG_321_4_29	585							
+MAG_321	MAG_321_4_3	750							
+MAG_321	MAG_321_4_30	888							
+MAG_321	MAG_321_4_31	879							
+MAG_321	MAG_321_4_32	450							
+MAG_321	MAG_321_4_33	489						K03668	heat shock protein HslJ
+MAG_321	MAG_321_4_34	387							
+MAG_321	MAG_321_4_35	909						K11921	LysR family transcriptional regulator, cyn operon transcriptional activator
+MAG_321	MAG_321_4_36	663						K01673	carbonic anhydrase [EC:4.2.1.1]
+MAG_321	MAG_321_4_37	471						K01725	cyanate lyase [EC:4.2.1.104]
+MAG_321	MAG_321_4_38	1212						K03449	MFS transporter, CP family, cyanate transporter
+MAG_321	MAG_321_4_39	561						K11477	glc operon protein GlcG
+MAG_321	MAG_321_4_4	651							
+MAG_321	MAG_321_4_40	747							
+MAG_321	MAG_321_4_41	1143						K27877	2-(methylaminoethyl)phosphonate oxidase [EC:1.5.3.27]
+MAG_321	MAG_321_4_42	1005							
+MAG_321	MAG_321_4_43	1695						K02011	iron(III) transport system permease protein
+MAG_321	MAG_321_4_44	924							
+MAG_321	MAG_321_4_45	96			deeppeptide	Peptide			
+MAG_321	MAG_321_4_46	1686							
+MAG_321	MAG_321_4_47	1128						K01796	alpha-methylacyl-CoA racemase [EC:5.1.99.4]
+MAG_321	MAG_321_4_48	2172						K01782	3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]
+MAG_321	MAG_321_4_49	1209						K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+MAG_321	MAG_321_4_5	1062							
+MAG_321	MAG_321_4_50	1152							
+MAG_321	MAG_321_4_51	639						K22106	TetR/AcrR family transcriptional regulator, repressor of fatR-cypB operon
+MAG_321	MAG_321_4_52	468							
+MAG_321	MAG_321_4_53	1287						K26065	L-pipecolate oxidase
+MAG_321	MAG_321_4_54	1461						K03315	Na+:H+ antiporter, NhaC family
+MAG_321	MAG_321_4_55	1491						K26061	L-aminoadipate-semialdehyde dehydrogenase
+MAG_321	MAG_321_4_56	1470						K25986	2-oxoadipate dioxygenase/decarboxylase [EC:1.13.11.93]
+MAG_321	MAG_321_4_57	1272						K26062	2-aminoadipate transaminase [EC:2.6.1.39]
+MAG_321	MAG_321_4_58	948						K03566	LysR family transcriptional regulator, glycine cleavage system transcriptional activator
+MAG_321	MAG_321_4_59	1200						K08159	MFS transporter, DHA1 family, L-arabinose/isopropyl-beta-D-thiogalactopyranoside export protein
+MAG_321	MAG_321_4_6	1296						K19147	5-methylcytosine-specific restriction enzyme subunit McrC
+MAG_321	MAG_321_4_60	414						K15034	ribosome-associated protein
+MAG_321	MAG_321_4_61	840						K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]
+MAG_321	MAG_321_4_62	762						K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+MAG_321	MAG_321_4_63	783							
+MAG_321	MAG_321_4_64	1008							
+MAG_321	MAG_321_4_65	1806						K20035	3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]
+MAG_321	MAG_321_4_66	1023							
+MAG_321	MAG_321_4_67	1278						K01297	muramoyltetrapeptide carboxypeptidase [EC:3.4.17.13]
+MAG_321	MAG_321_4_68	423							
+MAG_321	MAG_321_4_69	306							
+MAG_321	MAG_321_4_7	1893						K07452	5-methylcytosine-specific restriction enzyme B [EC:3.1.21.-]
+MAG_321	MAG_321_4_70	555							
+MAG_321	MAG_321_4_71	1617						K14159	ribonuclease HI / DNA polymerase III subunit epsilon [EC:3.1.26.4 2.7.7.7]
+MAG_321	MAG_321_4_72	1683							
+MAG_321	MAG_321_4_73	1062						K03426	NAD+ diphosphatase [EC:3.6.1.22]
+MAG_321	MAG_321_4_74	849						K03616	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2]
+MAG_321	MAG_321_4_75	696						K10773	endonuclease III [EC:3.2.2.- 4.2.99.18]
+MAG_321	MAG_321_4_76	597							
+MAG_321	MAG_321_4_77	1167						K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]
+MAG_321	MAG_321_4_78	372							
+MAG_321	MAG_321_4_79	333							
+MAG_321	MAG_321_4_8	504							
+MAG_321	MAG_321_4_80	1656						K02168	choline/glycine/proline betaine transport protein
+MAG_321	MAG_321_4_81	1653						K02168	choline/glycine/proline betaine transport protein
+MAG_321	MAG_321_4_82	1254						K21430	aldose sugar dehydrogenase [EC:1.1.5.-]
+MAG_321	MAG_321_4_83	2598						K03695	ATP-dependent Clp protease ATP-binding subunit ClpB
+MAG_321	MAG_321_4_84	591							
+MAG_321	MAG_321_4_85	792						K08683	3-hydroxyacyl-CoA dehydrogenase / 3-hydroxy-2-methylbutyryl-CoA dehydrogenase [EC:1.1.1.35 1.1.1.178]
+MAG_321	MAG_321_4_86	1725							
+MAG_321	MAG_321_4_87	1131							
+MAG_321	MAG_321_4_88	453							
+MAG_321	MAG_321_4_89	285						K09913	purine/pyrimidine-nucleoside phosphorylase [EC:2.4.2.1 2.4.2.2]
+MAG_321	MAG_321_4_9	4758							
+MAG_321	MAG_321_4_90	1050						K02836	peptide chain release factor 2
+MAG_321	MAG_321_4_91	702							
+MAG_321	MAG_321_4_92	450							
+MAG_321	MAG_321_4_93	537						K01726	gamma-carbonic anhydrase [EC:4.2.1.-]
+MAG_321	MAG_321_4_94	1233						K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]
+MAG_321	MAG_321_4_95	3255						K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+MAG_321	MAG_321_4_96	477						K03624	transcription elongation factor GreA
+MAG_321	MAG_321_4_97	93			deeppeptide	Peptide			
+MAG_321	MAG_321_4_98	966							
+MAG_321	MAG_321_4_99	615							
+MAG_321	MAG_321_5_1	798						K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+MAG_321	MAG_321_5_10	981					betalactone	K04083	molecular chaperone Hsp33
+MAG_321	MAG_321_5_100	1425						K00641	homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]
+MAG_321	MAG_321_5_101	1020						K01772	protoporphyrin/coproporphyrin ferrochelatase [EC:4.98.1.1 4.99.1.9]
+MAG_321	MAG_321_5_102	816							
+MAG_321	MAG_321_5_103	333							
+MAG_321	MAG_321_5_104	1302							
+MAG_321	MAG_321_5_105	786							
+MAG_321	MAG_321_5_106	549							
+MAG_321	MAG_321_5_107	1161							
+MAG_321	MAG_321_5_108	774							
+MAG_321	MAG_321_5_109	1857							
+MAG_321	MAG_321_5_11	987					betalactone	K10001	glutamate/aspartate transport system substrate-binding protein
+MAG_321	MAG_321_5_110	459							
+MAG_321	MAG_321_5_111	357							
+MAG_321	MAG_321_5_112	363							
+MAG_321	MAG_321_5_113	2991						K02335	DNA polymerase I [EC:2.7.7.7]
+MAG_321	MAG_321_5_114	414						K04063	lipoyl-dependent peroxiredoxin [EC:1.11.1.28]
+MAG_321	MAG_321_5_115	894							
+MAG_321	MAG_321_5_116	1596						K02837	peptide chain release factor 3
+MAG_321	MAG_321_5_117	855							
+MAG_321	MAG_321_5_118	1167							
+MAG_321	MAG_321_5_119	1497						K01657	anthranilate synthase component I [EC:4.1.3.27]
+MAG_321	MAG_321_5_12	747					betalactone	K10003	glutamate/aspartate transport system permease protein
+MAG_321	MAG_321_5_120	1191						K02358	elongation factor Tu
+MAG_321	MAG_321_5_121	495						K03789	[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]
+MAG_321	MAG_321_5_122	435							
+MAG_321	MAG_321_5_123	810						K00684	leucyl/phenylalanyl-tRNA---protein transferase [EC:2.3.2.6]
+MAG_321	MAG_321_5_124	1023						K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]
+MAG_321	MAG_321_5_125	3381						K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family
+MAG_321	MAG_321_5_126	282							
+MAG_321	MAG_321_5_127	1494						K01426	amidase [EC:3.5.1.4]
+MAG_321	MAG_321_5_128	894						K15777	4,5-DOPA dioxygenase extradiol [EC:1.13.11.-]
+MAG_321	MAG_321_5_129	516						K00783	23S rRNA (pseudouridine1915-N3)-methyltransferase [EC:2.1.1.177]
+MAG_321	MAG_321_5_13	672					betalactone	K10002	glutamate/aspartate transport system permease protein
+MAG_321	MAG_321_5_130	549							
+MAG_321	MAG_321_5_131	516							
+MAG_321	MAG_321_5_132	2010						K07259	serine-type D-Ala-D-Ala carboxypeptidase/endopeptidase (penicillin-binding protein 4) [EC:3.4.16.4 3.4.21.-]
+MAG_321	MAG_321_5_133	606						K09951	CRISPR-associated protein Cas2
+MAG_321	MAG_321_5_134	1941						K07182	CBS domain-containing protein
+MAG_321	MAG_321_5_135	1269						K14267	N-succinyldiaminopimelate aminotransferase [EC:2.6.1.17]
+MAG_321	MAG_321_5_136	672							
+MAG_321	MAG_321_5_137	2763						K00990	[protein-PII] uridylyltransferase [EC:2.7.7.59]
+MAG_321	MAG_321_5_138	795						K01265	methionyl aminopeptidase [EC:3.4.11.18]
+MAG_321	MAG_321_5_139	1077						K01046	triacylglycerol lipase [EC:3.1.1.3]
+MAG_321	MAG_321_5_14	804					betalactone	K10004	glutamate/aspartate transport system ATP-binding protein [EC:7.4.2.1]
+MAG_321	MAG_321_5_140	1116							
+MAG_321	MAG_321_5_141	489						K03668	heat shock protein HslJ
+MAG_321	MAG_321_5_142	1005						K03641	TolB protein
+MAG_321	MAG_321_5_143	666							
+MAG_321	MAG_321_5_144	2013							
+MAG_321	MAG_321_5_145	6204							
+MAG_321	MAG_321_5_146	1578							
+MAG_321	MAG_321_5_147	3789						K00548	5-methyltetrahydrofolate--homocysteine methyltransferase [EC:2.1.1.13]
+MAG_321	MAG_321_5_148	555							
+MAG_321	MAG_321_5_149	951							
+MAG_321	MAG_321_5_15	1227					betalactone		
+MAG_321	MAG_321_5_150	606							
+MAG_321	MAG_321_5_151	1548						K03310	alanine or glycine:cation symporter, AGCS family
+MAG_321	MAG_321_5_152	633						K03744	LemA protein
+MAG_321	MAG_321_5_153	1188						K06872	uncharacterized protein
+MAG_321	MAG_321_5_16	1788					betalactone	K00666	fatty-acyl-CoA synthase [EC:6.2.1.-]
+MAG_321	MAG_321_5_17	1776					betalactone	K00666	fatty-acyl-CoA synthase [EC:6.2.1.-]
+MAG_321	MAG_321_5_18	1611					betalactone	K01969	3-methylcrotonyl-CoA carboxylase beta subunit [EC:6.4.1.4]
+MAG_321	MAG_321_5_19	810					betalactone	K13766	methylglutaconyl-CoA hydratase [EC:4.2.1.18]
+MAG_321	MAG_321_5_2	798						K02030	polar amino acid transport system substrate-binding protein
+MAG_321	MAG_321_5_20	2130					betalactone	K01968	3-methylcrotonyl-CoA carboxylase alpha subunit [EC:6.4.1.4]
+MAG_321	MAG_321_5_21	936					betalactone	K01640	hydroxymethylglutaryl-CoA lyase [EC:4.1.3.4]
+MAG_321	MAG_321_5_22	1188					betalactone	K00253	isovaleryl-CoA dehydrogenase [EC:1.3.8.4]
+MAG_321	MAG_321_5_23	507					betalactone	K03832	periplasmic protein TonB
+MAG_321	MAG_321_5_24	729					betalactone	K03525	type III pantothenate kinase [EC:2.7.1.33]
+MAG_321	MAG_321_5_25	960					betalactone	K03524	BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]
+MAG_321	MAG_321_5_26	807					betalactone	K07090	uncharacterized protein
+MAG_321	MAG_321_5_27	942					betalactone		
+MAG_321	MAG_321_5_28	300					betalactone		
+MAG_321	MAG_321_5_29	3957						K03529	chromosome segregation protein
+MAG_321	MAG_321_5_3	927						K02030	polar amino acid transport system substrate-binding protein
+MAG_321	MAG_321_5_30	1017						K03528	cell division protein ZipA
+MAG_321	MAG_321_5_31	2076						K01972	DNA ligase (NAD+) [EC:6.5.1.2]
+MAG_321	MAG_321_5_32	159							
+MAG_321	MAG_321_5_33	555						K07491	REP-associated tyrosine transposase
+MAG_321	MAG_321_5_34	564							
+MAG_321	MAG_321_5_35	414							
+MAG_321	MAG_321_5_36	2460							
+MAG_321	MAG_321_5_37	153							
+MAG_321	MAG_321_5_38	756							
+MAG_321	MAG_321_5_39	468						K03719	Lrp/AsnC family transcriptional regulator, leucine-responsive regulatory protein
+MAG_321	MAG_321_5_4	912						K02030	polar amino acid transport system substrate-binding protein
+MAG_321	MAG_321_5_40	993						K05786	chloramphenicol-sensitive protein RarD
+MAG_321	MAG_321_5_41	477						K03664	SsrA-binding protein
+MAG_321	MAG_321_5_42	519						K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]
+MAG_321	MAG_321_5_43	249							
+MAG_321	MAG_321_5_44	1302						K00833	adenosylmethionine---8-amino-7-oxononanoate aminotransferase [EC:2.6.1.62]
+MAG_321	MAG_321_5_45	720						K01935	dethiobiotin synthetase [EC:6.3.3.3]
+MAG_321	MAG_321_5_46	813						K09688	capsular polysaccharide transport system permease protein
+MAG_321	MAG_321_5_47	672						K09689	capsular polysaccharide transport system ATP-binding protein [EC:7.6.2.12]
+MAG_321	MAG_321_5_48	1107						K10107	capsular polysaccharide transport system permease protein
+MAG_321	MAG_321_5_49	1782						K01991	polysaccharide biosynthesis/export protein
+MAG_321	MAG_321_5_5	735						K23056	putative lysine/arginine/ornithine/histidine/octopine transport system permease protein
+MAG_321	MAG_321_5_50	2583						K07266	capsular polysaccharide export protein
+MAG_321	MAG_321_5_51	1245						K07265	capsular polysaccharide export protein
+MAG_321	MAG_321_5_52	1797						K03596	GTP-binding protein LepA
+MAG_321	MAG_321_5_53	903						K03100	signal peptidase I [EC:3.4.21.89]
+MAG_321	MAG_321_5_54	393							
+MAG_321	MAG_321_5_55	798						K03685	ribonuclease III [EC:3.1.26.3]
+MAG_321	MAG_321_5_56	1113						K03595	GTPase
+MAG_321	MAG_321_5_57	777						K03584	DNA repair protein RecO (recombination protein O)
+MAG_321	MAG_321_5_58	300						K07483	transposase
+MAG_321	MAG_321_5_59	645						K07497	putative transposase
+MAG_321	MAG_321_5_6	726						K02029	polar amino acid transport system permease protein
+MAG_321	MAG_321_5_60	726						K08084	type IV fimbrial biogenesis protein FimT
+MAG_321	MAG_321_5_61	1311						K03286	OmpA-OmpF porin, OOP family
+MAG_321	MAG_321_5_62	1851						K06207	GTP-binding protein
+MAG_321	MAG_321_5_63	444						K03282	large conductance mechanosensitive channel
+MAG_321	MAG_321_5_64	441							
+MAG_321	MAG_321_5_65	939						K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]
+MAG_321	MAG_321_5_66	2553							
+MAG_321	MAG_321_5_67	1542						K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]
+MAG_321	MAG_321_5_68	825						K07501	3'-5' exonuclease
+MAG_321	MAG_321_5_69	975						K12339	S-sulfo-L-cysteine synthase (O-acetyl-L-serine-dependent) [EC:2.5.1.144]
+MAG_321	MAG_321_5_7	717							
+MAG_321	MAG_321_5_70	3549						K07678	two-component system, NarL family, sensor histidine kinase BarA [EC:2.7.13.3]
+MAG_321	MAG_321_5_71	813							
+MAG_321	MAG_321_5_72	1260						K07552	MFS transporter, DHA1 family, multidrug resistance protein
+MAG_321	MAG_321_5_73	870						K02030	polar amino acid transport system substrate-binding protein
+MAG_321	MAG_321_5_74	2196							
+MAG_321	MAG_321_5_75	363							
+MAG_321	MAG_321_5_76	450						K03409	chemotaxis protein CheX
+MAG_321	MAG_321_5_77	450						K03409	chemotaxis protein CheX
+MAG_321	MAG_321_5_78	798						K02967	small subunit ribosomal protein S2
+MAG_321	MAG_321_5_79	885						K02357	elongation factor Ts
+MAG_321	MAG_321_5_8	2202						K07093	uncharacterized protein
+MAG_321	MAG_321_5_80	843						K08309	peptidoglycan lytic transglycosylase [EC:4.2.2.29]
+MAG_321	MAG_321_5_81	690							
+MAG_321	MAG_321_5_82	435							
+MAG_321	MAG_321_5_83	1464						K03665	GTPase
+MAG_321	MAG_321_5_84	801							
+MAG_321	MAG_321_5_85	1041							
+MAG_321	MAG_321_5_86	498						K03774	FKBP-type peptidyl-prolyl cis-trans isomerase SlpA [EC:5.2.1.8]
+MAG_321	MAG_321_5_87	672							
+MAG_321	MAG_321_5_88	612						K00799	glutathione S-transferase [EC:2.5.1.18]
+MAG_321	MAG_321_5_89	648						K03101	signal peptidase II [EC:3.4.23.36]
+MAG_321	MAG_321_5_9	1470					betalactone	K01046	triacylglycerol lipase [EC:3.1.1.3]
+MAG_321	MAG_321_5_90	2847						K01870	isoleucyl-tRNA synthetase [EC:6.1.1.5]
+MAG_321	MAG_321_5_91	651							
+MAG_321	MAG_321_5_92	1638							
+MAG_321	MAG_321_5_93	630							
+MAG_321	MAG_321_5_94	1446							
+MAG_321	MAG_321_5_95	1227						K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+MAG_321	MAG_321_5_96	432						K07127	5-hydroxyisourate hydrolase [EC:3.5.2.17]
+MAG_321	MAG_321_5_97	1086						K07146	UPF0176 protein
+MAG_321	MAG_321_5_98	582						K07126	uncharacterized protein
+MAG_321	MAG_321_5_99	618							
+MAG_321	MAG_321_6_1	261			deeppeptide	Propeptide		K06938	uncharacterized protein
+MAG_321	MAG_321_6_10	588							
+MAG_321	MAG_321_6_100	1095						K23259	isopropanol dehydrogenase (NADP+) [EC:1.1.1.80]
+MAG_321	MAG_321_6_101	522						K08311	putative (di)nucleoside polyphosphate hydrolase [EC:3.6.1.-]
+MAG_321	MAG_321_6_102	414						K07397	putative redox protein
+MAG_321	MAG_321_6_103	426							
+MAG_321	MAG_321_6_104	1026						K05541	tRNA-dihydrouridine synthase C [EC:1.-.-.-]
+MAG_321	MAG_321_6_105	1500						K10300	F-box DNA helicase 1 [EC:5.6.2.4]
+MAG_321	MAG_321_6_106	885						K03118	sec-independent protein translocase protein TatC
+MAG_321	MAG_321_6_107	696						K03117	sec-independent protein translocase protein TatB
+MAG_321	MAG_321_6_108	243						K03116	sec-independent protein translocase protein TatA
+MAG_321	MAG_321_6_109	849						K11755	phosphoribosyl-AMP cyclohydrolase / phosphoribosyl-ATP pyrophosphohydrolase [EC:3.5.4.19 3.6.1.31]
+MAG_321	MAG_321_6_11	1017						K07001	NTE family protein
+MAG_321	MAG_321_6_110	444							
+MAG_321	MAG_321_6_111	198						K02916	large subunit ribosomal protein L35
+MAG_321	MAG_321_6_112	357						K02887	large subunit ribosomal protein L20
+MAG_321	MAG_321_6_113	1056						K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]
+MAG_321	MAG_321_6_114	2406						K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]
+MAG_321	MAG_321_6_115	300						K04764	integration host factor subunit alpha
+MAG_321	MAG_321_6_116	357							
+MAG_321	MAG_321_6_117	891						K07054	uncharacterized protein
+MAG_321	MAG_321_6_118	240							
+MAG_321	MAG_321_6_119	1269						K03628	transcription termination factor Rho
+MAG_321	MAG_321_6_12	2367						K03655	ATP-dependent DNA helicase RecG [EC:5.6.2.4]
+MAG_321	MAG_321_6_120	327						K03671	thioredoxin
+MAG_321	MAG_321_6_121	714							
+MAG_321	MAG_321_6_122	1626						K10215	monooxygenase [EC:1.14.13.-]
+MAG_321	MAG_321_6_123	942						K00018	glycerate dehydrogenase [EC:1.1.1.29]
+MAG_321	MAG_321_6_124	957							
+MAG_321	MAG_321_6_125	2313						K02482	two-component system, NtrC family, sensor kinase [EC:2.7.13.3]
+MAG_321	MAG_321_6_126	2889						K03580	ATP-dependent helicase HepA [EC:5.6.2.-]
+MAG_321	MAG_321_6_127	903							
+MAG_321	MAG_321_6_128	1287						K03575	A/G-specific adenine glycosylase [EC:3.2.2.31]
+MAG_321	MAG_321_6_129	516							
+MAG_321	MAG_321_6_13	129							
+MAG_321	MAG_321_6_130	957						K14540	ribosome biogenesis GTPase A
+MAG_321	MAG_321_6_131	3051							
+MAG_321	MAG_321_6_132	471							
+MAG_321	MAG_321_6_133	477							
+MAG_321	MAG_321_6_134	468							
+MAG_321	MAG_321_6_135	741						K01061	carboxymethylenebutenolidase [EC:3.1.1.45]
+MAG_321	MAG_321_6_136	624						K09160	uncharacterized protein
+MAG_321	MAG_321_6_137	1362							
+MAG_321	MAG_321_6_138	864							
+MAG_321	MAG_321_6_139	1584						K03820	apolipoprotein N-acyltransferase [EC:2.3.1.269]
+MAG_321	MAG_321_6_14	1329							
+MAG_321	MAG_321_6_140	438							
+MAG_321	MAG_321_6_141	1563						K03305	proton-dependent oligopeptide transporter, POT family
+MAG_321	MAG_321_6_142	1818						K01262	Xaa-Pro aminopeptidase [EC:3.4.11.9]
+MAG_321	MAG_321_6_143	873							
+MAG_321	MAG_321_6_144	1380						K09458	3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+MAG_321	MAG_321_6_145	1338						K09001	anhydro-N-acetylmuramic acid kinase [EC:2.7.1.170]
+MAG_321	MAG_321_6_146	1212						K01866	tyrosyl-tRNA synthetase [EC:6.1.1.1]
+MAG_321	MAG_321_6_147	579						K22479	N-acetyltransferase
+MAG_321	MAG_321_6_148	237							
+MAG_321	MAG_321_6_149	957							
+MAG_321	MAG_321_6_15	3102							
+MAG_321	MAG_321_6_150	657							
+MAG_321	MAG_321_6_151	753						K16066	3-hydroxy acid dehydrogenase / malonic semialdehyde reductase [EC:1.1.1.381 1.1.1.-]
+MAG_321	MAG_321_6_152	648						K00761	uracil phosphoribosyltransferase [EC:2.4.2.9]
+MAG_321	MAG_321_6_153	699							
+MAG_321	MAG_321_6_16	615							
+MAG_321	MAG_321_6_17	1038							
+MAG_321	MAG_321_6_18	1047						K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+MAG_321	MAG_321_6_19	501						K09024	flavin reductase [EC:1.5.1.-]
+MAG_321	MAG_321_6_2	648						K07000	uncharacterized protein
+MAG_321	MAG_321_6_20	834						K07090	uncharacterized protein
+MAG_321	MAG_321_6_21	945						K15268	O-acetylserine/cysteine efflux transporter
+MAG_321	MAG_321_6_22	771						K06175	tRNA pseudouridine65 synthase [EC:5.4.99.26]
+MAG_321	MAG_321_6_23	1845						K00820	glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
+MAG_321	MAG_321_6_24	1383						K04042	bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]
+MAG_321	MAG_321_6_25	579						K01095	phosphatidylglycerophosphatase A [EC:3.1.3.27]
+MAG_321	MAG_321_6_26	1041						K00946	thiamine-monophosphate kinase [EC:2.7.4.16]
+MAG_321	MAG_321_6_27	873						K03625	transcription antitermination protein NusB
+MAG_321	MAG_321_6_28	522						K00794	6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]
+MAG_321	MAG_321_6_29	783						K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]
+MAG_321	MAG_321_6_3	1887							
+MAG_321	MAG_321_6_30	1248						K02204	homoserine kinase type II [EC:2.7.1.39]
+MAG_321	MAG_321_6_31	312							
+MAG_321	MAG_321_6_32	909							
+MAG_321	MAG_321_6_33	369							
+MAG_321	MAG_321_6_34	591						K09858	SEC-C motif domain protein
+MAG_321	MAG_321_6_35	717						K07038	inner membrane protein
+MAG_321	MAG_321_6_36	2799						K27802	aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99]
+MAG_321	MAG_321_6_37	459							
+MAG_321	MAG_321_6_38	654						K05834	homoserine/homoserine lactone efflux protein
+MAG_321	MAG_321_6_39	300							
+MAG_321	MAG_321_6_4	735							
+MAG_321	MAG_321_6_40	378							
+MAG_321	MAG_321_6_41	1530						K01885	glutamyl-tRNA synthetase [EC:6.1.1.17]
+MAG_321	MAG_321_6_42	1200						K03438	16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]
+MAG_321	MAG_321_6_43	498						K03586	cell division protein FtsL
+MAG_321	MAG_321_6_44	2109						K03587	cell division protein FtsI (penicillin-binding protein 3) [EC:3.4.16.4]
+MAG_321	MAG_321_6_45	1710						K01928	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]
+MAG_321	MAG_321_6_46	1461						K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]
+MAG_321	MAG_321_6_47	1119						K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]
+MAG_321	MAG_321_6_48	972						K00563	23S rRNA (guanine745-N1)-methyltransferase [EC:2.1.1.187]
+MAG_321	MAG_321_6_49	1500						K06131	cardiolipin synthase A/B [EC:2.7.8.-]
+MAG_321	MAG_321_6_5	669							
+MAG_321	MAG_321_6_50	795							
+MAG_321	MAG_321_6_51	906							
+MAG_321	MAG_321_6_52	390							
+MAG_321	MAG_321_6_53	1476						K22187	alpha-ketoglutaric semialdehyde dehydrogenase [EC:1.2.1.-]
+MAG_321	MAG_321_6_54	990						K01273	membrane dipeptidase [EC:3.4.13.19]
+MAG_321	MAG_321_6_55	1686							
+MAG_321	MAG_321_6_56	1740							
+MAG_321	MAG_321_6_57	726							
+MAG_321	MAG_321_6_58	894						K01173	endonuclease G, mitochondrial
+MAG_321	MAG_321_6_59	264							
+MAG_321	MAG_321_6_6	1416							
+MAG_321	MAG_321_6_60	384							
+MAG_321	MAG_321_6_61	1263						K03320	ammonium transporter, Amt family
+MAG_321	MAG_321_6_62	339						K04751	nitrogen regulatory protein P-II 1
+MAG_321	MAG_321_6_63	855							
+MAG_321	MAG_321_6_64	1500						K03321	sulfate permease, SulP family
+MAG_321	MAG_321_6_65	1437						K01925	UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]
+MAG_321	MAG_321_6_66	1083							
+MAG_321	MAG_321_6_67	942						K01894	glutamyl-Q tRNA(Asp) synthetase [EC:6.1.1.-]
+MAG_321	MAG_321_6_68	438						K06204	RNA polymerase-binding transcription factor
+MAG_321	MAG_321_6_69	846						K03651	3',5'-cyclic-AMP phosphodiesterase [EC:3.1.4.53]
+MAG_321	MAG_321_6_7	1713							
+MAG_321	MAG_321_6_70	819							
+MAG_321	MAG_321_6_71	798						K09817	zinc transport system ATP-binding protein [EC:7.2.2.20]
+MAG_321	MAG_321_6_72	594						K09823	Fur family transcriptional regulator, zinc uptake regulator
+MAG_321	MAG_321_6_73	891							
+MAG_321	MAG_321_6_74	399						K02116	ATP synthase protein I
+MAG_321	MAG_321_6_75	867						K02108	F-type H+-transporting ATPase subunit a
+MAG_321	MAG_321_6_76	249						K02110	F-type H+-transporting ATPase subunit c
+MAG_321	MAG_321_6_77	471						K02109	F-type H+-transporting ATPase subunit b
+MAG_321	MAG_321_6_78	624						K02113	F-type H+-transporting ATPase subunit delta
+MAG_321	MAG_321_6_79	1545						K02111	F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]
+MAG_321	MAG_321_6_8	732						K03772	FKBP-type peptidyl-prolyl cis-trans isomerase FkpA [EC:5.2.1.8]
+MAG_321	MAG_321_6_80	882						K02115	F-type H+-transporting ATPase subunit gamma
+MAG_321	MAG_321_6_81	1434						K02112	F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]
+MAG_321	MAG_321_6_82	417						K02114	F-type H+-transporting ATPase subunit epsilon
+MAG_321	MAG_321_6_83	717						K07661	two-component system, OmpR family, response regulator RstA
+MAG_321	MAG_321_6_84	1689						K07639	two-component system, OmpR family, sensor histidine kinase RstB [EC:2.7.13.3]
+MAG_321	MAG_321_6_85	180			deeppeptide	Peptide			
+MAG_321	MAG_321_6_86	1479						K07638	two-component system, OmpR family, osmolarity sensor histidine kinase EnvZ [EC:2.7.13.3]
+MAG_321	MAG_321_6_87	270						K02959	small subunit ribosomal protein S16
+MAG_321	MAG_321_6_88	534						K02860	16S rRNA processing protein RimM
+MAG_321	MAG_321_6_89	771						K00554	tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]
+MAG_321	MAG_321_6_9	1323						K14682	amino-acid N-acetyltransferase [EC:2.3.1.1]
+MAG_321	MAG_321_6_90	393						K02884	large subunit ribosomal protein L19
+MAG_321	MAG_321_6_91	558							
+MAG_321	MAG_321_6_92	1527							
+MAG_321	MAG_321_6_93	1845						K03703	excinuclease ABC subunit C
+MAG_321	MAG_321_6_94	132			deeppeptide	Peptide			
+MAG_321	MAG_321_6_95	570						K00287	dihydrofolate reductase [EC:1.5.1.3]
+MAG_321	MAG_321_6_96	891						K00560	thymidylate synthase [EC:2.1.1.45]
+MAG_321	MAG_321_6_97	885						K13292	phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]
+MAG_321	MAG_321_6_98	1632							
+MAG_321	MAG_321_6_99	885							
+MAG_321	MAG_321_7_1	123			deeppeptide	Propeptide			
+MAG_321	MAG_321_7_10	1191						K01079	phosphoserine phosphatase [EC:3.1.3.3]
+MAG_321	MAG_321_7_100	705						K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+MAG_321	MAG_321_7_101	1314						K03544	ATP-dependent Clp protease ATP-binding subunit ClpX
+MAG_321	MAG_321_7_102	1011							
+MAG_321	MAG_321_7_103	951						K19713	thiosulfate dehydrogenase [EC:1.8.2.2]
+MAG_321	MAG_321_7_104	1095						K07035	uncharacterized protein
+MAG_321	MAG_321_7_105	816							
+MAG_321	MAG_321_7_106	1830						K01887	arginyl-tRNA synthetase [EC:6.1.1.19]
+MAG_321	MAG_321_7_107	219							
+MAG_321	MAG_321_7_108	1119							
+MAG_321	MAG_321_7_109	1062						K15257	tRNA (mo5U34)-methyltransferase [EC:2.1.1.-]
+MAG_321	MAG_321_7_11	996						K08974	putative membrane protein
+MAG_321	MAG_321_7_110	789						K15256	tRNA (cmo5U34)-methyltransferase [EC:2.1.1.-]
+MAG_321	MAG_321_7_111	522						K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]
+MAG_321	MAG_321_7_112	654						K00569	thiopurine S-methyltransferase [EC:2.1.1.67]
+MAG_321	MAG_321_7_113	714							
+MAG_321	MAG_321_7_114	1482						K08305	peptidoglycan lytic transglycosylase B [EC:4.2.2.29]
+MAG_321	MAG_321_7_115	300							
+MAG_321	MAG_321_7_116	999							
+MAG_321	MAG_321_7_117	1008						K01776	glutamate racemase [EC:5.1.1.3]
+MAG_321	MAG_321_7_118	729						K09986	uncharacterized protein
+MAG_321	MAG_321_7_119	1845						K00311	electron-transferring-flavoprotein dehydrogenase [EC:1.5.5.1]
+MAG_321	MAG_321_7_12	399							
+MAG_321	MAG_321_7_120	1497						K03310	alanine or glycine:cation symporter, AGCS family
+MAG_321	MAG_321_7_121	123							
+MAG_321	MAG_321_7_122	261							
+MAG_321	MAG_321_7_123	1869						K14393	cation/acetate symporter
+MAG_321	MAG_321_7_124	546							
+MAG_321	MAG_321_7_125	606							
+MAG_321	MAG_321_7_126	1050							
+MAG_321	MAG_321_7_127	1290						K11690	C4-dicarboxylate transporter, DctM subunit
+MAG_321	MAG_321_7_128	528							
+MAG_321	MAG_321_7_129	1062						K21395	TRAP-type transport system periplasmic protein
+MAG_321	MAG_321_7_13	507							
+MAG_321	MAG_321_7_14	1179						K01012	biotin synthase [EC:2.8.1.6]
+MAG_321	MAG_321_7_15	435						K08973	protoporphyrinogen IX oxidase [EC:1.3.99.-]
+MAG_321	MAG_321_7_16	771							
+MAG_321	MAG_321_7_17	492							
+MAG_321	MAG_321_7_18	717						K00989	ribonuclease PH [EC:2.7.7.56]
+MAG_321	MAG_321_7_19	1773						K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]
+MAG_321	MAG_321_7_2	2934						K01873	valyl-tRNA synthetase [EC:6.1.1.9]
+MAG_321	MAG_321_7_20	1728						K01897	long-chain acyl-CoA synthetase [EC:6.2.1.3]
+MAG_321	MAG_321_7_21	2310						K02621	topoisomerase IV subunit A [EC:5.6.2.2]
+MAG_321	MAG_321_7_22	519							
+MAG_321	MAG_321_7_23	816							
+MAG_321	MAG_321_7_24	480							
+MAG_321	MAG_321_7_25	516							
+MAG_321	MAG_321_7_26	831							
+MAG_321	MAG_321_7_27	264							
+MAG_321	MAG_321_7_28	1122						K11069	spermidine/putrescine transport system substrate-binding protein
+MAG_321	MAG_321_7_29	1236							
+MAG_321	MAG_321_7_3	1155						K21990	formate-nitrite transporter family protein
+MAG_321	MAG_321_7_30	1236							
+MAG_321	MAG_321_7_31	1422						K00266	glutamate synthase (NADPH) small chain [EC:1.4.1.13]
+MAG_321	MAG_321_7_32	4464						K00265	glutamate synthase (NADPH) large chain [EC:1.4.1.13]
+MAG_321	MAG_321_7_33	1074							
+MAG_321	MAG_321_7_34	1110						K01735	3-dehydroquinate synthase [EC:4.2.3.4]
+MAG_321	MAG_321_7_35	561						K00891	shikimate kinase [EC:2.7.1.71]
+MAG_321	MAG_321_7_36	2349						K02666	type IV pilus assembly protein PilQ
+MAG_321	MAG_321_7_37	534						K02665	type IV pilus assembly protein PilP
+MAG_321	MAG_321_7_38	735						K02664	type IV pilus assembly protein PilO
+MAG_321	MAG_321_7_39	663						K02663	type IV pilus assembly protein PilN
+MAG_321	MAG_321_7_4	924						K03453	bile acid:Na+ symporter, BASS family
+MAG_321	MAG_321_7_40	1056						K02662	type IV pilus assembly protein PilM
+MAG_321	MAG_321_7_41	2649						K05366	penicillin-binding protein 1A [EC:2.4.99.28 3.4.16.4]
+MAG_321	MAG_321_7_42	522							
+MAG_321	MAG_321_7_43	4233						K03046	DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+MAG_321	MAG_321_7_44	4119						K03043	DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]
+MAG_321	MAG_321_7_45	372						K02935	large subunit ribosomal protein L7/L12
+MAG_321	MAG_321_7_46	528						K02864	large subunit ribosomal protein L10
+MAG_321	MAG_321_7_47	702						K02863	large subunit ribosomal protein L1
+MAG_321	MAG_321_7_48	432						K02867	large subunit ribosomal protein L11
+MAG_321	MAG_321_7_49	531						K02601	transcription termination/antitermination protein NusG
+MAG_321	MAG_321_7_5	465							
+MAG_321	MAG_321_7_50	489						K03073	preprotein translocase subunit SecE
+MAG_321	MAG_321_7_51	1191						K02358	elongation factor Tu
+MAG_321	MAG_321_7_52	2127						K02355	elongation factor G
+MAG_321	MAG_321_7_53	474						K02992	small subunit ribosomal protein S7
+MAG_321	MAG_321_7_54	375						K02950	small subunit ribosomal protein S12
+MAG_321	MAG_321_7_55	1185							
+MAG_321	MAG_321_7_56	1236							
+MAG_321	MAG_321_7_57	1695							
+MAG_321	MAG_321_7_58	1134						K00817	histidinol-phosphate aminotransferase [EC:2.6.1.9]
+MAG_321	MAG_321_7_59	1296						K00013	histidinol dehydrogenase [EC:1.1.1.23]
+MAG_321	MAG_321_7_6	447							
+MAG_321	MAG_321_7_60	696						K00765	ATP phosphoribosyltransferase [EC:2.4.2.17]
+MAG_321	MAG_321_7_61	1269						K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+MAG_321	MAG_321_7_62	252							
+MAG_321	MAG_321_7_63	1008							
+MAG_321	MAG_321_7_64	831						K04065	hyperosmotically inducible periplasmic protein
+MAG_321	MAG_321_7_65	438						K07460	putative endonuclease
+MAG_321	MAG_321_7_66	969						K07056	16S rRNA (cytidine1402-2'-O)-methyltransferase [EC:2.1.1.198]
+MAG_321	MAG_321_7_67	1020						K00856	adenosine kinase [EC:2.7.1.20]
+MAG_321	MAG_321_7_68	1323						K01740	O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+MAG_321	MAG_321_7_69	684						K07400	Fe/S biogenesis protein NfuA
+MAG_321	MAG_321_7_7	558							
+MAG_321	MAG_321_7_70	294							
+MAG_321	MAG_321_7_71	960							
+MAG_321	MAG_321_7_72	1050						K13522	bifunctional NMN adenylyltransferase/nudix hydrolase [EC:2.7.7.1 3.6.1.-]
+MAG_321	MAG_321_7_73	1398						K03462	nicotinamide phosphoribosyltransferase [EC:2.4.2.12]
+MAG_321	MAG_321_7_74	855							
+MAG_321	MAG_321_7_75	282						K02909	large subunit ribosomal protein L31
+MAG_321	MAG_321_7_76	624							
+MAG_321	MAG_321_7_77	1089							
+MAG_321	MAG_321_7_78	435							
+MAG_321	MAG_321_7_79	1617							
+MAG_321	MAG_321_7_8	237							
+MAG_321	MAG_321_7_80	678						K22522	cytokinin riboside 5'-monophosphate phosphoribohydrolase [EC:3.2.2.-]
+MAG_321	MAG_321_7_81	891							
+MAG_321	MAG_321_7_82	687						K10857	exodeoxyribonuclease X [EC:3.1.11.-]
+MAG_321	MAG_321_7_83	603						K21472	peptidoglycan LD-endopeptidase LytH [EC:3.4.-.-]
+MAG_321	MAG_321_7_84	1104						K07636	two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]
+MAG_321	MAG_321_7_85	705						K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB
+MAG_321	MAG_321_7_86	456						K07560	D-aminoacyl-tRNA deacylase [EC:3.1.1.96]
+MAG_321	MAG_321_7_87	837						K01613	phosphatidylserine decarboxylase [EC:4.1.1.65]
+MAG_321	MAG_321_7_88	606						K09974	uncharacterized protein
+MAG_321	MAG_321_7_89	630							
+MAG_321	MAG_321_7_9	1467							
+MAG_321	MAG_321_7_90	576							
+MAG_321	MAG_321_7_91	1722							
+MAG_321	MAG_321_7_92	1173						K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+MAG_321	MAG_321_7_93	2160						K01825	3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8]
+MAG_321	MAG_321_7_94	1104							
+MAG_321	MAG_321_7_95	819							
+MAG_321	MAG_321_7_96	1350							
+MAG_321	MAG_321_7_97	630						K04564	superoxide dismutase, Fe-Mn family [EC:1.15.1.1]
+MAG_321	MAG_321_7_98	654						K01519	XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+MAG_321	MAG_321_7_99	1344						K03545	trigger factor
+MAG_321	MAG_321_8_1	354							
+MAG_321	MAG_321_8_10	906						K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+MAG_321	MAG_321_8_100	891							
+MAG_321	MAG_321_8_101	633							
+MAG_321	MAG_321_8_102	1005							
+MAG_321	MAG_321_8_103	759							
+MAG_321	MAG_321_8_104	744							
+MAG_321	MAG_321_8_105	1113							
+MAG_321	MAG_321_8_106	2184						K01414	oligopeptidase A [EC:3.4.24.70]
+MAG_321	MAG_321_8_107	258						K07070	uncharacterized protein
+MAG_321	MAG_321_8_108	525							
+MAG_321	MAG_321_8_109	591							
+MAG_321	MAG_321_8_11	303							
+MAG_321	MAG_321_8_110	2103						K00962	polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+MAG_321	MAG_321_8_111	267						K02956	small subunit ribosomal protein S15
+MAG_321	MAG_321_8_112	177							
+MAG_321	MAG_321_8_113	162							
+MAG_321	MAG_321_8_114	525						K05520	deglycase [EC:3.5.1.124]
+MAG_321	MAG_321_8_115	1080						K03177	tRNA pseudouridine55 synthase [EC:5.4.99.25]
+MAG_321	MAG_321_8_116	405						K02834	ribosome-binding factor A
+MAG_321	MAG_321_8_117	2727						K02519	translation initiation factor IF-2
+MAG_321	MAG_321_8_118	1485						K02600	transcription termination/antitermination protein NusA
+MAG_321	MAG_321_8_119	501						K09748	ribosome maturation factor RimP
+MAG_321	MAG_321_8_12	1209						K07098	uncharacterized protein
+MAG_321	MAG_321_8_120	309						K03075	preprotein translocase subunit SecG
+MAG_321	MAG_321_8_121	813						K01803	triosephosphate isomerase (TIM) [EC:5.3.1.1]
+MAG_321	MAG_321_8_122	318						K07483	transposase
+MAG_321	MAG_321_8_123	903						K07497	putative transposase
+MAG_321	MAG_321_8_13	1455						K04771	serine protease Do [EC:3.4.21.107]
+MAG_321	MAG_321_8_14	2388							
+MAG_321	MAG_321_8_15	741						K00943	dTMP kinase [EC:2.7.4.9]
+MAG_321	MAG_321_8_16	1293						K07082	peptidoglycan lytic transglycosylase G [EC:4.2.2.29]
+MAG_321	MAG_321_8_17	765							
+MAG_321	MAG_321_8_18	567							
+MAG_321	MAG_321_8_19	198			deeppeptide	Propeptide			
+MAG_321	MAG_321_8_2	690							
+MAG_321	MAG_321_8_20	975							
+MAG_321	MAG_321_8_21	666							
+MAG_321	MAG_321_8_22	861							
+MAG_321	MAG_321_8_23	1128							
+MAG_321	MAG_321_8_24	1821						K20035	3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]
+MAG_321	MAG_321_8_25	483							
+MAG_321	MAG_321_8_26	375						K01826	5-carboxymethyl-2-hydroxymuconate isomerase [EC:5.3.3.10]
+MAG_321	MAG_321_8_27	489						K03976	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase [EC:3.1.1.-]
+MAG_321	MAG_321_8_28	2814						K00631	glycerol-3-phosphate O-acyltransferase [EC:2.3.1.15]
+MAG_321	MAG_321_8_29	1662						K06020	energy-dependent translational throttle protein EttA
+MAG_321	MAG_321_8_3	204							
+MAG_321	MAG_321_8_30	1224						K22770	stearoyl-CoA 9-desaturase NADPH oxidoreductase
+MAG_321	MAG_321_8_31	1350						K22769	NADPH-dependent stearoyl-CoA 9-desaturase [EC:1.14.19.-]
+MAG_321	MAG_321_8_32	294						K06975	uncharacterized protein
+MAG_321	MAG_321_8_33	294						K01724	4a-hydroxytetrahydrobiopterin dehydratase [EC:4.2.1.96]
+MAG_321	MAG_321_8_34	156							
+MAG_321	MAG_321_8_35	1293							
+MAG_321	MAG_321_8_36	840							
+MAG_321	MAG_321_8_37	396							
+MAG_321	MAG_321_8_38	2550						K06959	protein Tex
+MAG_321	MAG_321_8_39	759						K07659	two-component system, OmpR family, phosphate regulon response regulator OmpR
+MAG_321	MAG_321_8_4	663							
+MAG_321	MAG_321_8_40	1251							
+MAG_321	MAG_321_8_41	267							
+MAG_321	MAG_321_8_42	837							
+MAG_321	MAG_321_8_43	711						K01091	phosphoglycolate phosphatase [EC:3.1.3.18]
+MAG_321	MAG_321_8_44	840						K00568	2-polyprenyl-6-hydroxyphenyl methylase / 3-demethylubiquinone-9 3-methyltransferase [EC:2.1.1.222 2.1.1.64]
+MAG_321	MAG_321_8_45	621						K03673	protein dithiol oxidoreductase (disulfide-forming) [EC:1.8.4.15]
+MAG_321	MAG_321_8_46	519						K09889	ribosome-associated protein
+MAG_321	MAG_321_8_47	966						K06958	RNase adapter protein RapZ
+MAG_321	MAG_321_8_48	909						K01918	pantoate--beta-alanine ligase [EC:6.3.2.1]
+MAG_321	MAG_321_8_49	801						K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11]
+MAG_321	MAG_321_8_5	372							
+MAG_321	MAG_321_8_50	522						K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]
+MAG_321	MAG_321_8_51	2277						K00970	poly(A) polymerase [EC:2.7.7.19]
+MAG_321	MAG_321_8_52	375						K02237	competence protein ComEA
+MAG_321	MAG_321_8_53	882						K04765	nucleoside triphosphate diphosphatase [EC:3.6.1.9]
+MAG_321	MAG_321_8_54	1488							
+MAG_321	MAG_321_8_55	1422							
+MAG_321	MAG_321_8_56	1668						K01810	glucose-6-phosphate isomerase [EC:5.3.1.9]
+MAG_321	MAG_321_8_57	885							
+MAG_321	MAG_321_8_58	1032						K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]
+MAG_321	MAG_321_8_59	981						K07266	capsular polysaccharide export protein
+MAG_321	MAG_321_8_6	312							
+MAG_321	MAG_321_8_60	1278						K00979	3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]
+MAG_321	MAG_321_8_61	840						K01627	2-dehydro-3-deoxyphosphooctonate aldolase (KDO 8-P synthase) [EC:2.5.1.55]
+MAG_321	MAG_321_8_62	963						K06041	arabinose-5-phosphate isomerase [EC:5.3.1.13]
+MAG_321	MAG_321_8_63	2346						K07265	capsular polysaccharide export protein
+MAG_321	MAG_321_8_64	738							
+MAG_321	MAG_321_8_65	1062						K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]
+MAG_321	MAG_321_8_66	876						K01902	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]
+MAG_321	MAG_321_8_67	1167						K01903	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]
+MAG_321	MAG_321_8_68	1455						K00382	dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+MAG_321	MAG_321_8_69	1242						K00658	2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]
+MAG_321	MAG_321_8_7	654						K03652	DNA-3-methyladenine glycosylase [EC:3.2.2.21]
+MAG_321	MAG_321_8_70	2886						K00164	2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]
+MAG_321	MAG_321_8_71	1305						K07496	putative transposase
+MAG_321	MAG_321_8_72	711						K00240	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]
+MAG_321	MAG_321_8_73	1851						K00239	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]
+MAG_321	MAG_321_8_74	408						K00242	succinate dehydrogenase membrane anchor subunit
+MAG_321	MAG_321_8_75	378						K00241	succinate dehydrogenase cytochrome b subunit
+MAG_321	MAG_321_8_76	1281						K01647	citrate synthase [EC:2.3.3.1]
+MAG_321	MAG_321_8_77	951							
+MAG_321	MAG_321_8_78	510							
+MAG_321	MAG_321_8_79	1290						K07478	putative ATPase
+MAG_321	MAG_321_8_8	714						K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]
+MAG_321	MAG_321_8_80	1113						K14652	3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]
+MAG_321	MAG_321_8_81	489						K07107	acyl-CoA thioester hydrolase [EC:3.1.2.-]
+MAG_321	MAG_321_8_82	978							
+MAG_321	MAG_321_8_83	990						K01719	uroporphyrinogen-III synthase [EC:4.2.1.75]
+MAG_321	MAG_321_8_84	1035						K01749	hydroxymethylbilane synthase [EC:2.5.1.61]
+MAG_321	MAG_321_8_85	738						K02477	two-component system, LytTR family, response regulator
+MAG_321	MAG_321_8_86	1035							
+MAG_321	MAG_321_8_87	1563						K01755	argininosuccinate lyase [EC:4.3.2.1]
+MAG_321	MAG_321_8_88	291							
+MAG_321	MAG_321_8_89	819						K02039	phosphate transport system protein
+MAG_321	MAG_321_8_9	315							
+MAG_321	MAG_321_8_90	939						K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]
+MAG_321	MAG_321_8_91	906						K02038	phosphate transport system permease protein
+MAG_321	MAG_321_8_92	954						K02037	phosphate transport system permease protein
+MAG_321	MAG_321_8_93	1164						K02040	phosphate transport system substrate-binding protein
+MAG_321	MAG_321_8_94	1941						K03147	phosphomethylpyrimidine synthase [EC:4.1.99.17]
+MAG_321	MAG_321_8_95	1080							
+MAG_321	MAG_321_8_96	1086							
+MAG_321	MAG_321_8_97	903						K01623	fructose-bisphosphate aldolase, class I [EC:4.1.2.13]
+MAG_321	MAG_321_8_98	849							
+MAG_321	MAG_321_8_99	1908						K18893	ATP-binding cassette, subfamily B, multidrug efflux pump
+MAG_321	MAG_321_9_1	327							
+MAG_321	MAG_321_9_10	1371						K09919	uncharacterized protein
+MAG_321	MAG_321_9_11	2217						K00031	isocitrate dehydrogenase [EC:1.1.1.42]
+MAG_321	MAG_321_9_12	1260						K00031	isocitrate dehydrogenase [EC:1.1.1.42]
+MAG_321	MAG_321_9_13	627						K06181	23S rRNA pseudouridine2457 synthase [EC:5.4.99.20]
+MAG_321	MAG_321_9_14	636							
+MAG_321	MAG_321_9_15	2052							
+MAG_321	MAG_321_9_16	486						K03775	FKBP-type peptidyl-prolyl cis-trans isomerase SlyD [EC:5.2.1.8]
+MAG_321	MAG_321_9_17	2214						K03797	carboxyl-terminal processing protease [EC:3.4.21.102]
+MAG_321	MAG_321_9_18	1086						K01207	beta-N-acetylhexosaminidase [EC:3.2.1.52]
+MAG_321	MAG_321_9_19	1596						K03286	OmpA-OmpF porin, OOP family
+MAG_321	MAG_321_9_2	1302						K00147	glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]
+MAG_321	MAG_321_9_20	1641							
+MAG_321	MAG_321_9_21	609							
+MAG_321	MAG_321_9_22	966							
+MAG_321	MAG_321_9_23	561						K01588	5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]
+MAG_321	MAG_321_9_24	1359						K01589	5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]
+MAG_321	MAG_321_9_25	450						K09768	uncharacterized protein
+MAG_321	MAG_321_9_26	639							
+MAG_321	MAG_321_9_27	1026						K04568	elongation factor P--(R)-beta-lysine ligase [EC:6.3.1.-]
+MAG_321	MAG_321_9_28	1164						K03473	erythronate-4-phosphate dehydrogenase [EC:1.1.1.290]
+MAG_321	MAG_321_9_29	1155							
+MAG_321	MAG_321_9_3	771						K01167	ribonuclease T1 [EC:4.6.1.24]
+MAG_321	MAG_321_9_30	1692						K01950	NAD+ synthase (glutamine-hydrolysing) [EC:6.3.5.1]
+MAG_321	MAG_321_9_31	1275						K03699	magnesium and cobalt exporter, CNNM family
+MAG_321	MAG_321_9_32	717						K06997	PLP dependent protein
+MAG_321	MAG_321_9_33	1056						K02669	twitching motility protein PilT
+MAG_321	MAG_321_9_34	1122						K02670	twitching motility protein PilU
+MAG_321	MAG_321_9_35	435						K03711	Fur family transcriptional regulator, ferric uptake regulator
+MAG_321	MAG_321_9_36	405						K06186	outer membrane protein assembly factor BamE
+MAG_321	MAG_321_9_37	315						K09801	uncharacterized protein
+MAG_321	MAG_321_9_38	1143							
+MAG_321	MAG_321_9_39	735							
+MAG_321	MAG_321_9_4	369							
+MAG_321	MAG_321_9_40	336							
+MAG_321	MAG_321_9_41	792						K03978	GTP-binding protein
+MAG_321	MAG_321_9_42	714						K01091	phosphoglycolate phosphatase [EC:3.1.3.18]
+MAG_321	MAG_321_9_43	1011						K06179	23S rRNA pseudouridine955/2504/2580 synthase [EC:5.4.99.24]
+MAG_321	MAG_321_9_44	4305						K08300	ribonuclease E [EC:3.1.26.12]
+MAG_321	MAG_321_9_45	930						K09781	uncharacterized protein
+MAG_321	MAG_321_9_46	855						K03981	thiol:disulfide interchange protein DsbC [EC:5.3.4.1]
+MAG_321	MAG_321_9_47	1359						K00003	homoserine dehydrogenase [EC:1.1.1.3]
+MAG_321	MAG_321_9_48	1182						K00626	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+MAG_321	MAG_321_9_49	849							
+MAG_321	MAG_321_9_5	1275						K03312	glutamate:Na+ symporter, ESS family
+MAG_321	MAG_321_9_50	657							
+MAG_321	MAG_321_9_51	534							
+MAG_321	MAG_321_9_52	2778						K03070	preprotein translocase subunit SecA [EC:7.4.2.8]
+MAG_321	MAG_321_9_53	3126						K03555	DNA mismatch repair protein MutS
+MAG_321	MAG_321_9_54	324						K05524	ferredoxin
+MAG_321	MAG_321_9_55	510						K02650	type IV pilus assembly protein PilA
+MAG_321	MAG_321_9_56	1194							
+MAG_321	MAG_321_9_57	495						K02650	type IV pilus assembly protein PilA
+MAG_321	MAG_321_9_58	450						K02655	type IV pilus assembly protein PilE
+MAG_321	MAG_321_9_59	561							
+MAG_321	MAG_321_9_6	249							
+MAG_321	MAG_321_9_60	3693						K02674	type IV pilus assembly protein PilY1
+MAG_321	MAG_321_9_61	831						K02673	type IV pilus assembly protein PilX
+MAG_321	MAG_321_9_62	978						K02672	type IV pilus assembly protein PilW
+MAG_321	MAG_321_9_63	651						K02671	type IV pilus assembly protein PilV
+MAG_321	MAG_321_9_64	486						K08084	type IV fimbrial biogenesis protein FimT
+MAG_321	MAG_321_9_65	852						K02242	competence protein ComFC
+MAG_321	MAG_321_9_66	1428						K01058	phospholipase A1/A2 [EC:3.1.1.32 3.1.1.4]
+MAG_321	MAG_321_9_67	2136						K04084	thioredoxin:protein disulfide reductase [EC:1.8.4.16]
+MAG_321	MAG_321_9_68	564							
+MAG_321	MAG_321_9_69	555						K02456	general secretion pathway protein G
+MAG_321	MAG_321_9_7	594							
+MAG_321	MAG_321_9_70	1203						K02455	general secretion pathway protein F
+MAG_321	MAG_321_9_71	1056							
+MAG_321	MAG_321_9_72	936						K21747	AraC family transcriptional regulator, alkane utilization regulator
+MAG_321	MAG_321_9_73	1581						K19147	5-methylcytosine-specific restriction enzyme subunit McrC
+MAG_321	MAG_321_9_74	1461						K07452	5-methylcytosine-specific restriction enzyme B [EC:3.1.21.-]
+MAG_321	MAG_321_9_75	702							
+MAG_321	MAG_321_9_76	489						K09022	2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+MAG_321	MAG_321_9_77	1554						K02454	general secretion pathway protein E [EC:7.4.2.8]
+MAG_321	MAG_321_9_78	825						K03149	thiazole synthase [EC:2.8.1.10]
+MAG_321	MAG_321_9_79	1440						K00635	diacylglycerol O-acyltransferase / wax synthase [EC:2.3.1.20 2.3.1.75]
+MAG_321	MAG_321_9_8	1257						K00600	glycine hydroxymethyltransferase [EC:2.1.2.1]
+MAG_321	MAG_321_9_80	828						K01092	myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25]
+MAG_321	MAG_321_9_81	2016						K01662	1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]
+MAG_321	MAG_321_9_82	672						K01497	GTP cyclohydrolase II [EC:3.5.4.25]
+MAG_321	MAG_321_9_83	996						K00228	coproporphyrinogen III oxidase [EC:1.3.3.3]
+MAG_321	MAG_321_9_84	471							
+MAG_321	MAG_321_9_85	987						K03442	small conductance mechanosensitive channel
+MAG_321	MAG_321_9_86	582						K01759	lactoylglutathione lyase [EC:4.4.1.5]
+MAG_321	MAG_321_9_87	639						K01673	carbonic anhydrase [EC:4.2.1.1]
+MAG_321	MAG_321_9_88	1263						K11072	spermidine/putrescine transport system ATP-binding protein [EC:7.6.2.11]
+MAG_321	MAG_321_9_89	879						K11071	spermidine/putrescine transport system permease protein
+MAG_321	MAG_321_9_9	504						K03181	chorismate lyase [EC:4.1.3.40]
+MAG_321	MAG_321_9_90	831						K11070	spermidine/putrescine transport system permease protein
+MAG_321	MAG_321_9_91	891						K03576	LysR family transcriptional regulator, regulator for metE and metH
