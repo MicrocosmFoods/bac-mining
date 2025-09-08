@@ -95,10 +95,14 @@ workflow {
     combine_smorf_proteins(smorf_proteins)
     all_smorf_proteins = combine_smorf_proteins.out.combined_smorf_proteins
 
+    // filter small proteins
+    filter_small_proteins(predicted_orfs_faa)
+    filtered_proteins = filter_small_proteins.out.filtered_proteins
+
     // predict cleavage peptides with deeppeptide, extract sequences from json, and combine into a single FASTA
-    predict_cleavage_peptides(predicted_orfs_faa)
+    predict_cleavage_peptides(filtered_proteins)
     cleavage_peptides_json = predict_cleavage_peptides.out.cleavage_peptides_json
-    cleavage_input_ch = cleavage_peptides_json.join(predicted_orfs_faa, by: 0)
+    cleavage_input_ch = cleavage_peptides_json.join(filtered_proteins, by: 0)
     extract_cleavage_peptides_json(cleavage_input_ch)
     all_cleavage_peptides_fastas = extract_cleavage_peptides_json.out.cleavage_peptides_fasta.collect()
     deeppeptide_tsvs = extract_cleavage_peptides_json.out.cleavage_peptides_tsv.collect()
@@ -294,6 +298,26 @@ process combine_smorf_proteins {
     
 }
 
+process filter_small_proteins {
+    tag "${genome_name}_filter_small_proteins"
+
+    memory = "10 GB"
+    cpus = 1
+
+    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+
+    input:
+    tuple val(genome_name), path(predicted_orfs_faa)
+
+    output:
+    tuple val(genome_name), path("*.fasta"), emit: filtered_proteins
+
+    script:
+    """
+    python ${baseDir}/bin/filter_proteins.py ${predicted_orfs_faa} ${genome_name}_filtered_proteins.fasta --max_length 100
+    """
+}
+
 process predict_cleavage_peptides {
     tag "${genome_name}_predict_cleavage_peptides"
     publishDir "${params.outdir}/cleavage_peptides", mode: 'copy'
@@ -306,7 +330,7 @@ process predict_cleavage_peptides {
     container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
 
     input:
-    tuple val(genome_name), path(predicted_orfs_faa)
+    tuple val(genome_name), path(filtered_proteins)
 
     output:
     tuple val(genome_name), path("${genome_name}_peptide_predictions.json"), emit: cleavage_peptides_json
