@@ -142,7 +142,7 @@ process make_genome_stb {
     memory = '2 GB'
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     path(fasta_files)
@@ -168,7 +168,7 @@ process pyrodigal {
     memory = "6 GB"
     cpus = 1
 
-    container "public.ecr.aws/biocontainers/pyrodigal:3.4.1--py310h4b81fae_0"
+    container "community.wave.seqera.io/library/pip_pyrodigal:9830d59db3d65f16"
 
     input:
     tuple val(genome_name), path(fasta)
@@ -200,7 +200,7 @@ process convert_gbk_to_gff {
     memory = "2 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     tuple val(genome_name), path(gbk_file)
@@ -283,7 +283,7 @@ process combine_smorf_proteins {
     memory = '10 GB'
     cpus = 1
     
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     path(smorf_proteins)
@@ -304,7 +304,7 @@ process filter_small_proteins {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     tuple val(genome_name), path(predicted_orfs_faa)
@@ -356,7 +356,7 @@ process extract_cleavage_peptides_json {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     tuple val(genome_name), path(deeppeptide_json), path(protein_faa)
@@ -384,7 +384,7 @@ process combine_cleavage_peptides {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     path(cleavage_peptides)
@@ -408,7 +408,7 @@ process antismash {
     memory = "15 GB"
     cpus = 4
 
-    container "public.ecr.aws/biocontainers/antismash-lite:7.1.0--pyhdfd78af_0"
+    container "community.wave.seqera.io/library/antismash-lite:7.1.0--96bcedf7b04ac1dd"
 
     input:
     tuple val(genome_name), path(gbk_file), path(databases)
@@ -438,7 +438,7 @@ process extract_gbks {
     memory = "20 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input: 
     path(gbk_files)
@@ -463,7 +463,7 @@ process summarize_molecule_counts {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/mulled-v2-949aaaddebd054dc6bded102520daff6f0f93ce6:aa2a3707bfa0550fee316844baba7752eaab7802-0"
+    container "community.wave.seqera.io/library/pip_biopython_pandas:f400ba26594c2e54"
 
     input:
     path(smorfinder_tsvs)
@@ -496,7 +496,7 @@ process kofamscan_annotation {
     memory = "15 GB"
     cpus = 12
 
-    container "public.ecr.aws/biocontainers/kofamscan:1.0.0--0"
+    container "community.wave.seqera.io/library/kofamscan:1.0.0--6c1b362e034dd242"
 
     input:
     tuple val(genome_name), path(faa_file), path(kegg_db_dir)
@@ -517,7 +517,7 @@ process combine_kofamscan_results {
     memory = "10 GB"
     cpus = 1
 
-    container "quay.io/biocontainers/polars:0.18.15"
+    container "community.wave.seqera.io/library/pip_polars:50bb6fae7997c472"
 
     input:
     path(kofamscan_tsvs)
