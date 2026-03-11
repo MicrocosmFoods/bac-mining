@@ -224,7 +224,7 @@ process smorfinder_pre_called {
     memory = '10 GB'
     cpus = 1
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:modf"
+    container "elizabethmcd/smorfinder:latest"
 
     input:
     tuple val(genome_name), path(fasta), path(gff), path(ffn), path(faa)
@@ -255,7 +255,7 @@ process smorfinder_single {
     memory = '10 GB'
     cpus = 1
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/smorfinder:modf"
+    container "elizabethmcd/smorfinder:latest"
 
     input:
     tuple val(genome_name), path(fasta)
@@ -327,7 +327,7 @@ process predict_cleavage_peptides {
     memory = '30 GB'
     cpus = 12
 
-    container "public.ecr.aws/v7p5x0i6/elizabethmcd/deeppeptide:v0.6.data"
+    container "elizabethmcd/deeppeptide:latest"
 
     input:
     tuple val(genome_name), path(filtered_proteins)
